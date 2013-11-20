@@ -1,0 +1,17 @@
+﻿[
+	{id: "base", text: "Base", expanded: false},
+	
+	
+
+	{id: "forms", text: "Forms", expanded: false},
+	
+	
+	{id: "lists", text: "Lists", expanded: false},
+	
+	
+	{id: "layouts", text: "Layouts", expanded: false},
+	
+	
+	{id: "navigations", text: "Navigations", expanded: false},
+	
+]

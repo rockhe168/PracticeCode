@@ -1,0 +1,73 @@
+[2012-05-31 00:00:28,648][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-31 00:00:51,845][ERROR] - 程序未捕获的异常
+System.Data.SqlClient.SqlException: '8' 附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DBO.SqlDBOperator.ExecuteDataTable(String cmdText, DbParameter[] parameters) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\DBO\DBO\SqlDBOperator.cs:行号 511
+   在 czcraft.DAL.companyDAL.GetCompanyMainPic(String Ids) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\DAL\MyClass\companyDAL.cs:行号 308
+   在 czcraft.BLL.companyBLL.DeleteMoreID(String strID) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\BLL\MyClass\companyBLL.cs:行号 903
+   在 CompanyInfo.RemoveCompany(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\CompanyManage\Data\CompanyInfo.ashx:行号 194
+   在 CompanyInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\CompanyManage\Data\CompanyInfo.ashx:行号 39
+   在 CompanyInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\CompanyManage\Data\CompanyInfo.ashx:行号 15
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-31 00:08:20,798][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-31 00:08:48,086][ERROR] - 程序未捕获的异常
+System.Data.SqlClient.SqlException: '8' 附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DBO.SqlDBOperator.ExecuteDataTable(String cmdText, DbParameter[] parameters) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\DBO\DBO\SqlDBOperator.cs:行号 511
+   在 czcraft.DAL.companyDAL.GetCompanyMainPic(String Ids) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\DAL\MyClass\companyDAL.cs:行号 308
+   在 czcraft.BLL.companyBLL.DeleteMoreID(String strID) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\BLL\MyClass\companyBLL.cs:行号 903
+   在 CompanyInfo.RemoveCompany(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\CompanyManage\Data\CompanyInfo.ashx:行号 194
+   在 CompanyInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\CompanyManage\Data\CompanyInfo.ashx:行号 39
+   在 CompanyInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\CompanyManage\Data\CompanyInfo.ashx:行号 15
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-31 00:10:56,558][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

@@ -1,0 +1,216 @@
+发生时间为:2011/12/23 16:39:39
+日志内容为:
+SELECT [t0].[CustomerID] AS [ID], [t0].[ContactTitle] AS [职位], [t0].[ContactName] AS [联系人]
+FROM [dbo].[Customers] AS [t0]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/23 16:39:53
+日志内容为:
+SELECT [t0].[CustomerID] AS [ID], [t0].[ContactTitle] AS [职位], [t0].[ContactName] AS [联系人]
+FROM [dbo].[Customers] AS [t0]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/23 16:44:15
+日志内容为:
+SELECT [t0].[OrderID] AS [订单ID], 
+    (CASE 
+        WHEN [t0].[Freight] > @p0 THEN @p1
+        ELSE @p2
+     END) AS [是否超重]
+FROM [dbo].[Orders] AS [t0]
+-- @p0: Input Decimal (Size = -1; Prec = 33; Scale = 4) [100]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [是]
+-- @p2: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [否]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/23 16:49:18
+日志内容为:
+SELECT [t0].[OrderID] AS [订单ID], 
+    (CASE 
+        WHEN [t0].[Freight] > @p0 THEN @p1
+        ELSE @p2
+     END) AS [是否超重]
+FROM [dbo].[Orders] AS [t0]
+-- @p0: Input Decimal (Size = -1; Prec = 33; Scale = 4) [100]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [是]
+-- @p2: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [否]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/23 16:49:44
+日志内容为:
+SELECT [t0].[Country] AS [国家], [t0].[City] AS [城市], (
+    SELECT COUNT(*)
+    FROM [dbo].[Orders] AS [t2]
+    WHERE [t2].[CustomerID] = [t0].[CustomerID]
+    ) AS [订单数量]
+FROM [dbo].[Customers] AS [t0]
+WHERE ([t0].[Country] = @p0) AND (((
+    SELECT COUNT(*)
+    FROM [dbo].[Orders] AS [t1]
+    WHERE [t1].[CustomerID] = [t0].[CustomerID]
+    )) > @p1)
+-- @p0: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [UK]
+-- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [5]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/23 16:50:42
+日志内容为:
+SELECT [t0].[ContactName] AS [顾客姓名], [t0].[Country] AS [国家], [t0].[City] AS [城市], (
+    SELECT COUNT(*)
+    FROM [dbo].[Orders] AS [t2]
+    WHERE [t2].[CustomerID] = [t0].[CustomerID]
+    ) AS [订单数量]
+FROM [dbo].[Customers] AS [t0]
+WHERE ([t0].[Country] = @p0) AND (((
+    SELECT COUNT(*)
+    FROM [dbo].[Orders] AS [t1]
+    WHERE [t1].[CustomerID] = [t0].[CustomerID]
+    )) > @p1)
+-- @p0: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [UK]
+-- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [5]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/23 16:58:21
+日志内容为:
+SELECT DATEPART(Year, [t0].[HireDate]) AS [工作开始年], [t0].[FirstName] + [t0].[LastName] AS [姓名]
+FROM [dbo].[Employees] AS [t0]
+ORDER BY DATEPART(Year, [t0].[HireDate]) DESC, [t0].[FirstName]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/23 17:04:11
+日志内容为:
+SELECT [t1].[CustomerID], [t1].[CompanyName], [t1].[ContactName], [t1].[ContactTitle], [t1].[Address], [t1].[City], [t1].[Region], [t1].[PostalCode], [t1].[Country], [t1].[Phone], [t1].[Fax]
+FROM (
+    SELECT ROW_NUMBER() OVER (ORDER BY [t0].[CustomerID], [t0].[CompanyName], [t0].[ContactName], [t0].[ContactTitle], [t0].[Address], [t0].[City], [t0].[Region], [t0].[PostalCode], [t0].[Country], [t0].[Phone], [t0].[Fax]) AS [ROW_NUMBER], [t0].[CustomerID], [t0].[CompanyName], [t0].[ContactName], [t0].[ContactTitle], [t0].[Address], [t0].[City], [t0].[Region], [t0].[PostalCode], [t0].[Country], [t0].[Phone], [t0].[Fax]
+    FROM [dbo].[Customers] AS [t0]
+    ) AS [t1]
+WHERE [t1].[ROW_NUMBER] BETWEEN @p0 + 1 AND @p0 + @p1
+ORDER BY [t1].[ROW_NUMBER]
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [5]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT DATEPART(Year, [t0].[HireDate]) AS [工作开始年], [t0].[FirstName] + [t0].[LastName] AS [姓名]
+FROM [dbo].[Employees] AS [t0]
+ORDER BY DATEPART(Year, [t0].[HireDate]) DESC, [t0].[FirstName]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/23 17:09:22
+日志内容为:
+SELECT [t0].[CustomerID], [t0].[CompanyName], [t0].[ContactName], [t0].[ContactTitle], [t0].[Address], [t0].[City], [t0].[Region], [t0].[PostalCode], [t0].[Country], [t0].[Phone], [t0].[Fax]
+FROM [dbo].[Customers] AS [t0]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT DATEPART(Year, [t0].[HireDate]) AS [工作开始年], [t0].[FirstName] + [t0].[LastName] AS [姓名]
+FROM [dbo].[Employees] AS [t0]
+ORDER BY DATEPART(Year, [t0].[HireDate]) DESC, [t0].[FirstName]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/23 17:09:25
+日志内容为:
+SELECT [t1].[CustomerID], [t1].[CompanyName], [t1].[ContactName], [t1].[ContactTitle], [t1].[Address], [t1].[City], [t1].[Region], [t1].[PostalCode], [t1].[Country], [t1].[Phone], [t1].[Fax]
+FROM (
+    SELECT ROW_NUMBER() OVER (ORDER BY [t0].[CustomerID], [t0].[CompanyName], [t0].[ContactName], [t0].[ContactTitle], [t0].[Address], [t0].[City], [t0].[Region], [t0].[PostalCode], [t0].[Country], [t0].[Phone], [t0].[Fax]) AS [ROW_NUMBER], [t0].[CustomerID], [t0].[CompanyName], [t0].[ContactName], [t0].[ContactTitle], [t0].[Address], [t0].[City], [t0].[Region], [t0].[PostalCode], [t0].[Country], [t0].[Phone], [t0].[Fax]
+    FROM [dbo].[Customers] AS [t0]
+    ) AS [t1]
+WHERE [t1].[ROW_NUMBER] BETWEEN @p0 + 1 AND @p0 + @p1
+ORDER BY [t1].[ROW_NUMBER]
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [2]
+-- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [5]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/23 18:23:41
+日志内容为:
+SELECT [t1].[CustomerID], [t1].[CompanyName], [t1].[ContactName], [t1].[ContactTitle], [t1].[Address], [t1].[City], [t1].[Region], [t1].[PostalCode], [t1].[Country], [t1].[Phone], [t1].[Fax]
+FROM (
+    SELECT ROW_NUMBER() OVER (ORDER BY [t0].[CustomerID], [t0].[CompanyName], [t0].[ContactName], [t0].[ContactTitle], [t0].[Address], [t0].[City], [t0].[Region], [t0].[PostalCode], [t0].[Country], [t0].[Phone], [t0].[Fax]) AS [ROW_NUMBER], [t0].[CustomerID], [t0].[CompanyName], [t0].[ContactName], [t0].[ContactTitle], [t0].[Address], [t0].[City], [t0].[Region], [t0].[PostalCode], [t0].[Country], [t0].[Phone], [t0].[Fax]
+    FROM [dbo].[Customers] AS [t0]
+    ) AS [t1]
+WHERE [t1].[ROW_NUMBER] BETWEEN @p0 + 1 AND @p0 + @p1
+ORDER BY [t1].[ROW_NUMBER]
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [5]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t1].[Country] AS [Key]
+FROM (
+    SELECT COUNT(*) AS [value], COUNT(*) AS [value2], [t0].[Country]
+    FROM [dbo].[Customers] AS [t0]
+    GROUP BY [t0].[Country]
+    ) AS [t1]
+WHERE [t1].[value] > @p0
+ORDER BY [t1].[value2] DESC
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [5]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[CustomerID], [t0].[CompanyName], [t0].[ContactName], [t0].[ContactTitle], [t0].[Address], [t0].[City], [t0].[Region], [t0].[PostalCode], [t0].[Country], [t0].[Phone], [t0].[Fax]
+FROM [dbo].[Customers] AS [t0]
+WHERE ((@x1 IS NULL) AND ([t0].[Country] IS NULL)) OR ((@x1 IS NOT NULL) AND ([t0].[Country] IS NOT NULL) AND (@x1 = [t0].[Country]))
+-- @x1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [USA]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[CustomerID], [t0].[CompanyName], [t0].[ContactName], [t0].[ContactTitle], [t0].[Address], [t0].[City], [t0].[Region], [t0].[PostalCode], [t0].[Country], [t0].[Phone], [t0].[Fax]
+FROM [dbo].[Customers] AS [t0]
+WHERE ((@x1 IS NULL) AND ([t0].[Country] IS NULL)) OR ((@x1 IS NOT NULL) AND ([t0].[Country] IS NOT NULL) AND (@x1 = [t0].[Country]))
+-- @x1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [France]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[CustomerID], [t0].[CompanyName], [t0].[ContactName], [t0].[ContactTitle], [t0].[Address], [t0].[City], [t0].[Region], [t0].[PostalCode], [t0].[Country], [t0].[Phone], [t0].[Fax]
+FROM [dbo].[Customers] AS [t0]
+WHERE ((@x1 IS NULL) AND ([t0].[Country] IS NULL)) OR ((@x1 IS NOT NULL) AND ([t0].[Country] IS NOT NULL) AND (@x1 = [t0].[Country]))
+-- @x1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Germany]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[CustomerID], [t0].[CompanyName], [t0].[ContactName], [t0].[ContactTitle], [t0].[Address], [t0].[City], [t0].[Region], [t0].[PostalCode], [t0].[Country], [t0].[Phone], [t0].[Fax]
+FROM [dbo].[Customers] AS [t0]
+WHERE ((@x1 IS NULL) AND ([t0].[Country] IS NULL)) OR ((@x1 IS NOT NULL) AND ([t0].[Country] IS NOT NULL) AND (@x1 = [t0].[Country]))
+-- @x1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Brazil]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[CustomerID], [t0].[CompanyName], [t0].[ContactName], [t0].[ContactTitle], [t0].[Address], [t0].[City], [t0].[Region], [t0].[PostalCode], [t0].[Country], [t0].[Phone], [t0].[Fax]
+FROM [dbo].[Customers] AS [t0]
+WHERE ((@x1 IS NULL) AND ([t0].[Country] IS NULL)) OR ((@x1 IS NOT NULL) AND ([t0].[Country] IS NOT NULL) AND (@x1 = [t0].[Country]))
+-- @x1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [UK]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t1].[Country] AS [Key]
+FROM (
+    SELECT COUNT(*) AS [value], COUNT(*) AS [value2], [t0].[Country]
+    FROM [dbo].[Customers] AS [t0]
+    GROUP BY [t0].[Country]
+    ) AS [t1]
+WHERE [t1].[value] > @p0
+ORDER BY [t1].[value2] DESC
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [5]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[CustomerID], [t0].[CompanyName], [t0].[ContactName], [t0].[ContactTitle], [t0].[Address], [t0].[City], [t0].[Region], [t0].[PostalCode], [t0].[Country], [t0].[Phone], [t0].[Fax]
+FROM [dbo].[Customers] AS [t0]
+WHERE ((@x1 IS NULL) AND ([t0].[Country] IS NULL)) OR ((@x1 IS NOT NULL) AND ([t0].[Country] IS NOT NULL) AND (@x1 = [t0].[Country]))
+-- @x1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [USA]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[CustomerID], [t0].[CompanyName], [t0].[ContactName], [t0].[ContactTitle], [t0].[Address], [t0].[City], [t0].[Region], [t0].[PostalCode], [t0].[Country], [t0].[Phone], [t0].[Fax]
+FROM [dbo].[Customers] AS [t0]
+WHERE ((@x1 IS NULL) AND ([t0].[Country] IS NULL)) OR ((@x1 IS NOT NULL) AND ([t0].[Country] IS NOT NULL) AND (@x1 = [t0].[Country]))
+-- @x1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [France]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[CustomerID], [t0].[CompanyName], [t0].[ContactName], [t0].[ContactTitle], [t0].[Address], [t0].[City], [t0].[Region], [t0].[PostalCode], [t0].[Country], [t0].[Phone], [t0].[Fax]
+FROM [dbo].[Customers] AS [t0]
+WHERE ((@x1 IS NULL) AND ([t0].[Country] IS NULL)) OR ((@x1 IS NOT NULL) AND ([t0].[Country] IS NOT NULL) AND (@x1 = [t0].[Country]))
+-- @x1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Germany]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[CustomerID], [t0].[CompanyName], [t0].[ContactName], [t0].[ContactTitle], [t0].[Address], [t0].[City], [t0].[Region], [t0].[PostalCode], [t0].[Country], [t0].[Phone], [t0].[Fax]
+FROM [dbo].[Customers] AS [t0]
+WHERE ((@x1 IS NULL) AND ([t0].[Country] IS NULL)) OR ((@x1 IS NOT NULL) AND ([t0].[Country] IS NOT NULL) AND (@x1 = [t0].[Country]))
+-- @x1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Brazil]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[CustomerID], [t0].[CompanyName], [t0].[ContactName], [t0].[ContactTitle], [t0].[Address], [t0].[City], [t0].[Region], [t0].[PostalCode], [t0].[Country], [t0].[Phone], [t0].[Fax]
+FROM [dbo].[Customers] AS [t0]
+WHERE ((@x1 IS NULL) AND ([t0].[Country] IS NULL)) OR ((@x1 IS NOT NULL) AND ([t0].[Country] IS NOT NULL) AND (@x1 = [t0].[Country]))
+-- @x1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [UK]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+

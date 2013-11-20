@@ -1,0 +1,13 @@
+E:\FlishLi\MyMVC.cab\TestContextEnvironment\bin\TestContextEnvironment.exe
+E:\FlishLi\MyMVC.cab\TestContextEnvironment\bin\TestContextEnvironment.pdb
+E:\FlishLi\MyMVC.cab\TestContextEnvironment\bin\MyMVC.dll
+E:\FlishLi\MyMVC.cab\TestContextEnvironment\bin\WebSiteController.dll
+E:\FlishLi\MyMVC.cab\TestContextEnvironment\bin\WebSiteModel.dll
+E:\FlishLi\MyMVC.cab\TestContextEnvironment\bin\WebSiteCommonLib.dll
+E:\FlishLi\MyMVC.cab\TestContextEnvironment\bin\MyMVC.pdb
+E:\FlishLi\MyMVC.cab\TestContextEnvironment\bin\WebSiteController.pdb
+E:\FlishLi\MyMVC.cab\TestContextEnvironment\bin\WebSiteModel.pdb
+E:\FlishLi\MyMVC.cab\TestContextEnvironment\bin\WebSiteCommonLib.pdb
+E:\FlishLi\MyMVC.cab\TestContextEnvironment\obj\Debug\ResolveAssemblyReference.cache
+E:\FlishLi\MyMVC.cab\TestContextEnvironment\obj\Debug\TestContextEnvironment.exe
+E:\FlishLi\MyMVC.cab\TestContextEnvironment\obj\Debug\TestContextEnvironment.pdb

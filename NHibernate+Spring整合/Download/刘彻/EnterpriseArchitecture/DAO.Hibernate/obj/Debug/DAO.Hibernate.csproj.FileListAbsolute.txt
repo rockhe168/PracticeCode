@@ -1,0 +1,16 @@
+d:\backup\我的文档\visual studio 2010\Projects\EnterpriseArchitecture\DAO.Hibernate\obj\Debug\ResolveAssemblyReference.cache
+d:\backup\我的文档\visual studio 2010\Projects\EnterpriseArchitecture\DAO.Hibernate\bin\Debug\DAO.Hibernate.dll
+d:\backup\我的文档\visual studio 2010\Projects\EnterpriseArchitecture\DAO.Hibernate\bin\Debug\DAO.Hibernate.pdb
+d:\backup\我的文档\visual studio 2010\Projects\EnterpriseArchitecture\DAO.Hibernate\bin\Debug\Domain.dll
+d:\backup\我的文档\visual studio 2010\Projects\EnterpriseArchitecture\DAO.Hibernate\bin\Debug\IDAO.dll
+d:\backup\我的文档\visual studio 2010\Projects\EnterpriseArchitecture\DAO.Hibernate\bin\Debug\Iesi.Collections.dll
+d:\backup\我的文档\visual studio 2010\Projects\EnterpriseArchitecture\DAO.Hibernate\bin\Debug\log4net.dll
+d:\backup\我的文档\visual studio 2010\Projects\EnterpriseArchitecture\DAO.Hibernate\bin\Debug\NHibernate.dll
+d:\backup\我的文档\visual studio 2010\Projects\EnterpriseArchitecture\DAO.Hibernate\bin\Debug\Spring.Aop.dll
+d:\backup\我的文档\visual studio 2010\Projects\EnterpriseArchitecture\DAO.Hibernate\bin\Debug\Spring.Core.dll
+d:\backup\我的文档\visual studio 2010\Projects\EnterpriseArchitecture\DAO.Hibernate\bin\Debug\Spring.Data.dll
+d:\backup\我的文档\visual studio 2010\Projects\EnterpriseArchitecture\DAO.Hibernate\bin\Debug\Domain.pdb
+d:\backup\我的文档\visual studio 2010\Projects\EnterpriseArchitecture\DAO.Hibernate\bin\Debug\IDAO.pdb
+d:\backup\我的文档\visual studio 2010\Projects\EnterpriseArchitecture\DAO.Hibernate\obj\Debug\DAO.Hibernate.dll
+d:\backup\我的文档\visual studio 2010\Projects\EnterpriseArchitecture\DAO.Hibernate\obj\Debug\DAO.Hibernate.pdb
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\DAO.Hibernate\bin\Debug\Spring.Data.NHibernate32.dll

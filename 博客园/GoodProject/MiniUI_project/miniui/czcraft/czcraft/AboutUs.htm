@@ -1,0 +1,192 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	关于我们
+</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link href="/css/top_foot.css" rel="stylesheet" type="text/css" /><link href="/css/style.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src='/js/main_nav.js'></script>
+
+    <script type="text/javascript" src='/js/nav.js'></script>
+
+    <script src='/Admin/scripts/jquery-1.7.1.min.js ' type="text/javascript"></script>
+
+    <script src='/js/AjaxJsDeal/Left_Top_Down.js ' type="text/javascript"></script>
+
+    <script src='/js/AjaxJsDeal/MasterPage.js ' type="text/javascript"></script>
+
+    <script type="text/javascript">
+   var NewsListURL='/News/NewsList.aspx';
+    var CraftKnowledgeListURL='/CraftKnowledge/CraftKnowledgeList.aspx';
+    var SearchProductURL='/Product/SearchProduct.aspx';
+
+      $(function(){
+      //检查登录状态
+      CheckLoginState();
+     //获取新闻类别
+      GetNewsType();
+       GetProductType();
+        });
+        
+    </script>
+
+    
+
+<link href="css/other.css" rel="stylesheet" type="text/css" /> <script type="text/javascript">
+    $(function(){
+      //获取关于我们的信息
+    GetOutInfo();
+    });
+   
+ </script>
+</head>
+<body>
+    <div class="sheel">
+        <div class="header">
+            <div class="top_side">
+                <ul>
+                    <li id="liLogin"><a href='/Member/MemberLogin.htm'>登录</a> | </li>
+                    <li><a href='/Member/RegisterMember.htm'>注册</a> </li>
+                    <li>|<a href='/Member/MemberInfo.htm'><label id="lbUserNameInfo"></label>个人信息</a>
+                    </li>
+                    <li>|<a href='/Member/Collection.htm'>我的收藏夹</a> </li>
+                    <li>|<a href='/Member/ShopingCart.htm'>我的购物车</a> </li>
+                    <li>|<a href='/Member/OrderManage.htm'>我的订单</a> </li>
+                      <li>|<a href='/Comments/WebComment.htm'>总站留言</a> </li>
+                       <li>|<a href='/Search/SearchProduct.aspx'>找找看</a> </li>
+                    <li id="liLogout">|<a id="A2" href='/Member/Data/GetMemberInfo.ashx?method=MemberLogout'>安全退出</a></li>
+                </ul>
+            </div>
+            <div class="nav">
+                  <ul id="sddm">
+                    <li><a href='/Default.htm'>首&nbsp;&nbsp;页</a> </li>
+                    <li><a href='/CraftKnowledge/technology.htm'>工艺概况</a></li>
+                    <li><a href='/CraftKnowledge/CraftKnowledgeList.aspx' onmouseover="mopen('m1')"
+                        onmouseout="mclosetime()">工艺知识</a>
+                        <div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                        </div>
+                    </li>
+                    <li><a href='/Product/ProductShow.aspx' onmouseover="mopen('m4')"
+                        onmouseout="mclosetime()">作品展览</a>
+                        <div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                        </div>
+                    </li>
+                    <li><a href='/Product/NongeneticProduct.htm' onmouseover="mopen('m3')"
+                        onmouseout="mclosetime()">非遗作品</a>
+                        <div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                        </div>
+                    </li>
+                    <li><a href='/News/NewsList.aspx' onmouseover="mopen('m2')" onmouseout="mclosetime()">
+                        新闻中心</a>
+                        <div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                        </div>
+                    </li>
+                    <li><a href='/Master/MasterList.aspx'>大师风采</a></li>
+                    <li><a href='/Company/CompanyList.aspx'>企业展示</a></li>
+                   
+                     <li><a href='/AboutUs.htm'>联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    <div class="content">
+
+    <div class="left_side">
+
+        <div class="logo_bottom"></div>       
+
+    </div>
+
+    <div class="us"></div>
+
+    <div class="us_fs">
+
+        <div class="us_b"></div>
+
+        <div class="us_c">
+
+            <div class="uc1">
+
+                <h3><p class="hide">在线客服</p></h3>
+
+                <ul id="ulContact">
+
+                    <li class="us_11">QQ:123456789&nbsp;&nbsp;&nbsp;&nbsp;<a class="rad2" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=455619311&site=qq&menu=yes">点击在线聊天</a></li>
+
+                    <li class="us_12">TEL:28281688</li>
+
+                    <li class="us_13">Mobile:13528281688</li>
+
+                </ul>
+
+            </div>
+
+            <div class="uc2">
+
+              <h3><p class="hide">其他方式</p></h3>
+
+              <ul id="ulContactOther">
+
+                  <li class="us_21">联系地址：广东省潮州市湘桥区</li>
+
+                  <li class="us_22">邮政编码：515100</li>
+
+                  <li></li>
+
+                 
+
+              </ul>
+
+            </div>
+
+            <div class="uc3">
+
+              <h3><p class="hide">我们的承诺</p></h3>
+
+              <ul>
+
+                  <li>1 、我们承诺在购物全程照顾您。</li>
+
+                  <li>2 、我们承诺为您提供公平，公正，透明的交易平台。</li>
+
+                  <li>3 、我们承诺在您需要的时候能够快捷地找到我们，我们始终在您身边。</li>
+
+                  <li>4 、我们承诺一心一意地为您提供舒适、满意的服务。</li>
+
+                  <li>5 、我们承诺用公平公正的态度处理您的交易纠纷，保障您在购物过程中的权益。</li>
+
+              </ul>
+
+          </div>
+
+        </div>
+
+        <div class="us_b"></div>
+
+    </div>
+
+</div>
+
+
+        <div class="footer">
+            <div class="s_nav">
+                <ul>
+                    <li><a href="#">在线留言</a>|</li>
+                    <li><a href="#">联系我们</a>|</li>
+                    <li><a href="#">关于我们</a>|</li>
+                    <li><a href="#">企业信息</a>|</li>
+                    <li><a href="#">招商合作</a></li>
+                </ul>
+            </div>
+            <div class="foot">
+                    <p>
+                        <span>广东省潮州</span> <span>2011 © All RIGHTS RESERVED. [版权所有] TZHSWEET</span>
+                    </p>
+                    <p>
+                        <span>制作与维护：TZHSWEET</span><span>我的博客:http://www.cnblogs.com/mysweet/</span></p>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

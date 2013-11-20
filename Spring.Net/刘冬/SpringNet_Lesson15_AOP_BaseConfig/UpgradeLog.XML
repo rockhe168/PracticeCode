@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SpringNet_Lesson15">
+</Property><Property Name="解决方案文件" Value="F:\My\百度网盘\PracticeCode\Spring.Net\刘冬\SpringNet_Lesson15_AOP_BaseConfig\SpringNet_Lesson15.sln">
+</Property><Property Name="Date" Value="2013年3月13日">
+</Property><Property Name="Time" Value="14:28">
+</Property></Properties><Event ErrorLevel="0" Project="ConfigName" Source="ConfigName\ConfigName.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="ConfigName" Source="ConfigName\ConfigName.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\Common.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Common" Source="Common\Common.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ConfigRegular" Source="ConfigRegular\ConfigRegular.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="ConfigRegular" Source="ConfigRegular\ConfigRegular.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Service" Source="Service\Service.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Service" Source="Service\Service.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ConfigAttribute" Source="ConfigAttribute\ConfigAttribute.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="ConfigAttribute" Source="ConfigAttribute\ConfigAttribute.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ConfigRegularExpression" Source="ConfigRegularExpression\ConfigRegularExpression.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="ConfigRegularExpression" Source="ConfigRegularExpression\ConfigRegularExpression.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SpringNet_Lesson15.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="SpringNet_Lesson15.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ConfigName" Source="ConfigName\ConfigName.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="Common" Source="Common\Common.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="ConfigRegular" Source="ConfigRegular\ConfigRegular.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="Service" Source="Service\Service.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="ConfigAttribute" Source="ConfigAttribute\ConfigAttribute.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="ConfigRegularExpression" Source="ConfigRegularExpression\ConfigRegularExpression.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

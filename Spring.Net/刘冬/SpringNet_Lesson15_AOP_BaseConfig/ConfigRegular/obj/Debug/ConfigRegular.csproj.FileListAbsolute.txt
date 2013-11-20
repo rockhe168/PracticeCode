@@ -1,0 +1,13 @@
+F:\Exercise\SpringNet\Step2\SpringNet_Lesson15\ConfigRegular\bin\Debug\ConfigRegular.exe.config
+F:\Exercise\SpringNet\Step2\SpringNet_Lesson15\ConfigRegular\bin\Debug\ConfigRegular.exe
+F:\Exercise\SpringNet\Step2\SpringNet_Lesson15\ConfigRegular\bin\Debug\ConfigRegular.pdb
+F:\Exercise\SpringNet\Step2\SpringNet_Lesson15\ConfigRegular\obj\Debug\ResolveAssemblyReference.cache
+F:\Exercise\SpringNet\Step2\SpringNet_Lesson15\ConfigRegular\obj\Debug\ConfigRegular.exe
+F:\Exercise\SpringNet\Step2\SpringNet_Lesson15\ConfigRegular\obj\Debug\ConfigRegular.pdb
+F:\Exercise\SpringNet\Step2\SpringNet_Lesson15\ConfigRegular\bin\Debug\Common.dll
+F:\Exercise\SpringNet\Step2\SpringNet_Lesson15\ConfigRegular\bin\Debug\Common.Logging.dll
+F:\Exercise\SpringNet\Step2\SpringNet_Lesson15\ConfigRegular\bin\Debug\Service.dll
+F:\Exercise\SpringNet\Step2\SpringNet_Lesson15\ConfigRegular\bin\Debug\Spring.Aop.dll
+F:\Exercise\SpringNet\Step2\SpringNet_Lesson15\ConfigRegular\bin\Debug\Spring.Core.dll
+F:\Exercise\SpringNet\Step2\SpringNet_Lesson15\ConfigRegular\bin\Debug\Common.pdb
+F:\Exercise\SpringNet\Step2\SpringNet_Lesson15\ConfigRegular\bin\Debug\Service.pdb

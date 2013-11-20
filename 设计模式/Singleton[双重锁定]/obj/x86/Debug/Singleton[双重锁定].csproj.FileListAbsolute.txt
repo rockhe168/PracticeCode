@@ -1,0 +1,10 @@
+E:\MyRepository\百度云\PracticeCode\设计模式\Singleton[双重锁定]\bin\Debug\Singleton[双重锁定].exe
+E:\MyRepository\百度云\PracticeCode\设计模式\Singleton[双重锁定]\bin\Debug\Singleton[双重锁定].pdb
+E:\MyRepository\百度云\PracticeCode\设计模式\Singleton[双重锁定]\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\MyRepository\百度云\PracticeCode\设计模式\Singleton[双重锁定]\obj\x86\Debug\Singleton[双重锁定].exe
+E:\MyRepository\百度云\PracticeCode\设计模式\Singleton[双重锁定]\obj\x86\Debug\Singleton[双重锁定].pdb
+E:\My\百度云\PracticeCode\设计模式\Singleton[双重锁定]\bin\Debug\Singleton[双重锁定].exe
+E:\My\百度云\PracticeCode\设计模式\Singleton[双重锁定]\bin\Debug\Singleton[双重锁定].pdb
+E:\My\百度云\PracticeCode\设计模式\Singleton[双重锁定]\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\My\百度云\PracticeCode\设计模式\Singleton[双重锁定]\obj\x86\Debug\Singleton[双重锁定].exe
+E:\My\百度云\PracticeCode\设计模式\Singleton[双重锁定]\obj\x86\Debug\Singleton[双重锁定].pdb

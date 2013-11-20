@@ -1,0 +1,9 @@
+E:\MyRepository\百度云\PracticeCode\设计模式\抽象工厂模式\SqlServerDal\bin\Debug\SqlServerDal.dll
+E:\MyRepository\百度云\PracticeCode\设计模式\抽象工厂模式\SqlServerDal\bin\Debug\SqlServerDal.pdb
+E:\MyRepository\百度云\PracticeCode\设计模式\抽象工厂模式\SqlServerDal\bin\Debug\AbstractFactory.dll
+E:\MyRepository\百度云\PracticeCode\设计模式\抽象工厂模式\SqlServerDal\bin\Debug\Domain.dll
+E:\MyRepository\百度云\PracticeCode\设计模式\抽象工厂模式\SqlServerDal\bin\Debug\AbstractFactory.pdb
+E:\MyRepository\百度云\PracticeCode\设计模式\抽象工厂模式\SqlServerDal\bin\Debug\Domain.pdb
+E:\MyRepository\百度云\PracticeCode\设计模式\抽象工厂模式\SqlServerDal\obj\Debug\ResolveAssemblyReference.cache
+E:\MyRepository\百度云\PracticeCode\设计模式\抽象工厂模式\SqlServerDal\obj\Debug\SqlServerDal.dll
+E:\MyRepository\百度云\PracticeCode\设计模式\抽象工厂模式\SqlServerDal\obj\Debug\SqlServerDal.pdb

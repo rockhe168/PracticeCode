@@ -1,0 +1,8 @@
+F:\Exercise\SpringNet\Step2\SpringNet_Lesson15\Common\bin\Debug\Common.dll
+F:\Exercise\SpringNet\Step2\SpringNet_Lesson15\Common\bin\Debug\Common.pdb
+F:\Exercise\SpringNet\Step2\SpringNet_Lesson15\Common\obj\Debug\ResolveAssemblyReference.cache
+F:\Exercise\SpringNet\Step2\SpringNet_Lesson15\Common\obj\Debug\Common.dll
+F:\Exercise\SpringNet\Step2\SpringNet_Lesson15\Common\obj\Debug\Common.pdb
+F:\Exercise\SpringNet\Step2\SpringNet_Lesson15\Common\bin\Debug\Spring.Aop.dll
+F:\Exercise\SpringNet\Step2\SpringNet_Lesson15\Common\bin\Debug\Spring.Core.dll
+F:\Exercise\SpringNet\Step2\SpringNet_Lesson15\Common\bin\Debug\Common.Logging.dll

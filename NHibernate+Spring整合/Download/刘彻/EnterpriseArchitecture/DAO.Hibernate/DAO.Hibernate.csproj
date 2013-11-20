@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{985568F2-CC97-41ED-B70E-357CA5C6F404}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAO.Hibernate</RootNamespace>
+    <AssemblyName>DAO.Hibernate</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\Web\lib\common\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Bamboo.Prevalence">
+      <HintPath>..\Web\lib\common\Bamboo.Prevalence.dll</HintPath>
+    </Reference>
+    <Reference Include="Bamboo.Prevalence.Util">
+      <HintPath>..\Web\lib\common\Bamboo.Prevalence.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging">
+      <HintPath>..\Web\lib\common\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections, Version=1.0.1.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Web\lib\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=3.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Web\lib\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion.Data.Linq">
+      <HintPath>..\Web\lib\common\Remotion.Data.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Core, Version=1.3.1.40711, Culture=neutral, PublicKeyToken=65e474d141e25e07, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Web\lib\Spring.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Data">
+      <HintPath>..\Web\lib\Spring.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Data.NHibernate32">
+      <HintPath>..\Web\lib\Spring.Data.NHibernate32.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CategoryDao.cs" />
+    <Compile Include="common\HibernateDaoHelp.cs" />
+    <Compile Include="common\IDaoHelp.cs" />
+    <Compile Include="CustomerDao.cs" />
+    <Compile Include="CustomerDemographicDao.cs" />
+    <Compile Include="EmployeeDao.cs" />
+    <Compile Include="File\FileDao.cs" />
+    <Compile Include="File\SystemConfigDao.cs" />
+    <Compile Include="OrderDao.cs" />
+    <Compile Include="OrderDetailDao.cs" />
+    <Compile Include="ProductDao.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegionDao.cs" />
+    <Compile Include="ShipperDao.cs" />
+    <Compile Include="SupplierDao.cs" />
+    <Compile Include="TerritoryDao.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\Category.hbm.xml" />
+    <EmbeddedResource Include="Mapping\Customer.hbm.xml" />
+    <EmbeddedResource Include="Mapping\CustomerDemographic.hbm.xml" />
+    <EmbeddedResource Include="Mapping\Employee.hbm.xml" />
+    <EmbeddedResource Include="Mapping\Order.hbm.xml" />
+    <EmbeddedResource Include="Mapping\OrderDetail.hbm.xml" />
+    <EmbeddedResource Include="Mapping\Product.hbm.xml" />
+    <EmbeddedResource Include="Mapping\Region.hbm.xml" />
+    <EmbeddedResource Include="Mapping\Shipper.hbm.xml" />
+    <EmbeddedResource Include="Mapping\Supplier.hbm.xml" />
+    <EmbeddedResource Include="Mapping\Territory.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj">
+      <Project>{6A261DEA-0DF4-4DB7-9223-B40A457DD705}</Project>
+      <Name>Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IDAO\IDAO.csproj">
+      <Project>{64861C64-BD14-4C95-B128-F66562D0D0C5}</Project>
+      <Name>IDAO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

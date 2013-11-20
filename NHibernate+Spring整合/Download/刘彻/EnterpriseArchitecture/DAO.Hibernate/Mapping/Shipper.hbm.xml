@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Domain.Entity" assembly="Domain">
+	<class name="Domain.Entity.Shipper, Domain" table="[dbo].[Shippers]" lazy="true">
+		<id name="Id" column="[ShipperID]">
+		 	<generator class="native" />
+		</id>
+		<property name="CompanyName" column="[CompanyName]" />
+		<property name="Phone" column="[Phone]" />
+		<bag name="Orders" lazy="true" cascade="all" inverse="true" >
+			<key column="[ShipVia]"></key>
+			<one-to-many class="Domain.Entity.Order"></one-to-many>
+		</bag>
+	</class>
+</hibernate-mapping>
+

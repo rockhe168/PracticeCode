@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3A51A233-A569-472A-BE5C-3ACF44ABB09B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BLL</RootNamespace>
+    <AssemblyName>BLL</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL" />
+    <Reference Include="Lucene.Net, Version=2.9.2.2, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio 9.0\Visual Studio Tools for Office\PIA\Office12\Microsoft.mshtml.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json.Net20, Version=4.0.2.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\czcraft\Bin\Newtonsoft.Json.Net20.dll</HintPath>
+    </Reference>
+    <Reference Include="PanGu, Version=2.3.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="PanGu.HighLight, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="PanGu.Lucene.Analyzer, Version=1.3.1.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="commentBLL.cs" />
+    <Compile Include="companyBLL.cs" />
+    <Compile Include="company_certBLL.cs" />
+    <Compile Include="company_picBLL.cs" />
+    <Compile Include="company_typeBLL.cs" />
+    <Compile Include="craftknowledgeBLL.cs" />
+    <Compile Include="crafttypeBLL.cs" />
+    <Compile Include="dbProvinceBLL.cs" />
+    <Compile Include="masterBLL.cs" />
+    <Compile Include="master_certBLL.cs" />
+    <Compile Include="master_typeBLL.cs" />
+    <Compile Include="memberBLL.cs" />
+    <Compile Include="MemberCollectionBLL.cs" />
+    <Compile Include="MyClass\commentBLL.cs" />
+    <Compile Include="MyClass\CommonHelper.cs" />
+    <Compile Include="MyClass\companyBLL.cs" />
+    <Compile Include="MyClass\company_certBLL.cs" />
+    <Compile Include="MyClass\company_picBLL.cs" />
+    <Compile Include="MyClass\craftknowledgeBLL.cs" />
+    <Compile Include="MyClass\crafttypeBLL.cs" />
+    <Compile Include="MyClass\dbProvinceBLL.cs" />
+    <Compile Include="MyClass\masterBLL.cs" />
+    <Compile Include="MyClass\master_certBLL.cs" />
+    <Compile Include="MyClass\memberBLL.cs" />
+    <Compile Include="MyClass\MemberCollectionBLL.cs" />
+    <Compile Include="MyClass\newsBLL.cs" />
+    <Compile Include="MyClass\newstypeBLL.cs" />
+    <Compile Include="MyClass\orderproductBLL.cs" />
+    <Compile Include="MyClass\ordersBLL.cs" />
+    <Compile Include="MyClass\ourinfoBLL.cs" />
+    <Compile Include="MyClass\productBLL.cs" />
+    <Compile Include="MyClass\product_picturepathBLL.cs" />
+    <Compile Include="MyClass\SearchBLL.cs" />
+    <Compile Include="MyClass\SearchInfoBLL.cs" />
+    <Compile Include="MyClass\ShoppingCartBLL.cs" />
+    <Compile Include="MyClass\SystemLogBLL.cs" />
+    <Compile Include="MyClass\VFindProductInfoBLL.cs" />
+    <Compile Include="MyClass\VMemberCollectProductBLL.cs" />
+    <Compile Include="MyClass\VOrdersBLL.cs" />
+    <Compile Include="MyClass\VProductCraftTypeBLL.cs" />
+    <Compile Include="MyClass\WebMessageBLL.cs" />
+    <Compile Include="MyClass\WEB_SYS_FUNTIONBLL.cs" />
+    <Compile Include="MyClass\WEB_USERBLL.cs" />
+    <Compile Include="MyClass\WEB_USERGROUPBLL.cs" />
+    <Compile Include="MyClass\WEB_USERGROUP_FUNCTIONSBLL.cs" />
+    <Compile Include="newsBLL.cs" />
+    <Compile Include="newstypeBLL.cs" />
+    <Compile Include="orderproductBLL.cs" />
+    <Compile Include="ordersBLL.cs" />
+    <Compile Include="ourinfoBLL.cs" />
+    <Compile Include="productBLL.cs" />
+    <Compile Include="product_picturepathBLL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchInfoBLL.cs" />
+    <Compile Include="ShoppingCartBLL.cs" />
+    <Compile Include="SystemLogBLL.cs" />
+    <Compile Include="VCartProductInfoBLL.cs" />
+    <Compile Include="VCompanyTypeBLL.cs" />
+    <Compile Include="VFindProductInfoBLL.cs" />
+    <Compile Include="VGroupFunctionBLL.cs" />
+    <Compile Include="VMasterTypeBLL.cs" />
+    <Compile Include="VMemberCollectProductBLL.cs" />
+    <Compile Include="VOrdersBLL.cs" />
+    <Compile Include="VProductCraftTypeBLL.cs" />
+    <Compile Include="VProductPicBLL.cs" />
+    <Compile Include="WebMessageBLL.cs" />
+    <Compile Include="WEB_SYS_FUNTIONBLL.cs" />
+    <Compile Include="WEB_USERBLL.cs" />
+    <Compile Include="WEB_USERGROUPBLL.cs" />
+    <Compile Include="WEB_USERGROUP_FUNCTIONSBLL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Common\Common.csproj">
+      <Project>{1794FDAB-5334-4F7A-B285-32A6077E089A}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{56C3163A-C620-47D5-9536-265089A556F1}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{B4A06D74-7462-4C64-BF24-389754895AFF}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

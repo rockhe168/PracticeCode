@@ -1,0 +1,129 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	工艺概况
+</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link href="/css/top_foot.css" rel="stylesheet" type="text/css" /><link href="/css/style.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src='/js/main_nav.js'></script>
+
+    <script type="text/javascript" src='/js/nav.js'></script>
+
+    <script src='/Admin/scripts/jquery-1.7.1.min.js ' type="text/javascript"></script>
+
+    <script src='/js/AjaxJsDeal/Left_Top_Down.js ' type="text/javascript"></script>
+
+    <script src='/js/AjaxJsDeal/MasterPage.js ' type="text/javascript"></script>
+
+    <script type="text/javascript">
+   var NewsListURL='/News/NewsList.aspx';
+    var CraftKnowledgeListURL='/CraftKnowledge/CraftKnowledgeList.aspx';
+    var SearchProductURL='/Product/SearchProduct.aspx';
+
+      $(function(){
+      //检查登录状态
+      CheckLoginState();
+     //获取新闻类别
+      GetNewsType();
+       GetProductType();
+        });
+        
+    </script>
+
+    
+
+<link href="/css/other.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="sheel">
+        <div class="header">
+            <div class="top_side">
+                <ul>
+                    <li id="liLogin"><a href='/Member/MemberLogin.htm'>登录</a> | </li>
+                    <li><a href='/Member/RegisterMember.htm'>注册</a> </li>
+                    <li>|<a href='/Member/MemberInfo.htm'><label id="lbUserNameInfo"></label>个人信息</a>
+                    </li>
+                    <li>|<a href='/Member/Collection.htm'>我的收藏夹</a> </li>
+                    <li>|<a href='/Member/ShopingCart.htm'>我的购物车</a> </li>
+                    <li>|<a href='/Member/OrderManage.htm'>我的订单</a> </li>
+                      <li>|<a href='/Comments/WebComment.htm'>总站留言</a> </li>
+                       <li>|<a href='/Search/SearchProduct.aspx'>找找看</a> </li>
+                    <li id="liLogout">|<a id="A2" href='/Member/Data/GetMemberInfo.ashx?method=MemberLogout'>安全退出</a></li>
+                </ul>
+            </div>
+            <div class="nav">
+                  <ul id="sddm">
+                    <li><a href='/Default.htm'>首&nbsp;&nbsp;页</a> </li>
+                    <li><a href='/CraftKnowledge/technology.htm'>工艺概况</a></li>
+                    <li><a href='/CraftKnowledge/CraftKnowledgeList.aspx' onmouseover="mopen('m1')"
+                        onmouseout="mclosetime()">工艺知识</a>
+                        <div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                        </div>
+                    </li>
+                    <li><a href='/Product/ProductShow.aspx' onmouseover="mopen('m4')"
+                        onmouseout="mclosetime()">作品展览</a>
+                        <div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                        </div>
+                    </li>
+                    <li><a href='/Product/NongeneticProduct.htm' onmouseover="mopen('m3')"
+                        onmouseout="mclosetime()">非遗作品</a>
+                        <div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                        </div>
+                    </li>
+                    <li><a href='/News/NewsList.aspx' onmouseover="mopen('m2')" onmouseout="mclosetime()">
+                        新闻中心</a>
+                        <div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                        </div>
+                    </li>
+                    <li><a href='/Master/MasterList.aspx'>大师风采</a></li>
+                    <li><a href='/Company/CompanyList.aspx'>企业展示</a></li>
+                   
+                     <li><a href='/AboutUs.htm'>联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+        
+
+<div class="content">
+    <div class="left_side">
+        <div class="logo_bottom"></div>       
+    </div>
+ <div class="right_side"><h2 class="gk_h2"><P class="hide">坑爹呀</P></h2></div>
+    <div class="gaikuang">
+        <div class="tech_mid1">
+    	    <p>潮州传统工艺,向来以其品类繁多、艺术精湛而著称于世,潮州瓷艺历史悠久,潮绣工艺独树一具,潮州木雕体现了唐宋以来工艺的传承。潮州的抽纱、铁枝木偶、麦扦画、竹艺等声誉远播海内外市场</p>
+        </div>
+  	    <div class="tech_mid2">
+ 		<div class="tech_mid2_1"><p> 年近不惑的周迅在粉丝的眼中是一个永远长不大的精灵,娇小的个头、清澈的面容，仿佛水晶般灵动、透明。虽然身高不足1米6，出色得体的着装如她倔强独特的个性，总能带来或优雅或不羁的强大气场，堪称中国的“it girl”其中的穿衣智慧小个女生不可不学。</p>
+        </div>
+        <div class="tech_mid2_2"><p> 年近不惑的周迅在粉丝的眼中是一个永远长不大的精灵,娇小的个头、清澈的面容，仿佛水晶般灵动、透明。虽然身高不足1米6，出色得体的着装如她倔强独特的个性，总能带来或优雅或不羁的强大气场，堪称中国的“it girl”其中的穿衣智慧小个女生不可不学。</p></div>
+        <div class="tech_mid2_3"><p>年近不惑的周迅在粉丝的眼中是一个永远长不大的精灵,娇小的个头、清澈的面容，仿佛水晶般灵动、透明。虽然身高不足1米6，出色得体的着装如她倔强独特的个性，总能带来或优雅或不羁的强大气场，堪称中国的“it girl”其中的穿衣智慧小个女生不可不学。
+        </p></div>
+<div class="tech_mid2_4"><p>年近不惑的周迅在粉丝的眼中是一个永远长不大的精灵,娇小的个头、清澈的面容，仿佛水晶般灵动、透明。虽然身高不足1米6，出色得体的着装如她倔强独特的个性，总能带来或优雅或不羁的强大气场，堪称中国的“it girl”其中的穿衣智慧小个女生不可不学。</p></div>
+  	  
+  	    </div>
+    </div>
+    </div>
+
+        <div class="footer">
+            <div class="s_nav">
+                <ul>
+                    <li><a href="#">在线留言</a>|</li>
+                    <li><a href="#">联系我们</a>|</li>
+                    <li><a href="#">关于我们</a>|</li>
+                    <li><a href="#">企业信息</a>|</li>
+                    <li><a href="#">招商合作</a></li>
+                </ul>
+            </div>
+            <div class="foot">
+                    <p>
+                        <span>广东省潮州</span> <span>2011 © All RIGHTS RESERVED. [版权所有] TZHSWEET</span>
+                    </p>
+                    <p>
+                        <span>制作与维护：TZHSWEET</span><span>我的博客:http://www.cnblogs.com/mysweet/</span></p>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

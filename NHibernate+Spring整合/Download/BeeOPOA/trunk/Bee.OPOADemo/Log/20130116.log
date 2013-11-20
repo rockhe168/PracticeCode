@@ -1,0 +1,21 @@
+2013-01-16 16:40:59:8697 Debug Bee.Data.DbSession.ADBHoqf64BTajv() 
+DefaultDriver:AuthUser 
+
+2013-01-16 16:41:30:6035 Debug Bee.Web.MvcDispatcher.ProcessRequest(HttpContext context) 
+http://localhost:10660/AuthMain/index.bee耗时较长， 耗时：36399ms 
+
+2013-01-16 16:41:42:3362 Debug Bee.Web.MvcDispatcher.ProcessRequest(HttpContext context) 
+http://localhost:10660/Login.bee耗时较长， 耗时：11716ms 
+
+2013-01-16 16:42:58:8795 Debug Bee.Web.MvcDispatcher.ProcessRequest(HttpContext context) 
+http://localhost:10660/AuthPermission/Detail.bee耗时较长， 耗时：5436ms 
+
+2013-01-16 16:44:54:1541 Debug Bee.Web.MvcDispatcher.ProcessRequest(HttpContext context) 
+http://localhost:10660/AuthMain/SystemConfig.bee?_=1358325881882耗时较长， 耗时：12267ms 
+
+2013-01-16 16:51:27:8566 Debug Bee.Web.MvcDispatcher.ProcessRequest(HttpContext context) 
+http://localhost:10660/Index.bee耗时较长， 耗时：7409ms 
+
+2013-01-16 16:53:29:6156 Debug Bee.Web.MvcDispatcher.ProcessRequest(HttpContext context) 
+http://localhost:10660/AuthPermission/Detail.bee耗时较长， 耗时：5538ms 
+

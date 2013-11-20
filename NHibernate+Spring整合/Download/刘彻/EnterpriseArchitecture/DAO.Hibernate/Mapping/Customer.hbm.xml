@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Domain.Entity" assembly="Domain">
+	<class name="Domain.Entity.Customer, Domain" table="[dbo].[Customers]" lazy="true">
+		<id name="Id" column="[CustomerID]">
+		 	<generator class="assigned" />
+		</id>
+		<property name="CompanyName" column="[CompanyName]" />
+		<property name="ContactName" column="[ContactName]" />
+		<property name="ContactTitle" column="[ContactTitle]" />
+		<property name="Address" column="[Address]" />
+		<property name="City" column="[City]" />
+		<property name="Region" column="[Region]" />
+		<property name="PostalCode" column="[PostalCode]" />
+		<property name="Country" column="[Country]" />
+		<property name="Phone" column="[Phone]" />
+		<property name="Fax" column="[Fax]" />
+		<bag name="Orders" lazy="true" cascade="all" inverse="true" >
+			<key column="[CustomerID]"></key>
+			<one-to-many class="Domain.Entity.Order"></one-to-many>
+		</bag>
+		<bag name="CustomerDemographics" table="[dbo].[CustomerCustomerDemo]" lazy="true" cascade="all" inverse="false" >
+			<key column="[CustomerID]"></key>
+			<many-to-many column="[CustomerTypeID]" class="Domain.Entity.CustomerDemographic" />
+    	</bag>
+	</class>
+</hibernate-mapping>
+

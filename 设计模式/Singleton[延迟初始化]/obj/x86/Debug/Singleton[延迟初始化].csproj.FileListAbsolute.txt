@@ -1,0 +1,10 @@
+E:\MyRepository\百度云\PracticeCode\设计模式\Singleton[延迟初始化]\bin\Debug\Singleton[延迟初始化].exe
+E:\MyRepository\百度云\PracticeCode\设计模式\Singleton[延迟初始化]\bin\Debug\Singleton[延迟初始化].pdb
+E:\MyRepository\百度云\PracticeCode\设计模式\Singleton[延迟初始化]\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\MyRepository\百度云\PracticeCode\设计模式\Singleton[延迟初始化]\obj\x86\Debug\Singleton[延迟初始化].exe
+E:\MyRepository\百度云\PracticeCode\设计模式\Singleton[延迟初始化]\obj\x86\Debug\Singleton[延迟初始化].pdb
+E:\My\百度云\PracticeCode\设计模式\Singleton[延迟初始化]\bin\Debug\Singleton[延迟初始化].exe
+E:\My\百度云\PracticeCode\设计模式\Singleton[延迟初始化]\bin\Debug\Singleton[延迟初始化].pdb
+E:\My\百度云\PracticeCode\设计模式\Singleton[延迟初始化]\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\My\百度云\PracticeCode\设计模式\Singleton[延迟初始化]\obj\x86\Debug\Singleton[延迟初始化].exe
+E:\My\百度云\PracticeCode\设计模式\Singleton[延迟初始化]\obj\x86\Debug\Singleton[延迟初始化].pdb

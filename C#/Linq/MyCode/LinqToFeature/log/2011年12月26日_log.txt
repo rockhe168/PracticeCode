@@ -1,0 +1,1544 @@
+发生时间为:2011/12/26 16:57:26
+日志内容为:
+SELECT [t0].[CustomerID], [t0].[CompanyName], [t0].[ContactName], [t0].[ContactTitle], [t0].[Address], [t0].[City], [t0].[Region], [t0].[PostalCode], [t0].[Country], [t0].[Phone], [t0].[Fax]
+FROM [dbo].[Customers] AS [t0]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[CustomerID], [t0].[CompanyName], [t0].[ContactName], [t0].[ContactTitle], [t0].[Address], [t0].[City], [t0].[Region], [t0].[PostalCode], [t0].[Country], [t0].[Phone], [t0].[Fax]
+FROM [dbo].[Customers] AS [t0]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/26 17:02:12
+日志内容为:
+SELECT [t0].[CustomerID], [t0].[CompanyName], [t0].[ContactName], [t0].[ContactTitle], [t0].[Address], [t0].[City], [t0].[Region], [t0].[PostalCode], [t0].[Country], [t0].[Phone], [t0].[Fax]
+FROM [dbo].[Customers] AS [t0]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/26 17:10:22
+日志内容为:
+SELECT [t0].[CustomerID], [t0].[CompanyName], [t0].[ContactName], [t0].[ContactTitle], [t0].[Address], [t0].[City], [t0].[Region], [t0].[PostalCode], [t0].[Country], [t0].[Phone], [t0].[Fax]
+FROM [dbo].[Customers] AS [t0]
+ORDER BY [t0].[CustomerID]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/26 17:30:03
+日志内容为:
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/26 17:35:43
+日志内容为:
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [2]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [4]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [5]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [6]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [7]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [8]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [9]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [10]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [11]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [12]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [14]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [15]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [16]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [17]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [18]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [20]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [22]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [25]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [26]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [27]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [28]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [29]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [30]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [31]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [32]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [34]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [36]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [38]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [39]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [40]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [42]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [43]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [44]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [46]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [48]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [49]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [50]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [51]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [53]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [55]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [56]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [57]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [58]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [59]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [60]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [61]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [62]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [63]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [64]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [65]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [66]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [67]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [68]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [69]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [70]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [71]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [72]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [73]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [76]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[ProductID], [t0].[UnitPrice], [t0].[Quantity], [t0].[Discount]
+FROM [dbo].[Order Details] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [77]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/26 17:49:52
+日志内容为:
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued], [t1].[OrderID], [t1].[ProductID] AS [ProductID2], [t1].[UnitPrice] AS [UnitPrice2], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[ProductID] = [t0].[ProductID]
+    ) AS [value]
+FROM [dbo].[Products] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[ProductID] = [t0].[ProductID]
+ORDER BY [t0].[ProductID], [t1].[OrderID]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/26 17:58:29
+日志内容为:
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued], [t1].[OrderID], [t1].[ProductID] AS [ProductID2], [t1].[UnitPrice] AS [UnitPrice2], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE ([t2].[Quantity] > @p0) AND ([t2].[ProductID] = [t0].[ProductID])
+    ) AS [value]
+FROM [dbo].[Products] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON ([t1].[Quantity] > @p0) AND ([t1].[ProductID] = [t0].[ProductID])
+ORDER BY [t0].[ProductID], [t1].[OrderID]
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [80]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/26 18:14:50
+日志内容为:
+SELECT [t0].[CustomerID], [t0].[CompanyName], [t0].[ContactName], [t0].[ContactTitle], [t0].[Address], [t0].[City], [t0].[Region], [t0].[PostalCode], [t0].[Country], [t0].[Phone], [t0].[Fax]
+FROM [dbo].[Customers] AS [t0]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [ALFKI]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [ANATR]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [ANTON]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [AROUT]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [BERGS]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [BLAUS]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [BLONP]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [BOLID]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [BONAP]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [BOTTM]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [BSBEV]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [CACTU]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [CENTC]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [CHOPS]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [COMMI]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [CONSH]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [DRACD]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [DUMON]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [EASTC]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [ERNSH]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [FAMIA]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [FISSA]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [FOLIG]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [FOLKO]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [FRANK]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [FRANR]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [FRANS]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [FURIB]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [GALED]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [GODOS]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [GOURL]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [GREAL]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [GROSR]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [HANAR]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [HILAA]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [HUNGC]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [HUNGO]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [ISLAT]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [KOENE]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [LACOR]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [LAMAI]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [LAUGB]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [LAZYK]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [LEHMS]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [LETSS]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [LILAS]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [LINOD]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [LONEP]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [MAGAA]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [MAISD]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [MEREP]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [MORGK]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [NORTS]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [OCEAN]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [OLDWO]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [OTTIK]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [PARIS]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [PERIC]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [PICCO]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [PRINI]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [QUEDE]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [QUEEN]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [QUICK]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [RANCH]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [RATTC]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [REGGC]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [RICAR]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [RICSU]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [ROMEY]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [SANTG]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [SAVEA]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [SEVES]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [SIMOB]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [SPECD]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [SPLIR]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [SUPRD]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [THEBI]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [THECR]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [TOMSP]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [TORTU]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [TRADH]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [TRAIH]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [VAFFE]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [VICTE]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [VINET]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [WANDK]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [WARTH]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [WELLI]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [WHITC]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [WILMK]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[OrderID], [t0].[CustomerID], [t0].[EmployeeID], [t0].[OrderDate], [t0].[RequiredDate], [t0].[ShippedDate], [t0].[ShipVia], [t0].[Freight], [t0].[ShipName], [t0].[ShipAddress], [t0].[ShipCity], [t0].[ShipRegion], [t0].[ShipPostalCode], [t0].[ShipCountry], [t1].[OrderID] AS [OrderID2], [t1].[ProductID], [t1].[UnitPrice], [t1].[Quantity], [t1].[Discount], (
+    SELECT COUNT(*)
+    FROM [dbo].[Order Details] AS [t2]
+    WHERE [t2].[OrderID] = [t0].[OrderID]
+    ) AS [value]
+FROM [dbo].[Orders] AS [t0]
+LEFT OUTER JOIN [dbo].[Order Details] AS [t1] ON [t1].[OrderID] = [t0].[OrderID]
+WHERE [t0].[CustomerID] = @x1
+ORDER BY [t0].[OrderID], [t1].[ProductID]
+-- @x1: Input NChar (Size = 5; Prec = 0; Scale = 0) [WOLZA]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/26 19:12:24
+日志内容为:
+SELECT [t0].[CustomerID], [t0].[CompanyName], [t0].[ContactName], [t0].[ContactTitle], [t0].[Address], [t0].[City], [t0].[Region], [t0].[PostalCode], [t0].[Country], [t0].[Phone], [t0].[Fax]
+FROM [dbo].[Customers] AS [t0]
+WHERE [t0].[CustomerID] = @p0
+-- @p0: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [ANATR]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+

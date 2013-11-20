@@ -1,0 +1,67 @@
+F:\Exercise\SpringNet\Step4\SpringNet_Lesson22\WebHost\bin\WebHost.dll
+F:\Exercise\SpringNet\Step4\SpringNet_Lesson22\WebHost\bin\WebHost.pdb
+F:\Exercise\SpringNet\Step4\SpringNet_Lesson22\WebHost\bin\IContract.dll
+F:\Exercise\SpringNet\Step4\SpringNet_Lesson22\WebHost\bin\WcfSevice.dll
+F:\Exercise\SpringNet\Step4\SpringNet_Lesson22\WebHost\bin\WcfSevice.pdb
+F:\Exercise\SpringNet\Step4\SpringNet_Lesson22\WebHost\bin\IContract.pdb
+F:\Exercise\SpringNet\Step4\SpringNet_Lesson22\WebHost\obj\Debug\ResolveAssemblyReference.cache
+F:\Exercise\SpringNet\Step4\SpringNet_Lesson22\WebHost\obj\Debug\WebHost.dll
+F:\Exercise\SpringNet\Step4\SpringNet_Lesson22\WebHost\obj\Debug\WebHost.pdb
+F:\Exercise\SpringNet\Step4\SpringNet_Lesson22\WebHost\bin\Common.Logging.dll
+F:\Exercise\SpringNet\Step4\SpringNet_Lesson22\WebHost\bin\Spring.Core.dll
+F:\Exercise\SpringNet\Step4\SpringNet_Lesson22\WebHost\bin\Spring.Data.dll
+F:\Exercise\SpringNet\Step4\SpringNet_Lesson22\WebHost\bin\Spring.Services.dll
+F:\Exercise\SpringNet\Step4\SpringNet_Lesson22\WebHost\bin\Spring.Web.dll
+C:\Documents and Settings\Administrator\桌面\SpringNet_Lesson22\SpringNet_Lesson22\WebHost\bin\WebHost.dll
+C:\Documents and Settings\Administrator\桌面\SpringNet_Lesson22\SpringNet_Lesson22\WebHost\bin\WebHost.pdb
+C:\Documents and Settings\Administrator\桌面\SpringNet_Lesson22\SpringNet_Lesson22\WebHost\bin\Common.Logging.dll
+C:\Documents and Settings\Administrator\桌面\SpringNet_Lesson22\SpringNet_Lesson22\WebHost\bin\IContract.dll
+C:\Documents and Settings\Administrator\桌面\SpringNet_Lesson22\SpringNet_Lesson22\WebHost\bin\Spring.Core.dll
+C:\Documents and Settings\Administrator\桌面\SpringNet_Lesson22\SpringNet_Lesson22\WebHost\bin\Spring.Data.dll
+C:\Documents and Settings\Administrator\桌面\SpringNet_Lesson22\SpringNet_Lesson22\WebHost\bin\Spring.Services.dll
+C:\Documents and Settings\Administrator\桌面\SpringNet_Lesson22\SpringNet_Lesson22\WebHost\bin\Spring.Web.dll
+C:\Documents and Settings\Administrator\桌面\SpringNet_Lesson22\SpringNet_Lesson22\WebHost\bin\WcfSevice.dll
+C:\Documents and Settings\Administrator\桌面\SpringNet_Lesson22\SpringNet_Lesson22\WebHost\bin\IContract.pdb
+C:\Documents and Settings\Administrator\桌面\SpringNet_Lesson22\SpringNet_Lesson22\WebHost\bin\WcfSevice.pdb
+C:\Documents and Settings\Administrator\桌面\SpringNet_Lesson22\SpringNet_Lesson22\WebHost\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\SpringNet_Lesson22\SpringNet_Lesson22\WebHost\obj\Debug\WebHost.dll
+C:\Documents and Settings\Administrator\桌面\SpringNet_Lesson22\SpringNet_Lesson22\WebHost\obj\Debug\WebHost.pdb
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\WebHost.dll
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\WebHost.pdb
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\obj\Debug\ResolveAssemblyReference.cache
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\obj\Debug\WebHost.dll
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\obj\Debug\WebHost.pdb
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\DAO.Hibernate.dll
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\Domain.dll
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\DTO.dll
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\Facade.dll
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\IDAO.dll
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\IFacade.dll
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\Model.dll
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\Segregate.dll
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\Service.dll
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\Spring.Data.NHibernate32.dll
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\NHibernate.dll
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\Spring.Aop.dll
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\log4net.dll
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\IService.dll
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\ISegregate.dll
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\Iesi.Collections.dll
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\DAO.Hibernate.pdb
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\Domain.pdb
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\DTO.pdb
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\Facade.pdb
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\IDAO.pdb
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\IFacade.pdb
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\Model.pdb
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\Segregate.pdb
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\Service.pdb
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\IService.pdb
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\ISegregate.pdb
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\Common.Logging.dll
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\Spring.Core.dll
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\Spring.Data.dll
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\Spring.Services.dll
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\Spring.Web.dll
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\IIneraction.dll
+D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\WebHost\bin\IIneraction.pdb

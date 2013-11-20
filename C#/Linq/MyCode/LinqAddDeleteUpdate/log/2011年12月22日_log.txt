@@ -1,0 +1,123 @@
+.Net SqlClient Data Provider: 已将数据库上下文更改为 'GuestBook'。。
+SELECT [t0].[Id], [t0].[UserName], [t0].[PostTime], [t0].[Message], [t0].[IsReplied], [t0].[Reply]
+FROM [tbGuestBook] AS [t0]
+ORDER BY [t0].[PostTime]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+INSERT INTO [tbGuestBook]([Id], [UserName], [PostTime], [Message], [IsReplied], [Reply])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+-- @p0: Input UniqueIdentifier (Size = -1; Prec = 0; Scale = 0) [e9b3767e-9447-4a44-9191-bce305f710c2]
+-- @p1: Input VarChar (Size = 8000; Prec = 0; Scale = 0) [streamWriter]
+-- @p2: Input DateTime (Size = -1; Prec = 0; Scale = 0) [2011/12/22 11:00:51]
+-- @p3: Input VarChar (Size = 8000; Prec = 0; Scale = 0) [AutoFlush看样子能满足我的要求]
+-- @p4: Input Bit (Size = -1; Prec = 0; Scale = 0) [False]
+-- @p5: Input VarChar (Size = 8000; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[Id], [t0].[UserName], [t0].[PostTime], [t0].[Message], [t0].[IsReplied], [t0].[Reply]
+FROM [tbGuestBook] AS [t0]
+ORDER BY [t0].[PostTime]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+INSERT INTO [tbGuestBook]([Id], [UserName], [PostTime], [Message], [IsReplied], [Reply])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+-- @p0: Input UniqueIdentifier (Size = -1; Prec = 0; Scale = 0) [bc7b4078-d1b7-472e-a06d-18b5b03dbe87]
+-- @p1: Input VarChar (Size = 8000; Prec = 0; Scale = 0) [1111]
+-- @p2: Input DateTime (Size = -1; Prec = 0; Scale = 0) [2011/12/22 11:01:24]
+-- @p3: Input VarChar (Size = 8000; Prec = 0; Scale = 0) [1111111111111]
+-- @p4: Input Bit (Size = -1; Prec = 0; Scale = 0) [False]
+-- @p5: Input VarChar (Size = 8000; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[Id], [t0].[UserName], [t0].[PostTime], [t0].[Message], [t0].[IsReplied], [t0].[Reply]
+FROM [tbGuestBook] AS [t0]
+ORDER BY [t0].[PostTime]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+.Net SqlClient Data Provider: 已将数据库上下文更改为 'GuestBook'。。
+SELECT [t0].[Id], [t0].[UserName], [t0].[PostTime], [t0].[Message], [t0].[IsReplied], [t0].[Reply]
+FROM [tbGuestBook] AS [t0]
+ORDER BY [t0].[PostTime]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [tbGuestBook]
+SET [IsReplied] = @p4, [Reply] = @p5
+WHERE ([Id] = @p0) AND ([UserName] = @p1) AND ([PostTime] = @p2) AND ([Message] = @p3) AND (NOT ([IsReplied] = 1)) AND ([Reply] IS NULL)
+-- @p0: Input UniqueIdentifier (Size = -1; Prec = 0; Scale = 0) [4634a41b-90b0-4501-88bf-ad2379789ba3]
+-- @p1: Input VarChar (Size = 8000; Prec = 0; Scale = 0) [test]
+-- @p2: Input DateTime (Size = -1; Prec = 0; Scale = 0) [2011/12/22 10:50:26]
+-- @p3: Input VarChar (Size = 8000; Prec = 0; Scale = 0) [我是来测试的]
+-- @p4: Input Bit (Size = -1; Prec = 0; Scale = 0) [True]
+-- @p5: Input VarChar (Size = 8000; Prec = 0; Scale = 0) [怎么样？还行吗？]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[Id], [t0].[UserName], [t0].[PostTime], [t0].[Message], [t0].[IsReplied], [t0].[Reply]
+FROM [tbGuestBook] AS [t0]
+ORDER BY [t0].[PostTime]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+DELETE FROM [tbGuestBook] WHERE ([Id] = @p0) AND ([UserName] = @p1) AND ([PostTime] = @p2) AND ([Message] = @p3) AND (NOT ([IsReplied] = 1)) AND ([Reply] IS NULL)
+-- @p0: Input UniqueIdentifier (Size = -1; Prec = 0; Scale = 0) [bc7b4078-d1b7-472e-a06d-18b5b03dbe87]
+-- @p1: Input VarChar (Size = 8000; Prec = 0; Scale = 0) [1111]
+-- @p2: Input DateTime (Size = -1; Prec = 0; Scale = 0) [2011/12/22 11:01:24]
+-- @p3: Input VarChar (Size = 8000; Prec = 0; Scale = 0) [1111111111111]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[Id], [t0].[UserName], [t0].[PostTime], [t0].[Message], [t0].[IsReplied], [t0].[Reply]
+FROM [tbGuestBook] AS [t0]
+ORDER BY [t0].[PostTime]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [tbGuestBook]
+SET [IsReplied] = @p4, [Reply] = @p5
+WHERE ([Id] = @p0) AND ([UserName] = @p1) AND ([PostTime] = @p2) AND ([Message] = @p3) AND (NOT ([IsReplied] = 1)) AND ([Reply] IS NULL)
+-- @p0: Input UniqueIdentifier (Size = -1; Prec = 0; Scale = 0) [edcff7f1-d61c-4638-95b3-75bc2d6b583e]
+-- @p1: Input VarChar (Size = 8000; Prec = 0; Scale = 0) [good]
+-- @p2: Input DateTime (Size = -1; Prec = 0; Scale = 0) [2011/12/22 10:50:41]
+-- @p3: Input VarChar (Size = 8000; Prec = 0; Scale = 0) [这个东东还不错，有前途]
+-- @p4: Input Bit (Size = -1; Prec = 0; Scale = 0) [True]
+-- @p5: Input VarChar (Size = 8000; Prec = 0; Scale = 0) [哈哈~~]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[Id], [t0].[UserName], [t0].[PostTime], [t0].[Message], [t0].[IsReplied], [t0].[Reply]
+FROM [tbGuestBook] AS [t0]
+ORDER BY [t0].[PostTime]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [tbGuestBook]
+SET [IsReplied] = @p4, [Reply] = @p5
+WHERE ([Id] = @p0) AND ([UserName] = @p1) AND ([PostTime] = @p2) AND ([Message] = @p3) AND (NOT ([IsReplied] = 1)) AND ([Reply] IS NULL)
+-- @p0: Input UniqueIdentifier (Size = -1; Prec = 0; Scale = 0) [1b07a724-73e9-46d1-b911-b948e5a96199]
+-- @p1: Input VarChar (Size = 8000; Prec = 0; Scale = 0) [rock]
+-- @p2: Input DateTime (Size = -1; Prec = 0; Scale = 0) [2011/12/22 10:50:50]
+-- @p3: Input VarChar (Size = 8000; Prec = 0; Scale = 0) [也来支持一下]
+-- @p4: Input Bit (Size = -1; Prec = 0; Scale = 0) [True]
+-- @p5: Input VarChar (Size = 8000; Prec = 0; Scale = 0) [很强悍]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[Id], [t0].[UserName], [t0].[PostTime], [t0].[Message], [t0].[IsReplied], [t0].[Reply]
+FROM [tbGuestBook] AS [t0]
+ORDER BY [t0].[PostTime]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [tbGuestBook]
+SET [IsReplied] = @p4, [Reply] = @p5
+WHERE ([Id] = @p0) AND ([UserName] = @p1) AND ([PostTime] = @p2) AND ([Message] = @p3) AND (NOT ([IsReplied] = 1)) AND ([Reply] IS NULL)
+-- @p0: Input UniqueIdentifier (Size = -1; Prec = 0; Scale = 0) [688fa714-1def-4309-af2d-867b92e79039]
+-- @p1: Input VarChar (Size = 8000; Prec = 0; Scale = 0) [hello]
+-- @p2: Input DateTime (Size = -1; Prec = 0; Scale = 0) [2011/12/22 10:51:05]
+-- @p3: Input VarChar (Size = 8000; Prec = 0; Scale = 0) [工人不错，gg的]
+-- @p4: Input Bit (Size = -1; Prec = 0; Scale = 0) [True]
+-- @p5: Input VarChar (Size = 8000; Prec = 0; Scale = 0) [第三方]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[Id], [t0].[UserName], [t0].[PostTime], [t0].[Message], [t0].[IsReplied], [t0].[Reply]
+FROM [tbGuestBook] AS [t0]
+ORDER BY [t0].[PostTime]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[Id], [t0].[UserName], [t0].[PostTime], [t0].[Message], [t0].[IsReplied], [t0].[Reply]
+FROM [tbGuestBook] AS [t0]
+ORDER BY [t0].[PostTime]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+

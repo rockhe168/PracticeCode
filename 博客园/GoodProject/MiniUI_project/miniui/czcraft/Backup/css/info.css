@@ -1,0 +1,73 @@
+
+.load2 {           /*--------========product_show和all_list等页面的路径样式=======-----------*/
+	width:715px;
+	float:left;
+	background:url(../images/sub06_03.gif) left center no-repeat;
+	padding:10px 15px;
+	border-top:solid 1px #C6C6C6;
+}
+.load2 h3 {
+	float:left;
+	color:#81825A;
+	font-size:14px;
+}
+.load2 span {
+	display:block;
+	float:right;
+}
+.ps_main,.al_main {  /*--------=======product_show与all_list页面的样式========-----------*/
+	width:745px;
+	float:left;
+	margin-top:20px;
+}
+
+li .c_pic_a {
+	height:134px;
+	border:solid 1px #CCC;
+}
+li .a_title {
+	height:35px;
+	text-align:center;
+	padding:5px 0;
+}
+li a.c_pic_a:hover {
+	background:#FFF;
+	border:solid 2px #F60;
+}
+.psm_top,.alm_top {  /*--------=======product_show与all_list的条形背景样式========-----------*/
+	width:745px;
+	height:35px;
+	float:left;
+	margin-top:10px;
+	background:url(../images/sub05_03.gif) left no-repeat;
+}
+.psm_top span,.alm_top span {
+	font-weight:bold;
+	color:#FFF;
+	display:block;
+	margin:9px 0 10px 60px;
+}
+.psm_top a { margin-left:480px; color:#FFF;}
+.psm_top a:hover {color:#2B4512;}
+.ps_main li {margin:15px 10px 5px 20px;}       
+ /*------以下是product_show页面的样式（部分图片样式在company.css中）----------*/
+.psm_t,.psm_c,.psm_f {float:left; margin-left:10px;display:inline;}
+.psm_t {
+	width:690px;
+	height:9px;
+	margin-top:20px;
+	background:url(../images/psm_top.gif) no-repeat top left;
+	overflow:hidden;
+}
+.psm_c {
+	width:684px;
+	background:url(../images/psm_center.gif) repeat-x left top #FCFCFC;
+	border-left:solid 1px #A5A7A3;
+	border-right:solid 1px #A5A7A3;
+	margin-left:12px;
+}
+.psm_f {
+	width:690px;
+	height:8px;
+	background:url(../images/psm_foot.gif) no-repeat top left;
+}

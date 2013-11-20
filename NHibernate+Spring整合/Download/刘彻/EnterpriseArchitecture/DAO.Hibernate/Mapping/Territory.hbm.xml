@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Domain.Entity" assembly="Domain">
+	<class name="Domain.Entity.Territory, Domain" table="[dbo].[Territories]" lazy="true">
+		<id name="Id" column="[TerritoryID]">
+		 	<generator class="assigned" />
+		</id>
+		<property name="TerritoryDescription" column="[TerritoryDescription]" />
+		<many-to-one name="Region" column="[RegionID]" class="Domain.Entity.Region" />
+		<bag name="Employees" table="[dbo].[EmployeeTerritories]" lazy="true" cascade="all" inverse="false" >
+			<key column="[TerritoryID]"></key>
+			<many-to-many column="[EmployeeID]" class="Domain.Entity.Employee" />
+    	</bag>
+	</class>
+</hibernate-mapping>
+

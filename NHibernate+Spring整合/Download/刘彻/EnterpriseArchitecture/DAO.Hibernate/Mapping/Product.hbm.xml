@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Domain.Entity" assembly="Domain">
+	<class name="Domain.Entity.Product, Domain" table="[dbo].[Products]" lazy="true">
+		<id name="Id" column="[ProductID]">
+		 	<generator class="native" />
+		</id>
+		<property name="ProductName" column="[ProductName]" />
+		<property name="QuantityPerUnit" column="[QuantityPerUnit]" />
+		<property name="UnitPrice" column="[UnitPrice]" />
+		<property name="UnitsInStock" column="[UnitsInStock]" />
+		<property name="UnitsOnOrder" column="[UnitsOnOrder]" />
+		<property name="ReorderLevel" column="[ReorderLevel]" />
+		<property name="Discontinued" column="[Discontinued]" />
+		<many-to-one name="Category" column="[CategoryID]" class="Domain.Entity.Category" />
+		<many-to-one name="Supplier" column="[SupplierID]" class="Domain.Entity.Supplier" />
+	</class>
+</hibernate-mapping>
+

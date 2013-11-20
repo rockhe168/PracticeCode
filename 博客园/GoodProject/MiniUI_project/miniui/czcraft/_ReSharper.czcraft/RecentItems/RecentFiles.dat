@@ -1,0 +1,25 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="94B13B14-A67A-45B1-973C-7AD6EB1AA88B/f:ICacheStorage.cs" caret="1710" fromTop="33" />
+    <File id="94B13B14-A67A-45B1-973C-7AD6EB1AA88B/f:DefaultCacheAdapter.cs" caret="2976" fromTop="22" />
+    <File id="56C3163A-C620-47D5-9536-265089A556F1/f:commentDAL.cs" caret="602" fromTop="0" />
+    <File id="4AA844E8-36EC-4BC7-A951-99A46355A80A/f:DataAccess.cs" caret="0" fromTop="0" />
+    <File id="4AA844E8-36EC-4BC7-A951-99A46355A80A/f:DBOperator.cs" caret="0" fromTop="0" />
+    <File id="4AA844E8-36EC-4BC7-A951-99A46355A80A/f:OleDBOperator.cs" caret="0" fromTop="0" />
+    <File id="4AA844E8-36EC-4BC7-A951-99A46355A80A/f:SqlDBOperator.cs" caret="1223" fromTop="0" />
+    <File id="D2B5E946-90CD-41FC-B4A6-5C416AAE2FA1/d:Admin/d:Product/d:Data/f:GetProductInfo.ashx" caret="0" fromTop="0" />
+    <File id="56C3163A-C620-47D5-9536-265089A556F1/f:masterDAL.cs" caret="0" fromTop="0" />
+    <File id="3A51A233-A569-472A-BE5C-3ACF44ABB09B/d:MyClass/f:commentBLL.cs" caret="0" fromTop="0" />
+    <File id="56C3163A-C620-47D5-9536-265089A556F1/f:ShoppingCartDAL.cs" caret="0" fromTop="0" />
+    <File id="D2B5E946-90CD-41FC-B4A6-5C416AAE2FA1/f:Global.asax" caret="3053" fromTop="33" />
+    <File id="D2B5E946-90CD-41FC-B4A6-5C416AAE2FA1/d:News/f:NewsList.aspx" caret="1087" fromTop="24" />
+    <File id="D2B5E946-90CD-41FC-B4A6-5C416AAE2FA1/d:News/f:NewsList.aspx.cs" caret="1639" fromTop="34" />
+    <File id="D2B5E946-90CD-41FC-B4A6-5C416AAE2FA1/d:News/f:ViewNews.aspx" caret="1222" fromTop="27" />
+    <File id="D2B5E946-90CD-41FC-B4A6-5C416AAE2FA1/d:News/f:ViewNews.aspx.cs" caret="0" fromTop="0" />
+    <File id="D2B5E946-90CD-41FC-B4A6-5C416AAE2FA1/f:Web.config" caret="2340" fromTop="0" />
+    <File id="94B13B14-A67A-45B1-973C-7AD6EB1AA88B/d:Properties/f:AssemblyInfo.cs" caret="0" fromTop="0" />
+    <File id="94B13B14-A67A-45B1-973C-7AD6EB1AA88B/f:CacheFactory.cs" caret="512" fromTop="18" />
+    <File id="94B13B14-A67A-45B1-973C-7AD6EB1AA88B/f:MemcachedCache.cs" caret="3416" fromTop="24" />
+  </RecentFiles>
+  <RecentEdits />
+</RecentFiles>

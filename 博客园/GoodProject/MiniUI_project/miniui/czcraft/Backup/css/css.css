@@ -1,0 +1,96 @@
+﻿/*==================---------图片特效区------------================*/
+
+.rollbox{                          /*-----------图片左右翻滚特效（首页）-------------*/
+	width:745px;
+	overflow:hidden;
+	margin:0 auto;
+	padding:40px 0 10px 0;
+	float:left;
+}
+.rollbox .cont{
+	width:630px;
+	overflow:hidden;
+	float:left;
+}
+.rollbox .scrcont{width:1000000px;}
+.rollbox .cont .pic{
+	width:94px;
+	height:96px;
+	float:left;
+	text-align:center;
+	padding-right:20px;
+}
+*+html .rollbox .cont .pic{
+	width:94px;
+	height:94px;
+	float:left;
+	text-align:center;
+	margin-right:30px;
+}
+.cont a.pic_a{
+	width:94px;
+	height:94px;
+	border:1px solid #ccc;
+	display:block;
+}
+.cont a.pic_a:hover {border:1px solid #F00;}
+.cont .pic_a img {
+	width:90px;
+	height:90px;
+	padding:2px;
+	background:#fff;
+}
+
+.rollbox #List1,.rollbox #List2{float:left;}
+.rollbox_left,.rollbox_right {             /*左按钮*/    /*右按钮*/
+	width:20px;
+	height:82px;
+	float:left;
+	cursor:pointer;
+}
+.rollbox_left {background:url(../images/shqm_left_pic.gif) no-repeat center; margin:0 10px 0 26px;display:inline;}  
+.rollbox_right {background:url(../images/shqm_right_pic.gif) no-repeat right center; margin:0 0 0 10px; display:inline;}
+
+/*=========图片幻灯片轮换特效（公司系列页面）--========*/
+#myFocus { width:400px; height:200px; overflow:hidden;float:left; margin: 0 0 0 50px; display:inline; border:1px solid #CCC}
+.mF_classicHC .pic li{position:absolute;left:1px;top:1px;}
+#myFocus .pic img {width:400px; height:200px;}
+.mF_classicHC .num,.mF_classicHC .num-bg{
+	height:19px;
+	position:absolute;
+	z-index:3;
+	right:1px;
+	bottom:31px;
+	color:#fff;
+}/*按钮样式*/
+.mF_classicHC .num-bg{
+	width:100%;
+	background:url(images/bg.png) right bottom no-repeat;
+	_height:16px;
+	_background:0;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg.png', sizingMethod='scale');
+}
+.mF_classicHC .num-bg li{position:absolute;}
+.mF_classicHC .num li{
+	float:left;
+	width:26px;
+	height:16px;
+	line-height:16px;
+	padding-top:3px;
+	text-align:center;
+	cursor:pointer;
+	position:relative;
+}
+.mF_classicHC .num li span{
+	position:absolute;
+	top:3px;
+	left:0;
+	width:1px;
+	height:16px;
+	overflow:hidden;
+	background:#DADADA;
+}
+.mF_classicHC .num li.current,.mF_classicHC .num li.hover{
+	background:url(../images/bd.gif) left top no-repeat;
+}
+.mF_classicHC .num li.hover{background-position:right bottom;}

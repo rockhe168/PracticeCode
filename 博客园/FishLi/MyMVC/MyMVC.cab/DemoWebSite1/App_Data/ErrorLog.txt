@@ -1,0 +1,52 @@
+﻿Url: /AjaxCustomer/ShowCustomerPicker.cspx?page=2&_=1331394692838
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.ArgumentOutOfRangeException: 指定的参数已超出有效值的范围。
+参数名: offset
+   在 System.Web.UI.TemplateControl.WriteUTF8ResourceString(HtmlTextWriter output, Int32 offset, Int32 size, Boolean fAsciiOnly)
+   在 ASP.controls_style1_customerpicker_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) 位置 h:\AllTempFiles\MyBlogs_src\MyMVC\DemoWebSite1\Controls\Style1\CustomerPicker.ascx:行号 6
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   在 System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   在 MyMVC.UcExecutor.FastRender(String ucVirtualPath, Object model) 位置 H:\AllTempFiles\MyBlogs_src\MyMVC\MyMVC\MVC\UcExecutor.cs:行号 94
+   在 MyMVC.UcResult.MyMVC.IActionResult.Ouput(HttpContext context) 位置 h:\alltempfiles\myblogs_src\mymvc\mymvc\mvc\actionresult.cs:行号 37
+   在 MyMVC.ActionExecutor.ExecuteAction(HttpContext context, InvokeInfo vkInfo) 位置 H:\AllTempFiles\MyBlogs_src\MyMVC\MyMVC\MVC\ActionExecutor.cs:行号 79
+   在 MyMVC.ActionHandler.ProcessRequest(HttpContext context) 位置 H:\AllTempFiles\MyBlogs_src\MyMVC\MyMVC\Pipeline\ActionHandler.cs:行号 26
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Url: /AjaxCustomer/ShowCustomerPicker.cspx?page=2&_=1331394908678
+System.ArgumentOutOfRangeException: 指定的参数已超出有效值的范围。
+参数名: offset
+   在 MyMVC.UcExecutor.FastRender(String ucVirtualPath, Object model) 位置 H:\AllTempFiles\MyBlogs_src\MyMVC\MyMVC\MVC\UcExecutor.cs:行号 99
+   在 MyMVC.UcResult.MyMVC.IActionResult.Ouput(HttpContext context) 位置 H:\AllTempFiles\MyBlogs_src\MyMVC\MyMVC\MVC\ActionResult.cs:行号 37
+   在 MyMVC.ActionExecutor.ExecuteAction(HttpContext context, InvokeInfo vkInfo) 位置 H:\AllTempFiles\MyBlogs_src\MyMVC\MyMVC\MVC\ActionExecutor.cs:行号 79
+   在 MyMVC.ActionHandler.ProcessRequest(HttpContext context) 位置 H:\AllTempFiles\MyBlogs_src\MyMVC\MyMVC\Pipeline\ActionHandler.cs:行号 26
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Url: /AjaxCustomer/ShowCustomerPicker.cspx?_=1331394948462
+System.ArgumentOutOfRangeException: 指定的参数已超出有效值的范围。
+参数名: offset
+   在 MyMVC.UcExecutor.FastRender(String ucVirtualPath, Object model) 位置 H:\AllTempFiles\MyBlogs_src\MyMVC\MyMVC\MVC\UcExecutor.cs:行号 99
+   在 MyMVC.UcResult.MyMVC.IActionResult.Ouput(HttpContext context) 位置 H:\AllTempFiles\MyBlogs_src\MyMVC\MyMVC\MVC\ActionResult.cs:行号 37
+   在 MyMVC.ActionExecutor.ExecuteAction(HttpContext context, InvokeInfo vkInfo) 位置 H:\AllTempFiles\MyBlogs_src\MyMVC\MyMVC\MVC\ActionExecutor.cs:行号 79
+   在 MyMVC.ActionHandler.ProcessRequest(HttpContext context) 位置 H:\AllTempFiles\MyBlogs_src\MyMVC\MyMVC\Pipeline\ActionHandler.cs:行号 26
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+
+Url: /AjaxCustomer/ShowCustomerPicker.cspx?_=1331394964413
+System.ArgumentOutOfRangeException: 指定的参数已超出有效值的范围。
+参数名: offset
+   在 MyMVC.UcExecutor.FastRender(String ucVirtualPath, Object model) 位置 H:\AllTempFiles\MyBlogs_src\MyMVC\MyMVC\MVC\UcExecutor.cs:行号 99
+   在 MyMVC.UcResult.MyMVC.IActionResult.Ouput(HttpContext context) 位置 H:\AllTempFiles\MyBlogs_src\MyMVC\MyMVC\MVC\ActionResult.cs:行号 37
+   在 MyMVC.ActionExecutor.ExecuteAction(HttpContext context, InvokeInfo vkInfo) 位置 H:\AllTempFiles\MyBlogs_src\MyMVC\MyMVC\MVC\ActionExecutor.cs:行号 79
+   在 MyMVC.ActionHandler.ProcessRequest(HttpContext context) 位置 H:\AllTempFiles\MyBlogs_src\MyMVC\MyMVC\Pipeline\ActionHandler.cs:行号 26
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+

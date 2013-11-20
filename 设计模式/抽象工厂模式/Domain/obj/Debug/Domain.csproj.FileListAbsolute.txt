@@ -1,0 +1,5 @@
+E:\MyRepository\百度云\PracticeCode\设计模式\抽象工厂模式\Domain\bin\Debug\Domain.dll
+E:\MyRepository\百度云\PracticeCode\设计模式\抽象工厂模式\Domain\bin\Debug\Domain.pdb
+E:\MyRepository\百度云\PracticeCode\设计模式\抽象工厂模式\Domain\obj\Debug\ResolveAssemblyReference.cache
+E:\MyRepository\百度云\PracticeCode\设计模式\抽象工厂模式\Domain\obj\Debug\Domain.dll
+E:\MyRepository\百度云\PracticeCode\设计模式\抽象工厂模式\Domain\obj\Debug\Domain.pdb

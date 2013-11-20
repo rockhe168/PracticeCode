@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="czcraft.Model.company" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAwSAAggAAAQgAAIQAAAAQAACCAIEABQAEQEA=</HashCode>
+      <FileName>company.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.company_cert" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAIAAAAAAAAAAAAAAAAQAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>company_cert.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.company_pic" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAIAAAAAAAAAAAAAAAAQAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>company_pic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.company_type" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAIAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>company_type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.craftknowledge" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAiAAAEAAAAAAAAABAAABAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>craftknowledge.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.crafttype" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAgAAABAAAEAQAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>crafttype.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.dbProvince" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>dbProvince.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.master" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAgAAQSAAFgAAAYgAAAQAAAAIAACGAIEABQAEQUA=</HashCode>
+      <FileName>master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.master_cert" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAQAAAAAAAAAAABgA=</HashCode>
+      <FileName>master_cert.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.master_type" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAABAA=</HashCode>
+      <FileName>master_type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.member" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACIABAAAAAAAAAEBAAAAAAAGAIAABwAAQEA=</HashCode>
+      <FileName>member.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.MemberCollection" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAACAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MemberCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.AddUserInfoTempModel" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAAAAAAAAAAAAAACAAAAEAAAAAIAIAAAAAAAAAQAAAA=</HashCode>
+      <FileName>MyModel\AddUserInfoTempModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.Collection" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GEAAAAAgIAAAAAACAAAAAQRAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>MyModel\Collection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.orders" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GIADAAQEAAACAAAAAoAQEChgAADUQAQAAAgAAAAAEQA=</HashCode>
+      <FileName>MyModel\orders.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.SearchResult" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACgAAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyModel\SearchResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.SearchSum" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAQBAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyModel\SearchSum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.news" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAiAAAEAAAAAAAAAAAAAAAAAAAQAAAAAAAQA=</HashCode>
+      <FileName>news.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.newstype" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>newstype.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.orderproduct" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>WgACCAQAAAAAABAAAAAAAQAACAgAAAgAABAQAAAAAQA=</HashCode>
+      <FileName>orderproduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.ourinfo" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAgAAAAAAAAIQBAAAAAAACAIAAAQAEQAA=</HashCode>
+      <FileName>ourinfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.product" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oEACAIAQAQAAAhAGAAgAAAQAhCAICACAAEoCBEAADAA=</HashCode>
+      <FileName>product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.product_picturepath" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAgAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>product_picturepath.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.SearchInfo" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAIAAAABAAAAAAQAAAAAAAAAIAA=</HashCode>
+      <FileName>SearchInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.ShoppingCart" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgACAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAQgAAIAAA=</HashCode>
+      <FileName>ShoppingCart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.SystemLog" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAACAAAAAAAAAEAAAAAAAAAAAAAAAAAACQAAAAAAAAA=</HashCode>
+      <FileName>SystemLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.VCartProductInfo" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MgACAAAAAQAAAAAAAAgAAQAAAAAAAAAAAAAQgAAICAA=</HashCode>
+      <FileName>VCartProductInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.VCompanyType" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACAIAAAAAAAAAABAAAEAQAAAEIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VCompanyType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.VFindProductInfo" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAACQIAAAQAAAgAAAAAAACQAgAAICBCAAEwCBEAADAA=</HashCode>
+      <FileName>VFindProductInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.VGroupFunction" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACACAAAAAAgAAAAAAAGAAAgAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>VGroupFunction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.VMasterType" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAABAAAEAQAAAEIABAAAAAAAAAABAA=</HashCode>
+      <FileName>VMasterType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.VMemberCollectProduct" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>OEAAAIAQAQAAAhAGAAgAAQQAhCAICACAAEoCBEAADAA=</HashCode>
+      <FileName>VMemberCollectProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.VOrders" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>WoADCAQEAAACAAAAAgAQEShgAAjUQAQAABAQAAAAEAA=</HashCode>
+      <FileName>VOrders.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.VProductCraftType" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgACAIAQAQAAAgACAAgAAAQAhAAACBCgAEACBEAADAA=</HashCode>
+      <FileName>VProductCraftType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.VProductPic" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAIAAAAAAAAAAAAgAAAQAABAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>VProductPic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.WEB_SYS_FUNTION" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAACAAAAAAAAAAAAAACAAAACAQAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>WEB_SYS_FUNTION.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.WEB_USER" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAAAAAAAAABAgAASAAAAAAAAAAIAIAAAAAAAgAQAAAA=</HashCode>
+      <FileName>WEB_USER.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.WEB_USERGROUP" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAgAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WEB_USERGROUP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.WEB_USERGROUP_FUNCTIONS" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAgAAAAAAAEAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>WEB_USERGROUP_FUNCTIONS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czcraft.Model.WebMessage" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACQAAAAAAAQAAAAAAAAAAEAAAASgAAAABAA=</HashCode>
+      <FileName>WebMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

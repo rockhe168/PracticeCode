@@ -1,0 +1,9 @@
+E:\MyRepository\百度云\PracticeCode\设计模式\抽象工厂模式\AccessDal\bin\Debug\AccessDal.dll
+E:\MyRepository\百度云\PracticeCode\设计模式\抽象工厂模式\AccessDal\bin\Debug\AccessDal.pdb
+E:\MyRepository\百度云\PracticeCode\设计模式\抽象工厂模式\AccessDal\bin\Debug\AbstractFactory.dll
+E:\MyRepository\百度云\PracticeCode\设计模式\抽象工厂模式\AccessDal\bin\Debug\Domain.dll
+E:\MyRepository\百度云\PracticeCode\设计模式\抽象工厂模式\AccessDal\bin\Debug\AbstractFactory.pdb
+E:\MyRepository\百度云\PracticeCode\设计模式\抽象工厂模式\AccessDal\bin\Debug\Domain.pdb
+E:\MyRepository\百度云\PracticeCode\设计模式\抽象工厂模式\AccessDal\obj\Debug\ResolveAssemblyReference.cache
+E:\MyRepository\百度云\PracticeCode\设计模式\抽象工厂模式\AccessDal\obj\Debug\AccessDal.dll
+E:\MyRepository\百度云\PracticeCode\设计模式\抽象工厂模式\AccessDal\obj\Debug\AccessDal.pdb

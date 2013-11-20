@@ -1,0 +1,49 @@
+C:\Documents and Settings\Administrator\桌面\cxsys\Common\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\cxsys\Common\Common\bin\Debug\Common.dll
+C:\Documents and Settings\Administrator\桌面\cxsys\Common\Common\bin\Debug\Common.pdb
+C:\Documents and Settings\Administrator\桌面\cxsys\Common\Common\obj\Debug\Common.dll
+C:\Documents and Settings\Administrator\桌面\cxsys\Common\Common\obj\Debug\Common.pdb
+C:\Users\tianzh\Desktop\Common\Common\bin\Debug\Common.dll
+C:\Users\tianzh\Desktop\Common\Common\bin\Debug\Common.pdb
+C:\Users\tianzh\Desktop\Common\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\tianzh\Desktop\Common\Common\obj\Debug\Common.dll
+C:\Users\tianzh\Desktop\Common\Common\obj\Debug\Common.pdb
+C:\Users\tianzh\Desktop\Common\Common\bin\Debug\Common.XML
+F:\项目源代码\餐饮网站设计\Common\Common\obj\Debug\ResolveAssemblyReference.cache
+F:\项目源代码\餐饮网站设计\Common\Common\obj\Debug\Common.dll
+F:\项目源代码\餐饮网站设计\Common\Common\obj\Debug\Common.pdb
+F:\项目源代码\餐饮网站设计\Common\Common\bin\Debug\Common.dll
+F:\项目源代码\餐饮网站设计\Common\Common\bin\Debug\Common.pdb
+F:\项目源代码\餐饮网站设计\Common\Common\bin\Debug\Common.XML
+C:\Users\tianzh\Desktop\web\潮州工艺品网站构架版本\czcraft\Common\Common\bin\Debug\Common.dll
+C:\Users\tianzh\Desktop\web\潮州工艺品网站构架版本\czcraft\Common\Common\bin\Debug\Common.pdb
+C:\Users\tianzh\Desktop\web\潮州工艺品网站构架版本\czcraft\Common\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\tianzh\Desktop\web\潮州工艺品网站构架版本\czcraft\Common\Common\obj\Debug\Common.dll
+C:\Users\tianzh\Desktop\web\潮州工艺品网站构架版本\czcraft\Common\Common\obj\Debug\Common.pdb
+C:\Users\tianzh\Desktop\web\潮州工艺品网站构架版本\czcraft\Common\Common\bin\Debug\Common.XML
+C:\Users\tianzh\Desktop\web\潮州工艺品网站构架_MINIUI\czcraft\Common\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\tianzh\Desktop\web\潮州工艺品网站构架_MINIUI\czcraft\Common\Common\bin\Debug\Common.dll
+C:\Users\tianzh\Desktop\web\潮州工艺品网站构架_MINIUI\czcraft\Common\Common\bin\Debug\Common.pdb
+C:\Users\tianzh\Desktop\web\潮州工艺品网站构架_MINIUI\czcraft\Common\Common\obj\Debug\Common.dll
+C:\Users\tianzh\Desktop\web\潮州工艺品网站构架_MINIUI\czcraft\Common\Common\obj\Debug\Common.pdb
+C:\Users\tianzh\Desktop\web\潮州工艺品网站构架_MINIUI\czcraft\Common\Common\bin\Debug\Common.XML
+C:\Users\tianzh\Desktop\web\CzcraftMINIUI\czcraft\Common\Common\bin\Debug\Common.dll
+C:\Users\tianzh\Desktop\web\CzcraftMINIUI\czcraft\Common\Common\bin\Debug\Common.pdb
+C:\Users\tianzh\Desktop\web\CzcraftMINIUI\czcraft\Common\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\tianzh\Desktop\web\CzcraftMINIUI\czcraft\Common\Common\obj\Debug\Common.dll
+C:\Users\tianzh\Desktop\web\CzcraftMINIUI\czcraft\Common\Common\obj\Debug\Common.pdb
+C:\Users\tianzh\Desktop\web\czcraft\czcraft\Common\Common\bin\Debug\Common.dll
+C:\Users\tianzh\Desktop\web\czcraft\czcraft\Common\Common\bin\Debug\Common.pdb
+C:\Users\tianzh\Desktop\web\czcraft\czcraft\Common\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\tianzh\Desktop\web\czcraft\czcraft\Common\Common\obj\Debug\Common.dll
+C:\Users\tianzh\Desktop\web\czcraft\czcraft\Common\Common\obj\Debug\Common.pdb
+C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\Common\Common\bin\Debug\Common.dll
+C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\Common\Common\bin\Debug\Common.pdb
+C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\Common\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\Common\Common\obj\Debug\Common.dll
+C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\Common\Common\obj\Debug\Common.pdb
+C:\Users\tianzh\Desktop\web\Project\MiniUI_czcraft\miniui\Common\Common\bin\Debug\Common.dll
+C:\Users\tianzh\Desktop\web\Project\MiniUI_czcraft\miniui\Common\Common\bin\Debug\Common.pdb
+C:\Users\tianzh\Desktop\web\Project\MiniUI_czcraft\miniui\Common\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\tianzh\Desktop\web\Project\MiniUI_czcraft\miniui\Common\Common\obj\Debug\Common.dll
+C:\Users\tianzh\Desktop\web\Project\MiniUI_czcraft\miniui\Common\Common\obj\Debug\Common.pdb

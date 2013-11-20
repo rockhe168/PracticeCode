@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net"
+         xmlns:db="http://www.springframework.net/database"
+         xmlns:aop = "http://www.springframework.net/aop">
+  <!-- 配置占位符 -->
+  <object type="Spring.Objects.Factory.Config.PropertyPlaceholderConfigurer, Spring.Core">
+    <property name="ConfigSections" value="databaseSettings"/>
+  </object>
+  <!--数据库提供者-->
+  <db:provider id="DbProvider" provider="${provider}"
+               connectionString="${connectionString}"/>
+  <!--SessionFactory对象-->
+  <object id="NHibernateSessionFactory"
+          type="Spring.Data.NHibernate.LocalSessionFactoryObject, Spring.Data.NHibernate32">
+    <property name="DbProvider" ref="DbProvider"/>
+    <property name="MappingAssemblies">
+      <list>
+        <value>DAO.Hibernate</value>
+        <value>Domain</value>
+      </list>
+    </property>
+    <property name="HibernateProperties">
+      <dictionary>
+        <entry key="hibernate.current_session_context_class"
+               value="Spring.Data.NHibernate.SpringSessionContext, Spring.Data.NHibernate32"/>
+        <entry key="hibernate.connection.provider"
+               value="NHibernate.Connection.DriverConnectionProvider"/>
+        <!--数据库方言-->
+        <entry key="dialect" value="${dialect}"/>
+        <!--数据库驱动-->
+        <entry key="connection.driver_class" value="${driver_class}"/>
+        <entry key="use_outer_join" value="true"/>
+        <entry key="show_sql" value="false"/>
+        <!--自动建表(反向映射)-->
+        <!--<entry key="hbm2ddl.auto" value="${hbm2ddl.auto}"/>-->
+        <!--超时时间-->
+        <entry key="command_timeout" value="60"/>
+        <entry key="query.substitutions" value="true 1, false 0, yes 'Y', no 'N'"/>
+        <entry key="proxyfactory.factory_class"
+               value="NHibernate.Bytecode.DefaultProxyFactoryFactory, NHibernate"/>
+      </dictionary>
+    </property>
+    <property name="ExposeTransactionAwareSessionFactory" value="true" />
+  </object>
+  <!--HibernateTemplate模板-->
+  <object id="HibernateTemplate" type="Spring.Data.NHibernate.Generic.HibernateTemplate">
+    <property name="SessionFactory" ref="NHibernateSessionFactory" />
+    <property name="TemplateFlushMode" value="Auto" />
+    <property name="CacheQueries" value="true" />
+  </object>
+  <!--ADO.NET Config-->
+  <object id="AdoTemplate" type="Spring.Data.Core.AdoTemplate, Spring.Data">
+    <property name="DbProvider" ref="DbProvider"/>
+    <property name="DataReaderWrapperType" value="Spring.Data.Support.NullMappingDataReader, Spring.Data"/>
+  </object>
+  <!--事物配置-->
+  <object id="transactionManager"
+      type="Spring.Data.NHibernate.HibernateTransactionManager, Spring.Data.NHibernate32">
+    <property name="DbProvider" ref="DbProvider"/>
+    <property name="SessionFactory" ref="NHibernateSessionFactory"/>
+  </object>
+  <object id="transactionInterceptor" type="Spring.Transaction.Interceptor.TransactionInterceptor, Spring.Data">
+    <property name="TransactionManager" ref="transactionManager"/>
+    <property name="TransactionAttributeSource">
+      <object type="Spring.Transaction.Interceptor.AttributesTransactionAttributeSource, Spring.Data"/>
+    </property>
+  </object>
+  <!--事物管理器-->
+  <object id="BaseTransactionManager"  type="Spring.Transaction.Interceptor.TransactionProxyFactoryObject, Spring.Data" abstract="true">
+    <property name="PlatformTransactionManager" ref="transactionManager"/>
+    <property name="TransactionAttributes">
+      <name-values>
+        <!--对Tr前缀的方法添加事务，一般用于原子操作-->
+        <add key="Tr*" value="PROPAGATION_REQUIRED"/>
+        <!--增加-->
+        <add key="Save*" value="PROPAGATION_REQUIRED"/>
+        <add key="Add*" value="PROPAGATION_REQUIRED"/>
+        <add key="Create*" value="PROPAGATION_REQUIRED"/>
+        <!--修改-->
+        <add key="Update*" value="PROPAGATION_REQUIRED"/>
+        <add key="Edit*" value="PROPAGATION_REQUIRED"/>
+        <!--删除-->
+        <add key="Delete*" value="PROPAGATION_REQUIRED"/>
+        <add key="Remove*" value="PROPAGATION_REQUIRED"/>
+        <!--其他-->
+        <add key="*" value="PROPAGATION_SUPPORTS,readOnly"/>
+      </name-values>
+    </property>
+  </object>
+  <!--日志实例配置-->
+  <object id="LogHelper" type="Domain.common.Log4netAdapter,Domain" >
+  </object>
+  <!--Aop配置-->
+  <object id="Advisor" type="Spring.Aop.Support.SdkRegularExpressionMethodPointcut,Spring.Aop">
+    <property name="pattern" value="Dao.*"/>
+  </object>
+  <aop:config>
+    <aop:advisor pointcut-ref="Advisor" advice-ref="ThrowsAdvise"/>
+  </aop:config>
+  <!--异常通知配置-->
+  <object id="ThrowsAdvise" type="Domain.common.ThrowsAdvise,Domain">
+    <property name="LogHelper" ref="LogHelper"/>
+  </object>
+</objects>

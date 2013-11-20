@@ -1,0 +1,469 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>添加产品</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+     <script src="../scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+     <script src="../scripts/PluginForm.js" type="text/javascript"></script>
+    <script src="../scripts/jquery.MultiFile.pack.js" type="text/javascript"></script>
+    <script src="../scripts/miniui/miniui.js" type="text/javascript"></script>
+     <script src="../scripts/isValid.js" type="text/javascript"></script>
+    <link href="../scripts/miniui/themes/default/miniui.css" rel="stylesheet" type="text/css" />
+    <link href="../scripts/miniui/themes/icons.css" rel="stylesheet" type="text/css" />
+ <link rel="stylesheet" href="../kindeditor/themes/default/default.css" />
+	<link rel="stylesheet" href="../kindeditor/plugins/code/prettify.css" />
+	<script charset="utf-8" type="text/javascript" src="../kindeditor/kindeditor.js"></script>
+	<script charset="utf-8" type="text/javascript"  src="../kindeditor/lang/zh_CN.js"></script>
+	<script charset="utf-8" type="text/javascript"  src="../kindeditor/plugins/code/prettify.js"></script>
+    <style type="text/css">
+    html, body
+    {
+        font-size:12px;
+        padding:0;
+        margin:0;
+        border:0;
+    }
+    .style2
+    {
+    	width:100px;
+    	 height: 25px;
+    }
+        	
+        .style3
+        {
+            width: 200px;
+             height: 25px;
+        }
+
+    </style>
+</head>
+<body>   
+    <form id="form1"  action="Data/GetProductInfo.ashx?method=SaveProduct"  enctype="multipart/form-data">
+       <!-- <div style="padding-left:11px;padding-bottom:5px;">-->
+         <fieldset style="border:solid 1px #aaa;padding:3px; width:600px">
+            <legend >产品信息</legend>
+            <input type="hidden" id="Id" name="Id" />
+            <div style="padding:5px;">
+            <table>
+                <tr>
+                    <td class="style2">产品名称：</td>
+                    <td class="style3">    
+                        <input name="Name" id="Name" class="mini-textbox"   requiredErrorText="产品名不能为空" required="true" maxlength="30" onvalidation="isRegisterUserName" /> 
+                    </td>
+                    <td class="style2">产品简称：</td>
+                    <td class="style3">    
+                        <input name="Simplename" id="Simplename" maxlength="16" onvalidation="isRegisterUserName"  requiredErrorText="产品简称不能为空" required="true" class="mini-textbox"  />
+                    </td>
+                </tr>
+               <tr>
+                  <td class="style2">材质：</td>
+                <td  class="style3">    
+                  <input name="Material" class="mini-textbox" maxlength="16"  id="Material" />
+                </td>
+                 <td class="style2">重量：</td>
+                    <td class="style3">    
+                        <input name="Weight" id="Weight" maxlength="8"   class="mini-textbox"  />
+                    </td>
+             
+                </tr>
+                     <tr>
+                  <td class="style2">体积：</td>
+                <td  class="style3">    
+                  <input name="Volume" class="mini-textbox"  maxlength="20" id="Volume" />
+                </td>
+                 <td class="style2">规格：</td>
+                    <td class="style3">    
+                        <input name="Specification" id="Specification"   maxlength="20"   class="mini-textbox"  />
+                    </td>
+             
+                </tr>
+                  <tr>
+                  <td class="style2">型号：</td>
+                     <td  class="style3">    
+                  <input name="Model" class="mini-textbox" maxlength="20"  id="Model" />
+                </td>
+                 <td class="style2">类别：</td>
+                    <td class="style3">    
+                  
+                         <input id="btnEdit1" class="mini-buttonedit" requiredErrorText="类别不能为空" required="true" onbuttonclick="onButtonEdit"/>   
+                    </td>
+             
+                </tr>
+                   
+            </table>
+       </div>
+       </fieldset>
+        <fieldset style="border:solid 1px #aaa;padding:3px;width:600px">
+            <legend >产品管理</legend>
+               <div style="padding:5px;">
+        <table>
+           <tr>
+            <td class="style2">推荐：</td>
+                <td class="style3">                        
+                     <input type="checkbox" name="Isrecomment" id="Isrecomment" class="mini-checkbox" >
+                </td>
+           <td class="style2">首页显示：</td>
+                <td class="style3">                        
+                    
+                 <input type="checkbox" id="Isshow" name="Isshow" class="mini-checkbox"  />
+                </td>
+           </tr>
+                 <tr>
+            <td class="style2">非遗：</td>
+                <td class="style3">                        
+                     <input type="checkbox" id="Nongenetic" name="Nongenetic" class="mini-checkbox" >
+                </td>
+           <td class="style2">佳作：</td>
+                <td class="style3">                        
+                    
+                 <input type="checkbox" id="Isexcellent" name="Isexcellent" class="mini-checkbox"  />
+                </td>
+           </tr>
+              <tr>
+            <td class="style2">非卖品：</td>
+                <td class="style3">                        
+                     <input type="checkbox" id="Issell" name="Issell" class="mini-checkbox" >
+                </td>
+           </tr>
+           </table>
+            </fieldset>
+        <fieldset style="border:solid 1px #aaa;padding:3px;width:600px">
+            <legend >详细信息</legend>
+            <div style="padding:5px;">
+        <table>
+           <tr>
+            <td class="style2">总量：</td>
+                <td class="style3">                        
+                     <input name="Num" id="Num"  class=" mini-spinner" minValue="1" maxValue="1000000" />
+                </td>
+                 <td   rowspan="4">我的头像：</td>
+                <td  rowspan="4" colspan="2">  
+                <img width="100" id="pic"  name="pic" height="100px"  style="margin-left:10px"/> 
+                </td>
+           </tr>
+          
+            <tr>
+               <td  class="style2">销量：</td>
+                <td  class="style3">    
+                    <input name="Soldnum" id="Soldnum" class="mini-spinner"minValue="1" maxValue="1000000"  />
+                 
+                </td>
+             
+            </tr>
+            <tr>
+              <td class="style2">零售价：</td>
+                <td  class="style3">    
+                    <input name="Lsprice" id="Lsprice" decimalPlaces="2" class=" mini-spinner"minValue="1.00" maxValue="1000000"  />
+                </td>
+             
+            </tr>
+               <tr>
+              <td class="style2">批发价：</td>
+                <td class="style3">                        
+                     <input name="Pfprice" id="Pfprice"  decimalPlaces="2"  class=" mini-spinner"minValue="1.00" maxValue="1000000"   />
+                </td>
+             
+            </tr>
+            <tr>
+              <td class="style2">会员价：</td>
+                <td class="style3">                        
+                     <input name="Vipprice" id="Vipprice"  decimalPlaces="2"  class=" mini-spinner"minValue="1.00" maxValue="1000000"  />
+                </td>
+          
+                 <td class="style2">图片上传：</td>
+                <td class="style3">    
+                  <input class="multi" style=" width:180px" type="file" id="fileupload"  name="fileupload" maxlength="1" accept="gif|jpg|bmp|png"/  />
+              
+                   
+     <input type="hidden" name="Picturepath"  id="Picturepath"/>
+                  
+                </td>
+            </tr>
+            <tr>
+                <td class="style2">市场价:</td>
+                <td  colspan="3">    
+                    <input name="MarketPrice" value="1.00"  decimalPlaces="2" id="MarketPrice" class="mini-spinner " minValue="1.00" maxValue="1000000"/> 
+                </td>
+            </tr>     
+            
+              <tr>
+                <td class="style2">价格1：</td>
+                <td class="style3">    
+                    <input name="Price1" value="1.00" id="Price1"  decimalPlaces="2"  class=" mini-spinner"minValue="1.00" maxValue="1000000"/>
+                    
+                </td>
+                 <td class="style2">价格2：</td>
+                <td class="style3">    
+                    <input name="Price2" id="Price2"  decimalPlaces="2"  class=" mini-spinner"minValue="1.00" maxValue="1000000"/>
+                    </td>
+            </tr>     
+              <tr>
+                <td class="style2">价格3：</td>
+                <td class="style3">    
+                    <input name="Price3" id="Price3"  decimalPlaces="2"  class=" mini-spinner"minValue="1.00" maxValue="1000000"/>
+                </td>
+                 <td class="style2">价格4：</td>
+                <td class="style3">    
+                    <input name="Price4" id="Price4"  decimalPlaces="2"  class=" mini-spinner" minValue="1.00" maxValue="1000000"/>
+                </td>
+            </tr> 
+              <tr>
+               <td  class="style2">产品介绍：</td>
+                <td  colspan="3">    
+                     <textarea id="Explain" name="Explain" cols="100" rows="8" style="width:450px;height:200px;visibility:hidden;" ></textarea>
+                 
+                </td>
+             
+            </tr>
+        </table>            
+            </div>
+        </fieldset>
+        <div style="padding:3px; width:600px;">   
+           
+              <a class="mini-button" id="ajaxButton"  style="width:60px; margin-left:150px; margin-right:10px" onclick="onUpload">上传</a>
+        <a class="mini-button" id="ok" onclick="onOk" style="width:60px;margin-right:10px">确定</a>       
+        <a class="mini-button" id="cancel" onclick="onCancel" style="width:60px;">取消</a>       
+    </div>
+    </form>
+    
+    
+    <script type="text/javascript">
+
+        var form = new mini.Form("form1");
+
+        var formData = {};
+         var btnEdit1 = mini.get("btnEdit1");
+  var editor1;
+	    KindEditor.ready(function(K) {
+			editor1 = K.create('#Explain', {
+				cssPath : '../kindeditor/plugins/code/prettify.css',
+				uploadJson : '../kindeditor/asp.net/upload_json.ashx',
+				fileManagerJson : '../kindeditor/asp.net/file_manager_json.ashx',
+				allowFileManager : true,
+				afterCreate : function() {
+					var self = this;
+					K.ctrl(document, 13, function() {
+						self.sync();
+						K('form[name=form1]')[0].submit();
+					});
+					K.ctrl(self.edit.doc, 13, function() {
+						self.sync();
+						K('form[name=form1]')[0].submit();
+					});
+				}
+			});
+			prettyPrint();
+		});
+        function onButtonEdit(e) {
+            var btnEdit = this;
+
+            
+            mini.openTop({
+                url: mini_JSPath + "../../Product/SelectCraftType.htm",                
+                title: "类别选择面板",
+                width: 400, 
+                height: 400,
+                onload: function () {
+                    var iframe = this.getIFrameEl();
+                    iframe.contentWindow.SetData(null);
+                },
+                ondestory: function (action) {
+                    if (action == "ok") {
+                        var iframe = this.getIFrameEl();
+
+                        var data = iframe.contentWindow.GetData();
+                        
+                        data = mini.clone(data);
+                        mini.get("btnEdit1").setValue(data.id);
+                        mini.get("btnEdit1").setText(data.text);
+                       
+                    }
+                }
+            });            
+             
+        }        
+        function SaveData() {
+            var o =form.getData();
+              o.id = formData.id;
+            o.Explain=editor1.html();
+            var TypeID=mini.get("btnEdit1").value;
+              o.Typeid= TypeID;
+              
+               var Lsprice=mini.get("Lsprice").value;
+              o.Lsprice= Lsprice.toString(); //注意要转化为string给后台处理
+             
+               var Pfprice=mini.get("Pfprice").value;
+              o.Pfprice= Pfprice.toString(); //注意要转化为string给后台处理
+             
+               var Vipprice=mini.get("Vipprice").value;
+              o.Vipprice= Vipprice.toString(); //注意要转化为string给后台处理
+             
+               var MarketPrice=mini.get("MarketPrice").value;
+              o.MarketPrice= MarketPrice.toString(); //注意要转化为string给后台处理
+             
+               var Price1=mini.get("Price1").value;
+              o.Price1= Price1.toString(); //注意要转化为string给后台处理
+             
+               var Price2=mini.get("Price2").value;
+              o.Price2= Price2.toString(); //注意要转化为string给后台处理
+              
+              var Price3=mini.get("Price3").value;
+              o.Price3= Price3.toString(); //注意要转化为string给后台处理
+              
+              var Price4=mini.get("Price4").value;
+              o.Price4= Price4.toString(); //注意要转化为string给后台处理
+            
+            
+               
+               form.validate();
+            if (form.isValid() == false) return;
+            var json =mini.encode(o);
+          
+            $.ajax({
+                url: "Data/GetProductInfo.ashx?method=SaveProduct&id="+$("#Id").val()+"&pic="+$("#Picturepath").val(),
+                
+                data: { Product: json },
+                cache: false,
+                success: function (text) {
+
+                    CloseWindow("save");
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    alert(jqXHR.responseText);
+                    CloseWindow();
+                }
+            });
+        }
+           ////////////////////
+      
+        function GetData() {
+            var o = form.getData();
+            return o;
+        }
+         ////////////////////
+        //标准方法接口定义
+        function SetData(data) {
+        
+            if (data.action == "edit") {
+                //跨页面传递的数据对象，克隆后才可以安全使用
+                data = mini.clone(data);
+                $.ajax({
+                    url: "Data/GetProductInfo.ashx?method=GetProduct&id=" + data.id,  
+                    cache: false,
+                    success: function (text) {
+                        var o = mini.decode(text);
+                        form.setData(o); 
+                      
+             var src="../FileManage/GetImg.ashx?method=GetMainProductPic&type=medium&fileName="+o.Picturepath;
+                    $("#Picturepath").val(o.Picturepath);//隐藏域设置图片的文件信息  
+                    $("#fileupload").val(o.Picturepath);
+                     $("#Id").val(data.id);
+                     $('#pic').attr("src",src);//回调显示图片
+                     editor1.html(o.Explain);
+                      mini.get("btnEdit1").setValue(o.Typeid);////需要从后台读取
+                      mini.get("btnEdit1").setText(o.Typename);
+                       
+                    }
+                });
+            }
+            else if(data.action == "view"){  //查看会员信息 
+             data = mini.clone(data);
+                $.ajax({
+                    url: "Data/GetProductInfo.ashx?method=GetProduct&id=" + data.id,
+                    cache: false,
+                    success: function (text) {
+                        var o = mini.decode(text);
+                        form.setData(o);
+                    var src="../FileManage/GetImg.ashx?method=GetMainProductPic&type=medium&fileName="+o.Picturepath;
+                    $("#Picturepath").val(o.Picturepath);//隐藏域设置图片的文件信息  
+                    $("#fileupload").val(o.Picturepath);
+                     $("#Id").val(data.id);
+                     $('#pic').attr("src",src);//回调显示图片
+                     editor1.html(o.Explain);
+                      mini.get("btnEdit1").setValue(o.Typeid);////需要从后台读取
+                      mini.get("btnEdit1").setText(o.Typename);
+                
+                        //禁用所有信息
+                        $("#Name").attr("disabled","disabled");
+                        $("#Simplename").attr("disabled","disabled");
+                        $("#Explain").attr("disabled","disabled");
+                        $("#Picturepath").attr("disabled","disabled");
+                        $("#Material").attr("disabled","disabled");
+                        $("#Isrecommend").attr("disabled","disabled");
+                        $("#Isshow").attr("disabled","disabled");
+                        $("#Weight").attr("disabled","disabled");
+                        $("#Volume").attr("disabled","disabled");
+                        $("#Specification").attr("disabled","disabled");
+                        $("#Model").attr("disabled","disabled");
+                        $("#Issell").attr("disabled","disabled");
+                        $("#Isexcellent").attr("disabled","disabled");
+                        $("#fileupload").attr("disabled","disabled");
+                        $("#Nongenetic").attr("disabled","disabled");
+                        $("#Isrecomment").attr("disabled","disabled");
+                        $("#Isshow").attr("disabled","disabled");
+                        $("#Num").attr("disabled","disabled");
+                        $("#Soldnum").attr("disabled","disabled");
+                        $("#Lsprice").attr("disabled","disabled");
+                        $("#Pfprice").attr("disabled","disabled"); 
+                        $("#MarketPrice").attr("disabled","disabled"); 
+                        $("#Price1").attr("disabled","disabled"); 
+                        $("#Price2").attr("disabled","disabled");
+                        $("#Price3").attr("disabled","disabled");
+                        $("#Price4").attr("disabled","disabled"); 
+                        $("#Vipprice").attr("disabled","disabled"); 
+                        
+                        $("#ok").attr("disabled","disabled");
+                        $("#ajaxButton").attr("disabled","disabled");
+                         mini.get("btnEdit1").disable();
+                        
+                       
+                    }
+                });
+            }
+        }
+
+        function CloseWindow(action) {
+            if (window.CloseOwnerWindow) window.CloseOwnerWindow(action);
+            else window.close();
+        
+        }
+        function onOk(e) {
+           if($("#Picturepath").val()=="")
+           {
+           alert("请先上传图片");
+           return;
+           }
+           else{
+                SaveData();  
+            }
+        }
+        function onCancel(e) {
+            CloseWindow( "cancel");
+        }
+        function onUpload(e){
+               
+              $(form1).ajaxSubmit({
+              url:'../FileManage/FileUpload.ashx?method=UpLoadProductPic',
+               success: function(r){
+                  var Json= eval("("+r+")");//(转义)解析json格式
+                    if(Json.status=="success"){
+                     var src="../FileManage/GetImg.ashx?method=GetMainProductPic&type=medium&fileName="+Json.website;
+                    $("#Picturepath").val(Json.website);//隐藏域设置图片的文件信息 
+ 
+                    $('#pic').attr("src",src);//回调显示图片
+                    $('input:file').MultiFile('reset');//一定要重置
+                    
+                     }
+                     else{
+                     alert("图片上传失败!");
+                     }
+                   }
+         });
+        }
+       
+
+
+    </script>
+</body>
+</html>

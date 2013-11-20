@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B4A06D74-7462-4C64-BF24-389754895AFF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Model</RootNamespace>
+    <AssemblyName>Model</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="comment.cs" />
+    <Compile Include="company.cs" />
+    <Compile Include="company_cert.cs" />
+    <Compile Include="company_pic.cs" />
+    <Compile Include="company_type.cs" />
+    <Compile Include="craftknowledge.cs" />
+    <Compile Include="crafttype.cs" />
+    <Compile Include="dbProvince.cs" />
+    <Compile Include="master.cs" />
+    <Compile Include="master_cert.cs" />
+    <Compile Include="master_type.cs" />
+    <Compile Include="member.cs" />
+    <Compile Include="MemberCollection.cs" />
+    <Compile Include="MyModel\AddUserInfoTempModel.cs" />
+    <Compile Include="MyModel\Collection.cs" />
+    <Compile Include="MyModel\orders.cs" />
+    <Compile Include="MyModel\SearchResult.cs" />
+    <Compile Include="MyModel\SearchSum.cs" />
+    <Compile Include="news.cs" />
+    <Compile Include="newstype.cs" />
+    <Compile Include="orderproduct.cs" />
+    <Compile Include="orders.cs" />
+    <Compile Include="ourinfo.cs" />
+    <Compile Include="product.cs" />
+    <Compile Include="product_picturepath.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchInfo.cs" />
+    <Compile Include="ShoppingCart.cs" />
+    <Compile Include="SystemLog.cs" />
+    <Compile Include="VCartProductInfo.cs" />
+    <Compile Include="VCompanyType.cs" />
+    <Compile Include="VFindProductInfo.cs" />
+    <Compile Include="VGroupFunction.cs" />
+    <Compile Include="VMasterType.cs" />
+    <Compile Include="VMemberCollectProduct.cs" />
+    <Compile Include="VOrders.cs" />
+    <Compile Include="VProductCraftType.cs" />
+    <Compile Include="VProductPic.cs" />
+    <Compile Include="WebMessage.cs" />
+    <Compile Include="WEB_SYS_FUNTION.cs" />
+    <Compile Include="WEB_USER.cs" />
+    <Compile Include="WEB_USERGROUP.cs" />
+    <Compile Include="WEB_USERGROUP_FUNCTIONS.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

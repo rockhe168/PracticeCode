@@ -1,0 +1,28 @@
+
+异常时间：2013-01-06 16:44:22,796 [10] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+异常通知：DAO.Hibernate.ProductDao.GetList方法异常；参数: 
+ System.Exception: sdfsdfd
+   在 DAO.Hibernate.ProductDao.GetList() 位置 D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\DAO.Hibernate\ProductDao.cs:行号 66
+   在 _dynamic_DAO.Hibernate.ProductDao.GetList(Object , Object[] )
+   在 Spring.Reflection.Dynamic.SafeMethod.Invoke(Object target, Object[] arguments)
+   在 Spring.Aop.Framework.DynamicMethodInvocation.InvokeJoinpoint()
+   在 Spring.Aop.Framework.AbstractMethodInvocation.Proceed()
+   在 Spring.Aop.Framework.Adapter.ThrowsAdviceInterceptor.Invoke(IMethodInvocation invocation)
+
+异常时间：2013-01-06 16:44:28,218 [10] 
+异常级别：ERROR 
+异 常 类：logerror [(null)] 
+ProductService.GetAllProducts()异常 
+ System.Exception: sdfsdfd
+   在 DAO.Hibernate.ProductDao.GetList() 位置 D:\Backup\我的文档\Visual Studio 2010\Projects\EnterpriseArchitecture\DAO.Hibernate\ProductDao.cs:行号 66
+   在 _dynamic_DAO.Hibernate.ProductDao.GetList(Object , Object[] )
+   在 Spring.Reflection.Dynamic.SafeMethod.Invoke(Object target, Object[] arguments)
+   在 Spring.Aop.Framework.DynamicMethodInvocation.InvokeJoinpoint()
+   在 Spring.Aop.Framework.AbstractMethodInvocation.Proceed()
+   在 Spring.Aop.Framework.Adapter.ThrowsAdviceInterceptor.Invoke(IMethodInvocation invocation)
+   在 Spring.Aop.Framework.AbstractMethodInvocation.Proceed()
+   在 Spring.Aop.Framework.DynamicProxy.AdvisedProxy.Invoke(Object proxy, Object target, Type targetType, MethodInfo targetMethod, MethodInfo proxyMethod, Object[] args, IList interceptors)
+   在 CompositionAopProxy_ab1d567b61324a81988ef3eaaa634fb6.GetList()
+   在 Service.Products.ProductService.GetAllProducts() 位置 d:\backup\我的文档\visual studio 2010\Projects\EnterpriseArchitecture\Service\Products\ProductService.cs:行号 25

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Domain.Entity" assembly="Domain">
+	<class name="Domain.Entity.Region, Domain" table="[dbo].[Region]" lazy="true">
+		<id name="Id" column="[RegionID]">
+		 	<generator class="assigned" />
+		</id>
+		<property name="RegionDescription" column="[RegionDescription]" />
+		<bag name="Territories" lazy="true" cascade="all-delete-orphan" inverse="true" >
+			<key column="[RegionID]"></key>
+			<one-to-many class="Domain.Entity.Territory"></one-to-many>
+		</bag>
+	</class>
+</hibernate-mapping>
+

@@ -1,0 +1,1764 @@
+发生时间为:2011/12/29 15:00:52
+日志内容为:
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[CategoryID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p9
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitPrice] = @p5) AND ([UnitsInStock] = @p6) AND ([UnitsOnOrder] = @p7) AND ([ReorderLevel] = @p8) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Chai]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [10 boxes x 20 bags]
+-- @p5: Input Money (Size = -1; Prec = 19; Scale = 4) [25.0000]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p9: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/29 15:20:21
+日志内容为:
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[CategoryID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p7
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsOnOrder] = @p5) AND ([ReorderLevel] = @p6) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Chai]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [10 boxes x 20 bags]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p7
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsOnOrder] = @p5) AND ([ReorderLevel] = @p6) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [2]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Chang]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 12 oz bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [40]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [25]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p7
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsOnOrder] = @p5) AND ([ReorderLevel] = @p6) AND ([Discontinued] = 1)
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [24]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Guaraná Fantástica]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [12 - 355 ml cans]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p7
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsOnOrder] = @p5) AND ([ReorderLevel] = @p6) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [34]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Sasquatch Ale]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [16]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 12 oz bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [15]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p7
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsOnOrder] = @p5) AND ([ReorderLevel] = @p6) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [35]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Steeleye Stout]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [16]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 12 oz bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [15]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p7
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsOnOrder] = @p5) AND ([ReorderLevel] = @p6) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Côte de Blaye]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [18]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [12 - 75 cl bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [15]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p7
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsOnOrder] = @p5) AND ([ReorderLevel] = @p6) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [39]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Chartreuse verte]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [18]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [750 cc per bottle]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [5]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p7
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsOnOrder] = @p5) AND ([ReorderLevel] = @p6) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [43]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Ipoh Coffee]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [20]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [16 - 500 g tins]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [25]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p7
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsOnOrder] = @p5) AND ([ReorderLevel] = @p6) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [67]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Laughing Lumberjack Lager]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [16]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 12 oz bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p7
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsOnOrder] = @p5) AND ([ReorderLevel] = @p6) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [70]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Outback Lager]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [7]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 355 ml bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [30]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p7
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsOnOrder] = @p5) AND ([ReorderLevel] = @p6) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [75]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Rhönbräu Klosterbier]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [12]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 0.5 l bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [25]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p7
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsOnOrder] = @p5) AND ([ReorderLevel] = @p6) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [76]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Lakkalikööri]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [23]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [500 ml]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [20]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/29 15:28:18
+日志内容为:
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[CategoryID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Chai]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [10 boxes x 20 bags]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/29 15:53:52
+日志内容为:
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[CategoryID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Chai]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [10 boxes x 20 bags]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [2]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Chang]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 12 oz bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [40]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [25]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND ([Discontinued] = 1)
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [24]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Guaraná Fantástica]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [12 - 355 ml cans]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [34]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Sasquatch Ale]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [16]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 12 oz bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [15]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [35]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Steeleye Stout]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [16]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 12 oz bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [15]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Côte de Blaye]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [18]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [12 - 75 cl bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [15]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [39]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Chartreuse verte]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [18]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [750 cc per bottle]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [5]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [43]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Ipoh Coffee]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [20]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [16 - 500 g tins]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [25]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [67]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Laughing Lumberjack Lager]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [16]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 12 oz bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [70]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Outback Lager]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [7]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 355 ml bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [30]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [75]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Rhönbräu Klosterbier]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [12]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 0.5 l bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [25]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [76]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Lakkalikööri]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [23]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [500 ml]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [20]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [2]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [24]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [34]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [38]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [39]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [43]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [67]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [70]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [75]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [76]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/29 15:56:30
+日志内容为:
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[CategoryID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Chai]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [10 boxes x 20 bags]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [2]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Chang]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 12 oz bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [40]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [25]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND ([Discontinued] = 1)
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [24]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Guaraná Fantástica]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [12 - 355 ml cans]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [34]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Sasquatch Ale]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [16]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 12 oz bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [15]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [35]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Steeleye Stout]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [16]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 12 oz bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [15]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Côte de Blaye]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [18]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [12 - 75 cl bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [15]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [39]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Chartreuse verte]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [18]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [750 cc per bottle]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [5]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [43]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Ipoh Coffee]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [20]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [16 - 500 g tins]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [25]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [67]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Laughing Lumberjack Lager]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [16]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 12 oz bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [70]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Outback Lager]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [7]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 355 ml bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [30]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [75]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Rhönbräu Klosterbier]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [12]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 0.5 l bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [25]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [76]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Lakkalikööri]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [23]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [500 ml]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [20]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [2]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [24]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [34]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [38]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [39]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [43]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [67]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [70]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [75]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [76]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/29 16:31:05
+日志内容为:
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[CategoryID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Chai]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [10 boxes x 20 bags]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [2]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Chang]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 12 oz bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [40]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [25]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND ([Discontinued] = 1)
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [24]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Guaraná Fantástica]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [12 - 355 ml cans]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [34]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Sasquatch Ale]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [16]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 12 oz bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [15]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [35]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Steeleye Stout]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [16]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 12 oz bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [15]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Côte de Blaye]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [18]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [12 - 75 cl bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [15]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [39]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Chartreuse verte]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [18]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [750 cc per bottle]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [5]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [43]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Ipoh Coffee]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [20]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [16 - 500 g tins]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [25]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [67]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Laughing Lumberjack Lager]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [16]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 12 oz bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [70]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Outback Lager]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [7]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 355 ml bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [30]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [75]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Rhönbräu Klosterbier]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [12]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 0.5 l bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [25]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [76]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Lakkalikööri]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [23]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [500 ml]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [20]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [37]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [2]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [24]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [34]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [38]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [39]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [43]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [67]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [70]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [75]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [76]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/29 16:33:46
+日志内容为:
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[CategoryID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Chai]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [10 boxes x 20 bags]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [2]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Chang]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 12 oz bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [40]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [25]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND ([Discontinued] = 1)
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [24]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Guaraná Fantástica]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [12 - 355 ml cans]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [34]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Sasquatch Ale]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [16]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 12 oz bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [15]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [35]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Steeleye Stout]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [16]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 12 oz bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [15]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Côte de Blaye]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [18]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [12 - 75 cl bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [15]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [39]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Chartreuse verte]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [18]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [750 cc per bottle]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [5]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [43]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Ipoh Coffee]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [20]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [16 - 500 g tins]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [25]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [67]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Laughing Lumberjack Lager]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [16]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 12 oz bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [70]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Outback Lager]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [7]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 355 ml bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [30]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [75]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Rhönbräu Klosterbier]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [12]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 0.5 l bottles]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [25]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitsInStock] = @p8
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitsInStock] = @p5) AND ([UnitsOnOrder] = @p6) AND ([ReorderLevel] = @p7) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [76]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Lakkalikööri]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [23]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [500 ml]
+-- @p5: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [20]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [2]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [24]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [34]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [38]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [39]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [43]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [67]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [70]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [75]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [76]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/29 16:34:08
+日志内容为:
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[CategoryID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitPrice] = @p9, [UnitsInStock] = @p10
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitPrice] = @p5) AND ([UnitsInStock] = @p6) AND ([UnitsOnOrder] = @p7) AND ([ReorderLevel] = @p8) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Chai]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [10 boxes x 20 bags]
+-- @p5: Input Money (Size = -1; Prec = 19; Scale = 4) [25.0000]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p9: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p10: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [34]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitPrice] = @p9, [UnitsInStock] = @p10
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitPrice] = @p5) AND ([UnitsInStock] = @p6) AND ([UnitsOnOrder] = @p7) AND ([ReorderLevel] = @p8) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [2]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Chang]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 12 oz bottles]
+-- @p5: Input Money (Size = -1; Prec = 19; Scale = 4) [25.0000]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [40]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [25]
+-- @p9: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p10: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [34]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitPrice] = @p9, [UnitsInStock] = @p10
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitPrice] = @p5) AND ([UnitsInStock] = @p6) AND ([UnitsOnOrder] = @p7) AND ([ReorderLevel] = @p8) AND ([Discontinued] = 1)
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [24]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Guaraná Fantástica]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [12 - 355 ml cans]
+-- @p5: Input Money (Size = -1; Prec = 19; Scale = 4) [25.0000]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p9: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p10: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [34]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitPrice] = @p9, [UnitsInStock] = @p10
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitPrice] = @p5) AND ([UnitsInStock] = @p6) AND ([UnitsOnOrder] = @p7) AND ([ReorderLevel] = @p8) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [34]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Sasquatch Ale]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [16]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 12 oz bottles]
+-- @p5: Input Money (Size = -1; Prec = 19; Scale = 4) [25.0000]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [15]
+-- @p9: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p10: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [34]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitPrice] = @p9, [UnitsInStock] = @p10
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitPrice] = @p5) AND ([UnitsInStock] = @p6) AND ([UnitsOnOrder] = @p7) AND ([ReorderLevel] = @p8) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [35]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Steeleye Stout]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [16]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 12 oz bottles]
+-- @p5: Input Money (Size = -1; Prec = 19; Scale = 4) [25.0000]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [15]
+-- @p9: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p10: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [34]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitPrice] = @p9, [UnitsInStock] = @p10
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitPrice] = @p5) AND ([UnitsInStock] = @p6) AND ([UnitsOnOrder] = @p7) AND ([ReorderLevel] = @p8) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Côte de Blaye]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [18]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [12 - 75 cl bottles]
+-- @p5: Input Money (Size = -1; Prec = 19; Scale = 4) [25.0000]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [15]
+-- @p9: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p10: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [34]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitPrice] = @p9, [UnitsInStock] = @p10
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitPrice] = @p5) AND ([UnitsInStock] = @p6) AND ([UnitsOnOrder] = @p7) AND ([ReorderLevel] = @p8) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [39]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Chartreuse verte]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [18]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [750 cc per bottle]
+-- @p5: Input Money (Size = -1; Prec = 19; Scale = 4) [25.0000]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [5]
+-- @p9: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p10: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [34]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitPrice] = @p9, [UnitsInStock] = @p10
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitPrice] = @p5) AND ([UnitsInStock] = @p6) AND ([UnitsOnOrder] = @p7) AND ([ReorderLevel] = @p8) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [43]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Ipoh Coffee]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [20]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [16 - 500 g tins]
+-- @p5: Input Money (Size = -1; Prec = 19; Scale = 4) [25.0000]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [25]
+-- @p9: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p10: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [34]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitPrice] = @p9, [UnitsInStock] = @p10
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitPrice] = @p5) AND ([UnitsInStock] = @p6) AND ([UnitsOnOrder] = @p7) AND ([ReorderLevel] = @p8) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [67]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Laughing Lumberjack Lager]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [16]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 12 oz bottles]
+-- @p5: Input Money (Size = -1; Prec = 19; Scale = 4) [25.0000]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p9: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p10: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [34]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitPrice] = @p9, [UnitsInStock] = @p10
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitPrice] = @p5) AND ([UnitsInStock] = @p6) AND ([UnitsOnOrder] = @p7) AND ([ReorderLevel] = @p8) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [70]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Outback Lager]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [7]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 355 ml bottles]
+-- @p5: Input Money (Size = -1; Prec = 19; Scale = 4) [25.0000]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [30]
+-- @p9: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p10: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [34]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitPrice] = @p9, [UnitsInStock] = @p10
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitPrice] = @p5) AND ([UnitsInStock] = @p6) AND ([UnitsOnOrder] = @p7) AND ([ReorderLevel] = @p8) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [75]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Rhönbräu Klosterbier]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [12]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 0.5 l bottles]
+-- @p5: Input Money (Size = -1; Prec = 19; Scale = 4) [25.0000]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [25]
+-- @p9: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p10: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [34]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitPrice] = @p9, [UnitsInStock] = @p10
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitPrice] = @p5) AND ([UnitsInStock] = @p6) AND ([UnitsOnOrder] = @p7) AND ([ReorderLevel] = @p8) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [76]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Lakkalikööri]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [23]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [500 ml]
+-- @p5: Input Money (Size = -1; Prec = 19; Scale = 4) [25.0000]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [20]
+-- @p9: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p10: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [34]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [2]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [24]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [34]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [35]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [38]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [39]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [43]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [67]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [70]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [75]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[ProductID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [76]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/29 16:49:48
+日志内容为:
+SELECT [t0].[ProductID], [t0].[ProductName], [t0].[SupplierID], [t0].[CategoryID], [t0].[QuantityPerUnit], [t0].[UnitPrice], [t0].[UnitsInStock], [t0].[UnitsOnOrder], [t0].[ReorderLevel], [t0].[Discontinued]
+FROM [dbo].[Products] AS [t0]
+WHERE [t0].[CategoryID] = @p0
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitPrice] = @p9, [UnitsInStock] = @p10
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitPrice] = @p5) AND ([UnitsInStock] = @p6) AND ([UnitsOnOrder] = @p7) AND ([ReorderLevel] = @p8) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Chai]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [10 boxes x 20 bags]
+-- @p5: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p9: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p10: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [33]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitPrice] = @p9, [UnitsInStock] = @p10
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitPrice] = @p5) AND ([UnitsInStock] = @p6) AND ([UnitsOnOrder] = @p7) AND ([ReorderLevel] = @p8) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [2]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Chang]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 12 oz bottles]
+-- @p5: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [40]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [25]
+-- @p9: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p10: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [33]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitPrice] = @p9, [UnitsInStock] = @p10
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitPrice] = @p5) AND ([UnitsInStock] = @p6) AND ([UnitsOnOrder] = @p7) AND ([ReorderLevel] = @p8) AND ([Discontinued] = 1)
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [24]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Guaraná Fantástica]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [12 - 355 ml cans]
+-- @p5: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p9: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p10: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [33]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitPrice] = @p9, [UnitsInStock] = @p10
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitPrice] = @p5) AND ([UnitsInStock] = @p6) AND ([UnitsOnOrder] = @p7) AND ([ReorderLevel] = @p8) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [34]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Sasquatch Ale]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [16]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 12 oz bottles]
+-- @p5: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [15]
+-- @p9: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p10: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [33]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitPrice] = @p9, [UnitsInStock] = @p10
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitPrice] = @p5) AND ([UnitsInStock] = @p6) AND ([UnitsOnOrder] = @p7) AND ([ReorderLevel] = @p8) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [35]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Steeleye Stout]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [16]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 12 oz bottles]
+-- @p5: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [15]
+-- @p9: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p10: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [33]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitPrice] = @p9, [UnitsInStock] = @p10
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitPrice] = @p5) AND ([UnitsInStock] = @p6) AND ([UnitsOnOrder] = @p7) AND ([ReorderLevel] = @p8) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [38]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Côte de Blaye]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [18]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [12 - 75 cl bottles]
+-- @p5: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [15]
+-- @p9: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p10: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [33]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitPrice] = @p9, [UnitsInStock] = @p10
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitPrice] = @p5) AND ([UnitsInStock] = @p6) AND ([UnitsOnOrder] = @p7) AND ([ReorderLevel] = @p8) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [39]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Chartreuse verte]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [18]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [750 cc per bottle]
+-- @p5: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [5]
+-- @p9: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p10: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [33]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitPrice] = @p9, [UnitsInStock] = @p10
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitPrice] = @p5) AND ([UnitsInStock] = @p6) AND ([UnitsOnOrder] = @p7) AND ([ReorderLevel] = @p8) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [43]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Ipoh Coffee]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [20]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [16 - 500 g tins]
+-- @p5: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [25]
+-- @p9: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p10: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [33]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitPrice] = @p9, [UnitsInStock] = @p10
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitPrice] = @p5) AND ([UnitsInStock] = @p6) AND ([UnitsOnOrder] = @p7) AND ([ReorderLevel] = @p8) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [67]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Laughing Lumberjack Lager]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [16]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 12 oz bottles]
+-- @p5: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p9: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p10: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [33]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitPrice] = @p9, [UnitsInStock] = @p10
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitPrice] = @p5) AND ([UnitsInStock] = @p6) AND ([UnitsOnOrder] = @p7) AND ([ReorderLevel] = @p8) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [70]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Outback Lager]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [7]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 355 ml bottles]
+-- @p5: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [10]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [30]
+-- @p9: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p10: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [33]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitPrice] = @p9, [UnitsInStock] = @p10
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitPrice] = @p5) AND ([UnitsInStock] = @p6) AND ([UnitsOnOrder] = @p7) AND ([ReorderLevel] = @p8) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [75]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Rhönbräu Klosterbier]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [12]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [24 - 0.5 l bottles]
+-- @p5: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [25]
+-- @p9: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p10: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [33]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+UPDATE [dbo].[Products]
+SET [UnitPrice] = @p9, [UnitsInStock] = @p10
+WHERE ([ProductID] = @p0) AND ([ProductName] = @p1) AND ([SupplierID] = @p2) AND ([CategoryID] = @p3) AND ([QuantityPerUnit] = @p4) AND ([UnitPrice] = @p5) AND ([UnitsInStock] = @p6) AND ([UnitsOnOrder] = @p7) AND ([ReorderLevel] = @p8) AND (NOT ([Discontinued] = 1))
+-- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [76]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Lakkalikööri]
+-- @p2: Input Int (Size = -1; Prec = 0; Scale = 0) [23]
+-- @p3: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [500 ml]
+-- @p5: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p6: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [36]
+-- @p7: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [0]
+-- @p8: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [20]
+-- @p9: Input Money (Size = -1; Prec = 19; Scale = 4) [26.0000]
+-- @p10: Input SmallInt (Size = -1; Prec = 0; Scale = 0) [33]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/29 16:50:52
+日志内容为:
+INSERT INTO [dbo].[Customers]([CustomerID], [CompanyName], [ContactName], [ContactTitle], [Address], [City], [Region], [PostalCode], [Country], [Phone], [Fax])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10)
+-- @p0: Input NChar (Size = 5; Prec = 0; Scale = 0) [Rock]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p2: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [RockHe]
+-- @p3: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p5: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p6: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p7: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p8: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p9: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p10: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/29 16:51:49
+日志内容为:
+INSERT INTO [dbo].[Customers]([CustomerID], [CompanyName], [ContactName], [ContactTitle], [Address], [City], [Region], [PostalCode], [Country], [Phone], [Fax])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10)
+-- @p0: Input NChar (Size = 5; Prec = 0; Scale = 0) [Rock]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [RockHe]
+-- @p2: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p3: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p5: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p6: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p7: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p8: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p9: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p10: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+INSERT INTO [dbo].[Customers]([CustomerID], [CompanyName], [ContactName], [ContactTitle], [Address], [City], [Region], [PostalCode], [Country], [Phone], [Fax])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10)
+-- @p0: Input NChar (Size = 5; Prec = 0; Scale = 0) [BOLID]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Good]
+-- @p2: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p3: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p5: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p6: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p7: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p8: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p9: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p10: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/29 17:11:01
+日志内容为:
+发生时间为:2011/12/29 17:12:13
+日志内容为:
+发生时间为:2011/12/29 17:14:52
+日志内容为:
+发生时间为:2011/12/29 17:15:21
+日志内容为:
+发生时间为:2011/12/29 17:15:42
+日志内容为:
+发生时间为:2011/12/29 17:16:07
+日志内容为:
+INSERT INTO [dbo].[Customers]([CustomerID], [CompanyName], [ContactName], [ContactTitle], [Address], [City], [Region], [PostalCode], [Country], [Phone], [Fax])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10)
+-- @p0: Input NChar (Size = 5; Prec = 0; Scale = 0) [Rock]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [RockHe]
+-- @p2: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p3: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p5: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p6: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p7: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p8: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p9: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p10: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+INSERT INTO [dbo].[Customers]([CustomerID], [CompanyName], [ContactName], [ContactTitle], [Address], [City], [Region], [PostalCode], [Country], [Phone], [Fax])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10)
+-- @p0: Input NChar (Size = 5; Prec = 0; Scale = 0) [BOLID]
+-- @p1: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Good]
+-- @p2: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p3: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p4: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p5: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p6: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p7: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p8: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p9: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- @p10: Input NVarChar (Size = 4000; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+

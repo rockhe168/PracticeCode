@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>管理员回复</title>
+       <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="../scripts/jquery-1.6.2.min.js" type="text/javascript"></script>
+    <script src="../scripts/miniui/miniui.js" type="text/javascript"></script>
+     <script src="../scripts/isValid.js" type="text/javascript"></script>
+    <link href="../scripts/miniui/themes/default/miniui.css" rel="stylesheet" type="text/css" />
+    <link href="../scripts/miniui/themes/icons.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body> 
+<form id="form1" method="post">
+       <!-- <div style="padding-left:11px;padding-bottom:5px;">-->
+         <fieldset style="border:solid 1px #aaa;padding:3px; width:500px">
+            <legend >管理员回复</legend>
+            <input type="hidden" id="Id" name="Id" />
+            <div style="padding:5px;">
+            <table>
+                <tr>
+                    <td class="style2">留言人：</td>
+                    <td class="style3">    
+                        <input name="liuyanName" id="liuyanName" class="mini-textbox"   disabled="disabled"/>    
+                    </td>
+                    <td class="style2">留言时间：</td>
+                    <td class="style3">    
+                        <input name="liuyanTime" id="liuyanTime" class="mini-textbox"  disabled="disabled"/>
+                    </td>
+                </tr>
+                 <tr>
+                    <td class="style2">电话：</td>
+                    <td class="style3">    
+                        <input name="MobilePhone" id="MobilePhone" class="mini-textbox"   disabled="disabled"/>    
+                    </td>
+                    <td class="style2">Email：</td>
+                    <td class="style3">    
+                        <input name="Email" id="Email" class="mini-textbox"  disabled="disabled"/>
+                    </td>
+                </tr>
+                <tr>
+                  <td class="style2">留言：</td>
+                <td colspan="3">    
+                 <input name="liuyanContent" id="liuyanContent" disabled="disabled" class=" mini-textarea" style=" width:100%" />
+                </td>
+                </tr>
+                <tr>
+                  <td class="style2" rowspan="3">回复：</td>
+                <td colspan="3">    
+                 <input name="huifuContent" id="huifuContent" class=" mini-textarea" requiredErrorText=" 回复内容不能为空" required="true" style=" width:100%" />
+                </td>
+                </tr>
+                   
+            </table>
+              <div style="padding:12px;text-align:center;">   
+            
+        <a class="mini-button" id="btnComfirm" onclick="onOk" style="width:60px;margin-right:20px;">确定</a>       
+        <a class="mini-button" onclick="onCancel" style="width:60px;">取消</a>       
+    </div>
+       </div>
+       </fieldset>
+</form>
+ <script type="text/javascript">
+    var form = new mini.Form("form1");
+        var formData = {};
+
+        function SaveData() {
+        var Data=form.getData();
+       
+        var JsonData={Id: formData.Id, huifuContent: 
+                Data.huifuContent };
+            $.ajax({
+                url: "Data/GetOurInfo.ashx?method=SaveComment",
+                data:JsonData ,
+                cache: false,
+                success: function (text) {
+
+                    CloseWindow("save");
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    if(jqXHR.responseText){
+                    CloseWindow();
+                    }
+                }
+            });
+        }
+
+        ////////////////////
+        //标准方法接口定义
+        function SetData(data) {
+            //跨页面传递的数据对象，克隆后才可以安全使用
+                data = mini.clone(data);
+
+                formData.Id = data.id;
+
+                $.ajax({
+                    url: "Data/GetOurInfo.ashx?method=LoadComment&id=" + data.id,
+                    cache: false,
+                    success: function (text) {
+                        var o = mini.decode(text);
+                        form.setData(o);
+                    $("#liuyanName").attr("disabled","disabled");
+                    $("#liuyanTime").attr("disabled","disabled");
+                    $("#liuyanContent").attr("disabled","disabled");
+                    $("#Email").attr("disabled","disabled");
+                    $("#MobilePhone").attr("disabled","disabled");
+                    }
+                });
+            if (data.action == "view") {
+            
+            $("#btnComfirm").attr("disabled","disabled");
+            $("#huifuContent").attr("disabled","disabled");
+            }
+            else{
+            
+            
+            } 
+           
+        }
+        function GetData() {
+            var o = form.getData();
+            return o;
+        }
+        function CloseWindow(action) {
+            if (window.CloseOwnerWindow) window.CloseOwnerWindow(action);
+            else window.close();
+        
+        }
+
+        function onOk(e) {
+            SaveData();
+        }
+        function onCancel(e) {
+            CloseWindow("cancel");
+        }
+        </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Domain.Entity" assembly="Domain">
+	<class name="Domain.Entity.Order, Domain" table="[dbo].[Orders]" lazy="true">
+		<id name="Id" column="[OrderID]">
+		 	<generator class="native" />
+		</id>
+		<property name="OrderDate" column="[OrderDate]" />
+		<property name="RequiredDate" column="[RequiredDate]" />
+		<property name="ShippedDate" column="[ShippedDate]" />
+		<property name="Freight" column="[Freight]" />
+		<property name="ShipName" column="[ShipName]" />
+		<property name="ShipAddress" column="[ShipAddress]" />
+		<property name="ShipCity" column="[ShipCity]" />
+		<property name="ShipRegion" column="[ShipRegion]" />
+		<property name="ShipPostalCode" column="[ShipPostalCode]" />
+		<property name="ShipCountry" column="[ShipCountry]" />
+		<many-to-one name="Customer" column="[CustomerID]" class="Domain.Entity.Customer" />
+		<many-to-one name="Employee" column="[EmployeeID]" class="Domain.Entity.Employee" />
+		<many-to-one name="Shipper" column="[ShipVia]" class="Domain.Entity.Shipper" />
+	</class>
+</hibernate-mapping>
+

@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        #ctner
+        {
+            border: 1px solid #555;
+            height: 200px;
+            width: 200px;
+            padding-top: 20px;
+            position: relative;
+        }
+        #obj
+        {
+            height: 20px;
+            width: 20px;
+            background-color: #0ff;
+            position: absolute;
+            left: 0;
+        }
+        </style>
+</head>
+<body>
+    <div>
+        <p>这是根据<a href="http://geekswithblogs.net/dlussier/archive/2009/11/21/136454.aspx">这篇文章</a>中的图所做的一个mvc的例子</p>
+        <p>注意观察btn的<em>disabled状态</em>和运动时的<em>文字</em></p>
+    </div>
+    <div id="ctner">
+        <div id="obj">
+        </div>
+    </div>
+    <div id="info"></div>
+    <button id="btn" onclick="test();">click</button>
+    <script type="text/javascript" src="mvc.js"></script>
+    <script type="text/javascript" src="mvcunittest.js"></script>
+</body>
+</html>

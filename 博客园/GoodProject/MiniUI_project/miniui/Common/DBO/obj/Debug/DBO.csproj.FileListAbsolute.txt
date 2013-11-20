@@ -1,0 +1,15 @@
+C:\Documents and Settings\Administrator\桌面\cxsys\Common\DBO\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\cxsys\Common\DBO\bin\Debug\DBO.dll
+C:\Documents and Settings\Administrator\桌面\cxsys\Common\DBO\bin\Debug\DBO.pdb
+C:\Documents and Settings\Administrator\桌面\cxsys\Common\DBO\obj\Debug\DBO.dll
+C:\Documents and Settings\Administrator\桌面\cxsys\Common\DBO\obj\Debug\DBO.pdb
+C:\Users\tianzh\Desktop\Common\DBO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\tianzh\Desktop\Common\DBO\obj\Debug\DBO.dll
+C:\Users\tianzh\Desktop\Common\DBO\bin\Debug\DBO.dll
+C:\Users\tianzh\Desktop\Common\DBO\bin\Debug\DBO.pdb
+C:\Users\tianzh\Desktop\Common\DBO\obj\Debug\DBO.pdb
+F:\项目源代码\餐饮网站设计\Common\DBO\bin\Debug\DBO.dll
+F:\项目源代码\餐饮网站设计\Common\DBO\bin\Debug\DBO.pdb
+F:\项目源代码\餐饮网站设计\Common\DBO\obj\Debug\ResolveAssemblyReference.cache
+F:\项目源代码\餐饮网站设计\Common\DBO\obj\Debug\DBO.dll
+F:\项目源代码\餐饮网站设计\Common\DBO\obj\Debug\DBO.pdb

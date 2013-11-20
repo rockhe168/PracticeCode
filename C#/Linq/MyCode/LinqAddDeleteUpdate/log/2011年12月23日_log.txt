@@ -1,0 +1,26 @@
+.Net SqlClient Data Provider: 已将数据库上下文更改为 'GuestBook'。。
+SELECT [t0].[Id], [t0].[UserName], [t0].[PostTime], [t0].[Message], [t0].[IsReplied], [t0].[Reply]
+FROM [tbGuestBook] AS [t0]
+ORDER BY [t0].[PostTime]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+INSERT INTO [tbGuestBook]([Id], [UserName], [PostTime], [Message], [IsReplied], [Reply])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+-- @p0: Input UniqueIdentifier (Size = -1; Prec = 0; Scale = 0) [4dd3a66d-e073-4a65-8d90-29adb8a1cb00]
+-- @p1: Input VarChar (Size = 8000; Prec = 0; Scale = 0) [34]
+-- @p2: Input DateTime (Size = -1; Prec = 0; Scale = 0) [2011/12/23 15:37:20]
+-- @p3: Input VarChar (Size = 8000; Prec = 0; Scale = 0) [34]
+-- @p4: Input Bit (Size = -1; Prec = 0; Scale = 0) [False]
+-- @p5: Input VarChar (Size = 8000; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[Id], [t0].[UserName], [t0].[PostTime], [t0].[Message], [t0].[IsReplied], [t0].[Reply]
+FROM [tbGuestBook] AS [t0]
+ORDER BY [t0].[PostTime]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+SELECT [t0].[Id], [t0].[UserName], [t0].[PostTime], [t0].[Message], [t0].[IsReplied], [t0].[Reply]
+FROM [tbGuestBook] AS [t0]
+ORDER BY [t0].[PostTime]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+

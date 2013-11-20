@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net"
+         xmlns:db="http://www.springframework.net/database">
+   <!--Dao-->
+		  <object id="CategoryDao"
+          type="DAO.Hibernate.CategoryDao, DAO.Hibernate" >
+            <property name="HibernateDaoHelp" ref="CategoryDaoHelp"/>
+  </object>
+		  <object id="CustomerDemographicDao"
+          type="DAO.Hibernate.CustomerDemographicDao, DAO.Hibernate" >
+            <property name="HibernateDaoHelp" ref="CustomerDemographicDaoHelp"/>
+  </object>
+		  <object id="CustomerDao"
+          type="DAO.Hibernate.CustomerDao, DAO.Hibernate" >
+            <property name="HibernateDaoHelp" ref="CustomerDaoHelp"/>
+  </object>
+		  <object id="EmployeeDao"
+          type="DAO.Hibernate.EmployeeDao, DAO.Hibernate" >
+            <property name="HibernateDaoHelp" ref="EmployeeDaoHelp"/>
+  </object>
+		  <object id="OrderDetailDao"
+          type="DAO.Hibernate.OrderDetailDao, DAO.Hibernate" >
+            <property name="HibernateDaoHelp" ref="OrderDetailDaoHelp"/>
+  </object>
+		  <object id="OrderDao"
+          type="DAO.Hibernate.OrderDao, DAO.Hibernate" >
+            <property name="HibernateDaoHelp" ref="OrderDaoHelp"/>
+  </object>
+		  <object id="ProductDao"
+          type="DAO.Hibernate.ProductDao, DAO.Hibernate" >
+            <property name="HibernateDaoHelp" ref="ProductDaoHelp"/>
+  </object>
+		  <object id="RegionDao"
+          type="DAO.Hibernate.RegionDao, DAO.Hibernate" >
+            <property name="HibernateDaoHelp" ref="RegionDaoHelp"/>
+  </object>
+		  <object id="ShipperDao"
+          type="DAO.Hibernate.ShipperDao, DAO.Hibernate" >
+            <property name="HibernateDaoHelp" ref="ShipperDaoHelp"/>
+  </object>
+		  <object id="SupplierDao"
+          type="DAO.Hibernate.SupplierDao, DAO.Hibernate" >
+            <property name="HibernateDaoHelp" ref="SupplierDaoHelp"/>
+  </object>
+		  <object id="TerritoryDao"
+          type="DAO.Hibernate.TerritoryDao, DAO.Hibernate" >
+            <property name="HibernateDaoHelp" ref="TerritoryDaoHelp"/>
+  </object>
+
+</objects>
+

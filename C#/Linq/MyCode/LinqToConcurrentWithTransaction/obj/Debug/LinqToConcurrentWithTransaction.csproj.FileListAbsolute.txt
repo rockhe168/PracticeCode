@@ -1,0 +1,10 @@
+E:\linq\Code\LinqDemo\LinqToConcurrentWithTransaction\bin\LinqToConcurrentWithTransaction.dll
+E:\linq\Code\LinqDemo\LinqToConcurrentWithTransaction\bin\LinqToConcurrentWithTransaction.pdb
+E:\linq\Code\LinqDemo\LinqToConcurrentWithTransaction\obj\Debug\ResolveAssemblyReference.cache
+E:\linq\Code\LinqDemo\LinqToConcurrentWithTransaction\obj\Debug\LinqToConcurrentWithTransaction.dll
+E:\linq\Code\LinqDemo\LinqToConcurrentWithTransaction\obj\Debug\LinqToConcurrentWithTransaction.pdb
+E:\My\百度云\PracticeCode\C#\Linq\MyCode\LinqToConcurrentWithTransaction\bin\LinqToConcurrentWithTransaction.dll
+E:\My\百度云\PracticeCode\C#\Linq\MyCode\LinqToConcurrentWithTransaction\bin\LinqToConcurrentWithTransaction.pdb
+E:\My\百度云\PracticeCode\C#\Linq\MyCode\LinqToConcurrentWithTransaction\obj\Debug\ResolveAssemblyReference.cache
+E:\My\百度云\PracticeCode\C#\Linq\MyCode\LinqToConcurrentWithTransaction\obj\Debug\LinqToConcurrentWithTransaction.dll
+E:\My\百度云\PracticeCode\C#\Linq\MyCode\LinqToConcurrentWithTransaction\obj\Debug\LinqToConcurrentWithTransaction.pdb

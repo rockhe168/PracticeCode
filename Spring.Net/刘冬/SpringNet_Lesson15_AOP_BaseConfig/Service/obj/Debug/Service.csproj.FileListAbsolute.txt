@@ -1,0 +1,5 @@
+F:\Exercise\SpringNet\Step2\SpringNet_Lesson15\Service\bin\Debug\Service.dll
+F:\Exercise\SpringNet\Step2\SpringNet_Lesson15\Service\bin\Debug\Service.pdb
+F:\Exercise\SpringNet\Step2\SpringNet_Lesson15\Service\obj\Debug\ResolveAssemblyReference.cache
+F:\Exercise\SpringNet\Step2\SpringNet_Lesson15\Service\obj\Debug\Service.dll
+F:\Exercise\SpringNet\Step2\SpringNet_Lesson15\Service\obj\Debug\Service.pdb

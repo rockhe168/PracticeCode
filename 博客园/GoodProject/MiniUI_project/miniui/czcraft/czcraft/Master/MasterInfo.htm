@@ -1,0 +1,220 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	大师信息
+</title><meta content="text/html;charset=utf-8" http-equiv="Content-Type" /><link href="/css/top_foot.css" rel="stylesheet" type="text/css" /><link href="/css/style.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src='/js/main_nav.js'></script>
+
+    <script type="text/javascript" src='/js/nav.js'></script>
+
+    <script src='/Admin/scripts/jquery-1.7.1.min.js ' type="text/javascript"></script>
+
+    <script src='/js/AjaxJsDeal/Left_Top_Down.js ' type="text/javascript"></script>
+
+    <script src='/js/AjaxJsDeal/MasterPage.js ' type="text/javascript"></script>
+
+    <script type="text/javascript">
+    var NewsListURL='/News/NewsList.aspx';
+    var CraftKnowledgeListURL='/CraftKnowledge/CraftKnowledgeList.aspx';
+    var SearchProductURL='/Product/SearchProduct.aspx';
+    $(function(){
+     //第一次登录需要检测是否自动登录
+       CheckLoginState();
+    //加载类别
+        GetNewsType();
+       GetProductType();
+        });
+    </script>
+
+    
+    <link href="../css/gs_ms.css" rel="stylesheet" type="text/css" />
+
+    <script src="../Admin/scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+
+    <script src="../js/queryUrlParams.js" type="text/javascript"></script>
+
+
+    <script src="../js/AjaxJsDeal/MasterInfo.js" type="text/javascript"></script>
+
+    
+    <script type="text/javascript">
+   //获得大师id信息
+     var id=$.query.get("MasterId"); 
+     var ProductURL='/Product/Product.htm';
+     var Master_MoreProductURL='/Product/Master_MoreProduct.aspx';
+     $(function(){
+     GetMasterInfo();
+     GetMasterIntro();
+     //绑定获取大师简介事件
+     $("#Master_Intro").click(function(){
+     GetMasterIntro();
+     });
+     $("#Master_Award").click(function(){
+     GetMasterReward();
+     });
+     $("#Master_Work").click(function(){
+     GetMasterWork();
+     });
+     });
+    </script>
+
+</head>
+<body>
+    <div class="sheel">
+        <div class="header">
+            <div class="top_side">
+                <ul>
+                    <li id="liLogin"><a href='/Member/MemberLogin.htm'>登录</a> | </li>
+                    <li><a href='/Member/RegisterMember.htm'>注册</a> </li>
+                    <li>|<a href='/Member/MemberInfo.htm'><label id="lbUserNameInfo"></label>个人信息</a>
+                    </li>
+                    <li>|<a href='/Member/Collection.htm'>我的收藏夹</a> </li>
+                    <li>|<a href='/Member/ShopingCart.htm'>我的购物车</a> </li>
+                    <li>|<a href='/Member/OrderManage.htm'>我的订单</a> </li>
+                      <li>|<a href='/Comments/WebComment.htm'>总站留言</a> </li>
+                       <li>|<a href='/Search/SearchProduct.aspx'>找找看</a> </li>
+                    <li id="liLogout">|<a id="A2" href='/Member/Data/GetMemberInfo.ashx?method=MemberLogout'>安全退出</a></li>
+                </ul>
+            </div>
+            <div class="nav">
+                  <ul id="sddm">
+                    <li><a href='/Default.htm'>首&nbsp;&nbsp;页</a> </li>
+                    <li><a href='/CraftKnowledge/technology.htm'>工艺概况</a></li>
+                    <li><a href='/CraftKnowledge/CraftKnowledgeList.aspx' onmouseover="mopen('m1')"
+                        onmouseout="mclosetime()">工艺知识</a>
+                        <div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                        </div>
+                    </li>
+                    <li><a href='/Product/ProductShow.aspx' onmouseover="mopen('m4')"
+                        onmouseout="mclosetime()">作品展览</a>
+                        <div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                        </div>
+                    </li>
+                    <li><a href='/Product/NongeneticProduct.htm' onmouseover="mopen('m3')"
+                        onmouseout="mclosetime()">非遗作品</a>
+                        <div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                        </div>
+                    </li>
+                    <li><a href='/News/NewsList.aspx' onmouseover="mopen('m2')" onmouseout="mclosetime()">
+                        新闻中心</a>
+                        <div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                        </div>
+                    </li>
+                    <li><a href='/Master/MasterList.aspx'>大师风采</a></li>
+                    <li><a href='/Company/CompanyList.aspx'>企业展示</a></li>
+                   
+                     <li><a href='/AboutUs.htm'>联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div class="left_side">
+                <div class="logo_bottom">
+                </div>
+                <div class="enter1">
+                    <a href="#">
+                        <img src='/images/master.png' alt="大师入口" title="大师入口" /></a></div>
+                <div class="enter2">
+                    <a href="#">
+                        <img src='/images/company.png' alt="企业入口" title="企业入口" /></a></div>
+                <div class="craft">
+                    <h3 class="hide">
+                        工艺品分类</h3>
+                    <ul id="CraftType">
+                    </ul>
+                </div>
+                <div class="paihang">
+                    <h3>
+                        <p class="hide">
+                            推荐排行榜</p>
+                        <p>
+                            <a href="#">更多</a></p>
+                    </h3>
+                    <ul class="ph_ul" id="ph1">
+                        <li><a href="#" onmouseover="setph(0);" class="ph_hover">大师推荐</a></li>
+                        <li><a href="#" onmouseover="setph(1);">工艺品推荐</a></li>
+                        <li><a href="#" onmouseover="setph(2);">企业推荐</a></li>
+                    </ul>
+                    <div class="ph_p" id="ph2">
+                        <ul style="display: block;">
+                            <li class="ph_li1"><a href="#" class="phplihover">周少君</a></li>
+                            <li class="ph_li2"><a href="#">周少君</a></li>
+                            <li class="ph_li3"><a href="#">周少君</a></li>
+                            <li class="ph_li4"><a href="#">周少君</a></li>
+                            <li class="ph_li5"><a href="#">周少君</a></li>
+                        </ul>
+                        <ul>
+                            <li class="ph_li1"><a href="#" class="phplihover">大大个</a></li>
+                            <li class="ph_li2"><a href="#">大大个</a></li>
+                            <li class="ph_li3"><a href="#">大大个</a></li>
+                            <li class="ph_li4"><a href="#">大大个</a></li>
+                            <li class="ph_li5"><a href="#">大大个</a></li>
+                        </ul>
+                        <ul>
+                            <li class="ph_li1"><a href="#" class="phplihover">小小粒</a></li>
+                            <li class="ph_li2"><a href="#">小小粒</a></li>
+                            <li class="ph_li3"><a href="#">小小粒</a></li>
+                            <li class="ph_li4"><a href="#">小小粒</a></li>
+                            <li class="ph_li5"><a href="#">小小粒</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+    <div class="ms">
+        <div class="ms_top">
+            <div class="m_load">
+                <span><a href='/Default.htm'>首页</a> > <a href='/Master/MasterList.aspx'>大师风采</a> > 大师</span></div>
+            <div class="mst_c">
+                <ul class="mst_ul">
+                    <li><a href="#" id="Master_Intro">
+                        <p class="hide">
+                            大师简介</p>
+                    </a></li>
+                    <li><a href="#" id="Master_Award">
+                        <p class="hide">
+                            获奖情况</p>
+                    </a></li>
+                    <li><a href="#" id="Master_Work">
+                        <p class="hide">
+                            大师作品</p>
+                    </a></li>
+                </ul>
+                <div class="mst_img">
+                    <img src="../images/master_img.png" id="imgMaster" /></div>
+                <div class="mst_xx">
+                    <table width="252" height="141" id="tbMasterInfo">
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="gs_nr" id="MasterContent">
+          
+        </div>
+    </div>
+
+        </div>
+        <div class="footer">
+            <div class="s_nav">
+                <ul>
+                    <li><a href="#">在线留言</a>|</li>
+                    <li><a href="#">联系我们</a>|</li>
+                    <li><a href="#">关于我们</a>|</li>
+                    <li><a href="#">企业信息</a>|</li>
+                    <li><a href="#">招商合作</a></li>
+                </ul>
+            </div>
+           <div class="foot">
+                    <p>
+                        <span>广东省潮州</span> <span>2011 © All RIGHTS RESERVED. [版权所有] TZHSWEET</span>
+                    </p>
+                    <p>
+                        <span>制作与维护：TZHSWEET</span><span>我的博客:http://www.cnblogs.com/mysweet/</span></p>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,160 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	邮箱验证
+</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link href="../css/top_foot.css" rel="stylesheet" type="text/css" /><link href="../css/style.css" rel="stylesheet" type="text/css" /><link href="../css/gr.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src='/js/main_nav.js'></script>
+
+    <script type="text/javascript" src='/js/nav.js'></script>
+
+    <script src='/Admin/scripts/jquery-1.7.1.min.js ' type="text/javascript"></script>
+
+    <script src='/js/AjaxJsDeal/Left_Top_Down.js ' type="text/javascript"></script>
+
+    <script src='/js/AjaxJsDeal/MasterPage.js ' type="text/javascript"></script>
+
+    <script type="text/javascript">
+    var NewsListURL='/News/NewsList.aspx';
+    var CraftKnowledgeListURL='/CraftKnowledge/CraftKnowledgeList.aspx';
+    var SearchProductURL='/Product/SearchProduct.aspx';
+       
+      $(function(){
+       CheckLoginState();
+      //加载类别
+        GetNewsType();
+       GetProductType();
+  
+        });
+
+    </script>
+
+    
+
+    <script src="../js/queryUrlParams.js" type="text/javascript"></script>
+
+    <script src="../js/AjaxJsDeal/MemberZoneInfo.js" type="text/javascript"></script>
+<script type="text/javascript">
+//从url中获取用户名和密码
+    var UserName=$.query.get("UserName"); 
+    var VCode=$.query.get("YZM");
+	var Data={"UserName":UserName,"VCode":VCode};
+$(function(){
+		   //邮箱验证
+		   EmailChecking();
+
+});
+
+</script>
+
+</head>
+<body>
+    <div class="sheel">
+          <div class="header">
+            <div class="top_side">
+                <ul>
+                    <li id="liLogin"><a href='/Member/MemberLogin.htm'>登录</a> | </li>
+                    <li><a href='/Member/RegisterMember.htm'>注册</a> </li>
+                    <li>|<a href='/Member/MemberInfo.htm'><label id="lbUserNameInfo"></label>个人信息</a>
+                    </li>
+                    <li>|<a href='/Member/Collection.htm'>我的收藏夹</a> </li>
+                    <li>|<a href='/Member/ShopingCart.htm'>我的购物车</a> </li>
+                    <li>|<a href='/Member/OrderManage.htm'>我的订单</a> </li>
+                    
+                      <li>|<a href='/Comments/WebComment.htm'>总站留言</a> </li>
+                       <li>|<a href='/Search/SearchProduct.aspx'>找找看</a> </li>
+                    <li id="liLogout">|<a id="A2" href='/Member/Data/GetMemberInfo.ashx?method=MemberLogout'>安全退出</a></li>
+                </ul>
+            </div>
+            <div class="nav">
+                  <ul id="sddm">
+                    <li><a href='/Default.htm'>首&nbsp;&nbsp;页</a> </li>
+                    <li><a href='/CraftKnowledge/technology.htm'>工艺概况</a></li>
+                    <li><a href='/CraftKnowledge/CraftKnowledgeList.aspx' onmouseover="mopen('m1')"
+                        onmouseout="mclosetime()">工艺知识</a>
+                        <div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                        </div>
+                    </li>
+                    <li><a href='/Product/ProductShow.aspx' onmouseover="mopen('m4')"
+                        onmouseout="mclosetime()">作品展览</a>
+                        <div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                        </div>
+                    </li>
+                    <li><a href='/Product/NongeneticProduct.htm' onmouseover="mopen('m3')"
+                        onmouseout="mclosetime()">非遗作品</a>
+                        <div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                        </div>
+                    </li>
+                    <li><a href='/News/NewsList.aspx' onmouseover="mopen('m2')" onmouseout="mclosetime()">
+                        新闻中心</a>
+                        <div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                        </div>
+                    </li>
+                    <li><a href='/Master/MasterList.aspx'>大师风采</a></li>
+                    <li><a href='/Company/CompanyList.aspx'>企业展示</a></li>
+                   
+                     <li><a href='/AboutUs.htm'>联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+    <div class="content">
+        <div class="left_side">
+            <div class="logo_bottom">
+            </div>
+            <div class="gr">
+                <div class="gr_title">
+                    <h4>
+                        个人信息管理</h4>
+                </div>
+                <ul class="gr_ul">
+                    <li><a href='/Member/MemberInfo.htm'>修改个人信息</a></li>
+                    <li><a href='/Member/ForgetSercret.htm'>找回密码</a></li>
+                    <li><a href='/Member/ChangeSercret.htm'>修改密码</a></li>
+                    <li><a href='/Member/Collection.htm'>我的收藏夹</a></li>
+                    <li><a href='/Member/ShopingCart.htm'>我的购物车</a></li>
+                      <li><a href='/Member/OrderManage.htm'>订单管理</a></li>
+                        <li><a href='/Member/ComfirmGetGoods.htm'>收货管理</a></li>
+                        <li><a href='/Member/ProductComment.htm'>产品评价</a></li>
+                   
+                    
+                </ul>
+            </div>
+        </div>
+        
+    <form id="form1">
+  <div class="zz">
+        <div class="xgmm">
+            <div class="xgmm_tt"><h3>邮箱验证</h3></div>
+            <p class="xgmm_tip">邮箱验证状态:<label id="lbStatus"></label></p>              <ul class="xgmm_ul">
+                <li class="xgmm_ul_li1"><label id="lbInfo"></label></li>
+
+            
+            </ul>
+          
+        </div>
+    </div>    </form>
+
+         <div class="footer">
+                <div class="s_nav">
+                    <ul>
+                        <li><a href="#">在线留言</a>|</li>
+                        <li><a href="#">联系我们</a>|</li>
+                        <li><a href="#">关于我们</a>|</li>
+                        <li><a href="#">企业信息</a>|</li>
+                        <li><a href="#">招商合作</a></li>
+                    </ul>
+                </div>
+            <div class="foot">
+                    <p>
+                        <span>广东省潮州</span> <span>2011 © All RIGHTS RESERVED. [版权所有] TZHSWEET</span>
+                    </p>
+                    <p>
+                        <span>制作与维护：TZHSWEET</span><span>我的博客:http://www.cnblogs.com/mysweet/</span></p>
+                </div>
+            </div>
+    </div>
+    </div>
+</body>
+</html>

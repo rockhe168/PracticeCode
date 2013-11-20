@@ -1,0 +1,41 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model IEnumerable<Model.Products.ProductList>
+<h2>
+    Index</h2>
+<table>
+    <tr>
+        <td>
+            ID
+        </td>
+        <td>
+            ProductName
+        </td>
+        <td>
+            QuantityPerUnit
+        </td>
+        <td>
+            UnitPrice
+        </td>
+        <td>
+            UnitsInStock
+        </td>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id
+                </td>
+                <td>@item.ProductName
+                </td>
+                <td>@item.QuantityPerUnit
+                </td>
+                <td>@item.UnitPrice
+                </td>
+                <td>@item.UnitsInStock
+                </td>
+            </tr>
+        }
+    </tr>
+</table>

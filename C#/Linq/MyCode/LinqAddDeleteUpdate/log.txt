@@ -1,0 +1,15 @@
+CREATE DATABASE [GuestBook]
+
+.Net SqlClient Data Provider: 已将数据库上下文更改为 'GuestBook'。。
+SET ARITHABORT ON
+CREATE TABLE [tbGuestBook](
+  [Id] UniqueIdentifier NOT NULL, 
+  [UserName] varchar(50) NOT NULL, 
+  [PostTime] datetime NOT NULL, 
+  [Message] varchar(400), 
+  [IsReplied] bit NOT NULL, 
+  [Reply] varchar(400), 
+  CONSTRAINT [PK_tbGuestBook] PRIMARY KEY ([Id])
+  )
+
+

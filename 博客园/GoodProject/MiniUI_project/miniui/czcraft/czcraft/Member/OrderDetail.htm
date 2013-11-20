@@ -1,0 +1,281 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	订单详情
+</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><link href="../css/top_foot.css" rel="stylesheet" type="text/css" /><link href="../css/style.css" rel="stylesheet" type="text/css" /><link href="../css/gr.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src='/js/main_nav.js'></script>
+
+    <script type="text/javascript" src='/js/nav.js'></script>
+
+    <script src='/Admin/scripts/jquery-1.7.1.min.js ' type="text/javascript"></script>
+
+    <script src='/js/AjaxJsDeal/Left_Top_Down.js ' type="text/javascript"></script>
+
+    <script src='/js/AjaxJsDeal/MasterPage.js ' type="text/javascript"></script>
+
+    <script type="text/javascript">
+    var NewsListURL='/News/NewsList.aspx';
+    var CraftKnowledgeListURL='/CraftKnowledge/CraftKnowledgeList.aspx';
+    var SearchProductURL='/Product/SearchProduct.aspx';
+       
+      $(function(){
+       CheckLoginState();
+      //加载类别
+        GetNewsType();
+       GetProductType();
+  
+        });
+
+    </script>
+
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link href="../css/buy.css" rel="stylesheet" type="text/css" />
+
+    <script src="../Admin/scripts/miniui/miniui.js" type="text/javascript"></script>
+
+    <link href="../Admin/scripts/miniui/themes/default/miniui2.css" rel="stylesheet"
+        type="text/css" />
+    <link href="../Admin/scripts/miniui/themes/icons.css" rel="stylesheet" type="text/css" />
+    <script src="../js/queryUrlParams.js" type="text/javascript"></script>
+    <script src="../js/AjaxJsDeal/OrdersInfo.js" type="text/javascript"></script>
+    <style type="text/css">
+        .New_Button, .Edit_Button, .Delete_Button, .Update_Button, .Cancel_Button
+        {
+            font-size: 11px;
+            color: #1B3F91;
+            font-family: Verdana;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sheel">
+          <div class="header">
+            <div class="top_side">
+                <ul>
+                    <li id="liLogin"><a href='/Member/MemberLogin.htm'>登录</a> | </li>
+                    <li><a href='/Member/RegisterMember.htm'>注册</a> </li>
+                    <li>|<a href='/Member/MemberInfo.htm'><label id="lbUserNameInfo"></label>个人信息</a>
+                    </li>
+                    <li>|<a href='/Member/Collection.htm'>我的收藏夹</a> </li>
+                    <li>|<a href='/Member/ShopingCart.htm'>我的购物车</a> </li>
+                    <li>|<a href='/Member/OrderManage.htm'>我的订单</a> </li>
+                    
+                      <li>|<a href='/Comments/WebComment.htm'>总站留言</a> </li>
+                       <li>|<a href='/Search/SearchProduct.aspx'>找找看</a> </li>
+                    <li id="liLogout">|<a id="A2" href='/Member/Data/GetMemberInfo.ashx?method=MemberLogout'>安全退出</a></li>
+                </ul>
+            </div>
+            <div class="nav">
+                  <ul id="sddm">
+                    <li><a href='/Default.htm'>首&nbsp;&nbsp;页</a> </li>
+                    <li><a href='/CraftKnowledge/technology.htm'>工艺概况</a></li>
+                    <li><a href='/CraftKnowledge/CraftKnowledgeList.aspx' onmouseover="mopen('m1')"
+                        onmouseout="mclosetime()">工艺知识</a>
+                        <div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                        </div>
+                    </li>
+                    <li><a href='/Product/ProductShow.aspx' onmouseover="mopen('m4')"
+                        onmouseout="mclosetime()">作品展览</a>
+                        <div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                        </div>
+                    </li>
+                    <li><a href='/Product/NongeneticProduct.htm' onmouseover="mopen('m3')"
+                        onmouseout="mclosetime()">非遗作品</a>
+                        <div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                        </div>
+                    </li>
+                    <li><a href='/News/NewsList.aspx' onmouseover="mopen('m2')" onmouseout="mclosetime()">
+                        新闻中心</a>
+                        <div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+                        </div>
+                    </li>
+                    <li><a href='/Master/MasterList.aspx'>大师风采</a></li>
+                    <li><a href='/Company/CompanyList.aspx'>企业展示</a></li>
+                   
+                     <li><a href='/AboutUs.htm'>联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+    <div class="content">
+        <div class="left_side">
+            <div class="logo_bottom">
+            </div>
+            <div class="gr">
+                <div class="gr_title">
+                    <h4>
+                        个人信息管理</h4>
+                </div>
+                <ul class="gr_ul">
+                    <li><a href='/Member/MemberInfo.htm'>修改个人信息</a></li>
+                    <li><a href='/Member/ForgetSercret.htm'>找回密码</a></li>
+                    <li><a href='/Member/ChangeSercret.htm'>修改密码</a></li>
+                    <li><a href='/Member/Collection.htm'>我的收藏夹</a></li>
+                    <li><a href='/Member/ShopingCart.htm'>我的购物车</a></li>
+                      <li><a href='/Member/OrderManage.htm'>订单管理</a></li>
+                        <li><a href='/Member/ComfirmGetGoods.htm'>收货管理</a></li>
+                        <li><a href='/Member/ProductComment.htm'>产品评价</a></li>
+                   
+                    
+                </ul>
+            </div>
+        </div>
+        
+    <div class="zz">
+        <div class="gouwuche">
+            <div class="flow-steps">
+                <ul class="num5">
+                    <li class="done current-prev "><span class="first">1. 查看购物车</span></li>
+                    <li class="current"><span>2. 确认订单信息</span></li>
+                    <li><span>3. 付款到支付宝</span></li>
+                    <li><span>4. 确认收货</span></li>
+                    <li class="last"><span>5. 评价</span></li>
+                </ul>
+            </div>
+            <form id="form1">
+            <div class="adress">
+                <h3>
+                    填写地址信息</h3>
+                <table width="903" class="ad_table1">
+                    <tr>
+                        <td class="td_left">
+                            地址：
+                        </td>
+                        <td colspan="7" class="textarea">
+                            <textarea id="ConsigneeAddress" name="ConsigneeAddress" class="grxx_text1" disabled="disabled"
+                                cols="80" rows="3"></textarea>
+                            &nbsp; &nbsp;
+                        </td>
+                    </tr>
+                </table>
+                <table width="624" class="ad_table2">
+                    <tr>
+                        <td width="79" class="style1">
+                            收货人姓名：
+                        </td>
+                        <td colspan="4" class="style2">
+                            <input type="text" id="ConsigneeRealName" disabled="disabled" name="ConsigneeRealName" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td_left">
+                            电话：
+                        </td>
+                        <td colspan="4">
+                            <input type="text" id="ConsigneeTel" name="ConsigneeTel" disabled="disabled" />
+                            (格式：区号-电话号码)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td_left">
+                            Email：
+                        </td>
+                        <td colspan="4">
+                            <input type="text" id="ConsigneeEmail" name="ConsigneeEmail" disabled="disabled" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td_left">
+                            手机：
+                        </td>
+                        <td colspan="4">
+                            <input type="text" id="ConsigneePhone" name="ConsigneePhone" disabled="disabled" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td_left">
+                            邮政编码：
+                        </td>
+                        <td colspan="4">
+                            <input type="text" id="ConsigneeZip" name="ConsigneeZip" disabled="disabled" />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <div>
+            </div>
+        </div>
+        <div class="dingdan">
+            <h3>
+                订单信息</h3>
+        </div>
+        <div class="charge-info">
+            商品总价(不含运费):<span>
+                <label id="lbCountNum">
+                </label>
+            </span>元</div>
+        <div id="datagrid1" class="mini-datagrid" style="width: 700px; height: 250px;" allowresize="true"
+            url="Data/GetMemberInfo.ashx?method=SearchOrders" idfield="Id">
+            <div property="columns" style="color: Black">
+                <div field="OrderId" width="140" headeralign="center" allowsort="true">
+                    订单号</div>
+                <div field="ProImg" width="80" align="center" headeralign="center" renderer="onReaderPic">
+                    图片</div>
+                <div field="ProName" width="80" headeralign="center" allowsort="true" renderer="onRenderProductName">
+                    产品名称</div>
+                <div field="SupperlierName" renderer="RendererSupperlierName" width="120">
+                    供应商</div>
+                <div field="ShopDate" width="80" dateformat="yy/MM/dd">
+                    购买时间</div>
+                <div field="ProPrice" width="100" allowsort="true">
+                    商品售价(元)</div>
+                <div field="ProNum" width="100" headeralign="center">
+                    购买数量(个)</div>
+                <div name="Sum" width="100" headeralign="center" align="center" renderer="onSumRenderer"
+                    cellstyle="padding:0;">
+                    小计(元)</div>
+                <div field="TotalPrice" width="100" allowsort="true">
+                    总金额(元)</div>
+                <div field="FactPrice" width="100" allowsort="true">
+                    实际付款(元)</div>
+            </div>
+            <ul class="back_gwc" style="margin-top: 13px">
+                <li><a class="mini-button" iconcls="icon-undo" href='/Member/OrderManage.htm'>返回我的订单</a></li>
+            </ul>
+        </div>
+
+        <script type="text/javascript">
+    var OrderId=$.query.get("OrderId"); 
+  $(function(){
+        //加载用户信息
+          GetOrdersUserInfo();
+  });
+        mini.parse();
+        var grid = mini.get("datagrid1");
+        grid.load({
+            key: OrderId,
+            pageIndex: 0,
+            pageSize: 10,
+            sortField: "Id",
+            sortOrder: "asc"
+            })
+
+           var PayStatus = [{ id: 0, text: '等待付款' }, { id: 1, text: '已处理'}, { id: 2, text: '已付款'}, { id: 3, text: '已退款'}, { id: 4, text: '已拒绝'}, { id: 5, text: '已取消'}];
+        </script>
+
+         <div class="footer">
+                <div class="s_nav">
+                    <ul>
+                        <li><a href="#">在线留言</a>|</li>
+                        <li><a href="#">联系我们</a>|</li>
+                        <li><a href="#">关于我们</a>|</li>
+                        <li><a href="#">企业信息</a>|</li>
+                        <li><a href="#">招商合作</a></li>
+                    </ul>
+                </div>
+            <div class="foot">
+                    <p>
+                        <span>广东省潮州</span> <span>2011 © All RIGHTS RESERVED. [版权所有] TZHSWEET</span>
+                    </p>
+                    <p>
+                        <span>制作与维护：TZHSWEET</span><span>我的博客:http://www.cnblogs.com/mysweet/</span></p>
+                </div>
+            </div>
+    </div>
+    </div>
+</body>
+</html>

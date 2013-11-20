@@ -1,0 +1,7 @@
+<Modules>
+  <Module PersistentId="F03C1372-63EC-4234-B396-F52EFE8BDC90" ModuleId="LinqToConcurrentWithTransaction" />
+  <Module PersistentId="CEB63B9F-F2B4-45E0-A166-C244730E3122" ModuleId="LinqAddDeleteUpdate" />
+  <Module PersistentId="E6416423-5A17-4DCB-B24C-A152EBA02E25" ModuleId="LinqSelect" />
+  <Module PersistentId="F0557FB8-E65F-4720-A4BD-610A76280640" ModuleId="LinqToProc" />
+  <Module PersistentId="07E8130A-1064-44CB-97F5-683FE3A322E7" ModuleId="LinqToFeature" />
+</Modules>

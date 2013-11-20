@@ -1,0 +1,1388 @@
+[2012-05-28 08:25:09,803][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:25:09,862][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:25:13,317][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 CompanyInfo.GetTopCompanyForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Company\Data\CompanyInfo.ashx:行号 182
+   在 CompanyInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Company\Data\CompanyInfo.ashx:行号 37
+   在 CompanyInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Company\Data\CompanyInfo.ashx:行号 19
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:27:47,856][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:27:48,019][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:28:04,695][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:30:26,454][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 GetNewsInfo.GetTopNewsForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 51
+   在 GetNewsInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 26
+   在 GetNewsInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 13
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:30:26,810][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 GetNewsInfo.GetNewsTypeForCombox(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 81
+   在 GetNewsInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 29
+   在 GetNewsInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 13
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:30:26,814][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 GetProductInfo.GetTopByRank(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 167
+   在 GetProductInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 43
+   在 GetProductInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 19
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:30:26,816][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:30:26,838][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:30:27,120][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 MasterInfo.GetTopMasterForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Master\Data\MasterInfo.ashx:行号 182
+   在 MasterInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Master\Data\MasterInfo.ashx:行号 37
+   在 MasterInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Master\Data\MasterInfo.ashx:行号 19
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:30:27,318][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 GetProductInfo.GetTopCraftTypeInfo(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 284
+   在 GetProductInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 46
+   在 GetProductInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 19
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:30:27,339][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 GetProductInfo.GetTopProductForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 193
+   在 GetProductInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 40
+   在 GetProductInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 19
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:30:27,713][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CraftKnowledgeInfo.GetCraftKnowledgeForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 51
+   在 CraftKnowledgeInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 26
+   在 CraftKnowledgeInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 13
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:30:28,028][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 GetNewsInfo.GetNewsTypeForCombox(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 81
+   在 GetNewsInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 29
+   在 GetNewsInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 13
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:30:28,039][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 GetProductInfo.GetTopCraftTypeInfo(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 284
+   在 GetProductInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 46
+   在 GetProductInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 19
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:30:28,042][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 GetProductInfo.GetTopByRank(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 167
+   在 GetProductInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 43
+   在 GetProductInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 19
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:30:28,044][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 GetNewsInfo.GetTopNewsForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 51
+   在 GetNewsInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 26
+   在 GetNewsInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 13
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:30:28,044][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CraftKnowledgeInfo.GetCraftKnowledgeForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 51
+   在 CraftKnowledgeInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 26
+   在 CraftKnowledgeInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 13
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:30:28,051][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 GetProductInfo.GetTopProductForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 193
+   在 GetProductInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 40
+   在 GetProductInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 19
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:30:28,057][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:30:28,060][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 MasterInfo.GetTopMasterForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Master\Data\MasterInfo.ashx:行号 182
+   在 MasterInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Master\Data\MasterInfo.ashx:行号 37
+   在 MasterInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Master\Data\MasterInfo.ashx:行号 19
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:30:28,602][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:02,780][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 GetNewsInfo.GetNewsTypeForCombox(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 81
+   在 GetNewsInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 29
+   在 GetNewsInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 13
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:03,047][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 GetProductInfo.GetTopCraftTypeInfo(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 283
+   在 GetProductInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 46
+   在 GetProductInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 19
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:03,060][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 GetNewsInfo.GetTopNewsForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 54
+   在 GetNewsInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 26
+   在 GetNewsInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 13
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:03,075][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 GetProductInfo.GetTopProductForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 196
+   在 GetProductInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 40
+   在 GetProductInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 19
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:03,091][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:03,100][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:03,381][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 CraftKnowledgeInfo.GetCraftKnowledgeForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 55
+   在 CraftKnowledgeInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 26
+   在 CraftKnowledgeInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 13
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:03,541][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 GetProductInfo.GetTopByRank(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 168
+   在 GetProductInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 43
+   在 GetProductInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 19
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:16,162][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 GetProductInfo.GetTopCraftTypeInfo(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 283
+   在 GetProductInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 46
+   在 GetProductInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 19
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:16,163][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 GetNewsInfo.GetNewsTypeForCombox(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 81
+   在 GetNewsInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 29
+   在 GetNewsInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 13
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:16,170][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 GetProductInfo.GetTopByRank(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 168
+   在 GetProductInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 43
+   在 GetProductInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 19
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:16,174][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 GetNewsInfo.GetTopNewsForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 54
+   在 GetNewsInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 26
+   在 GetNewsInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 13
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:16,189][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 GetProductInfo.GetTopProductForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 196
+   在 GetProductInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 40
+   在 GetProductInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 19
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:16,196][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 CraftKnowledgeInfo.GetCraftKnowledgeForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 55
+   在 CraftKnowledgeInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 26
+   在 CraftKnowledgeInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 13
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:16,376][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:16,608][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:21,232][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 GetProductInfo.GetTopCraftTypeInfo(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 283
+   在 GetProductInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 46
+   在 GetProductInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 19
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:21,240][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 GetNewsInfo.GetNewsTypeForCombox(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 81
+   在 GetNewsInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 29
+   在 GetNewsInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 13
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:21,248][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 GetProductInfo.GetTopProductForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 196
+   在 GetProductInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 40
+   在 GetProductInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 19
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:21,253][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 GetNewsInfo.GetTopNewsForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 54
+   在 GetNewsInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 26
+   在 GetNewsInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 13
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:21,255][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:21,260][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 CraftKnowledgeInfo.GetCraftKnowledgeForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 55
+   在 CraftKnowledgeInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 26
+   在 CraftKnowledgeInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 13
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:21,742][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 GetProductInfo.GetTopByRank(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 168
+   在 GetProductInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 43
+   在 GetProductInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 19
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:22,061][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:57,312][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 GetNewsInfo.GetNewsTypeForCombox(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 81
+   在 GetNewsInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 29
+   在 GetNewsInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 13
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:57,318][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 GetProductInfo.GetTopCraftTypeInfo(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 283
+   在 GetProductInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 46
+   在 GetProductInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 19
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:57,320][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 GetNewsInfo.GetTopNewsForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 54
+   在 GetNewsInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 26
+   在 GetNewsInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 13
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:57,326][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 CraftKnowledgeInfo.GetCraftKnowledgeForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 55
+   在 CraftKnowledgeInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 26
+   在 CraftKnowledgeInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 13
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:57,333][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 GetProductInfo.GetTopProductForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 196
+   在 GetProductInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 40
+   在 GetProductInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 19
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:57,455][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:57,787][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:50:57,824][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 GetProductInfo.GetTopByRank(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 168
+   在 GetProductInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 43
+   在 GetProductInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 19
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:51:05,645][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 GetNewsInfo.GetNewsTypeForCombox(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 81
+   在 GetNewsInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 29
+   在 GetNewsInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 13
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:51:05,648][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 GetProductInfo.GetTopCraftTypeInfo(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 283
+   在 GetProductInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 46
+   在 GetProductInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 19
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:51:05,655][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 GetNewsInfo.GetTopNewsForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 54
+   在 GetNewsInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 26
+   在 GetNewsInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 13
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:51:05,655][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 GetProductInfo.GetTopByRank(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 168
+   在 GetProductInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 43
+   在 GetProductInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 19
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:51:05,665][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 CraftKnowledgeInfo.GetCraftKnowledgeForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 55
+   在 CraftKnowledgeInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 26
+   在 CraftKnowledgeInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 13
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:51:05,665][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 GetProductInfo.GetTopProductForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 196
+   在 GetProductInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 40
+   在 GetProductInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 19
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:51:05,786][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:51:06,141][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:54:20,168][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 GetNewsInfo.GetTopNewsForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 54
+   在 GetNewsInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 26
+   在 GetNewsInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 13
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:54:20,188][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 CraftKnowledgeInfo.GetCraftKnowledgeForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 55
+   在 CraftKnowledgeInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 26
+   在 CraftKnowledgeInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 13
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:54:20,271][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:54:20,954][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:54:21,017][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 GetProductInfo.GetTopByRank(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 166
+   在 GetProductInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 41
+   在 GetProductInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 17
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:54:24,907][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 GetProductInfo.GetTopByRank(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 166
+   在 GetProductInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 41
+   在 GetProductInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\Data\GetProductInfo.ashx:行号 17
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:54:24,913][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 CraftKnowledgeInfo.GetCraftKnowledgeForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 55
+   在 CraftKnowledgeInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 26
+   在 CraftKnowledgeInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 13
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:54:24,917][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 GetNewsInfo.GetTopNewsForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 54
+   在 GetNewsInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 26
+   在 GetNewsInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\News\Data\GetNewsInfo.ashx:行号 13
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:54:24,920][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:54:25,732][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:55:33,459][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 CraftKnowledgeInfo.GetCraftKnowledgeForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 55
+   在 CraftKnowledgeInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 26
+   在 CraftKnowledgeInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 13
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:55:33,778][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:55:34,676][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:55:45,337][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 CraftKnowledgeInfo.GetCraftKnowledgeForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 55
+   在 CraftKnowledgeInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 26
+   在 CraftKnowledgeInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 13
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:55:45,349][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:55:45,395][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:56:03,882][ERROR] - 程序未捕获的异常
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 33
+   在 CraftKnowledgeInfo.GetCraftKnowledgeForMain(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 55
+   在 CraftKnowledgeInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 26
+   在 CraftKnowledgeInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\CraftKnowledge\Data\CraftKnowledgeInfo.ashx:行号 13
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:56:04,043][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:56:04,416][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:59:34,615][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 08:59:35,362][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 15:01:15,981][ERROR] - 程序未捕获的异常
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 CacheManage.GetTimeConfig(String key) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 37
+   在 Product_NongeneticProduct.ResponseNongeneticProduct() 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\NongeneticProduct.aspx.cs:行号 42
+   在 ASP.product_nongeneticproduct_aspx.__RenderContent2(HtmlTextWriter __w, Control parameterContainer) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Product\NongeneticProduct.aspx:行号 8
+   在 System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   在 System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   在 System.Web.UI.Control.Render(HtmlTextWriter writer)
+   在 System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   在 System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   在 System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   在 ASP.infopage_master.__Render__control1(HtmlTextWriter __w, Control parameterContainer) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\InfoPage.master:行号 93
+   在 System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   在 System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   在 System.Web.UI.Control.Render(HtmlTextWriter writer)
+   在 System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   在 System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   在 System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   在 System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   在 System.Web.UI.Control.RenderChildren(HtmlTextWriter writer)
+   在 System.Web.UI.Page.Render(HtmlTextWriter writer)
+   在 System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   在 System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter)
+   在 System.Web.UI.Control.RenderControl(HtmlTextWriter writer)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.product_nongeneticproduct_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\079ce535\39cdaa80\App_Web_xwog949y.8.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 15:04:44,001][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 15:05:37,461][ERROR] - 程序未捕获的异常
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.Web.HttpException: “C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\ConfigManage\config.xml”不是有效的虚拟路径。
+   在 System.Web.VirtualPath.Create(String virtualPath, VirtualPathOptions options)
+   在 System.Web.HttpServerUtility.MapPath(String path)
+   在 CacheManage.GetCacheAllInfoForJson() 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 48
+   在 _Default.Page_Load(Object sender, EventArgs e) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Default.aspx.cs:行号 26
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\079ce535\39cdaa80\App_Web_gpvbvixe.4.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 15:06:06,498][ERROR] - 程序未捕获的异常
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> Newtonsoft.Json.JsonWriterException: Token StartArray in state ObjectStart would result in an invalid JavaScript object.
+   在 Newtonsoft.Json.JsonWriter.AutoComplete(JsonToken tokenBeingWritten)
+   在 Newtonsoft.Json.JsonTextWriter.WriteStartArray()
+   在 CacheManage.GetCacheAllInfoForJson() 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 57
+   在 _Default.Page_Load(Object sender, EventArgs e) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Default.aspx.cs:行号 26
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\079ce535\39cdaa80\App_Web_jk3zg5ax.2.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 15:06:36,765][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 15:06:37,900][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 15:14:49,307][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 15:14:56,573][ERROR] - 程序未捕获的异常
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 CacheManage.GetCacheAllInfoForJson() 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 51
+   在 _Default.Page_Load(Object sender, EventArgs e) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Default.aspx.cs:行号 26
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\079ce535\39cdaa80\App_Web_ibhu6ciq.4.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 15:15:22,232][ERROR] - 程序未捕获的异常
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: Unsupported type: System.Xml.Linq.XName. Use the JsonSerializer class to get the object's JSON representation.
+   在 Newtonsoft.Json.JsonWriter.WriteValue(Object value)
+   在 CacheManage.GetCacheAllInfoForJson() 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\App_Code\CacheManage.cs:行号 71
+   在 _Default.Page_Load(Object sender, EventArgs e) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Default.aspx.cs:行号 26
+   在 System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   在 System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.default_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\079ce535\39cdaa80\App_Web_wavrg9oz.4.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 15:15:53,751][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 15:15:54,681][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 15:31:27,953][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 15:33:33,987][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 15:33:44,234][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 15:33:54,142][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 15:35:04,451][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 15:35:10,830][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 15:35:23,894][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 15:35:32,164][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 15:38:29,554][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 16:06:59,784][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 16:11:40,054][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 16:12:40,893][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 16:13:07,694][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 16:13:38,133][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 16:18:32,425][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 16:42:52,822][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 16:43:04,920][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 16:44:17,621][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 19:13:50,896][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 19:13:51,043][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 19:13:52,067][ERROR] - 程序未捕获的异常
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GetMemberInfo.SearchOrders(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Member\Data\GetMemberInfo.ashx:行号 646
+   在 GetMemberInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Member\Data\GetMemberInfo.ashx:行号 87
+   在 GetMemberInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Member\Data\GetMemberInfo.ashx:行号 24
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 19:13:55,573][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 19:13:55,623][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 19:13:55,691][ERROR] - 程序未捕获的异常
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GetMemberInfo.SearchOrders(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Member\Data\GetMemberInfo.ashx:行号 646
+   在 GetMemberInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Member\Data\GetMemberInfo.ashx:行号 87
+   在 GetMemberInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Member\Data\GetMemberInfo.ashx:行号 24
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 19:14:01,863][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 19:14:02,370][ERROR] - 程序未捕获的异常
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GetMemberInfo.SearchOrders(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Member\Data\GetMemberInfo.ashx:行号 646
+   在 GetMemberInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Member\Data\GetMemberInfo.ashx:行号 87
+   在 GetMemberInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Member\Data\GetMemberInfo.ashx:行号 24
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 19:14:52,964][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 19:14:53,428][ERROR] - 程序未捕获的异常
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 GetMemberInfo.SearchOrders(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Member\Data\GetMemberInfo.ashx:行号 646
+   在 GetMemberInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Member\Data\GetMemberInfo.ashx:行号 87
+   在 GetMemberInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Member\Data\GetMemberInfo.ashx:行号 24
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 19:15:10,665][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 21:40:18,947][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 21:40:33,509][ERROR] - 程序未捕获的异常
+System.Data.SqlClient.SqlException: DELETE 语句与 REFERENCE 约束"FK_ShoppingCart_member"冲突。该冲突发生于数据库"czcraft"，表"dbo.ShoppingCart", column 'MemberId'。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 DBO.SqlDBOperator.ExecuteNonQuery(String cmdText, DbParameter[] parameters) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\DBO\DBO\SqlDBOperator.cs:行号 466
+   在 czcraft.DAL.memberDAL.DeleteMoreID(String strID) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\DAL\MyClass\memberDAL.cs:行号 158
+   在 czcraft.BLL.memberBLL.DeleteMoreID(String strID) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\BLL\memberBLL.cs:行号 41
+   在 MemberInfo.RemoveMember(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\MemberManage\Data\MemberInfo.ashx:行号 156
+   在 MemberInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\MemberManage\Data\MemberInfo.ashx:行号 37
+   在 MemberInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\MemberManage\Data\MemberInfo.ashx:行号 16
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 21:41:36,666][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 21:53:46,967][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 21:54:05,498][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 22:34:56,347][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 22:35:11,197][ERROR] - 程序未捕获的异常
+System.Data.SqlClient.SqlException: 必须声明标量变量 "@id"。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 DBO.SqlDBOperator.ExecuteNonQuery(String cmdText, DbParameter[] parameters) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\DBO\DBO\SqlDBOperator.cs:行号 466
+   在 czcraft.DAL.companyDAL.DeleteMoreID(String strID) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\DAL\MyClass\companyDAL.cs:行号 269
+   在 czcraft.BLL.companyBLL.DeleteMoreID(String strID) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\BLL\companyBLL.cs:行号 41
+   在 CompanyInfo.RemoveCompany(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\CompanyManage\Data\CompanyInfo.ashx:行号 194
+   在 CompanyInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\CompanyManage\Data\CompanyInfo.ashx:行号 39
+   在 CompanyInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\CompanyManage\Data\CompanyInfo.ashx:行号 15
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 22:36:18,407][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 22:36:24,334][ERROR] - 程序未捕获的异常
+System.Data.SqlClient.SqlException: DELETE 语句与 REFERENCE 约束"FK_product_company"冲突。该冲突发生于数据库"czcraft"，表"dbo.product", column 'Companyid'。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 DBO.SqlDBOperator.ExecuteNonQuery(String cmdText, DbParameter[] parameters) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\DBO\DBO\SqlDBOperator.cs:行号 466
+   在 czcraft.DAL.companyDAL.DeleteMoreID(String strID) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\DAL\MyClass\companyDAL.cs:行号 269
+   在 czcraft.BLL.companyBLL.DeleteMoreID(String strID) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\BLL\companyBLL.cs:行号 41
+   在 CompanyInfo.RemoveCompany(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\CompanyManage\Data\CompanyInfo.ashx:行号 194
+   在 CompanyInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\CompanyManage\Data\CompanyInfo.ashx:行号 39
+   在 CompanyInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\CompanyManage\Data\CompanyInfo.ashx:行号 15
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 22:37:50,114][ERROR] - 程序未捕获的异常
+System.Data.SqlClient.SqlException: DELETE 语句与 REFERENCE 约束"FK_product_company"冲突。该冲突发生于数据库"czcraft"，表"dbo.product", column 'Companyid'。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 DBO.SqlDBOperator.ExecuteNonQuery(String cmdText, DbParameter[] parameters) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\DBO\DBO\SqlDBOperator.cs:行号 466
+   在 czcraft.DAL.companyDAL.DeleteMoreID(String strID) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\DAL\MyClass\companyDAL.cs:行号 269
+   在 czcraft.BLL.companyBLL.DeleteMoreID(String strID) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\BLL\companyBLL.cs:行号 41
+   在 CompanyInfo.RemoveCompany(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\CompanyManage\Data\CompanyInfo.ashx:行号 194
+   在 CompanyInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\CompanyManage\Data\CompanyInfo.ashx:行号 39
+   在 CompanyInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\CompanyManage\Data\CompanyInfo.ashx:行号 15
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 22:40:49,153][ERROR] - 程序未捕获的异常
+System.Data.SqlClient.SqlException: DELETE 语句与 REFERENCE 约束"FK_product_company"冲突。该冲突发生于数据库"czcraft"，表"dbo.product", column 'Companyid'。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 DBO.SqlDBOperator.ExecuteNonQuery(String cmdText, DbParameter[] parameters) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\DBO\DBO\SqlDBOperator.cs:行号 466
+   在 czcraft.DAL.companyDAL.DeleteMoreID(String strID) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\DAL\MyClass\companyDAL.cs:行号 269
+   在 czcraft.BLL.companyBLL.DeleteMoreID(String strID) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\BLL\companyBLL.cs:行号 41
+   在 CompanyInfo.RemoveCompany(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\CompanyManage\Data\CompanyInfo.ashx:行号 194
+   在 CompanyInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\CompanyManage\Data\CompanyInfo.ashx:行号 39
+   在 CompanyInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\CompanyManage\Data\CompanyInfo.ashx:行号 15
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 22:44:32,494][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 22:46:04,681][ERROR] - 程序未捕获的异常
+System.Data.SqlClient.SqlException: DELETE 语句与 REFERENCE 约束"FK_product_company"冲突。该冲突发生于数据库"czcraft"，表"dbo.product", column 'Companyid'。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 DBO.SqlDBOperator.ExecuteNonQuery(String cmdText, DbParameter[] parameters) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\DBO\DBO\SqlDBOperator.cs:行号 466
+   在 czcraft.DAL.companyDAL.DeleteMoreID(String strID) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\DAL\MyClass\companyDAL.cs:行号 269
+   在 czcraft.BLL.companyBLL.DeleteMoreID(String strID) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\BLL\companyBLL.cs:行号 41
+   在 CompanyInfo.RemoveCompany(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\CompanyManage\Data\CompanyInfo.ashx:行号 194
+   在 CompanyInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\CompanyManage\Data\CompanyInfo.ashx:行号 39
+   在 CompanyInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\CompanyManage\Data\CompanyInfo.ashx:行号 15
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 22:46:05,123][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 22:47:05,958][ERROR] - 程序未捕获的异常
+System.Data.SqlClient.SqlException: DELETE 语句与 REFERENCE 约束"FK_product_company"冲突。该冲突发生于数据库"czcraft"，表"dbo.product", column 'Companyid'。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 DBO.SqlDBOperator.ExecuteNonQuery(String cmdText, DbParameter[] parameters) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\DBO\DBO\SqlDBOperator.cs:行号 466
+   在 czcraft.DAL.companyDAL.DeleteMoreID(String strID) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\DAL\MyClass\companyDAL.cs:行号 269
+   在 czcraft.BLL.companyBLL.DeleteMoreID(String strID) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\BLL\companyBLL.cs:行号 41
+   在 CompanyInfo.RemoveCompany(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\CompanyManage\Data\CompanyInfo.ashx:行号 194
+   在 CompanyInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\CompanyManage\Data\CompanyInfo.ashx:行号 39
+   在 CompanyInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\CompanyManage\Data\CompanyInfo.ashx:行号 15
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 22:47:47,904][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 22:53:49,718][ERROR] - 程序未捕获的异常
+System.Data.SqlClient.SqlException: DELETE 语句与 REFERENCE 约束"FK_product_company"冲突。该冲突发生于数据库"czcraft"，表"dbo.product", column 'Companyid'。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 DBO.SqlDBOperator.ExecuteNonQuery(String cmdText, DbParameter[] parameters) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\DBO\DBO\SqlDBOperator.cs:行号 466
+   在 czcraft.DAL.companyDAL.DeleteMoreID(String strID) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\DAL\MyClass\companyDAL.cs:行号 269
+   在 czcraft.BLL.companyBLL.DeleteMoreID(String strID) 位置 C:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\BLL\companyBLL.cs:行号 41
+   在 CompanyInfo.RemoveCompany(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\CompanyManage\Data\CompanyInfo.ashx:行号 194
+   在 CompanyInfo.CallMethod(String Method, HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\CompanyManage\Data\CompanyInfo.ashx:行号 39
+   在 CompanyInfo.ProcessRequest(HttpContext context) 位置 c:\Users\tianzh\Desktop\web\MiniUI_czcraft\miniui\czcraft\czcraft\Admin\CompanyManage\Data\CompanyInfo.ashx:行号 15
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 23:20:04,833][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 23:56:46,626][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+[2012-05-28 23:57:51,332][ERROR] - 程序未捕获的异常
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

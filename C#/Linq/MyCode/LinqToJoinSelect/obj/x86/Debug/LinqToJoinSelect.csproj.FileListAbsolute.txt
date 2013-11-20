@@ -1,0 +1,5 @@
+E:\My\百度云\PracticeCode\C#\Linq\MyCode\LinqToJoinSelect\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\My\百度云\PracticeCode\C#\Linq\MyCode\LinqToJoinSelect\bin\Debug\LinqToJoinSelect.exe
+E:\My\百度云\PracticeCode\C#\Linq\MyCode\LinqToJoinSelect\bin\Debug\LinqToJoinSelect.pdb
+E:\My\百度云\PracticeCode\C#\Linq\MyCode\LinqToJoinSelect\obj\x86\Debug\LinqToJoinSelect.exe
+E:\My\百度云\PracticeCode\C#\Linq\MyCode\LinqToJoinSelect\obj\x86\Debug\LinqToJoinSelect.pdb

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CacheStorage.CacheFactory">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="CacheStorage.CacheFactory.CacheType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CacheFactory.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CacheFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CacheStorage.DefaultCacheAdapter" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIEAAAAAAAABAAAAABAAAAAAAAAAAAAAAAAEIAAA=</HashCode>
+      <FileName>DefaultCacheAdapter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.429" />
+  </Class>
+  <Class Name="CacheStorage.MemcachedCache" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIEAgAAAAAABAAAAABAAAAAAAAAAACAAAAAEIAAA=</HashCode>
+      <FileName>MemcachedCache.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="CacheStorage.ICacheStorage">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIEAAAAAAAABAAAAABAAAAAAAAAAAAAAAAAEIAAA=</HashCode>
+      <FileName>ICacheStorage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

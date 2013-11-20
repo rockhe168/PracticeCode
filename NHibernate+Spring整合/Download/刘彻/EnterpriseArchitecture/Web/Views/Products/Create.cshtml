@@ -1,0 +1,12 @@
+﻿@model Model.Products.ProductList
+@{
+    ViewBag.Title = "Create";
+}
+@using (Html.BeginForm("Create"))
+{
+           
+    @Html.TextBoxFor(model => model.ProductName, new { @style = "width:300px;", @maxlength = "50" })
+    @Html.ValidationMessageFor(model => model.ProductName)
+    <input id="sbAdd" type="submit" value="添加" />
+}
+

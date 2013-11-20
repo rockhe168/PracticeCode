@@ -1,0 +1,10 @@
+E:\MyRepository\百度云\PracticeCode\设计模式\适配器模式[篮球翻译]\bin\Debug\适配器模式[篮球翻译].exe
+E:\MyRepository\百度云\PracticeCode\设计模式\适配器模式[篮球翻译]\bin\Debug\适配器模式[篮球翻译].pdb
+E:\MyRepository\百度云\PracticeCode\设计模式\适配器模式[篮球翻译]\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\MyRepository\百度云\PracticeCode\设计模式\适配器模式[篮球翻译]\obj\x86\Debug\适配器模式[篮球翻译].exe
+E:\MyRepository\百度云\PracticeCode\设计模式\适配器模式[篮球翻译]\obj\x86\Debug\适配器模式[篮球翻译].pdb
+E:\My\百度云\PracticeCode\设计模式\适配器模式[篮球翻译]\bin\Debug\适配器模式[篮球翻译].exe
+E:\My\百度云\PracticeCode\设计模式\适配器模式[篮球翻译]\bin\Debug\适配器模式[篮球翻译].pdb
+E:\My\百度云\PracticeCode\设计模式\适配器模式[篮球翻译]\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\My\百度云\PracticeCode\设计模式\适配器模式[篮球翻译]\obj\x86\Debug\适配器模式[篮球翻译].exe
+E:\My\百度云\PracticeCode\设计模式\适配器模式[篮球翻译]\obj\x86\Debug\适配器模式[篮球翻译].pdb

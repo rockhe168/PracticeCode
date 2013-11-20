@@ -1,0 +1,6 @@
+<Modules>
+  <Module PersistentId="6EA475C0-7F19-4563-802B-CF98AA4262D4" ModuleId="Common" />
+  <Module PersistentId="771A1E3E-BDFA-4142-9AE3-6655C08681CE" ModuleId="ConfigAttribute" />
+  <Module PersistentId="FE5E07F1-6910-4976-BA9E-3FC22665C58C" ModuleId="Service" />
+  <Module PersistentId="3038C313-10F7-4E2A-8786-BDB47B3ACFAB" ModuleId="ConfigName" />
+</Modules>

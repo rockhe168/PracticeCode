@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net"
+         xmlns:db="http://www.springframework.net/database">
+   <!--Dao-->
+		  <object id="CategoryDaoHelp"
+            type="DAO.Hibernate.common.HibernateDaoHelp&lt;Domain.Entity.Category,int>,DAO.Hibernate">
+    <property name="HibernateTemplate" ref="HibernateTemplate"/>
+  </object>
+		  <object id="CustomerDemographicDaoHelp"
+            type="DAO.Hibernate.common.HibernateDaoHelp&lt;Domain.Entity.CustomerDemographic,int>,DAO.Hibernate">
+    <property name="HibernateTemplate" ref="HibernateTemplate"/>
+  </object>
+		  <object id="CustomerDaoHelp"
+            type="DAO.Hibernate.common.HibernateDaoHelp&lt;Domain.Entity.Customer,int>,DAO.Hibernate">
+    <property name="HibernateTemplate" ref="HibernateTemplate"/>
+  </object>
+		  <object id="EmployeeDaoHelp"
+            type="DAO.Hibernate.common.HibernateDaoHelp&lt;Domain.Entity.Employee,int>,DAO.Hibernate">
+    <property name="HibernateTemplate" ref="HibernateTemplate"/>
+  </object>
+		  <object id="OrderDetailDaoHelp"
+            type="DAO.Hibernate.common.HibernateDaoHelp&lt;Domain.Entity.OrderDetail,int>,DAO.Hibernate">
+    <property name="HibernateTemplate" ref="HibernateTemplate"/>
+  </object>
+		  <object id="OrderDaoHelp"
+            type="DAO.Hibernate.common.HibernateDaoHelp&lt;Domain.Entity.Order,int>,DAO.Hibernate">
+    <property name="HibernateTemplate" ref="HibernateTemplate"/>
+  </object>
+		  <object id="ProductDaoHelp"
+            type="DAO.Hibernate.common.HibernateDaoHelp&lt;Domain.Entity.Product,int>,DAO.Hibernate">
+    <property name="HibernateTemplate" ref="HibernateTemplate"/>
+  </object>
+		  <object id="RegionDaoHelp"
+            type="DAO.Hibernate.common.HibernateDaoHelp&lt;Domain.Entity.Region,int>,DAO.Hibernate">
+    <property name="HibernateTemplate" ref="HibernateTemplate"/>
+  </object>
+		  <object id="ShipperDaoHelp"
+            type="DAO.Hibernate.common.HibernateDaoHelp&lt;Domain.Entity.Shipper,int>,DAO.Hibernate">
+    <property name="HibernateTemplate" ref="HibernateTemplate"/>
+  </object>
+		  <object id="SupplierDaoHelp"
+            type="DAO.Hibernate.common.HibernateDaoHelp&lt;Domain.Entity.Supplier,int>,DAO.Hibernate">
+    <property name="HibernateTemplate" ref="HibernateTemplate"/>
+  </object>
+		  <object id="TerritoryDaoHelp"
+            type="DAO.Hibernate.common.HibernateDaoHelp&lt;Domain.Entity.Territory,int>,DAO.Hibernate">
+    <property name="HibernateTemplate" ref="HibernateTemplate"/>
+  </object>
+
+</objects>
+

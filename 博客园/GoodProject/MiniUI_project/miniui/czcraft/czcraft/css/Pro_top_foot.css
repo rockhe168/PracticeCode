@@ -1,0 +1,194 @@
+﻿@import "reset.css";
+
+.hide {
+	display:block;
+	float:left;
+	height:2px;
+	text-indent:-9999px;
+}
+.bold {font-weight:bold;}
+.gray {color:#999;}
+
+body {
+	width:100%;
+	background:#FFF;
+	font:12px Verdana, Geneva, sans-serif "宋体";
+}
+.sheel,.sheel1{
+	width:1000px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+.sheel1{background:url(../images/pro_show_02.png) repeat;}   /*图片的放大后的页面*/
+
+
+.header {                 /*头部*/
+	width:1000px;
+	height:110px;
+	overflow:hidden;
+	background:url(../images/header.png) no-repeat;
+}
+.top_side {              /*--------========个人信息、登陆注册栏========----------*/
+    width:100%;
+	height:58px;
+	float:left;
+}
+.nav {                 /*------======主导航栏========--------*/
+	width:761px;
+	height:36px;
+	float:right;
+	/*background:url(../images/nav_bg.gif) repeat-x;*/
+}
+.nav ul {
+	width:720px;
+	height:36px;
+	float:right;
+	margin-right:10px;
+	display:inline;
+}
+.nav li {
+	height:35px;
+	float:left;
+	margin:0 9px 0 0 !important;
+	margin:0 10px 0 0;
+	font-weight:bold;
+	display:inline;
+	overflow:hidden;
+}
+.nav li a {
+	padding:10px 10px 12px 10px;
+	margin-top:1px;
+	color:#FFF;
+	display:block;
+	text-decoration:none;
+}
+/*Firefox*/@-moz-document url-prefix() { .nav li a {padding:9px 10px 10px 10px;} }  
+#sddm div {	
+    position: absolute;
+	visibility: hidden;
+	overflow:hidden;
+	width:120px;
+	background: #EAEBD8;
+	border: 0px solid #E3CF50;
+	border-width:0px 1px 1px 1px;
+}
+#sddm div a {
+	position: relative;
+	display: block;
+	padding: 5px 10px;
+	text-align:left;
+	text-decoration: none;
+	background: #BD7528;
+	color:#FFF;
+	font: 12px arial;
+	font-weight:bold;
+}
+.nav a:hover,#sddm div a:hover {
+	background:#fff;
+	color:#2B4512;
+	text-decoration:none;
+}
+/*------=====子导航栏（二级导航）=====-------*/
+/*.nav2 {               
+	width:760px;
+	height:25px;
+	float:right;
+	margin-top:10px;
+	font:14px Verdana, Geneva, sans-serif bold;
+}*/
+/*.nav2 ul {
+	width:760px;
+	height:25px;
+	float:left;
+	display:none;
+}
+.nav2 ul.position1 {
+	width:580px;
+	padding-left:180px;
+}
+.nav2 ul.position2 {
+	width:500px;
+	float:right;
+}
+.nav2 li {
+	height:15px;
+	margin-right:20px;
+	padding:8px 5px 0 5px;
+	float:left;
+	display:block;
+}
+.nav2 li a {
+	font-weight:bold;
+	color:#A5BE8E;
+	text-decoration:none;
+}
+.nav2 li a:hover {
+	color:#2B4512;
+}*/
+
+.footer {                 /*尾部*/
+	width:1000px;
+	height:80px;
+	padding-top:67px;
+	overflow:hidden;
+	background:url(../images/foot.png) no-repeat;
+}
+
+.footer1 {                 /*图片的放大后页面的尾部*/
+	width:1000px;
+	height:80px;
+	padding-top:67px;
+	overflow:hidden;
+	background:url(../images/pro_show_01.png) no-repeat;
+}
+
+.s_nav {              /*--------=======副导航栏（位于尾部）========-----------*/
+	width:350px;
+	height:25px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.s_nav li {
+	height:25px;
+	float:left;
+	color:#ABABAB;
+}
+.s_nav li a {
+	padding:8px;
+	color:#060606;
+}
+.s_nav li a:hover {
+	color:#F00;
+}
+.foot {
+	width:440px;
+	color:#000;
+	margin:0 auto;
+	overflow:hidden;
+}
+.foot span {
+	margin-left:10px;
+	padding:0;
+}
+.foot p {
+	text-align:center;
+	margin-bottom:3px;
+}
+.page {
+	width:711px;
+	overflow:hidden;
+	line-height:20px;
+	padding-top:30px;
+	margin:20px auto 10px auto;
+	background:url(../images/list_bt.gif) repeat-x left top
+}
+.li_page {
+	display:block;
+	width:100%;
+	overflow:hidden;
+	line-height:20px;
+	padding-top:30px;
+	margin:20px auto 10px auto;
+	background:url(../images/list_bt.gif) repeat-x left top
+}

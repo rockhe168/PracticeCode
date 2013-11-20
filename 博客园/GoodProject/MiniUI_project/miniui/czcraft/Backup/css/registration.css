@@ -1,0 +1,149 @@
+.registration { 
+	color:#666;
+	font-size:12px; 
+	width:980px;
+	margin:0;
+	padding:0; 
+	border:none; 
+	float:left;
+	}
+	
+.user_re	{ 
+	border-bottom:solid 1px #CCC;
+	}
+	
+.user_re  p { 
+	width:100%;
+	margin:0;
+	padding-top:8px;
+	padding-bottom:3px;
+	}
+
+.quan{
+	color:#666;
+	padding-top:8px;
+	}
+.quan a{
+	color:#666;
+	}
+
+	
+.re_left	{
+	margin-top:30px; 
+	float:left;
+	margin-left:10px;
+	}
+	
+.service	{
+	margin-top:20px;
+	}
+	
+.re_right	{
+	margin-left:275px; 
+	margin-top:50px;
+	}
+	
+.re_right a,.user_re a {
+	text-decoration:none;
+	display:inline;
+	color:#C00;
+	}
+	
+.mima{
+	width:473px;
+	margin:0 auto;
+	border:1px solid #F06;
+
+	margin-bottom:50px;
+	background:#FFfafa;
+	margin-left:0px;
+	}
+	
+
+	
+.mima .tou p,.mima .tou1 p{
+	color:#003;
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-left:200px;
+	font-weight:bold;
+	display:inline;
+	}
+	
+/*-----------================滑动门事件？？=================-----------*/
+#tabs1  ul{
+ margin:0 auto;
+ padding:0;
+}
+body{
+ font:12px "宋体";
+}
+#tabs1 a:link{
+ color:#00F;
+ text-decoration:none;
+}
+#tabs1 a:visited {
+ color: #00F;
+ text-decoration:none;
+}
+#tabs1 a:hover {
+ color: #c00;
+ text-decoration:underline;
+}
+#tabs1 ul{
+ list-style:none;
+}
+#tabs1 .main{
+ clear:both;
+ padding:8px;
+ text-align:center;
+}
+
+/*第二种形式*/
+#tabs1{
+ text-align:left;
+ width:950px;
+ margin:20px 0 20px 0;
+}
+#tabs1 .menu1box{
+ position:relative;
+ overflow:hidden;
+ height:22px;
+ width:950px;
+ text-align:left;
+}
+#tabs1 #menu1{
+ position:absolute;
+ top:0;
+ left:0;
+ z-index:1;
+}
+#tabs1 #menu1 li{
+ float:left;
+ display:block;
+ cursor:pointer;
+ width:100px;
+ text-align:center;
+ line-height:21px;
+ height:21px;
+}
+#tabs1 #menu1 li.hover{
+ background:#fff;
+ border-left:1px solid #ccc;
+ border-top:1px solid #ccc;
+ border-right:1px solid #ccc;
+}
+#tabs1 .main1box{
+ clear:both;
+ margin-top:-1px;
+ border:1px solid #ccc;
+ width:950px;
+ background:#F6F6F6;
+}
+#tabs1 #main1 ul{
+ display: none;
+}
+#tabs1 #main1 ul.block{
+ display: block;
+}
+.main li {text-align:left;}

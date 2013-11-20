@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<configuration>
+  <!--列表页的分页大小-->
+  <pageSize>4</pageSize>
+  <!--超级管理员配置，以“.”隔开-->
+  <administrator>admin</administrator>
+  <!--身份验证安全级别。1为低，2为中，3为高-->
+  <safeLevel>3</safeLevel>
+  <!--密码。0为明文，1为密文-->
+  <passwordType>1</passwordType>
+</configuration>

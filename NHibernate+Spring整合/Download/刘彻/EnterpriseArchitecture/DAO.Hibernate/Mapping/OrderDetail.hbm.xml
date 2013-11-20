@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Domain.Entity" assembly="Domain">
+	<class name="Domain.Entity.OrderDetail, Domain" table="[dbo].[Order Details]" lazy="true">
+		<composite-id>
+			<key-property name="OrderID" column="[OrderID]" /> 
+			<key-property name="ProductID" column="[ProductID]" /> 
+		</composite-id>
+		<property name="UnitPrice" column="[UnitPrice]" />
+		<property name="Quantity" column="[Quantity]" />
+		<property name="Discount" column="[Discount]" />
+	</class>
+</hibernate-mapping>
+

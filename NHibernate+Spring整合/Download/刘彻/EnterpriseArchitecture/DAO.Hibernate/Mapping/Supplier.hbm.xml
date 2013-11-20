@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Domain.Entity" assembly="Domain">
+	<class name="Domain.Entity.Supplier, Domain" table="[dbo].[Suppliers]" lazy="true">
+		<id name="Id" column="[SupplierID]">
+		 	<generator class="native" />
+		</id>
+		<property name="CompanyName" column="[CompanyName]" />
+		<property name="ContactName" column="[ContactName]" />
+		<property name="ContactTitle" column="[ContactTitle]" />
+		<property name="Address" column="[Address]" />
+		<property name="City" column="[City]" />
+		<property name="Region" column="[Region]" />
+		<property name="PostalCode" column="[PostalCode]" />
+		<property name="Country" column="[Country]" />
+		<property name="Phone" column="[Phone]" />
+		<property name="Fax" column="[Fax]" />
+		<property name="HomePage" column="[HomePage]" />
+		<bag name="Products" lazy="true" cascade="all" inverse="true" >
+			<key column="[SupplierID]"></key>
+			<one-to-many class="Domain.Entity.Product"></one-to-many>
+		</bag>
+	</class>
+</hibernate-mapping>
+

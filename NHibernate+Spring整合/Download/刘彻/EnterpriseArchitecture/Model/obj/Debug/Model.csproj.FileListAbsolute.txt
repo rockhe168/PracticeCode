@@ -1,0 +1,5 @@
+d:\backup\我的文档\visual studio 2010\Projects\EnterpriseArchitecture\Model\bin\Debug\Model.dll
+d:\backup\我的文档\visual studio 2010\Projects\EnterpriseArchitecture\Model\bin\Debug\Model.pdb
+d:\backup\我的文档\visual studio 2010\Projects\EnterpriseArchitecture\Model\obj\Debug\ResolveAssemblyReference.cache
+d:\backup\我的文档\visual studio 2010\Projects\EnterpriseArchitecture\Model\obj\Debug\Model.dll
+d:\backup\我的文档\visual studio 2010\Projects\EnterpriseArchitecture\Model\obj\Debug\Model.pdb

@@ -1,0 +1,10 @@
+E:\MyRepository\百度云\PracticeCode\设计模式\Singleton[简单实现]\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\MyRepository\百度云\PracticeCode\设计模式\Singleton[简单实现]\bin\Debug\Singleton[简单实现].exe
+E:\MyRepository\百度云\PracticeCode\设计模式\Singleton[简单实现]\bin\Debug\Singleton[简单实现].pdb
+E:\MyRepository\百度云\PracticeCode\设计模式\Singleton[简单实现]\obj\x86\Debug\Singleton[简单实现].exe
+E:\MyRepository\百度云\PracticeCode\设计模式\Singleton[简单实现]\obj\x86\Debug\Singleton[简单实现].pdb
+E:\My\百度云\PracticeCode\设计模式\Singleton[简单实现]\bin\Debug\Singleton[简单实现].exe
+E:\My\百度云\PracticeCode\设计模式\Singleton[简单实现]\bin\Debug\Singleton[简单实现].pdb
+E:\My\百度云\PracticeCode\设计模式\Singleton[简单实现]\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\My\百度云\PracticeCode\设计模式\Singleton[简单实现]\obj\x86\Debug\Singleton[简单实现].exe
+E:\My\百度云\PracticeCode\设计模式\Singleton[简单实现]\obj\x86\Debug\Singleton[简单实现].pdb

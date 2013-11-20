@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Domain.Entity" assembly="Domain">
+	<class name="Domain.Entity.Employee, Domain" table="[dbo].[Employees]" lazy="true">
+		<id name="Id" column="[EmployeeID]">
+		 	<generator class="native" />
+		</id>
+		<property name="LastName" column="[LastName]" />
+		<property name="FirstName" column="[FirstName]" />
+		<property name="Title" column="[Title]" />
+		<property name="TitleOfCourtesy" column="[TitleOfCourtesy]" />
+		<property name="BirthDate" column="[BirthDate]" />
+		<property name="HireDate" column="[HireDate]" />
+		<property name="Address" column="[Address]" />
+		<property name="City" column="[City]" />
+		<property name="Region" column="[Region]" />
+		<property name="PostalCode" column="[PostalCode]" />
+		<property name="Country" column="[Country]" />
+		<property name="HomePhone" column="[HomePhone]" />
+		<property name="Extension" column="[Extension]" />
+		<property name="Photo" column="[Photo]" />
+		<property name="Notes" column="[Notes]" />
+		<property name="PhotoPath" column="[PhotoPath]" />
+		<many-to-one name="EmployeeMember" column="[ReportsTo]" class="Domain.Entity.Employee" />
+	</class>
+</hibernate-mapping>
+

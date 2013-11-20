@@ -1,0 +1,10 @@
+E:\MyRepository\百度云\PracticeCode\设计模式\原型模式[简历复制_深复制2]\bin\Debug\原型模式[简历复制_深复制2].exe
+E:\MyRepository\百度云\PracticeCode\设计模式\原型模式[简历复制_深复制2]\bin\Debug\原型模式[简历复制_深复制2].pdb
+E:\MyRepository\百度云\PracticeCode\设计模式\原型模式[简历复制_深复制2]\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\MyRepository\百度云\PracticeCode\设计模式\原型模式[简历复制_深复制2]\obj\x86\Debug\原型模式[简历复制_深复制2].exe
+E:\MyRepository\百度云\PracticeCode\设计模式\原型模式[简历复制_深复制2]\obj\x86\Debug\原型模式[简历复制_深复制2].pdb
+E:\My\百度云\PracticeCode\设计模式\原型模式[简历复制_深复制2]\bin\Debug\原型模式[简历复制_深复制2].exe
+E:\My\百度云\PracticeCode\设计模式\原型模式[简历复制_深复制2]\bin\Debug\原型模式[简历复制_深复制2].pdb
+E:\My\百度云\PracticeCode\设计模式\原型模式[简历复制_深复制2]\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\My\百度云\PracticeCode\设计模式\原型模式[简历复制_深复制2]\obj\x86\Debug\原型模式[简历复制_深复制2].exe
+E:\My\百度云\PracticeCode\设计模式\原型模式[简历复制_深复制2]\obj\x86\Debug\原型模式[简历复制_深复制2].pdb

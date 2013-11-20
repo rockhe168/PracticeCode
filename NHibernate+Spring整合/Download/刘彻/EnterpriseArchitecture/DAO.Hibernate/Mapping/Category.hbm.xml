@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Domain.Entity" assembly="Domain">
+	<class name="Domain.Entity.Category, Domain" table="[dbo].[Categories]" lazy="true">
+		<id name="Id" column="[CategoryID]">
+		 	<generator class="native" />
+		</id>
+		<property name="CategoryName" column="[CategoryName]" />
+		<property name="Description" column="[Description]" />
+		<property name="Picture" column="[Picture]" />
+		<bag name="Products" lazy="true" cascade="all" inverse="true" >
+			<key column="[CategoryID]"></key>
+			<one-to-many class="Domain.Entity.Product"></one-to-many>
+		</bag>
+	</class>
+</hibernate-mapping>
+

@@ -1,0 +1,505 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DBO</name>
+    </assembly>
+    <members>
+        <member name="T:DBO.DBOperator">
+            <summary>
+            定义一个数据库连接接口,定义数据库连接的操作
+            </summary>
+        </member>
+        <member name="M:DBO.DBOperator.instance(System.String,DBO.DataAccess.DataType)">
+            <summary>
+            创建一个新的数据库连接类
+            </summary>
+            <param name="ConnStr">数据库连接语句</param>
+            <returns>返回一个DBOperator</returns>
+        </member>
+        <member name="M:DBO.DBOperator.Open">
+            <summary>
+            打开数据库连接
+            </summary>
+        </member>
+        <member name="M:DBO.DBOperator.Close">
+            <summary>
+            关闭数据库连接 
+            </summary>
+        </member>
+        <member name="M:DBO.DBOperator.BeginTrans">
+            <summary>
+            开始一个事务 
+            </summary>
+        </member>
+        <member name="M:DBO.DBOperator.CommitTrans">
+            <summary>
+            //提交一个事务 
+            </summary>
+        </member>
+        <member name="M:DBO.DBOperator.RollbackTrans">
+            <summary>
+             回滚一个事务 
+            </summary>
+        </member>
+        <member name="M:DBO.DBOperator.instance">
+            <summary>
+            默认实例化的是sql
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DBO.DBOperator.GetReader(System.String)">
+            <summary>
+            获得reader流,只读式查询性能比较高,记住,由于reader流的独占式连接,reader流一定要主动close,否则会出现连接未关闭
+            </summary>
+            <param name="sql">查询语句sql</param>
+            <returns>返回reader流</returns>
+        </member>
+        <member name="M:DBO.DBOperator.GetAdapter(System.String)">
+            <summary>
+            获取数据库设配集
+            </summary>
+            <param name="sql">查询语句sql</param>
+            <returns>强类型的设配集</returns>
+        </member>
+        <member name="M:DBO.DBOperator.GetSelectNums(System.String)">
+            <summary>
+            //获取选择的行数(注意:如果包含group by 等语句,则可能出错)
+            </summary>
+            <param name="sql">查询语句sql</param>
+            <returns>该表总记录</returns>
+        </member>
+        <member name="M:DBO.DBOperator.GetSelectFirstNum(System.String)">
+            <summary>
+            返回查询第一行的结果(强制转化为int类型显示)
+            </summary>
+            <param name="sql">查询语句sql</param>
+            <returns>返回查询结果(第一行第一列)</returns>
+        </member>
+        <member name="M:DBO.DBOperator.ExecuteUpdate(System.String)">
+            <summary>
+            执行sql语句,如果返回true,则执行成功,否则执行失败
+            </summary>
+            <param name="strSql">查询语句sql</param>
+            <returns>返回执行状态</returns>
+        </member>
+        <member name="M:DBO.DBOperator.ExecuteUpdate(System.String,System.String[],System.Object[])">
+             <summary>
+             重载ExecuteUpdate,一种安全的执行方式,推荐使用,传递参数为查询语句strSql,string数组,和Object数组,string数组用来存放
+            参数,object用来保存值,例如string[] str={"@name","@id"},object[] ob={"tianzh",3}传递ExcuteUpdate(sql,str,ob);
+             </summary>
+             <param name="strSql">查询语句sql</param>
+             <param name="strParams">传递params参数</param>
+             <param name="objValues">传递params的值</param>
+             <returns>返回执行状态</returns>
+        </member>
+        <member name="M:DBO.DBOperator.GetDataSet(System.String)">
+            <summary>
+            返回dataset数据集,返回一个数据表放在内存中
+            </summary>
+            <param name="QueryString">查询语句sql</param>
+            <returns>返回dataset数据集</returns>
+        </member>
+        <!-- 对于成员“M:DBO.DBOperator.GetDataSet(System.String,System.String[],System.Object[])”忽略有格式错误的 XML 注释 -->
+        <member name="M:DBO.DBOperator.SearchTable(System.String)">
+            <summary>
+            查询数据,返回一个数据表
+            </summary>
+            <param name="strSQL">查询语句sql</param>
+            <returns>返回执行状态</returns>
+        </member>
+        <!-- 对于成员“M:DBO.DBOperator.SearchTable(System.String,System.String[],System.Object[])”忽略有格式错误的 XML 注释 -->
+        <member name="M:DBO.DBOperator.SearchValue(System.String)">
+            <summary>
+            查询数据,返回查询结果第一行第一列
+            </summary>
+            <param name="strSQL">查询语句sql</param>
+            <returns>返回查询结果,如果多条数据,则是第一行第一列</returns>
+        </member>
+        <!-- 对于成员“M:DBO.DBOperator.SearchValue(System.String,System.String[],System.Object[])”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:DBO.DBOperator.ExecSqlAndReturnID(System.String,System.String[],System.Object[])”忽略有格式错误的 XML 注释 -->
+        <member name="M:DBO.DBOperator.ExecuteNonQuery(System.String,System.Data.Common.DbParameter[])">
+            <summary>
+            执行语句
+            </summary>
+            <param name="cmdText">sql语句</param>
+            <param name="parameters">可变参数</param>
+            <returns>执行状态</returns>
+        </member>
+        <!-- 对于成员“M:DBO.DBOperator.ExecuteScalar(System.String,System.Data.Common.DbParameter[])”忽略有格式错误的 XML 注释 -->
+        <member name="M:DBO.DBOperator.ExecuteDataTable(System.String,System.Data.Common.DbParameter[])">
+            <summary>
+            查询并返回查询结果集
+            </summary>
+            <param name="cmdText">sql语句</param>
+            <param name="parameters">可变参数</param>
+            <returns>DataTable结果</returns>
+        </member>
+        <member name="M:DBO.DBOperator.ExecuteDataReader(System.String,System.Data.Common.DbParameter[])">
+            <summary>
+            查询并返回read流
+            </summary>
+            <param name="cmdText">sql语句</param>
+            <param name="parameters">可变参数</param>
+            <returns>DbDataReader流</returns>
+        </member>
+        <member name="M:DBO.DBOperator.ExecuteDataAdapter(System.String,System.Data.Common.DbParameter[])">
+            <returns>强类型的设配集</returns>
+            <summary>
+            获取数据库设配集
+            </summary>
+            <param name="sql">sql语句</param>
+            <param name="parameters">可变参数</param>
+            <returns>DbDataAdapter适配器</returns>
+        </member>
+        <member name="M:DBO.DBOperator.ExecuteSelectFirstNum(System.String,System.Data.Common.DbParameter[])">
+            <summary>
+            返回查询第一行的结果(强制转化为int类型显示)
+            </summary>
+            <param name="sql">查询语句sql</param>
+            <returns>返回查询结果(第一行第一列)</returns>
+        </member>
+        <member name="M:DBO.DBOperator.ExecSqlAndReturnID(System.String,System.Data.Common.DbParameter[])">
+            <summary>
+            执行sql语句,返回ID,一种安全的执行方式,推荐使用,传递参数为查询语句strSql,dbparameter数组
+            </summary>
+            <param name="strSQL">查询语句sql</param>
+            <param name="parameters">传递params的值</param>
+            <returns>返回查询结果,如果多条数据,则是第一行第一列</returns>
+        </member>
+        <member name="T:DBO.DataAccess">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:DBO.DataAccess.DataType">
+            <summary>
+            数据库类型枚举
+            </summary>
+        </member>
+        <member name="M:DBO.SqlDBOperator.#ctor(System.String)">
+            <summary>
+            SqlDBOperator 构造函数
+            </summary>
+            <param name="strConnection">数据库连接字符串</param>
+        </member>
+        <member name="M:DBO.SqlDBOperator.Open">
+            <summary>
+             Open 打开链接
+            </summary>
+        </member>
+        <member name="M:DBO.SqlDBOperator.Close">
+            <summary>
+            Close  //关闭连接
+            </summary>
+        </member>
+        <member name="M:DBO.SqlDBOperator.BeginTrans">
+            <summary>
+            开始事务
+            </summary>
+        </member>
+        <member name="M:DBO.SqlDBOperator.CommitTrans">
+            <summary>
+            提交事务
+            </summary>
+        </member>
+        <member name="M:DBO.SqlDBOperator.RollbackTrans">
+            <summary>
+            事务回滚
+            </summary>
+        </member>
+        <member name="M:DBO.SqlDBOperator.GetAdapter(System.String)">
+            <summary>
+            获取一个数据适配器
+            </summary>
+            <param name="sql">sql语句</param>
+            <returns>数据适配器</returns>
+        </member>
+        <member name="M:DBO.SqlDBOperator.GetSelectFirstNum(System.String)">
+            <summary>
+            获取第一行第一列
+            </summary>
+            <param name="sql">sql语句</param>
+            <returns>第一行第一列</returns>
+        </member>
+        <member name="M:DBO.SqlDBOperator.GetSelectNums(System.String)">
+            <summary>
+            //获取选择的行数(注意:如果包含group by 等语句,则可能出错)
+            </summary>
+            <param name="sql">sql语句</param>
+            <returns>返回选择行数</returns>
+        </member>
+        <member name="M:DBO.SqlDBOperator.ExecuteUpdate(System.String)">
+            <summary>
+            更新数据
+            </summary>
+            <param name="strSql">sql语句</param>
+            <returns>执行状态</returns>
+        </member>
+        <member name="M:DBO.SqlDBOperator.ExecuteUpdate(System.String,System.String[],System.Object[])">
+             <summary>
+             重载ExecuteUpdate,一种安全的执行方式,推荐使用,传递参数为查询语句strSql,string数组,和Object数组,string数组用来存放
+            参数,object用来保存值,例如string[] str={"@name","@id"},object[] ob={"tianzh",3}传递ExcuteUpdate(sql,str,ob);
+             </summary>
+             <param name="strSql">查询语句sql</param>
+             <param name="strParams">传递params参数</param>
+             <param name="objValues">传递params的值</param>
+             <returns>返回执行状态</returns>
+        </member>
+        <!-- 对于成员“M:DBO.SqlDBOperator.GetDataSet(System.String,System.String[],System.Object[])”忽略有格式错误的 XML 注释 -->
+        <member name="M:DBO.SqlDBOperator.GetDataSet(System.String)">
+            <summary>
+            返回dataset数据集,返回一个数据表放在内存中
+            </summary>
+            <param name="QueryString">查询语句sql</param>
+            <returns>返回dataset数据集</returns>
+        </member>
+        <member name="M:DBO.SqlDBOperator.SearchTable(System.String)">
+            <summary>
+            查询数据,返回一个数据表
+            </summary>
+            <param name="strSQL">查询语句sql</param>
+            <returns>返回执行状态</returns>
+        </member>
+        <!-- 对于成员“M:DBO.SqlDBOperator.SearchTable(System.String,System.String[],System.Object[])”忽略有格式错误的 XML 注释 -->
+        <member name="M:DBO.SqlDBOperator.SearchValue(System.String)">
+            <summary>
+            查询数据,返回查询结果第一行第一列
+            </summary>
+            <param name="strSQL">查询语句sql</param>
+            <returns>返回查询结果,如果多条数据,则是第一行第一列</returns>
+        </member>
+        <!-- 对于成员“M:DBO.SqlDBOperator.SearchValue(System.String,System.String[],System.Object[])”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:DBO.SqlDBOperator.ExecSqlAndReturnID(System.String,System.String[],System.Object[])”忽略有格式错误的 XML 注释 -->
+        <member name="M:DBO.SqlDBOperator.GetReader(System.String)">
+            <summary>
+            //得到read流并返回
+            </summary>
+            <param name="sql">sql语句</param>
+            <returns></returns>
+        </member>
+        <member name="M:DBO.SqlDBOperator.ExecuteNonQuery(System.String,System.Data.Common.DbParameter[])">
+            <summary>
+            执行语句
+            </summary>
+            <param name="cmdText">sql语句</param>
+            <param name="parameters">可变参数</param>
+            <returns>执行状态</returns>
+        </member>
+        <!-- 对于成员“M:DBO.SqlDBOperator.ExecuteScalar(System.String,System.Data.Common.DbParameter[])”忽略有格式错误的 XML 注释 -->
+        <member name="M:DBO.SqlDBOperator.ExecuteDataTable(System.String,System.Data.Common.DbParameter[])">
+            <summary>
+            查询并返回查询结果集
+            </summary>
+            <param name="cmdText">sql语句</param>
+            <param name="parameters">可变参数</param>
+            <returns>DataTable结果</returns>
+        </member>
+        <member name="M:DBO.SqlDBOperator.ExecuteDataReader(System.String,System.Data.Common.DbParameter[])">
+            <summary>
+            查询并返回read流
+            </summary>
+            <param name="cmdText">sql语句</param>
+            <param name="parameters">可变参数</param>
+            <returns>DbDataReader流</returns>
+        </member>
+        <member name="M:DBO.SqlDBOperator.ExecuteDataAdapter(System.String,System.Data.Common.DbParameter[])">
+            <returns>强类型的设配集</returns>
+            <summary>
+            获取数据库设配集
+            </summary>
+            <param name="sql">sql语句</param>
+            <param name="parameters">可变参数</param>
+            <returns>DbDataAdapter适配器</returns>
+        </member>
+        <member name="M:DBO.SqlDBOperator.ExecuteSelectFirstNum(System.String,System.Data.Common.DbParameter[])">
+            <summary>
+            返回查询第一行的结果(强制转化为int类型显示)
+            </summary>
+            <param name="sql">查询语句sql</param>
+            <returns>返回查询结果(第一行第一列)</returns>
+        </member>
+        <member name="M:DBO.SqlDBOperator.ExecSqlAndReturnID(System.String,System.Data.Common.DbParameter[])">
+            <summary>
+            执行sql语句,返回ID,一种安全的执行方式,推荐使用,传递参数为查询语句strSql,dbparameter数组
+            </summary>
+            <param name="strSQL">查询语句sql</param>
+            <param name="parameters">传递params的值</param>
+            <returns>返回查询结果,如果多条数据,则是第一行第一列</returns>
+        </member>
+        <member name="P:DBO.SqlDBOperator.Connection">
+            <summary>
+            Connection 数据库连接
+            </summary>
+        </member>
+        <member name="F:DBO.OleDBOperator.conn">
+            <summary>
+            数据连接
+            </summary>
+        </member>
+        <member name="F:DBO.OleDBOperator.trans">
+            <summary>
+            事务
+            </summary>
+        </member>
+        <member name="F:DBO.OleDBOperator.inTransaction">
+            <summary>
+            事务是否完成
+            </summary>
+        </member>
+        <member name="M:DBO.OleDBOperator.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="strConnection">数据库连接字符串</param>
+        </member>
+        <member name="M:DBO.OleDBOperator.Open">
+            <summary>
+            打开连接
+            </summary>
+        </member>
+        <member name="M:DBO.OleDBOperator.Close">
+            <summary>
+            关闭连接
+            </summary>
+        </member>
+        <member name="M:DBO.OleDBOperator.BeginTrans">
+            <summary>
+            开始事务
+            </summary>
+        </member>
+        <member name="M:DBO.OleDBOperator.CommitTrans">
+            <summary>
+            提交事务
+            </summary>
+        </member>
+        <member name="M:DBO.OleDBOperator.RollbackTrans">
+            <summary>
+            回滚事务
+            </summary>
+        </member>
+        <member name="M:DBO.OleDBOperator.GetSelectFirstNum(System.String)">
+            <summary>
+            返回查询第一行的结果(强制转化为int类型显示)
+            </summary>
+            <param name="sql">查询语句sql</param>
+            <returns>返回查询结果(第一行第一列)</returns>
+        </member>
+        <member name="M:DBO.OleDBOperator.GetAdapter(System.String)">
+            <summary>
+            获取数据适配器
+            </summary>
+            <param name="sql">sql语句</param>
+            <returns>DbDataAdapter适配器</returns>
+        </member>
+        <member name="M:DBO.OleDBOperator.GetSelectNums(System.String)">
+            <summary>
+            //获取选择的行数(注意:如果包含group by 等语句,则可能出错)
+            </summary>
+            <param name="sql">查询语句sql</param>
+            <returns>该表总记录</returns>
+        </member>
+        <member name="M:DBO.OleDBOperator.ExecuteUpdate(System.String)">
+            <summary>
+            执行sql语句,如果返回true,则执行成功,否则执行失败
+            </summary>
+            <param name="strSql">查询语句sql</param>
+            <returns>返回执行状态</returns>
+        </member>
+        <member name="M:DBO.OleDBOperator.ExecuteUpdate(System.String,System.String[],System.Object[])">
+             <summary>
+             重载ExecuteUpdate,一种安全的执行方式,推荐使用,传递参数为查询语句strSql,string数组,和Object数组,string数组用来存放
+            参数,object用来保存值,例如string[] str={"@name","@id"},object[] ob={"tianzh",3}传递ExcuteUpdate(sql,str,ob);
+             </summary>
+             <param name="strSql">查询语句sql</param>
+             <param name="strParams">传递params参数</param>
+             <param name="objValues">传递params的值</param>
+             <returns>返回执行状态</returns>
+        </member>
+        <!-- 对于成员“M:DBO.OleDBOperator.GetDataSet(System.String,System.String[],System.Object[])”忽略有格式错误的 XML 注释 -->
+        <member name="M:DBO.OleDBOperator.GetDataSet(System.String)">
+            <summary>
+            返回dataset数据集,返回一个数据表放在内存中
+            </summary>
+            <param name="QueryString">查询语句sql</param>
+            <returns>返回dataset数据集</returns>
+        </member>
+        <member name="M:DBO.OleDBOperator.SearchTable(System.String)">
+            <summary>
+            查询数据,返回一个数据表
+            </summary>
+            <param name="strSQL">查询语句sql</param>
+            <returns>返回执行状态</returns>
+        </member>
+        <!-- 对于成员“M:DBO.OleDBOperator.SearchTable(System.String,System.String[],System.Object[])”忽略有格式错误的 XML 注释 -->
+        <member name="M:DBO.OleDBOperator.SearchValue(System.String)">
+            <summary>
+            查询数据,返回查询结果第一行第一列
+            </summary>
+            <param name="strSQL">查询语句sql</param>
+            <returns>返回查询结果,如果多条数据,则是第一行第一列</returns>
+        </member>
+        <!-- 对于成员“M:DBO.OleDBOperator.SearchValue(System.String,System.String[],System.Object[])”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:DBO.OleDBOperator.ExecSqlAndReturnID(System.String,System.String[],System.Object[])”忽略有格式错误的 XML 注释 -->
+        <member name="M:DBO.OleDBOperator.GetReader(System.String)">
+            <summary>
+            //得到read流并返回
+            </summary>
+            <param name="sql">sql语句</param>
+            <returns></returns>
+        </member>
+        <member name="M:DBO.OleDBOperator.ExecuteNonQuery(System.String,System.Data.Common.DbParameter[])">
+            <summary>
+            执行语句
+            </summary>
+            <param name="cmdText">sql语句</param>
+            <param name="parameters">可变参数</param>
+            <returns>执行状态</returns>
+        </member>
+        <!-- 对于成员“M:DBO.OleDBOperator.ExecuteScalar(System.String,System.Data.Common.DbParameter[])”忽略有格式错误的 XML 注释 -->
+        <member name="M:DBO.OleDBOperator.ExecuteDataTable(System.String,System.Data.Common.DbParameter[])">
+            <summary>
+            查询并返回查询结果集
+            </summary>
+            <param name="cmdText">sql语句</param>
+            <param name="parameters">可变参数</param>
+            <returns>DataTable结果</returns>
+        </member>
+        <member name="M:DBO.OleDBOperator.ExecuteDataReader(System.String,System.Data.Common.DbParameter[])">
+            <summary>
+            查询并返回read流
+            </summary>
+            <param name="cmdText">sql语句</param>
+            <param name="parameters">可变参数</param>
+            <returns>DbDataReader流</returns>
+        </member>
+        <member name="M:DBO.OleDBOperator.ExecuteDataAdapter(System.String,System.Data.Common.DbParameter[])">
+            <returns>强类型的设配集</returns>
+            <summary>
+            获取数据库设配集
+            </summary>
+            <param name="sql">sql语句</param>
+            <param name="parameters">可变参数</param>
+            <returns>DbDataAdapter适配器</returns>
+        </member>
+        <member name="M:DBO.OleDBOperator.ExecuteSelectFirstNum(System.String,System.Data.Common.DbParameter[])">
+            <summary>
+            返回查询第一行的结果(强制转化为int类型显示)
+            </summary>
+            <param name="sql">查询语句sql</param>
+            <returns>返回查询结果(第一行第一列)</returns>
+        </member>
+        <member name="M:DBO.OleDBOperator.ExecSqlAndReturnID(System.String,System.Data.Common.DbParameter[])">
+            <summary>
+            执行sql语句,返回ID,一种安全的执行方式,推荐使用,传递参数为查询语句strSql,dbparameter数组
+            </summary>
+            <param name="strSQL">查询语句sql</param>
+            <param name="parameters">传递params的值</param>
+            <returns>返回查询结果,如果多条数据,则是第一行第一列</returns>
+        </member>
+        <member name="P:DBO.OleDBOperator.Connection">
+            <summary>
+            获取 IDbConnection
+            </summary>
+        </member>
+    </members>
+</doc>

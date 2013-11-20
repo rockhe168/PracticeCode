@@ -1,0 +1,250 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="C1497B7C-16F0-40CB-8DCA-C34494900ADE/d:Configs/d:Facade/f:Facade.xml" caret="359" fromTop="6" />
+      <File id="C1497B7C-16F0-40CB-8DCA-C34494900ADE/f:WebHost.svc" caret="130" fromTop="1" />
+      <File id="6A261DEA-0DF4-4DB7-9223-B40A457DD705/d:Entity/f:Product.cs" caret="168" fromTop="8" />
+      <File id="72238AA1-2DAD-49C5-9540-6715A70BEF4D/d:Products/f:ProductList.cs" caret="0" fromTop="0" />
+      <File id="10ED184E-FC2B-425B-B635-A0645064CE81/d:Views/d:Products/f:Index.cshtml" caret="555" fromTop="8" />
+      <File id="10ED184E-FC2B-425B-B635-A0645064CE81/d:Views/d:Products/f:List.cshtml" caret="268" fromTop="0" />
+      <File id="ED2F3711-0AC4-4250-909A-3F0291612CB5/d:IProducts/f:IProductSeg.cs" caret="333" fromTop="14" />
+      <File id="51866A5B-2A3F-474C-8CD3-C3DD9E16A834/d:IProducts/f:IProductService.cs" caret="177" fromTop="8" />
+      <File id="10ED184E-FC2B-425B-B635-A0645064CE81/d:Views/d:Home/f:Index.cshtml" caret="275" fromTop="7" />
+      <File id="10ED184E-FC2B-425B-B635-A0645064CE81/d:Controllers/f:HomeController.cs" caret="56" fromTop="1" />
+      <File id="E1B2C364-881D-45C0-85B3-D9D8A2D475F4/d:Common/f:LogService.cs" caret="163" fromTop="7" />
+      <File id="EDE79A3D-C33F-4E2D-9C5B-4D88F813A61B/d:Common/f:LogSeg.cs" caret="309" fromTop="5" />
+      <File id="10ED184E-FC2B-425B-B635-A0645064CE81/d:Configs/d:Interaction/f:Interaction.xml" caret="0" fromTop="0" />
+      <File id="10ED184E-FC2B-425B-B635-A0645064CE81/d:Configs/d:Service/f:Service.xml" caret="335" fromTop="6" />
+      <File id="10ED184E-FC2B-425B-B635-A0645064CE81/d:Views/f:Web.config" caret="0" fromTop="0" />
+      <File id="10ED184E-FC2B-425B-B635-A0645064CE81/d:Configs/d:Controler/f:Controler.xml" caret="0" fromTop="0" />
+      <File id="10ED184E-FC2B-425B-B635-A0645064CE81/f:Global.asax.cs" caret="0" fromTop="0" />
+      <File id="10ED184E-FC2B-425B-B635-A0645064CE81/d:Configs/d:Dao/f:DBDao.xml" caret="342" fromTop="8" />
+      <File id="10ED184E-FC2B-425B-B635-A0645064CE81/d:Configs/d:Segregate/f:Segregate.xml" caret="386" fromTop="7" />
+      <File id="10ED184E-FC2B-425B-B635-A0645064CE81/d:Controllers/d:Products/f:ProductController.cs" caret="754" fromTop="18" />
+      <File id="EDE79A3D-C33F-4E2D-9C5B-4D88F813A61B/d:Products/f:ProductSeg.cs" caret="1095" fromTop="10" />
+      <File id="E1B2C364-881D-45C0-85B3-D9D8A2D475F4/d:Products/f:ProductService.cs" caret="1543" fromTop="6" />
+      <File id="10ED184E-FC2B-425B-B635-A0645064CE81/f:Web.config" caret="5723" fromTop="6" />
+      <File id="C1497B7C-16F0-40CB-8DCA-C34494900ADE/f:Web.config" caret="0" fromTop="0" />
+      <File id="57E56A97-3D7D-4784-A791-0A37F85E3669/f:app.config" caret="1316" fromTop="2" />
+      <File id="58A368A9-39A7-4472-B320-6049C43239CE/f:ProductDTO.cs" caret="222" fromTop="11" />
+      <File id="9D93E881-AA66-4E6C-A1C8-1D4EDAB4E2F7/d:IProducts/f:IProductFacade.cs" caret="179" fromTop="8" />
+      <File id="57E56A97-3D7D-4784-A791-0A37F85E3669/f:ProductSI.cs" caret="223" fromTop="11" />
+      <File id="5B7599B6-99F1-4507-BD87-F417B0589A5A/f:IProductSI.cs" caret="154" fromTop="7" />
+      <File id="0A566F04-5AE8-43AB-98BD-E773C85A0D42/d:Products/f:ProductFacade.cs" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="EDE79A3D-C33F-4E2D-9C5B-4D88F813A61B/d:Products/f:ProductSeg.cs" caret="2623" fromTop="16" />
+      <File id="EDE79A3D-C33F-4E2D-9C5B-4D88F813A61B/d:Products/f:ProductSeg.cs" caret="2198" fromTop="16" />
+      <File id="EDE79A3D-C33F-4E2D-9C5B-4D88F813A61B/d:Products/f:ProductSeg.cs" caret="1910" fromTop="8" />
+      <File id="EDE79A3D-C33F-4E2D-9C5B-4D88F813A61B/d:Products/f:ProductSeg.cs" caret="2560" fromTop="24" />
+      <File id="ED2F3711-0AC4-4250-909A-3F0291612CB5/d:IProducts/f:IProductSeg.cs" caret="279" fromTop="12" />
+      <File id="ED2F3711-0AC4-4250-909A-3F0291612CB5/d:IProducts/f:IProductSeg.cs" caret="447" fromTop="17" />
+      <File id="10ED184E-FC2B-425B-B635-A0645064CE81/d:Controllers/d:Products/f:ProductController.cs" caret="1427" fromTop="18" />
+      <File id="10ED184E-FC2B-425B-B635-A0645064CE81/d:Controllers/d:Products/f:ProductController.cs" caret="1587" fromTop="15" />
+      <File id="10ED184E-FC2B-425B-B635-A0645064CE81/d:Controllers/d:Products/f:ProductController.cs" caret="1140" fromTop="10" />
+      <File id="10ED184E-FC2B-425B-B635-A0645064CE81/d:Views/d:Home/f:Index.cshtml" caret="275" fromTop="1" />
+      <File id="10ED184E-FC2B-425B-B635-A0645064CE81/d:Controllers/f:HomeController.cs" caret="377" fromTop="3" />
+      <File id="E1B2C364-881D-45C0-85B3-D9D8A2D475F4/d:Products/f:ProductService.cs" caret="145" fromTop="6" />
+      <File id="10ED184E-FC2B-425B-B635-A0645064CE81/d:Controllers/f:HomeController.cs" caret="56" fromTop="1" />
+      <File id="10ED184E-FC2B-425B-B635-A0645064CE81/d:Controllers/d:Products/f:ProductController.cs" caret="189" fromTop="6" />
+      <File id="10ED184E-FC2B-425B-B635-A0645064CE81/d:Configs/d:Segregate/f:Segregate.xml" caret="386" fromTop="10" />
+      <File id="10ED184E-FC2B-425B-B635-A0645064CE81/d:Configs/d:Segregate/f:Segregate.xml" caret="386" fromTop="7" />
+      <File id="E1B2C364-881D-45C0-85B3-D9D8A2D475F4/d:Products/f:ProductService.cs" caret="578" fromTop="6" />
+      <File id="E1B2C364-881D-45C0-85B3-D9D8A2D475F4/d:Products/f:ProductService.cs" caret="1487" fromTop="5" />
+      <File id="10ED184E-FC2B-425B-B635-A0645064CE81/d:Configs/d:Segregate/f:Segregate.xml" caret="177" fromTop="7" />
+      <File id="10ED184E-FC2B-425B-B635-A0645064CE81/d:Configs/d:Segregate/f:Segregate.xml" caret="150" fromTop="2" />
+      <File id="10ED184E-FC2B-425B-B635-A0645064CE81/d:Configs/d:Segregate/f:Segregate.xml" caret="386" fromTop="8" />
+      <File id="10ED184E-FC2B-425B-B635-A0645064CE81/d:Configs/d:Segregate/f:Segregate.xml" caret="386" fromTop="7" />
+      <File id="E1B2C364-881D-45C0-85B3-D9D8A2D475F4/d:Products/f:ProductService.cs" caret="1624" fromTop="8" />
+      <File id="10ED184E-FC2B-425B-B635-A0645064CE81/f:Web.config" caret="4589" fromTop="2" />
+      <File id="10ED184E-FC2B-425B-B635-A0645064CE81/f:Web.config" caret="6144" fromTop="11" />
+      <File id="58A368A9-39A7-4472-B320-6049C43239CE/f:ProductDTO.cs" caret="222" fromTop="11" />
+      <File id="0A566F04-5AE8-43AB-98BD-E773C85A0D42/d:Products/f:ProductFacade.cs" caret="342" fromTop="13" />
+      <File id="9D93E881-AA66-4E6C-A1C8-1D4EDAB4E2F7/d:IProducts/f:IProductFacade.cs" caret="179" fromTop="8" />
+      <File id="57E56A97-3D7D-4784-A791-0A37F85E3669/f:ProductSI.cs" caret="393" fromTop="14" />
+      <File id="5B7599B6-99F1-4507-BD87-F417B0589A5A/f:IProductSI.cs" caret="154" fromTop="7" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files\NUnit 2.6\bin\net-2.0\lib</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <UnitTestSessions>
+    <Session>
+      <Name>Session #1</Name>
+      <Elements>
+        <UnitTestElement Provider="nUnit" Id="Test.NUnit.Service.LogService" type="NUnitTestFixtureElement" Project="EA926B3A-5A67-4AA1-94D9-FD7D5E9EB33D" />
+        <UnitTestElement Provider="nUnit" Id="Test.NUnit.DAO.ProductDao" type="NUnitTestFixtureElement" Project="EA926B3A-5A67-4AA1-94D9-FD7D5E9EB33D" />
+        <UnitTestElement Provider="nUnit" Id="Test.NUnit.Service.ProductService" type="NUnitTestFixtureElement" Project="EA926B3A-5A67-4AA1-94D9-FD7D5E9EB33D" />
+        <UnitTestElement Provider="nUnit" Id="Test.NUnit.Service.ProductService.TestGetAllProducts" ParentId="Test.NUnit.Service.ProductService" type="NUnitTestElement" TypeName="Test.NUnit.Service.ProductService" MethodName="TestGetAllProducts" Project="EA926B3A-5A67-4AA1-94D9-FD7D5E9EB33D" />
+        <UnitTestElement Provider="nUnit" Id="Test.NUnit.Service.LogService.TestGetAllProducts" ParentId="Test.NUnit.Service.LogService" type="NUnitTestElement" TypeName="Test.NUnit.Service.LogService" MethodName="TestGetAllProducts" Project="EA926B3A-5A67-4AA1-94D9-FD7D5E9EB33D" />
+      </Elements>
+    </Session>
+  </UnitTestSessions>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="public" priority="656" />
+      <Item value="List" priority="63" />
+      <Item value="Product`0" priority="58" />
+      <Item value="var" priority="95" />
+      <Item value="productDao" priority="31" />
+      <Item value="hibernate" priority="32" />
+      <Item value="private" priority="159" />
+      <Item value="GenericHibernateDao" priority="31" />
+      <Item value="T`0" priority="31" />
+      <Item value="HibernateTemplate" priority="60" />
+      <Item value="new" priority="479" />
+      <Item value="interface" priority="185" />
+      <Item value="Product" priority="60" />
+      <Item value="using" priority="91" />
+      <Item value="Domain" priority="30" />
+      <Item value="Entity" priority="26" />
+      <Item value="product" priority="869" />
+      <Item value="_productService" priority="32" />
+      <Item value="int" priority="95" />
+      <Item value="model" priority="29" />
+      <Item value="foreach" priority="125" />
+      <Item value="in" priority="31" />
+      <Item value="Model" priority="31" />
+      <Item value="item" priority="29" />
+      <Item value="productList" priority="128" />
+      <Item value="productFacade" priority="32" />
+      <Item value="ProductFacade" priority="28" />
+      <Item value="productLists" priority="32" />
+      <Item value="List&lt;ProductList&gt;" priority="86" />
+      <Item value="ProductList" priority="57" />
+      <Item value="productlist" priority="63" />
+      <Item value="static" priority="63" />
+      <Item value="LogHelper" priority="31" />
+      <Item value="info" priority="31" />
+      <Item value="try" priority="63" />
+      <Item value="products" priority="128" />
+      <Item value="List&lt;Product&gt;" priority="57" />
+      <Item value="return" priority="223" />
+      <Item value="logFacade" priority="32" />
+      <Item value="LogFacade" priority="28" />
+      <Item value="partial" priority="31" />
+      <Item value="string" priority="127" />
+      <Item value="value" priority="95" />
+      <Item value="ValueType`0" priority="31" />
+      <Item value="_productName" priority="31" />
+      <Item value="list" priority="193" />
+      <Item value="prod" priority="127" />
+      <Item value="finally" priority="31" />
+      <Item value="Html" priority="89" />
+      <Item value="throw" priority="31" />
+      <Item value="Exception" priority="28" />
+      <Item value="Service1Client`0" priority="26" />
+      <Item value="Service1Client" priority="28" />
+      <Item value="c" priority="63" />
+      <Item value="TempData" priority="61" />
+      <Item value="v" priority="31" />
+      <Item value="if" priority="29" />
+      <Item value="null" priority="31" />
+      <Item value="ProductFacadeClient`0" priority="26" />
+      <Item value="ProductFacadeClient" priority="28" />
+      <Item value="ProductDTO`0" priority="26" />
+      <Item value="DataMember" priority="31" />
+      <Item value="WebHost" priority="31" />
+      <Item value="productDto" priority="159" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IDAO.IProductDao">
+      <Item value="GetAllProduct`0" priority="53" />
+      <Item value="GetList`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DAO.Hibernate.common.IGenericDao`2">
+      <Item value="LoadAll`0" priority="26" />
+      <Item value="Find`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IService.IProducts.IProductService">
+      <Item value="GetAllProducts`0" priority="53" />
+      <Item value="GetAllProductsByWebService`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="RazorTransitionCompletionContext">
+      <Item value="model" priority="7" />
+      <Item value="foreach" priority="7" />
+      <Item value="item" priority="7" />
+      <Item value="Html" priority="23" />
+      <Item value="TempData" priority="7" />
+      <Item value="if" priority="7" />
+      <Item value="using" priority="9" />
+    </ItemStatistics>
+    <ItemStatistics item="HtmlCodeCompletionContext">
+      <Item value="table" priority="5" />
+      <Item value="tr" priority="5" />
+      <Item value="td" priority="5" />
+      <Item value="br" priority="5" />
+      <Item value="name" priority="5" />
+      <Item value="submit" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Model.Products.ProductList">
+      <Item value="Id" priority="80" />
+      <Item value="ProductName" priority="107" />
+      <Item value="QuantityPerUnit" priority="80" />
+      <Item value="UnitPrice" priority="80" />
+      <Item value="UnitsInStock" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Facade.Products.ProductFacade">
+      <Item value="GetAllProducts`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Domain.Entity.Product">
+      <Item value="Id" priority="80" />
+      <Item value="ProductName" priority="80" />
+      <Item value="QuantityPerUnit" priority="80" />
+      <Item value="UnitPrice" priority="81" />
+      <Item value="UnitsInStock" priority="81" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="83" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Domain.common.ILogHelper">
+      <Item value="WriteLog`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IService.ICommon.ILogService">
+      <Item value="WriteLog`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
+      <Item value="ActionLink`0" priority="26" />
+      <Item value="BeginForm`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Web.ServiceReference1.Service1Client">
+      <Item value="GetData`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Web.ServiceReference2.ProductFacadeClient">
+      <Item value="GetAllProducts`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Interaction.WebHost.ProductDTO">
+      <Item value="Id" priority="26" />
+      <Item value="ProductName" priority="26" />
+      <Item value="QuantityPerUnit" priority="26" />
+      <Item value="UnitPrice" priority="26" />
+      <Item value="UnitsInStock" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IInteraction.IProductSI">
+      <Item value="GetAllProducts`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ISegregate.IProducts.IProductSeg">
+      <Item value="GetAllProductsByWebService`0" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

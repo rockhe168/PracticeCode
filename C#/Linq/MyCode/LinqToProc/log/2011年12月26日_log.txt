@@ -1,0 +1,134 @@
+发生时间为:2011/12/26 15:53:39
+日志内容为:
+EXEC @RETURN_VALUE = [dbo].[sp_singleresultset] 
+-- @RETURN_VALUE: Output Int (Size = -1; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/26 16:03:18
+日志内容为:
+EXEC @RETURN_VALUE = [dbo].[sp_singleresultset] 
+-- @RETURN_VALUE: Output Int (Size = -1; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+EXEC @RETURN_VALUE = [dbo].[sp_withparameter] @customerid = @p0, @rowcount = @p1 OUTPUT
+-- @p0: Input NChar (Size = 5; Prec = 0; Scale = 0) []
+-- @p1: InputOutput Int (Size = -1; Prec = 0; Scale = 0) [-1]
+-- @RETURN_VALUE: Output Int (Size = -1; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+EXEC @RETURN_VALUE = [dbo].[sp_withparameter] @customerid = @p0, @rowcount = @p1 OUTPUT
+-- @p0: Input NChar (Size = 5; Prec = 0; Scale = 0) [GODOS]
+-- @p1: InputOutput Int (Size = -1; Prec = 0; Scale = 0) [0]
+-- @RETURN_VALUE: Output Int (Size = -1; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/26 16:15:45
+日志内容为:
+EXEC @RETURN_VALUE = [dbo].[sp_singleresultset] 
+-- @RETURN_VALUE: Output Int (Size = -1; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+EXEC @RETURN_VALUE = [dbo].[sp_withparameter] @customerid = @p0, @rowcount = @p1 OUTPUT
+-- @p0: Input NChar (Size = 5; Prec = 0; Scale = 0) []
+-- @p1: InputOutput Int (Size = -1; Prec = 0; Scale = 0) [-1]
+-- @RETURN_VALUE: Output Int (Size = -1; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+EXEC @RETURN_VALUE = [dbo].[sp_withparameter] @customerid = @p0, @rowcount = @p1 OUTPUT
+-- @p0: Input NChar (Size = 5; Prec = 0; Scale = 0) [GODOS]
+-- @p1: InputOutput Int (Size = -1; Prec = 0; Scale = 0) [0]
+-- @RETURN_VALUE: Output Int (Size = -1; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/26 16:16:12
+日志内容为:
+EXEC @RETURN_VALUE = [dbo].[sp_singleresultset] 
+-- @RETURN_VALUE: Output Int (Size = -1; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+EXEC @RETURN_VALUE = [dbo].[sp_withparameter] @customerid = @p0, @rowcount = @p1 OUTPUT
+-- @p0: Input NChar (Size = 5; Prec = 0; Scale = 0) []
+-- @p1: InputOutput Int (Size = -1; Prec = 0; Scale = 0) [-1]
+-- @RETURN_VALUE: Output Int (Size = -1; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+EXEC @RETURN_VALUE = [dbo].[sp_withparameter] @customerid = @p0, @rowcount = @p1 OUTPUT
+-- @p0: Input NChar (Size = 5; Prec = 0; Scale = 0) [GODOS]
+-- @p1: InputOutput Int (Size = -1; Prec = 0; Scale = 0) [0]
+-- @RETURN_VALUE: Output Int (Size = -1; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+EXEC @RETURN_VALUE = [dbo].[sp_withreturnvalue] @customer = @p0
+-- @p0: Input NChar (Size = 5; Prec = 0; Scale = 0) []
+-- @RETURN_VALUE: Output Int (Size = -1; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+EXEC @RETURN_VALUE = [dbo].[sp_withreturnvalue] @customer = @p0
+-- @p0: Input NChar (Size = 5; Prec = 0; Scale = 0) [GODOS]
+-- @RETURN_VALUE: Output Int (Size = -1; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/26 16:27:51
+日志内容为:
+EXEC @RETURN_VALUE = [dbo].[sp_singleresultset] 
+-- @RETURN_VALUE: Output Int (Size = -1; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+EXEC @RETURN_VALUE = [dbo].[sp_withparameter] @customerid = @p0, @rowcount = @p1 OUTPUT
+-- @p0: Input NChar (Size = 5; Prec = 0; Scale = 0) []
+-- @p1: InputOutput Int (Size = -1; Prec = 0; Scale = 0) [-1]
+-- @RETURN_VALUE: Output Int (Size = -1; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+EXEC @RETURN_VALUE = [dbo].[sp_withparameter] @customerid = @p0, @rowcount = @p1 OUTPUT
+-- @p0: Input NChar (Size = 5; Prec = 0; Scale = 0) [GODOS]
+-- @p1: InputOutput Int (Size = -1; Prec = 0; Scale = 0) [0]
+-- @RETURN_VALUE: Output Int (Size = -1; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+EXEC @RETURN_VALUE = [dbo].[sp_withreturnvalue] @customer = @p0
+-- @p0: Input NChar (Size = 5; Prec = 0; Scale = 0) []
+-- @RETURN_VALUE: Output Int (Size = -1; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+EXEC @RETURN_VALUE = [dbo].[sp_withreturnvalue] @customer = @p0
+-- @p0: Input NChar (Size = 5; Prec = 0; Scale = 0) [GODOS]
+-- @RETURN_VALUE: Output Int (Size = -1; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+EXEC @RETURN_VALUE = [dbo].[sp_multriresultset] 
+-- @RETURN_VALUE: Output Int (Size = -1; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+发生时间为:2011/12/26 16:38:38
+日志内容为:
+EXEC @RETURN_VALUE = [dbo].[sp_singleresultset] 
+-- @RETURN_VALUE: Output Int (Size = -1; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+EXEC @RETURN_VALUE = [dbo].[sp_withparameter] @customerid = @p0, @rowcount = @p1 OUTPUT
+-- @p0: Input NChar (Size = 5; Prec = 0; Scale = 0) []
+-- @p1: InputOutput Int (Size = -1; Prec = 0; Scale = 0) [-1]
+-- @RETURN_VALUE: Output Int (Size = -1; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+EXEC @RETURN_VALUE = [dbo].[sp_withparameter] @customerid = @p0, @rowcount = @p1 OUTPUT
+-- @p0: Input NChar (Size = 5; Prec = 0; Scale = 0) [GODOS]
+-- @p1: InputOutput Int (Size = -1; Prec = 0; Scale = 0) [0]
+-- @RETURN_VALUE: Output Int (Size = -1; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+EXEC @RETURN_VALUE = [dbo].[sp_withreturnvalue] @customer = @p0
+-- @p0: Input NChar (Size = 5; Prec = 0; Scale = 0) []
+-- @RETURN_VALUE: Output Int (Size = -1; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+EXEC @RETURN_VALUE = [dbo].[sp_withreturnvalue] @customer = @p0
+-- @p0: Input NChar (Size = 5; Prec = 0; Scale = 0) [GODOS]
+-- @RETURN_VALUE: Output Int (Size = -1; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+
+EXEC @RETURN_VALUE = [dbo].[sp_multriresultset] 
+-- @RETURN_VALUE: Output Int (Size = -1; Prec = 0; Scale = 0) [Null]
+-- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.0.30319.1
+

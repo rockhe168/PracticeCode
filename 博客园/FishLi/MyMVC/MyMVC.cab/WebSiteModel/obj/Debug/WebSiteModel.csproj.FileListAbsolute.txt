@@ -1,0 +1,5 @@
+E:\FlishLi\MyMVC.cab\DemoWebSite1\Bin\WebSiteModel.dll
+E:\FlishLi\MyMVC.cab\DemoWebSite1\Bin\WebSiteModel.pdb
+E:\FlishLi\MyMVC.cab\WebSiteModel\obj\Debug\ResolveAssemblyReference.cache
+E:\FlishLi\MyMVC.cab\WebSiteModel\obj\Debug\WebSiteModel.dll
+E:\FlishLi\MyMVC.cab\WebSiteModel\obj\Debug\WebSiteModel.pdb
