@@ -1,0 +1,16 @@
+F:\My\百度网盘\API\Log4Net\log4net-1.2.11\log4net-1.2.11\build\bin\net\2.0\debug\log4net.dll
+F:\My\百度网盘\API\Log4Net\log4net-1.2.11\log4net-1.2.11\build\bin\net\2.0\debug\log4net.pdb
+F:\My\百度网盘\API\Log4Net\log4net-1.2.11\log4net-1.2.11\build\bin\net\2.0\debug\log4net.xml
+F:\My\百度网盘\API\Log4Net\log4net-1.2.11\log4net-1.2.11\src\obj\Debug\log4net.dll
+F:\My\百度网盘\API\Log4Net\log4net-1.2.11\log4net-1.2.11\src\obj\Debug\log4net.pdb
+F:\My\百度网盘\PracticeCode\log4Net\LogDemo\build\bin\net\2.0\debug\log4net.dll
+F:\My\百度网盘\PracticeCode\log4Net\LogDemo\build\bin\net\2.0\debug\log4net.pdb
+F:\My\百度网盘\PracticeCode\log4Net\LogDemo\build\bin\net\2.0\debug\log4net.xml
+F:\My\百度网盘\PracticeCode\log4Net\LogDemo\log4Net\obj\Debug\log4net.dll
+F:\My\百度网盘\PracticeCode\log4Net\LogDemo\log4Net\obj\Debug\log4net.pdb
+E:\My\百度云\PracticeCode\log4Net\LogDemo\build\bin\net\2.0\debug\log4net.dll
+E:\My\百度云\PracticeCode\log4Net\LogDemo\build\bin\net\2.0\debug\log4net.pdb
+E:\My\百度云\PracticeCode\log4Net\LogDemo\build\bin\net\2.0\debug\log4net.xml
+E:\My\百度云\PracticeCode\log4Net\LogDemo\log4Net\obj\Debug\ResolveAssemblyReference.cache
+E:\My\百度云\PracticeCode\log4Net\LogDemo\log4Net\obj\Debug\log4net.dll
+E:\My\百度云\PracticeCode\log4Net\LogDemo\log4Net\obj\Debug\log4net.pdb

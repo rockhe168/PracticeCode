@@ -1,0 +1,2051 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="vBookingDBModelStoreContainer" CdmEntityContainer="vBookingDBEntities">
+    <EntitySetMapping Name="Customer">
+      <EntityTypeMapping TypeName="vBookingDBModel.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="LoweredUserName" ColumnName="LoweredUserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Provider" ColumnName="Provider" />
+          <ScalarProperty Name="ProviderName" ColumnName="ProviderName" />
+          <ScalarProperty Name="TelephoneNumber" ColumnName="TelephoneNumber" />
+          <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="LastLoginDate" ColumnName="LastLoginDate" />
+          <ScalarProperty Name="LastPasswordChangedDate" ColumnName="LastPasswordChangedDate" />
+          <ScalarProperty Name="LastLockoutDate" ColumnName="LastLockoutDate" />
+          <ScalarProperty Name="IsLockout" ColumnName="IsLockout" />
+          <ScalarProperty Name="FailedPasswordAttemptCount" ColumnName="FailedPasswordAttemptCount" />
+          <ScalarProperty Name="FirstFailedPasswordAttemptDate" ColumnName="FirstFailedPasswordAttemptDate" />
+          <ScalarProperty Name="IsValid" ColumnName="IsValid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DestinationMatter">
+      <EntityTypeMapping TypeName="vBookingDBModel.DestinationMatter">
+        <MappingFragment StoreEntitySet="DestinationMatter">
+          <ScalarProperty Name="MatterID" ColumnName="MatterID" />
+          <ScalarProperty Name="Destination" ColumnName="Destination" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DispLog">
+      <EntityTypeMapping TypeName="vBookingDBModel.DispLog">
+        <MappingFragment StoreEntitySet="DispLog">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="logid" ColumnName="logid" />
+          <ScalarProperty Name="sourcePage" ColumnName="sourcePage" />
+          <ScalarProperty Name="destPage" ColumnName="destPage" />
+          <ScalarProperty Name="DataChange_LastTime_" ColumnName="DataChange_LastTime " />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dtproperties">
+      <EntityTypeMapping TypeName="vBookingDBModel.dtproperties">
+        <MappingFragment StoreEntitySet="dtproperties">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="objectid" ColumnName="objectid" />
+          <ScalarProperty Name="property" ColumnName="property" />
+          <ScalarProperty Name="value" ColumnName="value" />
+          <ScalarProperty Name="uvalue" ColumnName="uvalue" />
+          <ScalarProperty Name="lvalue" ColumnName="lvalue" />
+          <ScalarProperty Name="version" ColumnName="version" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ErrorLog">
+      <EntityTypeMapping TypeName="vBookingDBModel.ErrorLog">
+        <MappingFragment StoreEntitySet="ErrorLog">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="logid" ColumnName="logid" />
+          <ScalarProperty Name="message" ColumnName="message" />
+          <ScalarProperty Name="exmessage" ColumnName="exmessage" />
+          <ScalarProperty Name="exstack" ColumnName="exstack" />
+          <ScalarProperty Name="DataChange_LastTime_" ColumnName="DataChange_LastTime " />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="log">
+      <EntityTypeMapping TypeName="vBookingDBModel.log">
+        <MappingFragment StoreEntitySet="log">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="logid" ColumnName="logid" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Thread" ColumnName="Thread" />
+          <ScalarProperty Name="Level" ColumnName="Level" />
+          <ScalarProperty Name="Logger" ColumnName="Logger" />
+          <ScalarProperty Name="Identity" ColumnName="Identity" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="ApplicationID" ColumnName="ApplicationID" />
+          <ScalarProperty Name="ModuleID" ColumnName="ModuleID" />
+          <ScalarProperty Name="ClientIP" ColumnName="ClientIP" />
+          <ScalarProperty Name="HostIP" ColumnName="HostIP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MessageRemindLog">
+      <EntityTypeMapping TypeName="vBookingDBModel.MessageRemindLog">
+        <MappingFragment StoreEntitySet="MessageRemindLog">
+          <ScalarProperty Name="MessageID" ColumnName="MessageID" />
+          <ScalarProperty Name="RemindId" ColumnName="RemindId" />
+          <ScalarProperty Name="RemindType" ColumnName="RemindType" />
+          <ScalarProperty Name="RemindTime" ColumnName="RemindTime" />
+          <ScalarProperty Name="DataChange_LastTime" ColumnName="DataChange_LastTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="o_form">
+      <EntityTypeMapping TypeName="vBookingDBModel.o_form">
+        <MappingFragment StoreEntitySet="o_form">
+          <ScalarProperty Name="formid" ColumnName="formid" />
+          <ScalarProperty Name="formdate" ColumnName="formdate" />
+          <ScalarProperty Name="formtype" ColumnName="formtype" />
+          <ScalarProperty Name="formstatus" ColumnName="formstatus" />
+          <ScalarProperty Name="provider" ColumnName="provider" />
+          <ScalarProperty Name="orderid" ColumnName="orderid" />
+          <ScalarProperty Name="startcity" ColumnName="startcity" />
+          <ScalarProperty Name="startcityname" ColumnName="startcityname" />
+          <ScalarProperty Name="pkg" ColumnName="pkg" />
+          <ScalarProperty Name="pkgname" ColumnName="pkgname" />
+          <ScalarProperty Name="orderdate" ColumnName="orderdate" />
+          <ScalarProperty Name="takeoffdate" ColumnName="takeoffdate" />
+          <ScalarProperty Name="returndate" ColumnName="returndate" />
+          <ScalarProperty Name="arrival" ColumnName="arrival" />
+          <ScalarProperty Name="departure" ColumnName="departure" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="cost" ColumnName="cost" />
+          <ScalarProperty Name="currency" ColumnName="currency" />
+          <ScalarProperty Name="currencyname" ColumnName="currencyname" />
+          <ScalarProperty Name="adultnum" ColumnName="adultnum" />
+          <ScalarProperty Name="childnum" ColumnName="childnum" />
+          <ScalarProperty Name="contactname" ColumnName="contactname" />
+          <ScalarProperty Name="contacttel" ColumnName="contacttel" />
+          <ScalarProperty Name="operid" ColumnName="operid" />
+          <ScalarProperty Name="confirmdate" ColumnName="confirmdate" />
+          <ScalarProperty Name="bookingno" ColumnName="bookingno" />
+          <ScalarProperty Name="remarks" ColumnName="remarks" />
+          <ScalarProperty Name="fltcontent" ColumnName="fltcontent" />
+          <ScalarProperty Name="htlcontent" ColumnName="htlcontent" />
+          <ScalarProperty Name="optcontent" ColumnName="optcontent" />
+          <ScalarProperty Name="lastdate" ColumnName="lastdate" />
+          <ScalarProperty Name="returnflag" ColumnName="returnflag" />
+          <ScalarProperty Name="exchange" ColumnName="exchange" />
+          <ScalarProperty Name="optionid" ColumnName="optionid" />
+          <ScalarProperty Name="optionname" ColumnName="optionname" />
+          <ScalarProperty Name="optionqty" ColumnName="optionqty" />
+          <ScalarProperty Name="Vbrem" ColumnName="Vbrem" />
+          <ScalarProperty Name="optiondate" ColumnName="optiondate" />
+          <ScalarProperty Name="Clientinfo" ColumnName="Clientinfo" />
+          <ScalarProperty Name="optiontype" ColumnName="optiontype" />
+          <ScalarProperty Name="optionTicketNO" ColumnName="optionTicketNO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="o_formChange">
+      <EntityTypeMapping TypeName="vBookingDBModel.o_formChange">
+        <MappingFragment StoreEntitySet="o_formChange">
+          <ScalarProperty Name="rid" ColumnName="rid" />
+          <ScalarProperty Name="formID" ColumnName="formID" />
+          <ScalarProperty Name="Eid" ColumnName="Eid" />
+          <ScalarProperty Name="opdate" ColumnName="opdate" />
+          <ScalarProperty Name="remarks" ColumnName="remarks" />
+          <ScalarProperty Name="flag" ColumnName="flag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="o_formlog">
+      <EntityTypeMapping TypeName="vBookingDBModel.o_formlog">
+        <MappingFragment StoreEntitySet="o_formlog">
+          <ScalarProperty Name="logid" ColumnName="logid" />
+          <ScalarProperty Name="logtime" ColumnName="logtime" />
+          <ScalarProperty Name="formid" ColumnName="formid" />
+          <ScalarProperty Name="statusbefore" ColumnName="statusbefore" />
+          <ScalarProperty Name="statusafter" ColumnName="statusafter" />
+          <ScalarProperty Name="operid" ColumnName="operid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="o_formtemp">
+      <EntityTypeMapping TypeName="vBookingDBModel.o_formtemp">
+        <MappingFragment StoreEntitySet="o_formtemp">
+          <ScalarProperty Name="formid" ColumnName="formid" />
+          <ScalarProperty Name="formdate" ColumnName="formdate" />
+          <ScalarProperty Name="formtype" ColumnName="formtype" />
+          <ScalarProperty Name="returnflag" ColumnName="returnflag" />
+          <ScalarProperty Name="formstatus" ColumnName="formstatus" />
+          <ScalarProperty Name="optionqty" ColumnName="optionqty" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="O_PurchaseOrder">
+      <EntityTypeMapping TypeName="vBookingDBModel.O_PurchaseOrder">
+        <MappingFragment StoreEntitySet="O_PurchaseOrder">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PurchaseOrderID" ColumnName="PurchaseOrderID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="ResourceID" ColumnName="ResourceID" />
+          <ScalarProperty Name="ResourceType" ColumnName="ResourceType" />
+          <ScalarProperty Name="ResourceName" ColumnName="ResourceName" />
+          <ScalarProperty Name="ProviderID" ColumnName="ProviderID" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="AdultQuantity" ColumnName="AdultQuantity" />
+          <ScalarProperty Name="ChildQuantity" ColumnName="ChildQuantity" />
+          <ScalarProperty Name="ActualAdultQuantity" ColumnName="ActualAdultQuantity" />
+          <ScalarProperty Name="ActualChildQuantity" ColumnName="ActualChildQuantity" />
+          <ScalarProperty Name="ActualBabyQuantity" ColumnName="ActualBabyQuantity" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="AdultCost" ColumnName="AdultCost" />
+          <ScalarProperty Name="ChildCost" ColumnName="ChildCost" />
+          <ScalarProperty Name="StartCityName" ColumnName="StartCityName" />
+          <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+          <ScalarProperty Name="OrderDate" ColumnName="OrderDate" />
+          <ScalarProperty Name="UseDate" ColumnName="UseDate" />
+          <ScalarProperty Name="ArrivalDate" ColumnName="ArrivalDate" />
+          <ScalarProperty Name="DepartureDate" ColumnName="DepartureDate" />
+          <ScalarProperty Name="Currency" ColumnName="Currency" />
+          <ScalarProperty Name="Exchange" ColumnName="Exchange" />
+          <ScalarProperty Name="VbRemark" ColumnName="VbRemark" />
+          <ScalarProperty Name="VbApproveStatus" ColumnName="VbApproveStatus" />
+          <ScalarProperty Name="ConfirmRemark" ColumnName="ConfirmRemark" />
+          <ScalarProperty Name="VbApproveDate" ColumnName="VbApproveDate" />
+          <ScalarProperty Name="VbCollateStatus" ColumnName="VbCollateStatus" />
+          <ScalarProperty Name="VbCollateDate" ColumnName="VbCollateDate" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="OperateTime" ColumnName="OperateTime" />
+          <ScalarProperty Name="ConfirmNo" ColumnName="ConfirmNo" />
+          <ScalarProperty Name="ContactMobile" ColumnName="ContactMobile" />
+          <ScalarProperty Name="ReturnFlag" ColumnName="ReturnFlag" />
+          <ScalarProperty Name="ReturnDate" ColumnName="ReturnDate" />
+          <ScalarProperty Name="ProcessOper" ColumnName="ProcessOper" />
+          <ScalarProperty Name="EmergencyTime" ColumnName="EmergencyTime" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="IsNeedCollate" ColumnName="IsNeedCollate" />
+          <ScalarProperty Name="IsNoticeSended" ColumnName="IsNoticeSended" />
+          <ScalarProperty Name="TourID" ColumnName="TourID" />
+          <ScalarProperty Name="ContactEmail" ColumnName="ContactEmail" />
+          <ScalarProperty Name="ContactFax" ColumnName="ContactFax" />
+          <ScalarProperty Name="ContactTel" ColumnName="ContactTel" />
+          <ScalarProperty Name="Collator" ColumnName="Collator" />
+          <ScalarProperty Name="ResourceTypeID" ColumnName="ResourceTypeID" />
+          <ScalarProperty Name="VisaProcessStatus" ColumnName="VisaProcessStatus" />
+          <ScalarProperty Name="ActualTotalQuantity" ColumnName="ActualTotalQuantity" />
+          <ScalarProperty Name="CtripProductID" ColumnName="CtripProductID" />
+          <ScalarProperty Name="PaymentStatus" ColumnName="PaymentStatus" />
+          <ScalarProperty Name="PaymentType" ColumnName="PaymentType" />
+          <ScalarProperty Name="VBKResourceTypeID" ColumnName="VBKResourceTypeID" />
+          <ScalarProperty Name="VBKResourceID" ColumnName="VBKResourceID" />
+          <ScalarProperty Name="OperatorPhoneExtension" ColumnName="OperatorPhoneExtension" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ModifyTime_" ColumnName="ModifyTime " />
+          <ScalarProperty Name="IsProxyResource" ColumnName="IsProxyResource" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="O_PurchaseOrder_Invalid">
+      <EntityTypeMapping TypeName="vBookingDBModel.O_PurchaseOrder_Invalid">
+        <MappingFragment StoreEntitySet="O_PurchaseOrder_Invalid">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PurchaseOrderId" ColumnName="PurchaseOrderId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="O_PurchaseOrderClient">
+      <EntityTypeMapping TypeName="vBookingDBModel.O_PurchaseOrderClient">
+        <MappingFragment StoreEntitySet="O_PurchaseOrderClient">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="ClientName" ColumnName="ClientName" />
+          <ScalarProperty Name="ClientNameEn" ColumnName="ClientNameEn" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="AgeType" ColumnName="AgeType" />
+          <ScalarProperty Name="ContactMobile" ColumnName="ContactMobile" />
+          <ScalarProperty Name="IDCardType" ColumnName="IDCardType" />
+          <ScalarProperty Name="IDCardTypeName" ColumnName="IDCardTypeName" />
+          <ScalarProperty Name="IDCardNo" ColumnName="IDCardNo" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="Nationality" ColumnName="Nationality" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="PurchaseOrderID" ColumnName="PurchaseOrderID" />
+          <ScalarProperty Name="POApprovedID" ColumnName="POApprovedID" />
+          <ScalarProperty Name="VisaCountry" ColumnName="VisaCountry" />
+          <ScalarProperty Name="IssueDate" ColumnName="IssueDate" />
+          <ScalarProperty Name="PassportType" ColumnName="PassportType" />
+          <ScalarProperty Name="IDCardTimelimit" ColumnName="IDCardTimelimit" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="homeplace" ColumnName="homeplace" />
+          <ScalarProperty Name="ClientID" ColumnName="ClientID" />
+          <ScalarProperty Name="VisaStatus" ColumnName="VisaStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="o_status">
+      <EntityTypeMapping TypeName="vBookingDBModel.o_status">
+        <MappingFragment StoreEntitySet="o_status">
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OperateLogDetail">
+      <EntityTypeMapping TypeName="vBookingDBModel.OperateLogDetail">
+        <MappingFragment StoreEntitySet="OperateLogDetail">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LogDate" ColumnName="LogDate" />
+          <ScalarProperty Name="Thread" ColumnName="Thread" />
+          <ScalarProperty Name="Level" ColumnName="Level" />
+          <ScalarProperty Name="Logger" ColumnName="Logger" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Identity" ColumnName="Identity" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="ApplicationID" ColumnName="ApplicationID" />
+          <ScalarProperty Name="ModuleCode" ColumnName="ModuleCode" />
+          <ScalarProperty Name="ClientIP" ColumnName="ClientIP" />
+          <ScalarProperty Name="HostIP" ColumnName="HostIP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ord_Tour">
+      <EntityTypeMapping TypeName="vBookingDBModel.Ord_Tour">
+        <MappingFragment StoreEntitySet="Ord_Tour">
+          <ScalarProperty Name="TourID" ColumnName="TourID" />
+          <ScalarProperty Name="ResourceID" ColumnName="ResourceID" />
+          <ScalarProperty Name="UseDate" ColumnName="UseDate" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="TourStatus" ColumnName="TourStatus" />
+          <ScalarProperty Name="OperationNote" ColumnName="OperationNote" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ModifyTime" ColumnName="ModifyTime" />
+          <ScalarProperty Name="ProviderID" ColumnName="ProviderID" />
+          <ScalarProperty Name="ResourceName" ColumnName="ResourceName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ord_TourDestinationNotice">
+      <EntityTypeMapping TypeName="vBookingDBModel.Ord_TourDestinationNotice">
+        <MappingFragment StoreEntitySet="Ord_TourDestinationNotice">
+          <ScalarProperty Name="DestinationNoticeID" ColumnName="DestinationNoticeID" />
+          <ScalarProperty Name="Destination" ColumnName="Destination" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ord_TourGroupNotice">
+      <EntityTypeMapping TypeName="vBookingDBModel.Ord_TourGroupNotice">
+        <MappingFragment StoreEntitySet="Ord_TourGroupNotice">
+          <ScalarProperty Name="NoticeID" ColumnName="NoticeID" />
+          <ScalarProperty Name="TourID" ColumnName="TourID" />
+          <ScalarProperty Name="NoticeType" ColumnName="NoticeType" />
+          <ScalarProperty Name="DepartureVehicle" ColumnName="DepartureVehicle" />
+          <ScalarProperty Name="DepartureTime" ColumnName="DepartureTime" />
+          <ScalarProperty Name="Destination" ColumnName="Destination" />
+          <ScalarProperty Name="DepartureGatherTime" ColumnName="DepartureGatherTime" />
+          <ScalarProperty Name="DepartureDate" ColumnName="DepartureDate" />
+          <ScalarProperty Name="ReturnDate" ColumnName="ReturnDate" />
+          <ScalarProperty Name="ReturnVehicle" ColumnName="ReturnVehicle" />
+          <ScalarProperty Name="ReturnTime" ColumnName="ReturnTime" />
+          <ScalarProperty Name="Memo" ColumnName="Memo" />
+          <ScalarProperty Name="ProviderName" ColumnName="ProviderName" />
+          <ScalarProperty Name="LeadContact" ColumnName="LeadContact" />
+          <ScalarProperty Name="GuideContact" ColumnName="GuideContact" />
+          <ScalarProperty Name="EmergencyContact" ColumnName="EmergencyContact" />
+          <ScalarProperty Name="EmbassyInfo" ColumnName="EmbassyInfo" />
+          <ScalarProperty Name="MeetingTime" ColumnName="MeetingTime" />
+          <ScalarProperty Name="MeetingPlace" ColumnName="MeetingPlace" />
+          <ScalarProperty Name="MeetingContact" ColumnName="MeetingContact" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="Creator" ColumnName="Creator" />
+          <ScalarProperty Name="ReturnArrivalDestination" ColumnName="ReturnArrivalDestination" />
+          <ScalarProperty Name="DepartureGatherLocation" ColumnName="DepartureGatherLocation" />
+          <ScalarProperty Name="TourGroupNo" ColumnName="TourGroupNo" />
+          <ScalarProperty Name="ResourceName" ColumnName="ResourceName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ord_TourGroupNoticeDestinationMapping">
+      <EntityTypeMapping TypeName="vBookingDBModel.Ord_TourGroupNoticeDestinationMapping">
+        <MappingFragment StoreEntitySet="Ord_TourGroupNoticeDestinationMapping">
+          <ScalarProperty Name="TGNDID" ColumnName="TGNDID" />
+          <ScalarProperty Name="NoticeID" ColumnName="NoticeID" />
+          <ScalarProperty Name="DestinationNoticeID" ColumnName="DestinationNoticeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ord_TourGroupSegment">
+      <EntityTypeMapping TypeName="vBookingDBModel.Ord_TourGroupSegment">
+        <MappingFragment StoreEntitySet="Ord_TourGroupSegment">
+          <ScalarProperty Name="SegmentID" ColumnName="SegmentID" />
+          <ScalarProperty Name="NoticeID" ColumnName="NoticeID" />
+          <ScalarProperty Name="SemgentDate" ColumnName="SemgentDate" />
+          <ScalarProperty Name="SegmentTitle" ColumnName="SegmentTitle" />
+          <ScalarProperty Name="DinnerStandard" ColumnName="DinnerStandard" />
+          <ScalarProperty Name="AccommodationStandard" ColumnName="AccommodationStandard" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ord_TourNotice">
+      <EntityTypeMapping TypeName="vBookingDBModel.Ord_TourNotice">
+        <MappingFragment StoreEntitySet="Ord_TourNotice">
+          <ScalarProperty Name="TourID" ColumnName="TourID" />
+          <ScalarProperty Name="TourNo" ColumnName="TourNo" />
+          <ScalarProperty Name="MeetingTime" ColumnName="MeetingTime" />
+          <ScalarProperty Name="MeetingAddress" ColumnName="MeetingAddress" />
+          <ScalarProperty Name="MeetingContactName" ColumnName="MeetingContactName" />
+          <ScalarProperty Name="MeetingContactMobile" ColumnName="MeetingContactMobile" />
+          <ScalarProperty Name="ClientNum" ColumnName="ClientNum" />
+          <ScalarProperty Name="AdultNum" ColumnName="AdultNum" />
+          <ScalarProperty Name="ChildNum" ColumnName="ChildNum" />
+          <ScalarProperty Name="LeaderNum" ColumnName="LeaderNum" />
+          <ScalarProperty Name="LeaderInfo" ColumnName="LeaderInfo" />
+          <ScalarProperty Name="GuiderInfo" ColumnName="GuiderInfo" />
+          <ScalarProperty Name="EmergencyContactMobile" ColumnName="EmergencyContactMobile" />
+          <ScalarProperty Name="DepartureTime" ColumnName="DepartureTime" />
+          <ScalarProperty Name="DeparturePlace" ColumnName="DeparturePlace" />
+          <ScalarProperty Name="Flight" ColumnName="Flight" />
+          <ScalarProperty Name="TakeOffTime" ColumnName="TakeOffTime" />
+          <ScalarProperty Name="Organization" ColumnName="Organization" />
+          <ScalarProperty Name="OrganizationTel" ColumnName="OrganizationTel" />
+          <ScalarProperty Name="OrganizationAddress" ColumnName="OrganizationAddress" />
+          <ScalarProperty Name="LocalTravelAgencyContact" ColumnName="LocalTravelAgencyContact" />
+          <ScalarProperty Name="LocalTravelAgencyAddress" ColumnName="LocalTravelAgencyAddress" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ModifyTime" ColumnName="ModifyTime" />
+          <ScalarProperty Name="AddInfo" ColumnName="AddInfo" />
+          <ScalarProperty Name="LocalTravelAgency" ColumnName="LocalTravelAgency" />
+          <ScalarProperty Name="ArivalPlace" ColumnName="ArivalPlace" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ord_TourNoticeHoel">
+      <EntityTypeMapping TypeName="vBookingDBModel.Ord_TourNoticeHoel">
+        <MappingFragment StoreEntitySet="Ord_TourNoticeHoel">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TourID" ColumnName="TourID" />
+          <ScalarProperty Name="CheckInDate" ColumnName="CheckInDate" />
+          <ScalarProperty Name="HotelName" ColumnName="HotelName" />
+          <ScalarProperty Name="HotelAddress" ColumnName="HotelAddress" />
+          <ScalarProperty Name="HotelTel" ColumnName="HotelTel" />
+          <ScalarProperty Name="SequenceNumber" ColumnName="SequenceNumber" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ModifyTime" ColumnName="ModifyTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ord_TourNoticeHotel">
+      <EntityTypeMapping TypeName="vBookingDBModel.Ord_TourNoticeHotel">
+        <MappingFragment StoreEntitySet="Ord_TourNoticeHotel">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TourID" ColumnName="TourID" />
+          <ScalarProperty Name="CheckInDate" ColumnName="CheckInDate" />
+          <ScalarProperty Name="HotelName" ColumnName="HotelName" />
+          <ScalarProperty Name="HotelAddress" ColumnName="HotelAddress" />
+          <ScalarProperty Name="HotelTel" ColumnName="HotelTel" />
+          <ScalarProperty Name="SequenceNumber" ColumnName="SequenceNumber" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ModifyTime" ColumnName="ModifyTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ord_TourNoticeNew">
+      <EntityTypeMapping TypeName="vBookingDBModel.Ord_TourNoticeNew">
+        <MappingFragment StoreEntitySet="Ord_TourNoticeNew">
+          <ScalarProperty Name="NoticeID" ColumnName="NoticeID" />
+          <ScalarProperty Name="TourID" ColumnName="TourID" />
+          <ScalarProperty Name="NoticeType" ColumnName="NoticeType" />
+          <ScalarProperty Name="StartTraffic" ColumnName="StartTraffic" />
+          <ScalarProperty Name="DepartureTime" ColumnName="DepartureTime" />
+          <ScalarProperty Name="Destination" ColumnName="Destination" />
+          <ScalarProperty Name="GatherTime" ColumnName="GatherTime" />
+          <ScalarProperty Name="DepartureDate" ColumnName="DepartureDate" />
+          <ScalarProperty Name="ReturnDate" ColumnName="ReturnDate" />
+          <ScalarProperty Name="ReturnTraffic" ColumnName="ReturnTraffic" />
+          <ScalarProperty Name="ReturnTime" ColumnName="ReturnTime" />
+          <ScalarProperty Name="Memo" ColumnName="Memo" />
+          <ScalarProperty Name="ProviderName" ColumnName="ProviderName" />
+          <ScalarProperty Name="LeadContact" ColumnName="LeadContact" />
+          <ScalarProperty Name="GuideContact" ColumnName="GuideContact" />
+          <ScalarProperty Name="EmergencyContact" ColumnName="EmergencyContact" />
+          <ScalarProperty Name="EmbassyInfo" ColumnName="EmbassyInfo" />
+          <ScalarProperty Name="MeetingTime" ColumnName="MeetingTime" />
+          <ScalarProperty Name="MeetingPlace" ColumnName="MeetingPlace" />
+          <ScalarProperty Name="MeetingContact" ColumnName="MeetingContact" />
+          <ScalarProperty Name="MatterIDs" ColumnName="MatterIDs" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="Creator" ColumnName="Creator" />
+          <ScalarProperty Name="ReturnArrivalFlight" ColumnName="ReturnArrivalFlight" />
+          <ScalarProperty Name="GatherLocation" ColumnName="GatherLocation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ord_TourNoticeSegment">
+      <EntityTypeMapping TypeName="vBookingDBModel.Ord_TourNoticeSegment">
+        <MappingFragment StoreEntitySet="Ord_TourNoticeSegment">
+          <ScalarProperty Name="SegmentID" ColumnName="SegmentID" />
+          <ScalarProperty Name="TourID" ColumnName="TourID" />
+          <ScalarProperty Name="SemgentDate" ColumnName="SemgentDate" />
+          <ScalarProperty Name="SegmentTitle" ColumnName="SegmentTitle" />
+          <ScalarProperty Name="DinnerStandard" ColumnName="DinnerStandard" />
+          <ScalarProperty Name="AccommodationStandard" ColumnName="AccommodationStandard" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrdDicItem">
+      <EntityTypeMapping TypeName="vBookingDBModel.OrdDicItem">
+        <MappingFragment StoreEntitySet="OrdDicItem">
+          <ScalarProperty Name="DicItemID" ColumnName="DicItemID" />
+          <ScalarProperty Name="DicItemName" ColumnName="DicItemName" />
+          <ScalarProperty Name="DicTypeID" ColumnName="DicTypeID" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="IsDefault" ColumnName="IsDefault" />
+          <ScalarProperty Name="SortIndex" ColumnName="SortIndex" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrdDicType">
+      <EntityTypeMapping TypeName="vBookingDBModel.OrdDicType">
+        <MappingFragment StoreEntitySet="OrdDicType">
+          <ScalarProperty Name="DicTypeID" ColumnName="DicTypeID" />
+          <ScalarProperty Name="DicTypeName" ColumnName="DicTypeName" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Usage" ColumnName="Usage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrdUserColumn">
+      <EntityTypeMapping TypeName="vBookingDBModel.OrdUserColumn">
+        <MappingFragment StoreEntitySet="OrdUserColumn">
+          <ScalarProperty Name="UserColumnID" ColumnName="UserColumnID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="CustomType" ColumnName="CustomType" />
+          <ScalarProperty Name="CustomColumn" ColumnName="CustomColumn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PkgDispatchCustomerSchedule">
+      <EntityTypeMapping TypeName="vBookingDBModel.PkgDispatchCustomerSchedule">
+        <MappingFragment StoreEntitySet="PkgDispatchCustomerSchedule">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="StartCity" ColumnName="StartCity" />
+          <ScalarProperty Name="UsetDate" ColumnName="UsetDate" />
+          <ScalarProperty Name="TourNum" ColumnName="TourNum" />
+          <ScalarProperty Name="TourName" ColumnName="TourName" />
+          <ScalarProperty Name="AdultNum" ColumnName="AdultNum" />
+          <ScalarProperty Name="ChildNum" ColumnName="ChildNum" />
+          <ScalarProperty Name="Contactor" ColumnName="Contactor" />
+          <ScalarProperty Name="GuideNm" ColumnName="GuideNm" />
+          <ScalarProperty Name="PrintStatus" ColumnName="PrintStatus" />
+          <ScalarProperty Name="AssembingPlace" ColumnName="AssembingPlace" />
+          <ScalarProperty Name="AssembingTime" ColumnName="AssembingTime" />
+          <ScalarProperty Name="SegmentLine" ColumnName="SegmentLine" />
+          <ScalarProperty Name="Breakfast" ColumnName="Breakfast" />
+          <ScalarProperty Name="Lunch" ColumnName="Lunch" />
+          <ScalarProperty Name="Dinner" ColumnName="Dinner" />
+          <ScalarProperty Name="GuideMobile" ColumnName="GuideMobile" />
+          <ScalarProperty Name="Vehicle" ColumnName="Vehicle" />
+          <ScalarProperty Name="DriverMobile" ColumnName="DriverMobile" />
+          <ScalarProperty Name="IsValid" ColumnName="IsValid" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ProviderID" ColumnName="ProviderID" />
+          <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+          <ScalarProperty Name="ContactMobile" ColumnName="ContactMobile" />
+          <ScalarProperty Name="ContactTel" ColumnName="ContactTel" />
+          <ScalarProperty Name="HotelName" ColumnName="HotelName" />
+          <ScalarProperty Name="TourId" ColumnName="TourId" />
+          <ScalarProperty Name="PurchaseOrderID" ColumnName="PurchaseOrderID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PkgDispatchDineArr">
+      <EntityTypeMapping TypeName="vBookingDBModel.PkgDispatchDineArr">
+        <MappingFragment StoreEntitySet="PkgDispatchDineArr">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ResourceID" ColumnName="ResourceID" />
+          <ScalarProperty Name="TourID" ColumnName="TourID" />
+          <ScalarProperty Name="RestaurantID" ColumnName="RestaurantID" />
+          <ScalarProperty Name="RestaurantNm" ColumnName="RestaurantNm" />
+          <ScalarProperty Name="Contactor" ColumnName="Contactor" />
+          <ScalarProperty Name="Tel" ColumnName="Tel" />
+          <ScalarProperty Name="DineTime" ColumnName="DineTime" />
+          <ScalarProperty Name="Falvor" ColumnName="Falvor" />
+          <ScalarProperty Name="CustomerMealStandard" ColumnName="CustomerMealStandard" />
+          <ScalarProperty Name="BegleiterMealStandard" ColumnName="BegleiterMealStandard" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="IsCompleted" ColumnName="IsCompleted" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Drinks" ColumnName="Drinks" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PkgDispatchDineOrder">
+      <EntityTypeMapping TypeName="vBookingDBModel.PkgDispatchDineOrder">
+        <MappingFragment StoreEntitySet="PkgDispatchDineOrder">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UseDineDate" ColumnName="UseDineDate" />
+          <ScalarProperty Name="RestaurantID" ColumnName="RestaurantID" />
+          <ScalarProperty Name="TourNum" ColumnName="TourNum" />
+          <ScalarProperty Name="AdultNum" ColumnName="AdultNum" />
+          <ScalarProperty Name="ChildNum" ColumnName="ChildNum" />
+          <ScalarProperty Name="CustomerMealStandard" ColumnName="CustomerMealStandard" />
+          <ScalarProperty Name="BegleiterNum" ColumnName="BegleiterNum" />
+          <ScalarProperty Name="BegleiterMealStandard" ColumnName="BegleiterMealStandard" />
+          <ScalarProperty Name="Falvor" ColumnName="Falvor" />
+          <ScalarProperty Name="DineTime" ColumnName="DineTime" />
+          <ScalarProperty Name="Guide" ColumnName="Guide" />
+          <ScalarProperty Name="GuideMobile" ColumnName="GuideMobile" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ProviderID" ColumnName="ProviderID" />
+          <ScalarProperty Name="HasDrinks" ColumnName="HasDrinks" />
+          <ScalarProperty Name="IsConfirmed" ColumnName="IsConfirmed" />
+          <ScalarProperty Name="Drinks" ColumnName="Drinks" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PkgDispatchDriverSchedule">
+      <EntityTypeMapping TypeName="vBookingDBModel.PkgDispatchDriverSchedule">
+        <MappingFragment StoreEntitySet="PkgDispatchDriverSchedule">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="TourNum" ColumnName="TourNum" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="AdultNum" ColumnName="AdultNum" />
+          <ScalarProperty Name="ChildNum" ColumnName="ChildNum" />
+          <ScalarProperty Name="ProductNm" ColumnName="ProductNm" />
+          <ScalarProperty Name="Hotel" ColumnName="Hotel" />
+          <ScalarProperty Name="Flight" ColumnName="Flight" />
+          <ScalarProperty Name="FlightTime" ColumnName="FlightTime" />
+          <ScalarProperty Name="TakeOffTime" ColumnName="TakeOffTime" />
+          <ScalarProperty Name="ArriveTime" ColumnName="ArriveTime" />
+          <ScalarProperty Name="UseDine" ColumnName="UseDine" />
+          <ScalarProperty Name="Guide" ColumnName="Guide" />
+          <ScalarProperty Name="GuideMobile" ColumnName="GuideMobile" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="AssembingTime" ColumnName="AssembingTime" />
+          <ScalarProperty Name="AssembingPlace" ColumnName="AssembingPlace" />
+          <ScalarProperty Name="ProviderID" ColumnName="ProviderID" />
+          <ScalarProperty Name="DriverID" ColumnName="DriverID" />
+          <ScalarProperty Name="PurchaseOrderID" ColumnName="PurchaseOrderID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PkgDispatchGuideArr">
+      <EntityTypeMapping TypeName="vBookingDBModel.PkgDispatchGuideArr">
+        <MappingFragment StoreEntitySet="PkgDispatchGuideArr">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ResourceID" ColumnName="ResourceID" />
+          <ScalarProperty Name="TourID" ColumnName="TourID" />
+          <ScalarProperty Name="GuideID" ColumnName="GuideID" />
+          <ScalarProperty Name="GuideNm" ColumnName="GuideNm" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="ICCardNum" ColumnName="ICCardNum" />
+          <ScalarProperty Name="IDCard" ColumnName="IDCard" />
+          <ScalarProperty Name="FamiliarCity" ColumnName="FamiliarCity" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="IsCompleted" ColumnName="IsCompleted" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PkgDispatchGuideSchedule">
+      <EntityTypeMapping TypeName="vBookingDBModel.PkgDispatchGuideSchedule">
+        <MappingFragment StoreEntitySet="PkgDispatchGuideSchedule">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Guide" ColumnName="Guide" />
+          <ScalarProperty Name="TourNum" ColumnName="TourNum" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="AdultNum" ColumnName="AdultNum" />
+          <ScalarProperty Name="ChildNum" ColumnName="ChildNum" />
+          <ScalarProperty Name="Agenda" ColumnName="Agenda" />
+          <ScalarProperty Name="Hotel" ColumnName="Hotel" />
+          <ScalarProperty Name="Flight" ColumnName="Flight" />
+          <ScalarProperty Name="FlightTime" ColumnName="FlightTime" />
+          <ScalarProperty Name="TakeOffTime" ColumnName="TakeOffTime" />
+          <ScalarProperty Name="ArriveTime" ColumnName="ArriveTime" />
+          <ScalarProperty Name="Breakfast" ColumnName="Breakfast" />
+          <ScalarProperty Name="Lunch" ColumnName="Lunch" />
+          <ScalarProperty Name="Dinner" ColumnName="Dinner" />
+          <ScalarProperty Name="AssembingPlace" ColumnName="AssembingPlace" />
+          <ScalarProperty Name="AssembingTime" ColumnName="AssembingTime" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ProviderID" ColumnName="ProviderID" />
+          <ScalarProperty Name="VehicleTypes" ColumnName="VehicleTypes" />
+          <ScalarProperty Name="DriverNames" ColumnName="DriverNames" />
+          <ScalarProperty Name="MotorcadeNms" ColumnName="MotorcadeNms" />
+          <ScalarProperty Name="Customers" ColumnName="Customers" />
+          <ScalarProperty Name="DriverMobiles" ColumnName="DriverMobiles" />
+          <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+          <ScalarProperty Name="ContactMobile" ColumnName="ContactMobile" />
+          <ScalarProperty Name="ContactTel" ColumnName="ContactTel" />
+          <ScalarProperty Name="PurchaseOrderID" ColumnName="PurchaseOrderID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PkgDispatchHotelArr">
+      <EntityTypeMapping TypeName="vBookingDBModel.PkgDispatchHotelArr">
+        <MappingFragment StoreEntitySet="PkgDispatchHotelArr">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ResourceID" ColumnName="ResourceID" />
+          <ScalarProperty Name="TourID" ColumnName="TourID" />
+          <ScalarProperty Name="HotelID" ColumnName="HotelID" />
+          <ScalarProperty Name="HotelName" ColumnName="HotelName" />
+          <ScalarProperty Name="CheckInDate" ColumnName="CheckInDate" />
+          <ScalarProperty Name="CheckOutDate" ColumnName="CheckOutDate" />
+          <ScalarProperty Name="Contactor" ColumnName="Contactor" />
+          <ScalarProperty Name="Tel" ColumnName="Tel" />
+          <ScalarProperty Name="RoomNum" ColumnName="RoomNum" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="IsCompleted" ColumnName="IsCompleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PkgDispatchHotelSchedule">
+      <EntityTypeMapping TypeName="vBookingDBModel.PkgDispatchHotelSchedule">
+        <MappingFragment StoreEntitySet="PkgDispatchHotelSchedule">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="HotelID" ColumnName="HotelID" />
+          <ScalarProperty Name="HotelName" ColumnName="HotelName" />
+          <ScalarProperty Name="TourNum" ColumnName="TourNum" />
+          <ScalarProperty Name="CheckInDate" ColumnName="CheckInDate" />
+          <ScalarProperty Name="CheckOutDate" ColumnName="CheckOutDate" />
+          <ScalarProperty Name="Contactor" ColumnName="Contactor" />
+          <ScalarProperty Name="Tel" ColumnName="Tel" />
+          <ScalarProperty Name="RoomNum" ColumnName="RoomNum" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="ProviderID" ColumnName="ProviderID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PkgDispatchOrder">
+      <EntityTypeMapping TypeName="vBookingDBModel.PkgDispatchOrder">
+        <MappingFragment StoreEntitySet="PkgDispatchOrder">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="TakeOffDate" ColumnName="TakeOffDate" />
+          <ScalarProperty Name="ReturnDate" ColumnName="ReturnDate" />
+          <ScalarProperty Name="ResourceID" ColumnName="ResourceID" />
+          <ScalarProperty Name="ResourceName" ColumnName="ResourceName" />
+          <ScalarProperty Name="StartCity" ColumnName="StartCity" />
+          <ScalarProperty Name="AdultNum" ColumnName="AdultNum" />
+          <ScalarProperty Name="ChildNum" ColumnName="ChildNum" />
+          <ScalarProperty Name="OrderStatus" ColumnName="OrderStatus" />
+          <ScalarProperty Name="OrderType" ColumnName="OrderType" />
+          <ScalarProperty Name="TourID" ColumnName="TourID" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="OrderSource" ColumnName="OrderSource" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="SynthesisAttribute" ColumnName="SynthesisAttribute" />
+          <ScalarProperty Name="PkgProviderId" ColumnName="PkgProviderId" />
+          <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+          <ScalarProperty Name="ContactMobile" ColumnName="ContactMobile" />
+          <ScalarProperty Name="ContactTel" ColumnName="ContactTel" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="PurchaseOrderID" ColumnName="PurchaseOrderID" />
+          <ScalarProperty Name="HotelName" ColumnName="HotelName" />
+          <ScalarProperty Name="ResourceTypeId" ColumnName="ResourceTypeId" />
+          <ScalarProperty Name="ResourceDes" ColumnName="ResourceDes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PkgDispatchOrderClient">
+      <EntityTypeMapping TypeName="vBookingDBModel.PkgDispatchOrderClient">
+        <MappingFragment StoreEntitySet="PkgDispatchOrderClient">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="ClientName" ColumnName="ClientName" />
+          <ScalarProperty Name="ClientNameEn" ColumnName="ClientNameEn" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="AgeType" ColumnName="AgeType" />
+          <ScalarProperty Name="ContactMobile" ColumnName="ContactMobile" />
+          <ScalarProperty Name="IDCardType" ColumnName="IDCardType" />
+          <ScalarProperty Name="IDCardTypeName" ColumnName="IDCardTypeName" />
+          <ScalarProperty Name="IDCardNo" ColumnName="IDCardNo" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="Nationality" ColumnName="Nationality" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="PurchaseOrderID" ColumnName="PurchaseOrderID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PkgDispatchOrderFlight">
+      <EntityTypeMapping TypeName="vBookingDBModel.PkgDispatchOrderFlight">
+        <MappingFragment StoreEntitySet="PkgDispatchOrderFlight">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="Segment" ColumnName="Segment" />
+          <ScalarProperty Name="TakeOffTime" ColumnName="TakeOffTime" />
+          <ScalarProperty Name="SitdownTime" ColumnName="SitdownTime" />
+          <ScalarProperty Name="DCity" ColumnName="DCity" />
+          <ScalarProperty Name="ACity" ColumnName="ACity" />
+          <ScalarProperty Name="DPort" ColumnName="DPort" />
+          <ScalarProperty Name="DPortName" ColumnName="DPortName" />
+          <ScalarProperty Name="DAirPortBuilding" ColumnName="DAirPortBuilding" />
+          <ScalarProperty Name="APort" ColumnName="APort" />
+          <ScalarProperty Name="APortName" ColumnName="APortName" />
+          <ScalarProperty Name="AAirPortBuiding" ColumnName="AAirPortBuiding" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Flight" ColumnName="Flight" />
+          <ScalarProperty Name="PurchaseOrderID" ColumnName="PurchaseOrderID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PkgdispatchOrderHotel">
+      <EntityTypeMapping TypeName="vBookingDBModel.PkgdispatchOrderHotel">
+        <MappingFragment StoreEntitySet="PkgdispatchOrderHotel">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="Segment" ColumnName="Segment" />
+          <ScalarProperty Name="Hotel" ColumnName="Hotel" />
+          <ScalarProperty Name="HotelName" ColumnName="HotelName" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="CheckinDate" ColumnName="CheckinDate" />
+          <ScalarProperty Name="CheckoutDate" ColumnName="CheckoutDate" />
+          <ScalarProperty Name="Days" ColumnName="Days" />
+          <ScalarProperty Name="Room" ColumnName="Room" />
+          <ScalarProperty Name="RoomName" ColumnName="RoomName" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="PurchaseOrderID" ColumnName="PurchaseOrderID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PkgDispatchSegmentArr">
+      <EntityTypeMapping TypeName="vBookingDBModel.PkgDispatchSegmentArr">
+        <MappingFragment StoreEntitySet="PkgDispatchSegmentArr">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ResourceID" ColumnName="ResourceID" />
+          <ScalarProperty Name="TourID" ColumnName="TourID" />
+          <ScalarProperty Name="AdultNum" ColumnName="AdultNum" />
+          <ScalarProperty Name="ChildNum" ColumnName="ChildNum" />
+          <ScalarProperty Name="HotelID" ColumnName="HotelID" />
+          <ScalarProperty Name="HotelName" ColumnName="HotelName" />
+          <ScalarProperty Name="HotelAddress" ColumnName="HotelAddress" />
+          <ScalarProperty Name="AssembingPlace" ColumnName="AssembingPlace" />
+          <ScalarProperty Name="AssembingTime" ColumnName="AssembingTime" />
+          <ScalarProperty Name="Flight" ColumnName="Flight" />
+          <ScalarProperty Name="TakeOffTime" ColumnName="TakeOffTime" />
+          <ScalarProperty Name="ArriveTime" ColumnName="ArriveTime" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="IsCompleted" ColumnName="IsCompleted" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="FlightTime" ColumnName="FlightTime" />
+          <ScalarProperty Name="PurchaseOrderID" ColumnName="PurchaseOrderID" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PkgDispatchTour">
+      <EntityTypeMapping TypeName="vBookingDBModel.PkgDispatchTour">
+        <MappingFragment StoreEntitySet="PkgDispatchTour">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TourNum" ColumnName="TourNum" />
+          <ScalarProperty Name="TourName" ColumnName="TourName" />
+          <ScalarProperty Name="ResourceID" ColumnName="ResourceID" />
+          <ScalarProperty Name="ProductNm" ColumnName="ProductNm" />
+          <ScalarProperty Name="AdultNum" ColumnName="AdultNum" />
+          <ScalarProperty Name="ChildNum" ColumnName="ChildNum" />
+          <ScalarProperty Name="UseDate" ColumnName="UseDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IsSegmentArr" ColumnName="IsSegmentArr" />
+          <ScalarProperty Name="IsGuideArr" ColumnName="IsGuideArr" />
+          <ScalarProperty Name="IsVehicleArr" ColumnName="IsVehicleArr" />
+          <ScalarProperty Name="IsDineArr" ColumnName="IsDineArr" />
+          <ScalarProperty Name="IsCompleted" ColumnName="IsCompleted" />
+          <ScalarProperty Name="IsHotelArr" ColumnName="IsHotelArr" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PkgDispatchTourNote">
+      <EntityTypeMapping TypeName="vBookingDBModel.PkgDispatchTourNote">
+        <MappingFragment StoreEntitySet="PkgDispatchTourNote">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TourID" ColumnName="TourID" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="Sort" ColumnName="Sort" />
+          <ScalarProperty Name="BackVarchar" ColumnName="BackVarchar" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PkgDispatchVehicleArr">
+      <EntityTypeMapping TypeName="vBookingDBModel.PkgDispatchVehicleArr">
+        <MappingFragment StoreEntitySet="PkgDispatchVehicleArr">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ResourceID" ColumnName="ResourceID" />
+          <ScalarProperty Name="TourID" ColumnName="TourID" />
+          <ScalarProperty Name="MotorcadeID" ColumnName="MotorcadeID" />
+          <ScalarProperty Name="IsExternal" ColumnName="IsExternal" />
+          <ScalarProperty Name="MotorcadeNm" ColumnName="MotorcadeNm" />
+          <ScalarProperty Name="VehicleNum" ColumnName="VehicleNum" />
+          <ScalarProperty Name="VehicleType" ColumnName="VehicleType" />
+          <ScalarProperty Name="TotalSeat" ColumnName="TotalSeat" />
+          <ScalarProperty Name="DriverID" ColumnName="DriverID" />
+          <ScalarProperty Name="DriverNm" ColumnName="DriverNm" />
+          <ScalarProperty Name="DriverMobile" ColumnName="DriverMobile" />
+          <ScalarProperty Name="IsTrolley" ColumnName="IsTrolley" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="IsCompleted" ColumnName="IsCompleted" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PkgDispatchVehicleSchedule">
+      <EntityTypeMapping TypeName="vBookingDBModel.PkgDispatchVehicleSchedule">
+        <MappingFragment StoreEntitySet="PkgDispatchVehicleSchedule">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UseVehicleDate" ColumnName="UseVehicleDate" />
+          <ScalarProperty Name="TourNum" ColumnName="TourNum" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="AdultNum" ColumnName="AdultNum" />
+          <ScalarProperty Name="ChildNum" ColumnName="ChildNum" />
+          <ScalarProperty Name="Agenda" ColumnName="Agenda" />
+          <ScalarProperty Name="Hotel" ColumnName="Hotel" />
+          <ScalarProperty Name="Flight" ColumnName="Flight" />
+          <ScalarProperty Name="FlightTime" ColumnName="FlightTime" />
+          <ScalarProperty Name="TakeOffTime" ColumnName="TakeOffTime" />
+          <ScalarProperty Name="ArriveTime" ColumnName="ArriveTime" />
+          <ScalarProperty Name="Breakfast" ColumnName="Breakfast" />
+          <ScalarProperty Name="Lunch" ColumnName="Lunch" />
+          <ScalarProperty Name="Dinner" ColumnName="Dinner" />
+          <ScalarProperty Name="AssembingPlace" ColumnName="AssembingPlace" />
+          <ScalarProperty Name="AssembingTime" ColumnName="AssembingTime" />
+          <ScalarProperty Name="Guide" ColumnName="Guide" />
+          <ScalarProperty Name="GuideMobile" ColumnName="GuideMobile" />
+          <ScalarProperty Name="VehicleType" ColumnName="VehicleType" />
+          <ScalarProperty Name="Driver" ColumnName="Driver" />
+          <ScalarProperty Name="DriverMobile" ColumnName="DriverMobile" />
+          <ScalarProperty Name="IsTrolley" ColumnName="IsTrolley" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ProviderID" ColumnName="ProviderID" />
+          <ScalarProperty Name="MotorcadeID" ColumnName="MotorcadeID" />
+          <ScalarProperty Name="PurchaseOrderID" ColumnName="PurchaseOrderID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PkgDriver">
+      <EntityTypeMapping TypeName="vBookingDBModel.PkgDriver">
+        <MappingFragment StoreEntitySet="PkgDriver">
+          <ScalarProperty Name="DriverID" ColumnName="DriverID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Company" ColumnName="Company" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="DriveLicense" ColumnName="DriveLicense" />
+          <ScalarProperty Name="DriveType" ColumnName="DriveType" />
+          <ScalarProperty Name="IDCard" ColumnName="IDCard" />
+          <ScalarProperty Name="HomeAddress" ColumnName="HomeAddress" />
+          <ScalarProperty Name="ExpireDate" ColumnName="ExpireDate" />
+          <ScalarProperty Name="LastTimeCheckMiles" ColumnName="LastTimeCheckMiles" />
+          <ScalarProperty Name="FamiliarCity" ColumnName="FamiliarCity" />
+          <ScalarProperty Name="PaymentMethod" ColumnName="PaymentMethod" />
+          <ScalarProperty Name="VehicleType" ColumnName="VehicleType" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ModifyTime" ColumnName="ModifyTime" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ProviderId" ColumnName="ProviderId" />
+          <ScalarProperty Name="IsExternal" ColumnName="IsExternal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PkgGuide">
+      <EntityTypeMapping TypeName="vBookingDBModel.PkgGuide">
+        <MappingFragment StoreEntitySet="PkgGuide">
+          <ScalarProperty Name="GuideID" ColumnName="GuideID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Level" ColumnName="Level" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="IDCard" ColumnName="IDCard" />
+          <ScalarProperty Name="GuideLicense" ColumnName="GuideLicense" />
+          <ScalarProperty Name="ICCardNum" ColumnName="ICCardNum" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="FamiliarCity" ColumnName="FamiliarCity" />
+          <ScalarProperty Name="PaymentMethod" ColumnName="PaymentMethod" />
+          <ScalarProperty Name="GuideType" ColumnName="GuideType" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ModifyTime" ColumnName="ModifyTime" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="ProviderId" ColumnName="ProviderId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PkgHotel">
+      <EntityTypeMapping TypeName="vBookingDBModel.PkgHotel">
+        <MappingFragment StoreEntitySet="PkgHotel">
+          <ScalarProperty Name="HotelID" ColumnName="HotelID" />
+          <ScalarProperty Name="HotelNm" ColumnName="HotelNm" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="Contactor" ColumnName="Contactor" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="SingpostsGuidelines" ColumnName="SingpostsGuidelines" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="ModifyTime" ColumnName="ModifyTime" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ProviderId" ColumnName="ProviderId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PkgMotorcade">
+      <EntityTypeMapping TypeName="vBookingDBModel.PkgMotorcade">
+        <MappingFragment StoreEntitySet="PkgMotorcade">
+          <ScalarProperty Name="MotorcadeID" ColumnName="MotorcadeID" />
+          <ScalarProperty Name="MotorcadeNm" ColumnName="MotorcadeNm" />
+          <ScalarProperty Name="OPLicenseID" ColumnName="OPLicenseID" />
+          <ScalarProperty Name="LieCity" ColumnName="LieCity" />
+          <ScalarProperty Name="Contactor" ColumnName="Contactor" />
+          <ScalarProperty Name="Tel1" ColumnName="Tel1" />
+          <ScalarProperty Name="Tel2" ColumnName="Tel2" />
+          <ScalarProperty Name="Tel3" ColumnName="Tel3" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="ContactAddress" ColumnName="ContactAddress" />
+          <ScalarProperty Name="VehicleType" ColumnName="VehicleType" />
+          <ScalarProperty Name="OperationCity" ColumnName="OperationCity" />
+          <ScalarProperty Name="IsSignContract" ColumnName="IsSignContract" />
+          <ScalarProperty Name="IsValid" ColumnName="IsValid" />
+          <ScalarProperty Name="ModifyTime" ColumnName="ModifyTime" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ProviderId" ColumnName="ProviderId" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="IsExternal" ColumnName="IsExternal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PkgRestaurant">
+      <EntityTypeMapping TypeName="vBookingDBModel.PkgRestaurant">
+        <MappingFragment StoreEntitySet="PkgRestaurant">
+          <ScalarProperty Name="RestaurantID" ColumnName="RestaurantID" />
+          <ScalarProperty Name="RestaurantNm" ColumnName="RestaurantNm" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="Contactor" ColumnName="Contactor" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="SingpostsGuidelines" ColumnName="SingpostsGuidelines" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="IsValid" ColumnName="IsValid" />
+          <ScalarProperty Name="ModifyTime" ColumnName="ModifyTime" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ProviderId" ColumnName="ProviderId" />
+          <ScalarProperty Name="Flavor" ColumnName="Flavor" />
+          <ScalarProperty Name="Drinks" ColumnName="Drinks" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PkgVehicle">
+      <EntityTypeMapping TypeName="vBookingDBModel.PkgVehicle">
+        <MappingFragment StoreEntitySet="PkgVehicle">
+          <ScalarProperty Name="VehicleID" ColumnName="VehicleID" />
+          <ScalarProperty Name="VehicleNum" ColumnName="VehicleNum" />
+          <ScalarProperty Name="Brand" ColumnName="Brand" />
+          <ScalarProperty Name="TotalSeat" ColumnName="TotalSeat" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="VehicleType" ColumnName="VehicleType" />
+          <ScalarProperty Name="DriveNum" ColumnName="DriveNum" />
+          <ScalarProperty Name="PurchaseTime" ColumnName="PurchaseTime" />
+          <ScalarProperty Name="LastTimeCheckDate" ColumnName="LastTimeCheckDate" />
+          <ScalarProperty Name="LastTimeCheckMiles" ColumnName="LastTimeCheckMiles" />
+          <ScalarProperty Name="DefaultDriverID" ColumnName="DefaultDriverID" />
+          <ScalarProperty Name="FamiliarCity" ColumnName="FamiliarCity" />
+          <ScalarProperty Name="PaymentMethod" ColumnName="PaymentMethod" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ModifyTime" ColumnName="ModifyTime" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="ProviderId" ColumnName="ProviderId" />
+          <ScalarProperty Name="IsExternal" ColumnName="IsExternal" />
+          <ScalarProperty Name="MotorcadeId" ColumnName="MotorcadeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PO_Message">
+      <EntityTypeMapping TypeName="vBookingDBModel.PO_Message">
+        <MappingFragment StoreEntitySet="PO_Message">
+          <ScalarProperty Name="MsgID" ColumnName="MsgID" />
+          <ScalarProperty Name="AppSender" ColumnName="AppSender" />
+          <ScalarProperty Name="Sender" ColumnName="Sender" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="CtripResourceID" ColumnName="CtripResourceID" />
+          <ScalarProperty Name="ProviderID" ColumnName="ProviderID" />
+          <ScalarProperty Name="MsgType" ColumnName="MsgType" />
+          <ScalarProperty Name="MsgBody" ColumnName="MsgBody" />
+          <ScalarProperty Name="MsgStatus" ColumnName="MsgStatus" />
+          <ScalarProperty Name="SentTime" ColumnName="SentTime" />
+          <ScalarProperty Name="PurchaseOrderID" ColumnName="PurchaseOrderID" />
+          <ScalarProperty Name="ModifyTime" ColumnName="ModifyTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PO_OperateLog">
+      <EntityTypeMapping TypeName="vBookingDBModel.PO_OperateLog">
+        <MappingFragment StoreEntitySet="PO_OperateLog">
+          <ScalarProperty Name="OperateLogID" ColumnName="OperateLogID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="CtripResourceID" ColumnName="CtripResourceID" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="OperateParty" ColumnName="OperateParty" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="OperateTime" ColumnName="OperateTime" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="POResultStatus" ColumnName="POResultStatus" />
+          <ScalarProperty Name="VBKPurchaseOrderID" ColumnName="VBKPurchaseOrderID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PO_PurchaseOrder">
+      <EntityTypeMapping TypeName="vBookingDBModel.PO_PurchaseOrder">
+        <MappingFragment StoreEntitySet="PO_PurchaseOrder">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PurchaseOrderID" ColumnName="PurchaseOrderID" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="ActualAdultQuantity" ColumnName="ActualAdultQuantity" />
+          <ScalarProperty Name="ActualChildQuantity" ColumnName="ActualChildQuantity" />
+          <ScalarProperty Name="ActualTotalQuantity" ColumnName="ActualTotalQuantity" />
+          <ScalarProperty Name="AdultCost" ColumnName="AdultCost" />
+          <ScalarProperty Name="AdultQuantity" ColumnName="AdultQuantity" />
+          <ScalarProperty Name="ArrivalDate" ColumnName="ArrivalDate" />
+          <ScalarProperty Name="ChildCost" ColumnName="ChildCost" />
+          <ScalarProperty Name="ChildQuantity" ColumnName="ChildQuantity" />
+          <ScalarProperty Name="Collator" ColumnName="Collator" />
+          <ScalarProperty Name="ConfirmNo" ColumnName="ConfirmNo" />
+          <ScalarProperty Name="ConfirmRemark" ColumnName="ConfirmRemark" />
+          <ScalarProperty Name="ContactEmail" ColumnName="ContactEmail" />
+          <ScalarProperty Name="ContactFax" ColumnName="ContactFax" />
+          <ScalarProperty Name="ContactMobile" ColumnName="ContactMobile" />
+          <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+          <ScalarProperty Name="ContactTel" ColumnName="ContactTel" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="CtripProductID" ColumnName="CtripProductID" />
+          <ScalarProperty Name="Currency" ColumnName="Currency" />
+          <ScalarProperty Name="DepartureDate" ColumnName="DepartureDate" />
+          <ScalarProperty Name="Exchange" ColumnName="Exchange" />
+          <ScalarProperty Name="IsNeedCollate" ColumnName="IsNeedCollate" />
+          <ScalarProperty Name="IsNoticeSended" ColumnName="IsNoticeSended" />
+          <ScalarProperty Name="OperatorPhoneExtension" ColumnName="OperatorPhoneExtension" />
+          <ScalarProperty Name="OrderDate" ColumnName="OrderDate" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="PaymentStatus" ColumnName="PaymentStatus" />
+          <ScalarProperty Name="PaymentType" ColumnName="PaymentType" />
+          <ScalarProperty Name="ProviderID" ColumnName="ProviderID" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="CtripResourceID" ColumnName="CtripResourceID" />
+          <ScalarProperty Name="ResourceName" ColumnName="ResourceName" />
+          <ScalarProperty Name="ReturnDate" ColumnName="ReturnDate" />
+          <ScalarProperty Name="StartCityName" ColumnName="StartCityName" />
+          <ScalarProperty Name="TourID" ColumnName="TourID" />
+          <ScalarProperty Name="UseDate" ColumnName="UseDate" />
+          <ScalarProperty Name="VbCollateDate" ColumnName="VbCollateDate" />
+          <ScalarProperty Name="VbCollateStatus" ColumnName="VbCollateStatus" />
+          <ScalarProperty Name="VBKResourceID" ColumnName="VBKResourceID" />
+          <ScalarProperty Name="VBKResourceTypeID" ColumnName="VBKResourceTypeID" />
+          <ScalarProperty Name="VbRemark" ColumnName="VbRemark" />
+          <ScalarProperty Name="VisaProcessStatus" ColumnName="VisaProcessStatus" />
+          <ScalarProperty Name="ModifyTime" ColumnName="ModifyTime" />
+          <ScalarProperty Name="AdultSalePrice" ColumnName="AdultSalePrice" />
+          <ScalarProperty Name="ChildSalePrice" ColumnName="ChildSalePrice" />
+          <ScalarProperty Name="TotalSalePrice" ColumnName="TotalSalePrice" />
+          <ScalarProperty Name="ApprovePerson" ColumnName="ApprovePerson" />
+          <ScalarProperty Name="ApproveStatus" ColumnName="ApproveStatus" />
+          <ScalarProperty Name="ApproveTime" ColumnName="ApproveTime" />
+          <ScalarProperty Name="SubmitPerson" ColumnName="SubmitPerson" />
+          <ScalarProperty Name="SubmitTime" ColumnName="SubmitTime" />
+          <ScalarProperty Name="ActivePOIDHistory" ColumnName="ActivePOIDHistory" />
+          <ScalarProperty Name="CtripPurchaseResourceType" ColumnName="CtripPurchaseResourceType" />
+          <ScalarProperty Name="CtripSaleResourceType" ColumnName="CtripSaleResourceType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PO_PurchaseOrderClient">
+      <EntityTypeMapping TypeName="vBookingDBModel.PO_PurchaseOrderClient">
+        <MappingFragment StoreEntitySet="PO_PurchaseOrderClient">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="ClientName" ColumnName="ClientName" />
+          <ScalarProperty Name="ClientNameEn" ColumnName="ClientNameEn" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="AgeType" ColumnName="AgeType" />
+          <ScalarProperty Name="ContactMobile" ColumnName="ContactMobile" />
+          <ScalarProperty Name="IDCardType" ColumnName="IDCardType" />
+          <ScalarProperty Name="IDCardTypeName" ColumnName="IDCardTypeName" />
+          <ScalarProperty Name="IDCardNo" ColumnName="IDCardNo" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="Nationality" ColumnName="Nationality" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="PurchaseOrderID" ColumnName="PurchaseOrderID" />
+          <ScalarProperty Name="POApprovedID" ColumnName="POApprovedID" />
+          <ScalarProperty Name="VisaCountry" ColumnName="VisaCountry" />
+          <ScalarProperty Name="IssueDate" ColumnName="IssueDate" />
+          <ScalarProperty Name="PassportType" ColumnName="PassportType" />
+          <ScalarProperty Name="IDCardTimelimit" ColumnName="IDCardTimelimit" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="homeplace" ColumnName="homeplace" />
+          <ScalarProperty Name="ClientID" ColumnName="ClientID" />
+          <ScalarProperty Name="VisaStatus" ColumnName="VisaStatus" />
+          <ScalarProperty Name="ModifyTime" ColumnName="ModifyTime" />
+          <ScalarProperty Name="CardCity" ColumnName="CardCity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PurchaseOrder_Approved">
+      <EntityTypeMapping TypeName="vBookingDBModel.PurchaseOrder_Approved">
+        <MappingFragment StoreEntitySet="PurchaseOrder_Approved">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PurchaseOrderID" ColumnName="PurchaseOrderID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="Segment" ColumnName="Segment" />
+          <ScalarProperty Name="ResourceID" ColumnName="ResourceID" />
+          <ScalarProperty Name="ResourceType" ColumnName="ResourceType" />
+          <ScalarProperty Name="ResourceName" ColumnName="ResourceName" />
+          <ScalarProperty Name="ResourceDesc" ColumnName="ResourceDesc" />
+          <ScalarProperty Name="ProviderID" ColumnName="ProviderID" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="OperateReason" ColumnName="OperateReason" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="AdultQuantity" ColumnName="AdultQuantity" />
+          <ScalarProperty Name="ChildQuantity" ColumnName="ChildQuantity" />
+          <ScalarProperty Name="BabyQuantity" ColumnName="BabyQuantity" />
+          <ScalarProperty Name="ActualAdultQuantity" ColumnName="ActualAdultQuantity" />
+          <ScalarProperty Name="ActualChildQuantity" ColumnName="ActualChildQuantity" />
+          <ScalarProperty Name="ActualBabyQuantity" ColumnName="ActualBabyQuantity" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="AdultCost" ColumnName="AdultCost" />
+          <ScalarProperty Name="ChildCost" ColumnName="ChildCost" />
+          <ScalarProperty Name="BabyCost" ColumnName="BabyCost" />
+          <ScalarProperty Name="StartCityName" ColumnName="StartCityName" />
+          <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+          <ScalarProperty Name="OrderDate" ColumnName="OrderDate" />
+          <ScalarProperty Name="UseDate" ColumnName="UseDate" />
+          <ScalarProperty Name="ArrivalDate" ColumnName="ArrivalDate" />
+          <ScalarProperty Name="DepartureDate" ColumnName="DepartureDate" />
+          <ScalarProperty Name="Currency" ColumnName="Currency" />
+          <ScalarProperty Name="Exchange" ColumnName="Exchange" />
+          <ScalarProperty Name="VbRemark" ColumnName="VbRemark" />
+          <ScalarProperty Name="VbSubmitStatus" ColumnName="VbSubmitStatus" />
+          <ScalarProperty Name="VbApproveStatus" ColumnName="VbApproveStatus" />
+          <ScalarProperty Name="ConfirmRemark" ColumnName="ConfirmRemark" />
+          <ScalarProperty Name="VbApproveDate" ColumnName="VbApproveDate" />
+          <ScalarProperty Name="VbCollateStatus" ColumnName="VbCollateStatus" />
+          <ScalarProperty Name="VbCollateDate" ColumnName="VbCollateDate" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="OperateTime" ColumnName="OperateTime" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ConfirmNo" ColumnName="ConfirmNo" />
+          <ScalarProperty Name="ContactMobile" ColumnName="ContactMobile" />
+          <ScalarProperty Name="ReturnFlag" ColumnName="ReturnFlag" />
+          <ScalarProperty Name="ReturnDate" ColumnName="ReturnDate" />
+          <ScalarProperty Name="ProcessOper" ColumnName="ProcessOper" />
+          <ScalarProperty Name="EmergencyTime" ColumnName="EmergencyTime" />
+          <ScalarProperty Name="SalesResourceType" ColumnName="SalesResourceType" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="IsNeedCollate" ColumnName="IsNeedCollate" />
+          <ScalarProperty Name="IsNoticeSended" ColumnName="IsNoticeSended" />
+          <ScalarProperty Name="TourID" ColumnName="TourID" />
+          <ScalarProperty Name="ContactEmail" ColumnName="ContactEmail" />
+          <ScalarProperty Name="ContactFax" ColumnName="ContactFax" />
+          <ScalarProperty Name="ContactTel" ColumnName="ContactTel" />
+          <ScalarProperty Name="Collator" ColumnName="Collator" />
+          <ScalarProperty Name="ResourceTypeID" ColumnName="ResourceTypeID" />
+          <ScalarProperty Name="VisaProcessStatus" ColumnName="VisaProcessStatus" />
+          <ScalarProperty Name="ActualTotalQuantity" ColumnName="ActualTotalQuantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PurchaseOrder_ApprovedReport">
+      <EntityTypeMapping TypeName="vBookingDBModel.PurchaseOrder_ApprovedReport">
+        <MappingFragment StoreEntitySet="PurchaseOrder_ApprovedReport">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="PurchaseOrderID" ColumnName="PurchaseOrderID" />
+          <ScalarProperty Name="ResourceName" ColumnName="ResourceName" />
+          <ScalarProperty Name="UseDate" ColumnName="UseDate" />
+          <ScalarProperty Name="vbSubmitStatus" ColumnName="vbSubmitStatus" />
+          <ScalarProperty Name="vbApproveStatus" ColumnName="vbApproveStatus" />
+          <ScalarProperty Name="StartCityName" ColumnName="StartCityName" />
+          <ScalarProperty Name="vbRemark" ColumnName="vbRemark" />
+          <ScalarProperty Name="ClientNum" ColumnName="ClientNum" />
+          <ScalarProperty Name="ClientInfo" ColumnName="ClientInfo" />
+          <ScalarProperty Name="HotelInfo" ColumnName="HotelInfo" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="AdultQuantity" ColumnName="AdultQuantity" />
+          <ScalarProperty Name="ChildQuantity" ColumnName="ChildQuantity" />
+          <ScalarProperty Name="FirstFltTakeOffTime" ColumnName="FirstFltTakeOffTime" />
+          <ScalarProperty Name="FirstFltSitDownTime" ColumnName="FirstFltSitDownTime" />
+          <ScalarProperty Name="FirstFltFlight" ColumnName="FirstFltFlight" />
+          <ScalarProperty Name="MidFltInfo" ColumnName="MidFltInfo" />
+          <ScalarProperty Name="LastFltTakeOffTime" ColumnName="LastFltTakeOffTime" />
+          <ScalarProperty Name="LastFltFlight" ColumnName="LastFltFlight" />
+          <ScalarProperty Name="ReturnDate" ColumnName="ReturnDate" />
+          <ScalarProperty Name="COST" ColumnName="COST" />
+          <ScalarProperty Name="ConfirmNo" ColumnName="ConfirmNo" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="ApprovedID" ColumnName="ApprovedID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PurchaseOrder_Report">
+      <EntityTypeMapping TypeName="vBookingDBModel.PurchaseOrder_Report">
+        <MappingFragment StoreEntitySet="PurchaseOrder_Report">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="PurchaseOrderID" ColumnName="PurchaseOrderID" />
+          <ScalarProperty Name="ResourceName" ColumnName="ResourceName" />
+          <ScalarProperty Name="UseDate" ColumnName="UseDate" />
+          <ScalarProperty Name="vbSubmitStatus" ColumnName="vbSubmitStatus" />
+          <ScalarProperty Name="vbApproveStatus" ColumnName="vbApproveStatus" />
+          <ScalarProperty Name="StartCityName" ColumnName="StartCityName" />
+          <ScalarProperty Name="vbRemark" ColumnName="vbRemark" />
+          <ScalarProperty Name="ClientNum" ColumnName="ClientNum" />
+          <ScalarProperty Name="ClientInfo" ColumnName="ClientInfo" />
+          <ScalarProperty Name="HotelInfo" ColumnName="HotelInfo" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="AdultQuantity" ColumnName="AdultQuantity" />
+          <ScalarProperty Name="ChildQuantity" ColumnName="ChildQuantity" />
+          <ScalarProperty Name="FirstFltTakeOffTime" ColumnName="FirstFltTakeOffTime" />
+          <ScalarProperty Name="FirstFltSitDownTime" ColumnName="FirstFltSitDownTime" />
+          <ScalarProperty Name="FirstFltFlight" ColumnName="FirstFltFlight" />
+          <ScalarProperty Name="MidFltInfo" ColumnName="MidFltInfo" />
+          <ScalarProperty Name="LastFltTakeOffTime" ColumnName="LastFltTakeOffTime" />
+          <ScalarProperty Name="LastFltFlight" ColumnName="LastFltFlight" />
+          <ScalarProperty Name="ReturnDate" ColumnName="ReturnDate" />
+          <ScalarProperty Name="COST" ColumnName="COST" />
+          <ScalarProperty Name="ConfirmNo" ColumnName="ConfirmNo" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="ApprovedID" ColumnName="ApprovedID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PurchaseOrderClient_Approved">
+      <EntityTypeMapping TypeName="vBookingDBModel.PurchaseOrderClient_Approved">
+        <MappingFragment StoreEntitySet="PurchaseOrderClient_Approved">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="ClientName" ColumnName="ClientName" />
+          <ScalarProperty Name="ClientNameEn" ColumnName="ClientNameEn" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="AgeType" ColumnName="AgeType" />
+          <ScalarProperty Name="ContactMobile" ColumnName="ContactMobile" />
+          <ScalarProperty Name="IDCardType" ColumnName="IDCardType" />
+          <ScalarProperty Name="IDCardTypeName" ColumnName="IDCardTypeName" />
+          <ScalarProperty Name="IDCardNo" ColumnName="IDCardNo" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="Nationality" ColumnName="Nationality" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="PurchaseOrderID" ColumnName="PurchaseOrderID" />
+          <ScalarProperty Name="POApprovedID" ColumnName="POApprovedID" />
+          <ScalarProperty Name="VisaCountry" ColumnName="VisaCountry" />
+          <ScalarProperty Name="IssueDate" ColumnName="IssueDate" />
+          <ScalarProperty Name="PassportType" ColumnName="PassportType" />
+          <ScalarProperty Name="IDCardTimelimit" ColumnName="IDCardTimelimit" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="homeplace" ColumnName="homeplace" />
+          <ScalarProperty Name="ClientID" ColumnName="ClientID" />
+          <ScalarProperty Name="VisaStatus" ColumnName="VisaStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PurchaseOrderVisaLog">
+      <EntityTypeMapping TypeName="vBookingDBModel.PurchaseOrderVisaLog">
+        <MappingFragment StoreEntitySet="PurchaseOrderVisaLog">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PurchaseOrderID" ColumnName="PurchaseOrderID" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RptInventory">
+      <EntityTypeMapping TypeName="vBookingDBModel.RptInventory">
+        <MappingFragment StoreEntitySet="RptInventory">
+          <ScalarProperty Name="RIID" ColumnName="RIID" />
+          <ScalarProperty Name="ResourceID" ColumnName="ResourceID" />
+          <ScalarProperty Name="InventoryDate" ColumnName="InventoryDate" />
+          <ScalarProperty Name="InventoryCount" ColumnName="InventoryCount" />
+          <ScalarProperty Name="InventoryMode" ColumnName="InventoryMode" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="AdultCostPrice" ColumnName="AdultCostPrice" />
+          <ScalarProperty Name="AdultSalesPrice" ColumnName="AdultSalesPrice" />
+          <ScalarProperty Name="ChildCostPrice" ColumnName="ChildCostPrice" />
+          <ScalarProperty Name="ChildSalesPrice" ColumnName="ChildSalesPrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RptProductSaleSummary">
+      <EntityTypeMapping TypeName="vBookingDBModel.RptProductSaleSummary">
+        <MappingFragment StoreEntitySet="RptProductSaleSummary">
+          <ScalarProperty Name="RPSSID" ColumnName="RPSSID" />
+          <ScalarProperty Name="ProviderID" ColumnName="ProviderID" />
+          <ScalarProperty Name="VBKResourceID" ColumnName="VBKResourceID" />
+          <ScalarProperty Name="Pkg" ColumnName="Pkg" />
+          <ScalarProperty Name="ResourceName" ColumnName="ResourceName" />
+          <ScalarProperty Name="DepartureCity" ColumnName="DepartureCity" />
+          <ScalarProperty Name="DestinationCity" ColumnName="DestinationCity" />
+          <ScalarProperty Name="DepartureSchedule" ColumnName="DepartureSchedule" />
+          <ScalarProperty Name="SaledQuantity" ColumnName="SaledQuantity" />
+          <ScalarProperty Name="SaledAdultQuantity" ColumnName="SaledAdultQuantity" />
+          <ScalarProperty Name="SaledChildQuantity" ColumnName="SaledChildQuantity" />
+          <ScalarProperty Name="AdultCostPrice" ColumnName="AdultCostPrice" />
+          <ScalarProperty Name="AdultSalesPrice" ColumnName="AdultSalesPrice" />
+          <ScalarProperty Name="ChildCostPrice" ColumnName="ChildCostPrice" />
+          <ScalarProperty Name="ChildSalesPrice" ColumnName="ChildSalesPrice" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="PurchaseOrderID" ColumnName="PurchaseOrderID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RptResource">
+      <EntityTypeMapping TypeName="vBookingDBModel.RptResource">
+        <MappingFragment StoreEntitySet="RptResource">
+          <ScalarProperty Name="RRID" ColumnName="RRID" />
+          <ScalarProperty Name="ProviderID" ColumnName="ProviderID" />
+          <ScalarProperty Name="ResourceID" ColumnName="ResourceID" />
+          <ScalarProperty Name="Pkg" ColumnName="Pkg" />
+          <ScalarProperty Name="ResourceName" ColumnName="ResourceName" />
+          <ScalarProperty Name="DepartureCity" ColumnName="DepartureCity" />
+          <ScalarProperty Name="DestinationCity" ColumnName="DestinationCity" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SysBulletin">
+      <EntityTypeMapping TypeName="vBookingDBModel.SysBulletin">
+        <MappingFragment StoreEntitySet="SysBulletin">
+          <ScalarProperty Name="BulletinID" ColumnName="BulletinID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="AudienceType" ColumnName="AudienceType" />
+          <ScalarProperty Name="EffectiveDate" ColumnName="EffectiveDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="DataChange_LastTime" ColumnName="DataChange_LastTime" />
+          <ScalarProperty Name="ExpireTime" ColumnName="ExpireTime" />
+          <ScalarProperty Name="Creator" ColumnName="Creator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SysBulletinProviderMapping">
+      <EntityTypeMapping TypeName="vBookingDBModel.SysBulletinProviderMapping">
+        <MappingFragment StoreEntitySet="SysBulletinProviderMapping">
+          <ScalarProperty Name="BPID" ColumnName="BPID" />
+          <ScalarProperty Name="BulletinID" ColumnName="BulletinID" />
+          <ScalarProperty Name="ProviderID" ColumnName="ProviderID" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SysBulletinTypeMapping">
+      <EntityTypeMapping TypeName="vBookingDBModel.SysBulletinTypeMapping">
+        <MappingFragment StoreEntitySet="SysBulletinTypeMapping">
+          <ScalarProperty Name="BTID" ColumnName="BTID" />
+          <ScalarProperty Name="BulletinID" ColumnName="BulletinID" />
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="vBookingDBModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SysDicItem">
+      <EntityTypeMapping TypeName="vBookingDBModel.SysDicItem">
+        <MappingFragment StoreEntitySet="SysDicItem">
+          <ScalarProperty Name="DicItemID" ColumnName="DicItemID" />
+          <ScalarProperty Name="DicItemName" ColumnName="DicItemName" />
+          <ScalarProperty Name="DicItemNameEn" ColumnName="DicItemNameEn" />
+          <ScalarProperty Name="DicTypeID" ColumnName="DicTypeID" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="IsDefault" ColumnName="IsDefault" />
+          <ScalarProperty Name="SortIndex" ColumnName="SortIndex" />
+          <ScalarProperty Name="Value1" ColumnName="Value1" />
+          <ScalarProperty Name="Value2" ColumnName="Value2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SysDicType">
+      <EntityTypeMapping TypeName="vBookingDBModel.SysDicType">
+        <MappingFragment StoreEntitySet="SysDicType">
+          <ScalarProperty Name="DicTypeID" ColumnName="DicTypeID" />
+          <ScalarProperty Name="DicTypeName" ColumnName="DicTypeName" />
+          <ScalarProperty Name="DicTypeNameEn" ColumnName="DicTypeNameEn" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="Usage" ColumnName="Usage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SysLog">
+      <EntityTypeMapping TypeName="vBookingDBModel.SysLog">
+        <MappingFragment StoreEntitySet="SysLog">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="logid" ColumnName="logid" />
+          <ScalarProperty Name="startTime" ColumnName="startTime" />
+          <ScalarProperty Name="endTime" ColumnName="endTime" />
+          <ScalarProperty Name="message" ColumnName="message" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tempAirport">
+      <EntityTypeMapping TypeName="vBookingDBModel.tempAirport">
+        <MappingFragment StoreEntitySet="tempAirport">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Airport" ColumnName="Airport" />
+          <ScalarProperty Name="AirportName" ColumnName="AirportName" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="airportshortname" ColumnName="airportshortname" />
+          <ScalarProperty Name="airportename" ColumnName="airportename" />
+          <ScalarProperty Name="airporttel" ColumnName="airporttel" />
+          <ScalarProperty Name="airportaddr" ColumnName="airportaddr" />
+          <ScalarProperty Name="distance" ColumnName="distance" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tempCity">
+      <EntityTypeMapping TypeName="vBookingDBModel.tempCity">
+        <MappingFragment StoreEntitySet="tempCity">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="CityName" ColumnName="CityName" />
+          <ScalarProperty Name="Province" ColumnName="Province" />
+          <ScalarProperty Name="Country" ColumnName="Country" />
+          <ScalarProperty Name="Citycode" ColumnName="Citycode" />
+          <ScalarProperty Name="ToTrain" ColumnName="ToTrain" />
+          <ScalarProperty Name="ToShip" ColumnName="ToShip" />
+          <ScalarProperty Name="TripStatus" ColumnName="TripStatus" />
+          <ScalarProperty Name="ename" ColumnName="ename" />
+          <ScalarProperty Name="weather" ColumnName="weather" />
+          <ScalarProperty Name="hotelprovince" ColumnName="hotelprovince" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tempDyyTestPerson">
+      <EntityTypeMapping TypeName="vBookingDBModel.tempDyyTestPerson">
+        <MappingFragment StoreEntitySet="tempDyyTestPerson">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tmpVDispLog">
+      <EntityTypeMapping TypeName="vBookingDBModel.tmpVDispLog">
+        <MappingFragment StoreEntitySet="tmpVDispLog">
+          <ScalarProperty Name="sourcePage" ColumnName="sourcePage" />
+          <ScalarProperty Name="destPage" ColumnName="destPage" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="logid" ColumnName="logid" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Thread" ColumnName="Thread" />
+          <ScalarProperty Name="Level" ColumnName="Level" />
+          <ScalarProperty Name="Logger" ColumnName="Logger" />
+          <ScalarProperty Name="Identity" ColumnName="Identity" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="ApplicationID" ColumnName="ApplicationID" />
+          <ScalarProperty Name="ModuleID" ColumnName="ModuleID" />
+          <ScalarProperty Name="ClientIP" ColumnName="ClientIP" />
+          <ScalarProperty Name="HostIP" ColumnName="HostIP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tmpVErrorLog">
+      <EntityTypeMapping TypeName="vBookingDBModel.tmpVErrorLog">
+        <MappingFragment StoreEntitySet="tmpVErrorLog">
+          <ScalarProperty Name="message" ColumnName="message" />
+          <ScalarProperty Name="exmessage" ColumnName="exmessage" />
+          <ScalarProperty Name="exstack" ColumnName="exstack" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="logid" ColumnName="logid" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Thread" ColumnName="Thread" />
+          <ScalarProperty Name="Level" ColumnName="Level" />
+          <ScalarProperty Name="Logger" ColumnName="Logger" />
+          <ScalarProperty Name="Identity" ColumnName="Identity" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="ApplicationID" ColumnName="ApplicationID" />
+          <ScalarProperty Name="ModuleID" ColumnName="ModuleID" />
+          <ScalarProperty Name="ClientIP" ColumnName="ClientIP" />
+          <ScalarProperty Name="HostIP" ColumnName="HostIP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tmpVSysLog">
+      <EntityTypeMapping TypeName="vBookingDBModel.tmpVSysLog">
+        <MappingFragment StoreEntitySet="tmpVSysLog">
+          <ScalarProperty Name="startTime" ColumnName="startTime" />
+          <ScalarProperty Name="endTime" ColumnName="endTime" />
+          <ScalarProperty Name="message" ColumnName="message" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="logid" ColumnName="logid" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Thread" ColumnName="Thread" />
+          <ScalarProperty Name="Level" ColumnName="Level" />
+          <ScalarProperty Name="Logger" ColumnName="Logger" />
+          <ScalarProperty Name="Identity" ColumnName="Identity" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="ApplicationID" ColumnName="ApplicationID" />
+          <ScalarProperty Name="ModuleID" ColumnName="ModuleID" />
+          <ScalarProperty Name="ClientIP" ColumnName="ClientIP" />
+          <ScalarProperty Name="HostIP" ColumnName="HostIP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tmpVTraceLog">
+      <EntityTypeMapping TypeName="vBookingDBModel.tmpVTraceLog">
+        <MappingFragment StoreEntitySet="tmpVTraceLog">
+          <ScalarProperty Name="bizType" ColumnName="bizType" />
+          <ScalarProperty Name="opType" ColumnName="opType" />
+          <ScalarProperty Name="opDesc" ColumnName="opDesc" />
+          <ScalarProperty Name="startTime" ColumnName="startTime" />
+          <ScalarProperty Name="endTime" ColumnName="endTime" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="logid" ColumnName="logid" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Thread" ColumnName="Thread" />
+          <ScalarProperty Name="Level" ColumnName="Level" />
+          <ScalarProperty Name="Logger" ColumnName="Logger" />
+          <ScalarProperty Name="Identity" ColumnName="Identity" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="ApplicationID" ColumnName="ApplicationID" />
+          <ScalarProperty Name="ModuleID" ColumnName="ModuleID" />
+          <ScalarProperty Name="ClientIP" ColumnName="ClientIP" />
+          <ScalarProperty Name="HostIP" ColumnName="HostIP" />
+          <ScalarProperty Name="resourceid" ColumnName="resourceid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TraceLog">
+      <EntityTypeMapping TypeName="vBookingDBModel.TraceLog">
+        <MappingFragment StoreEntitySet="TraceLog">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="logid" ColumnName="logid" />
+          <ScalarProperty Name="resourceid" ColumnName="resourceid" />
+          <ScalarProperty Name="bizType" ColumnName="bizType" />
+          <ScalarProperty Name="opType" ColumnName="opType" />
+          <ScalarProperty Name="opDesc" ColumnName="opDesc" />
+          <ScalarProperty Name="startTime" ColumnName="startTime" />
+          <ScalarProperty Name="endTime" ColumnName="endTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="U_LoginLog">
+      <EntityTypeMapping TypeName="vBookingDBModel.U_LoginLog">
+        <MappingFragment StoreEntitySet="U_LoginLog">
+          <ScalarProperty Name="PKId" ColumnName="PKId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="LoginDate" ColumnName="LoginDate" />
+          <ScalarProperty Name="LoginStatus" ColumnName="LoginStatus" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="UserIpAddress" ColumnName="UserIpAddress" />
+          <ScalarProperty Name="HostAddress" ColumnName="HostAddress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="U_OperateLog">
+      <EntityTypeMapping TypeName="vBookingDBModel.U_OperateLog">
+        <MappingFragment StoreEntitySet="U_OperateLog">
+          <ScalarProperty Name="PKId" ColumnName="PKId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="OperateDate" ColumnName="OperateDate" />
+          <ScalarProperty Name="OperateDescription" ColumnName="OperateDescription" />
+          <ScalarProperty Name="ModuleDescription" ColumnName="ModuleDescription" />
+          <ScalarProperty Name="OperateUrl" ColumnName="OperateUrl" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="UserIpAddress" ColumnName="UserIpAddress" />
+          <ScalarProperty Name="HostAddress" ColumnName="HostAddress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="U_PasswordHistory">
+      <EntityTypeMapping TypeName="vBookingDBModel.U_PasswordHistory">
+        <MappingFragment StoreEntitySet="U_PasswordHistory">
+          <ScalarProperty Name="PKId" ColumnName="PKId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="ChangedDate" ColumnName="ChangedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="U_PasswordRetrieve">
+      <EntityTypeMapping TypeName="vBookingDBModel.U_PasswordRetrieve">
+        <MappingFragment StoreEntitySet="U_PasswordRetrieve">
+          <ScalarProperty Name="PasswordRetrieveId" ColumnName="PasswordRetrieveId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Token" ColumnName="Token" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="ExpireTime" ColumnName="ExpireTime" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="U_pwdhistory">
+      <EntityTypeMapping TypeName="vBookingDBModel.U_pwdhistory">
+        <MappingFragment StoreEntitySet="U_pwdhistory">
+          <ScalarProperty Name="operid" ColumnName="operid" />
+          <ScalarProperty Name="pwd" ColumnName="pwd" />
+          <ScalarProperty Name="pwddate" ColumnName="pwddate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="U_Roles">
+      <EntityTypeMapping TypeName="vBookingDBModel.U_Roles">
+        <MappingFragment StoreEntitySet="U_Roles">
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+          <ScalarProperty Name="LoweredRoleName" ColumnName="LoweredRoleName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Sequence" ColumnName="Sequence" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="U_user">
+      <EntityTypeMapping TypeName="vBookingDBModel.U_user">
+        <MappingFragment StoreEntitySet="U_user">
+          <ScalarProperty Name="operid" ColumnName="operid" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="pwd" ColumnName="pwd" />
+          <ScalarProperty Name="provider" ColumnName="provider" />
+          <ScalarProperty Name="ProviderName" ColumnName="ProviderName" />
+          <ScalarProperty Name="active" ColumnName="active" />
+          <ScalarProperty Name="tel" ColumnName="tel" />
+          <ScalarProperty Name="mobile" ColumnName="mobile" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="pwddate" ColumnName="pwddate" />
+          <ScalarProperty Name="usertype" ColumnName="usertype" />
+          <ScalarProperty Name="IsAdmin" ColumnName="IsAdmin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="U_UserCustom">
+      <EntityTypeMapping TypeName="vBookingDBModel.U_UserCustom">
+        <MappingFragment StoreEntitySet="U_UserCustom">
+          <ScalarProperty Name="CustomID" ColumnName="CustomID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="CustomValue" ColumnName="CustomValue" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="DicItemID" ColumnName="DicItemID" />
+          <ScalarProperty Name="DicTypeID" ColumnName="DicTypeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="U_userloginlog">
+      <EntityTypeMapping TypeName="vBookingDBModel.U_userloginlog">
+        <MappingFragment StoreEntitySet="U_userloginlog">
+          <ScalarProperty Name="LogId" ColumnName="LogId" />
+          <ScalarProperty Name="Uid" ColumnName="Uid" />
+          <ScalarProperty Name="LoginTime" ColumnName="LoginTime" />
+          <ScalarProperty Name="UIpAddr" ColumnName="UIpAddr" />
+          <ScalarProperty Name="HostAddr" ColumnName="HostAddr" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="U_Users">
+      <EntityTypeMapping TypeName="vBookingDBModel.U_Users">
+        <MappingFragment StoreEntitySet="U_Users">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="LoweredUserName" ColumnName="LoweredUserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Provider" ColumnName="Provider" />
+          <ScalarProperty Name="ProviderName" ColumnName="ProviderName" />
+          <ScalarProperty Name="TelephoneNumber" ColumnName="TelephoneNumber" />
+          <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="LastLoginDate" ColumnName="LastLoginDate" />
+          <ScalarProperty Name="LastPasswordChangedDate" ColumnName="LastPasswordChangedDate" />
+          <ScalarProperty Name="LastLockoutDate" ColumnName="LastLockoutDate" />
+          <ScalarProperty Name="IsLockout" ColumnName="IsLockout" />
+          <ScalarProperty Name="FailedPasswordAttemptCount" ColumnName="FailedPasswordAttemptCount" />
+          <ScalarProperty Name="FirstFailedPasswordAttemptDate" ColumnName="FirstFailedPasswordAttemptDate" />
+          <ScalarProperty Name="IsValid" ColumnName="IsValid" />
+          <ScalarProperty Name="VisaStuffDeliveryType" ColumnName="VisaStuffDeliveryType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="U_UsersInRoles">
+      <EntityTypeMapping TypeName="vBookingDBModel.U_UsersInRoles">
+        <MappingFragment StoreEntitySet="U_UsersInRoles">
+          <ScalarProperty Name="PKId" ColumnName="PKId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="U_UsersLog">
+      <EntityTypeMapping TypeName="vBookingDBModel.U_UsersLog">
+        <MappingFragment StoreEntitySet="U_UsersLog">
+          <ScalarProperty Name="LogID" ColumnName="LogID" />
+          <ScalarProperty Name="ModifyUID" ColumnName="ModifyUID" />
+          <ScalarProperty Name="ModifyTime" ColumnName="ModifyTime" />
+          <ScalarProperty Name="ModifyType" ColumnName="ModifyType" />
+          <ScalarProperty Name="PKID" ColumnName="PKID" />
+          <ScalarProperty Name="HistoryData" ColumnName="HistoryData" />
+          <ScalarProperty Name="ModifySource" ColumnName="ModifySource" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="U_UsersOnlineInfo">
+      <EntityTypeMapping TypeName="vBookingDBModel.U_UsersOnlineInfo">
+        <MappingFragment StoreEntitySet="U_UsersOnlineInfo">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="SessionID" ColumnName="SessionID" />
+          <ScalarProperty Name="LastOnlineTime" ColumnName="LastOnlineTime" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="U_usertype">
+      <EntityTypeMapping TypeName="vBookingDBModel.U_usertype">
+        <MappingFragment StoreEntitySet="U_usertype">
+          <ScalarProperty Name="TypeId" ColumnName="TypeId" />
+          <ScalarProperty Name="Usertype" ColumnName="Usertype" />
+          <ScalarProperty Name="TypeName" ColumnName="TypeName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="V_Option">
+      <EntityTypeMapping TypeName="vBookingDBModel.V_Option">
+        <MappingFragment StoreEntitySet="V_Option">
+          <ScalarProperty Name="VOptId" ColumnName="VOptId" />
+          <ScalarProperty Name="VOptdate" ColumnName="VOptdate" />
+          <ScalarProperty Name="VOpttype" ColumnName="VOpttype" />
+          <ScalarProperty Name="VOptstatus" ColumnName="VOptstatus" />
+          <ScalarProperty Name="Provider" ColumnName="Provider" />
+          <ScalarProperty Name="Orderid" ColumnName="Orderid" />
+          <ScalarProperty Name="Startcity" ColumnName="Startcity" />
+          <ScalarProperty Name="Startcityname" ColumnName="Startcityname" />
+          <ScalarProperty Name="Pkg" ColumnName="Pkg" />
+          <ScalarProperty Name="Pkgname" ColumnName="Pkgname" />
+          <ScalarProperty Name="Orderdate" ColumnName="Orderdate" />
+          <ScalarProperty Name="Takeoffdate" ColumnName="Takeoffdate" />
+          <ScalarProperty Name="Returndate" ColumnName="Returndate" />
+          <ScalarProperty Name="Arrival" ColumnName="Arrival" />
+          <ScalarProperty Name="Departure" ColumnName="Departure" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="Currency" ColumnName="Currency" />
+          <ScalarProperty Name="Currencyname" ColumnName="Currencyname" />
+          <ScalarProperty Name="Adultnum" ColumnName="Adultnum" />
+          <ScalarProperty Name="Childnum" ColumnName="Childnum" />
+          <ScalarProperty Name="Contactname" ColumnName="Contactname" />
+          <ScalarProperty Name="Contacttel" ColumnName="Contacttel" />
+          <ScalarProperty Name="Operid" ColumnName="Operid" />
+          <ScalarProperty Name="Confirmdate" ColumnName="Confirmdate" />
+          <ScalarProperty Name="Bookingno" ColumnName="Bookingno" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="Lastdate" ColumnName="Lastdate" />
+          <ScalarProperty Name="Returnflag" ColumnName="Returnflag" />
+          <ScalarProperty Name="Exchange" ColumnName="Exchange" />
+          <ScalarProperty Name="Optionid" ColumnName="Optionid" />
+          <ScalarProperty Name="Optionname" ColumnName="Optionname" />
+          <ScalarProperty Name="Optionqty" ColumnName="Optionqty" />
+          <ScalarProperty Name="Vbrem" ColumnName="Vbrem" />
+          <ScalarProperty Name="Optiondate" ColumnName="Optiondate" />
+          <ScalarProperty Name="Optiontype" ColumnName="Optiontype" />
+          <ScalarProperty Name="Fltcontent" ColumnName="Fltcontent" />
+          <ScalarProperty Name="Htlcontent" ColumnName="Htlcontent" />
+          <ScalarProperty Name="Clientinfo" ColumnName="Clientinfo" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="SitDownDate" ColumnName="SitDownDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="V_OptionClient">
+      <EntityTypeMapping TypeName="vBookingDBModel.V_OptionClient">
+        <MappingFragment StoreEntitySet="V_OptionClient">
+          <ScalarProperty Name="VOptCId" ColumnName="VOptCId" />
+          <ScalarProperty Name="VOptId" ColumnName="VOptId" />
+          <ScalarProperty Name="CName" ColumnName="CName" />
+          <ScalarProperty Name="IDCardNo" ColumnName="IDCardNo" />
+          <ScalarProperty Name="MobileTel" ColumnName="MobileTel" />
+          <ScalarProperty Name="Birthdate" ColumnName="Birthdate" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Nationality" ColumnName="Nationality" />
+          <ScalarProperty Name="IDCardType" ColumnName="IDCardType" />
+          <ScalarProperty Name="OptQty" ColumnName="OptQty" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="V_OptionFlight">
+      <EntityTypeMapping TypeName="vBookingDBModel.V_OptionFlight">
+        <MappingFragment StoreEntitySet="V_OptionFlight">
+          <ScalarProperty Name="VFId" ColumnName="VFId" />
+          <ScalarProperty Name="VOptId" ColumnName="VOptId" />
+          <ScalarProperty Name="Segment" ColumnName="Segment" />
+          <ScalarProperty Name="Departure" ColumnName="Departure" />
+          <ScalarProperty Name="FltDPortName" ColumnName="FltDPortName" />
+          <ScalarProperty Name="FltAPortName" ColumnName="FltAPortName" />
+          <ScalarProperty Name="Flight" ColumnName="Flight" />
+          <ScalarProperty Name="FltDtime" ColumnName="FltDtime" />
+          <ScalarProperty Name="FltAtime" ColumnName="FltAtime" />
+          <ScalarProperty Name="Persons" ColumnName="Persons" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="V_OptionHotel">
+      <EntityTypeMapping TypeName="vBookingDBModel.V_OptionHotel">
+        <MappingFragment StoreEntitySet="V_OptionHotel">
+          <ScalarProperty Name="VHId" ColumnName="VHId" />
+          <ScalarProperty Name="VOptId" ColumnName="VOptId" />
+          <ScalarProperty Name="ResourceName" ColumnName="ResourceName" />
+          <ScalarProperty Name="RoomName" ColumnName="RoomName" />
+          <ScalarProperty Name="Checkindate" ColumnName="Checkindate" />
+          <ScalarProperty Name="Checkoutdate" ColumnName="Checkoutdate" />
+          <ScalarProperty Name="Roomqty" ColumnName="Roomqty" />
+          <ScalarProperty Name="Addr" ColumnName="Addr" />
+          <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="V_OptionLog">
+      <EntityTypeMapping TypeName="vBookingDBModel.V_OptionLog">
+        <MappingFragment StoreEntitySet="V_OptionLog">
+          <ScalarProperty Name="LogId" ColumnName="LogId" />
+          <ScalarProperty Name="LogTime" ColumnName="LogTime" />
+          <ScalarProperty Name="VOptId" ColumnName="VOptId" />
+          <ScalarProperty Name="Statusbefore" ColumnName="Statusbefore" />
+          <ScalarProperty Name="Statusafter" ColumnName="Statusafter" />
+          <ScalarProperty Name="operid" ColumnName="operid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VBookingOperateLog">
+      <EntityTypeMapping TypeName="vBookingDBModel.VBookingOperateLog">
+        <MappingFragment StoreEntitySet="VBookingOperateLog">
+          <ScalarProperty Name="PKId" ColumnName="PKId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="OperateDate" ColumnName="OperateDate" />
+          <ScalarProperty Name="OperateDescription" ColumnName="OperateDescription" />
+          <ScalarProperty Name="ModuleDescription" ColumnName="ModuleDescription" />
+          <ScalarProperty Name="OperateUrl" ColumnName="OperateUrl" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="UserIpAddress" ColumnName="UserIpAddress" />
+          <ScalarProperty Name="HostAddress" ColumnName="HostAddress" />
+          <ScalarProperty Name="EntityDetail" ColumnName="EntityDetail" />
+          <ScalarProperty Name="BusinessType" ColumnName="BusinessType" />
+          <ScalarProperty Name="BusinessID" ColumnName="BusinessID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VBookingOrderOperateLog">
+      <EntityTypeMapping TypeName="vBookingDBModel.VBookingOrderOperateLog">
+        <MappingFragment StoreEntitySet="VBookingOrderOperateLog">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="purchaseOrderID" ColumnName="purchaseOrderID" />
+          <ScalarProperty Name="resourceType" ColumnName="resourceType" />
+          <ScalarProperty Name="resourceID" ColumnName="resourceID" />
+          <ScalarProperty Name="resourceName" ColumnName="resourceName" />
+          <ScalarProperty Name="operateType" ColumnName="operateType" />
+          <ScalarProperty Name="operatetime" ColumnName="operatetime" />
+          <ScalarProperty Name="operatorName" ColumnName="operatorName" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="VbSubmitStatus" ColumnName="VbSubmitStatus" />
+          <ScalarProperty Name="VbApproveStatus" ColumnName="VbApproveStatus" />
+          <ScalarProperty Name="ProviderID" ColumnName="ProviderID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Visa_StuffDelivery">
+      <EntityTypeMapping TypeName="vBookingDBModel.Visa_StuffDelivery">
+        <MappingFragment StoreEntitySet="Visa_StuffDelivery">
+          <ScalarProperty Name="DeliveryID" ColumnName="DeliveryID" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Postcode" ColumnName="Postcode" />
+          <ScalarProperty Name="Linkman1" ColumnName="Linkman1" />
+          <ScalarProperty Name="Mobile1" ColumnName="Mobile1" />
+          <ScalarProperty Name="Phone1" ColumnName="Phone1" />
+          <ScalarProperty Name="Email1" ColumnName="Email1" />
+          <ScalarProperty Name="WorkingTime1" ColumnName="WorkingTime1" />
+          <ScalarProperty Name="Linkman2" ColumnName="Linkman2" />
+          <ScalarProperty Name="Mobile2" ColumnName="Mobile2" />
+          <ScalarProperty Name="Phone2" ColumnName="Phone2" />
+          <ScalarProperty Name="Email2" ColumnName="Email2" />
+          <ScalarProperty Name="WorkingTime2" ColumnName="WorkingTime2" />
+          <ScalarProperty Name="ProviderID" ColumnName="ProviderID" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="IsDefault" ColumnName="IsDefault" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

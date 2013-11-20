@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Sourcecode", "..\Application and Page Life Cycle\Sourcecode\", "{A0B68851-B4CB-44F4-822E-FCF4EAAB5B36}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Sourcecode"
+		Debug.AspNetCompiler.PhysicalPath = "..\Application and Page Life Cycle\Sourcecode\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Sourcecode\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Sourcecode"
+		Release.AspNetCompiler.PhysicalPath = "..\Application and Page Life Cycle\Sourcecode\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Sourcecode\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2702"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HttpStudy", "HttpStudy\", "{7E1C480F-33CB-4801-9F86-9DF326C453C2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/HttpStudy"
+		Debug.AspNetCompiler.PhysicalPath = "HttpStudy\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\HttpStudy\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/HttpStudy"
+		Release.AspNetCompiler.PhysicalPath = "HttpStudy\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\HttpStudy\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3034"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "OnlyPageLiftCycleDemo", "OnlyPageLiftCycleDemo\", "{6DEC4F4B-EF49-4A62-8134-4D938B6149CA}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/OnlyPageLiftCycleDemo"
+		Debug.AspNetCompiler.PhysicalPath = "OnlyPageLiftCycleDemo\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\OnlyPageLiftCycleDemo\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/OnlyPageLiftCycleDemo"
+		Release.AspNetCompiler.PhysicalPath = "OnlyPageLiftCycleDemo\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\OnlyPageLiftCycleDemo\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3405"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0B68851-B4CB-44F4-822E-FCF4EAAB5B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B68851-B4CB-44F4-822E-FCF4EAAB5B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E1C480F-33CB-4801-9F86-9DF326C453C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E1C480F-33CB-4801-9F86-9DF326C453C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DEC4F4B-EF49-4A62-8134-4D938B6149CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DEC4F4B-EF49-4A62-8134-4D938B6149CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

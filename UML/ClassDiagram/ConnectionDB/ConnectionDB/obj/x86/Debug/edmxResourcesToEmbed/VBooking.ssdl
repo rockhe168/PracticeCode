@@ -1,0 +1,2089 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="vBookingDBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="vBookingDBModelStoreContainer">
+    <EntitySet Name="Customer" EntityType="vBookingDBModel.Store.Customer" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DestinationMatter" EntityType="vBookingDBModel.Store.DestinationMatter" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DispLog" EntityType="vBookingDBModel.Store.DispLog" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="dtproperties" EntityType="vBookingDBModel.Store.dtproperties" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ErrorLog" EntityType="vBookingDBModel.Store.ErrorLog" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="log" EntityType="vBookingDBModel.Store.log" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MessageRemindLog" EntityType="vBookingDBModel.Store.MessageRemindLog" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="o_form" EntityType="vBookingDBModel.Store.o_form" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="o_formChange" EntityType="vBookingDBModel.Store.o_formChange" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="o_formlog" EntityType="vBookingDBModel.Store.o_formlog" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="o_formtemp" EntityType="vBookingDBModel.Store.o_formtemp" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="O_PurchaseOrder" EntityType="vBookingDBModel.Store.O_PurchaseOrder" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="O_PurchaseOrder_Invalid" EntityType="vBookingDBModel.Store.O_PurchaseOrder_Invalid" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="O_PurchaseOrderClient" EntityType="vBookingDBModel.Store.O_PurchaseOrderClient" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="o_status" EntityType="vBookingDBModel.Store.o_status" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="OperateLogDetail" EntityType="vBookingDBModel.Store.OperateLogDetail" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Ord_Tour" EntityType="vBookingDBModel.Store.Ord_Tour" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Ord_TourDestinationNotice" EntityType="vBookingDBModel.Store.Ord_TourDestinationNotice" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Ord_TourGroupNotice" EntityType="vBookingDBModel.Store.Ord_TourGroupNotice" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Ord_TourGroupNoticeDestinationMapping" EntityType="vBookingDBModel.Store.Ord_TourGroupNoticeDestinationMapping" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Ord_TourGroupSegment" EntityType="vBookingDBModel.Store.Ord_TourGroupSegment" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Ord_TourNotice" EntityType="vBookingDBModel.Store.Ord_TourNotice" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Ord_TourNoticeHoel" EntityType="vBookingDBModel.Store.Ord_TourNoticeHoel" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Ord_TourNoticeHotel" EntityType="vBookingDBModel.Store.Ord_TourNoticeHotel" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Ord_TourNoticeNew" EntityType="vBookingDBModel.Store.Ord_TourNoticeNew" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Ord_TourNoticeSegment" EntityType="vBookingDBModel.Store.Ord_TourNoticeSegment" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="OrdDicItem" EntityType="vBookingDBModel.Store.OrdDicItem" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="OrdDicType" EntityType="vBookingDBModel.Store.OrdDicType" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="OrdUserColumn" EntityType="vBookingDBModel.Store.OrdUserColumn" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PkgDispatchCustomerSchedule" EntityType="vBookingDBModel.Store.PkgDispatchCustomerSchedule" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PkgDispatchDineArr" EntityType="vBookingDBModel.Store.PkgDispatchDineArr" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PkgDispatchDineOrder" EntityType="vBookingDBModel.Store.PkgDispatchDineOrder" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PkgDispatchDriverSchedule" EntityType="vBookingDBModel.Store.PkgDispatchDriverSchedule" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PkgDispatchGuideArr" EntityType="vBookingDBModel.Store.PkgDispatchGuideArr" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PkgDispatchGuideSchedule" EntityType="vBookingDBModel.Store.PkgDispatchGuideSchedule" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PkgDispatchHotelArr" EntityType="vBookingDBModel.Store.PkgDispatchHotelArr" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PkgDispatchHotelSchedule" EntityType="vBookingDBModel.Store.PkgDispatchHotelSchedule" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PkgDispatchOrder" EntityType="vBookingDBModel.Store.PkgDispatchOrder" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PkgDispatchOrderClient" EntityType="vBookingDBModel.Store.PkgDispatchOrderClient" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PkgDispatchOrderFlight" EntityType="vBookingDBModel.Store.PkgDispatchOrderFlight" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PkgdispatchOrderHotel" EntityType="vBookingDBModel.Store.PkgdispatchOrderHotel" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PkgDispatchSegmentArr" EntityType="vBookingDBModel.Store.PkgDispatchSegmentArr" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PkgDispatchTour" EntityType="vBookingDBModel.Store.PkgDispatchTour" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PkgDispatchTourNote" EntityType="vBookingDBModel.Store.PkgDispatchTourNote" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PkgDispatchVehicleArr" EntityType="vBookingDBModel.Store.PkgDispatchVehicleArr" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PkgDispatchVehicleSchedule" EntityType="vBookingDBModel.Store.PkgDispatchVehicleSchedule" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PkgDriver" EntityType="vBookingDBModel.Store.PkgDriver" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PkgGuide" EntityType="vBookingDBModel.Store.PkgGuide" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PkgHotel" EntityType="vBookingDBModel.Store.PkgHotel" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PkgMotorcade" EntityType="vBookingDBModel.Store.PkgMotorcade" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PkgRestaurant" EntityType="vBookingDBModel.Store.PkgRestaurant" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PkgVehicle" EntityType="vBookingDBModel.Store.PkgVehicle" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PO_Message" EntityType="vBookingDBModel.Store.PO_Message" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PO_OperateLog" EntityType="vBookingDBModel.Store.PO_OperateLog" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PO_PurchaseOrder" EntityType="vBookingDBModel.Store.PO_PurchaseOrder" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PO_PurchaseOrderClient" EntityType="vBookingDBModel.Store.PO_PurchaseOrderClient" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PurchaseOrder_Approved" EntityType="vBookingDBModel.Store.PurchaseOrder_Approved" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PurchaseOrder_ApprovedReport" EntityType="vBookingDBModel.Store.PurchaseOrder_ApprovedReport" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PurchaseOrder_Report" EntityType="vBookingDBModel.Store.PurchaseOrder_Report" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PurchaseOrderClient_Approved" EntityType="vBookingDBModel.Store.PurchaseOrderClient_Approved" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PurchaseOrderVisaLog" EntityType="vBookingDBModel.Store.PurchaseOrderVisaLog" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="RptInventory" EntityType="vBookingDBModel.Store.RptInventory" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="RptProductSaleSummary" EntityType="vBookingDBModel.Store.RptProductSaleSummary" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="RptResource" EntityType="vBookingDBModel.Store.RptResource" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SysBulletin" EntityType="vBookingDBModel.Store.SysBulletin" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SysBulletinProviderMapping" EntityType="vBookingDBModel.Store.SysBulletinProviderMapping" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SysBulletinTypeMapping" EntityType="vBookingDBModel.Store.SysBulletinTypeMapping" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sysdiagrams" EntityType="vBookingDBModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SysDicItem" EntityType="vBookingDBModel.Store.SysDicItem" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SysDicType" EntityType="vBookingDBModel.Store.SysDicType" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SysLog" EntityType="vBookingDBModel.Store.SysLog" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tempAirport" EntityType="vBookingDBModel.Store.tempAirport" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tempCity" EntityType="vBookingDBModel.Store.tempCity" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tempDyyTestPerson" EntityType="vBookingDBModel.Store.tempDyyTestPerson" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tmpVDispLog" EntityType="vBookingDBModel.Store.tmpVDispLog" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tmpVErrorLog" EntityType="vBookingDBModel.Store.tmpVErrorLog" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tmpVSysLog" EntityType="vBookingDBModel.Store.tmpVSysLog" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tmpVTraceLog" EntityType="vBookingDBModel.Store.tmpVTraceLog" store:Type="Tables" store:Schema="dbo" store:Name="tmpVTraceLog">
+      <DefiningQuery>SELECT 
+      [tmpVTraceLog].[bizType] AS [bizType], 
+      [tmpVTraceLog].[opType] AS [opType], 
+      [tmpVTraceLog].[opDesc] AS [opDesc], 
+      [tmpVTraceLog].[startTime] AS [startTime], 
+      [tmpVTraceLog].[endTime] AS [endTime], 
+      [tmpVTraceLog].[ID] AS [ID], 
+      [tmpVTraceLog].[logid] AS [logid], 
+      [tmpVTraceLog].[Date] AS [Date], 
+      [tmpVTraceLog].[Thread] AS [Thread], 
+      [tmpVTraceLog].[Level] AS [Level], 
+      [tmpVTraceLog].[Logger] AS [Logger], 
+      [tmpVTraceLog].[Identity] AS [Identity], 
+      [tmpVTraceLog].[Location] AS [Location], 
+      [tmpVTraceLog].[Operator] AS [Operator], 
+      [tmpVTraceLog].[ApplicationID] AS [ApplicationID], 
+      [tmpVTraceLog].[ModuleID] AS [ModuleID], 
+      [tmpVTraceLog].[ClientIP] AS [ClientIP], 
+      [tmpVTraceLog].[HostIP] AS [HostIP], 
+      [tmpVTraceLog].[resourceid] AS [resourceid]
+      FROM [dbo].[tmpVTraceLog] AS [tmpVTraceLog]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TraceLog" EntityType="vBookingDBModel.Store.TraceLog" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="U_LoginLog" EntityType="vBookingDBModel.Store.U_LoginLog" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="U_OperateLog" EntityType="vBookingDBModel.Store.U_OperateLog" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="U_PasswordHistory" EntityType="vBookingDBModel.Store.U_PasswordHistory" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="U_PasswordRetrieve" EntityType="vBookingDBModel.Store.U_PasswordRetrieve" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="U_pwdhistory" EntityType="vBookingDBModel.Store.U_pwdhistory" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="U_Roles" EntityType="vBookingDBModel.Store.U_Roles" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="U_user" EntityType="vBookingDBModel.Store.U_user" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="U_UserCustom" EntityType="vBookingDBModel.Store.U_UserCustom" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="U_userloginlog" EntityType="vBookingDBModel.Store.U_userloginlog" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="U_Users" EntityType="vBookingDBModel.Store.U_Users" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="U_UsersInRoles" EntityType="vBookingDBModel.Store.U_UsersInRoles" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="U_UsersLog" EntityType="vBookingDBModel.Store.U_UsersLog" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="U_UsersOnlineInfo" EntityType="vBookingDBModel.Store.U_UsersOnlineInfo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="U_usertype" EntityType="vBookingDBModel.Store.U_usertype" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="V_Option" EntityType="vBookingDBModel.Store.V_Option" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="V_OptionClient" EntityType="vBookingDBModel.Store.V_OptionClient" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="V_OptionFlight" EntityType="vBookingDBModel.Store.V_OptionFlight" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="V_OptionHotel" EntityType="vBookingDBModel.Store.V_OptionHotel" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="V_OptionLog" EntityType="vBookingDBModel.Store.V_OptionLog" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="VBookingOperateLog" EntityType="vBookingDBModel.Store.VBookingOperateLog" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="VBookingOrderOperateLog" EntityType="vBookingDBModel.Store.VBookingOrderOperateLog" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Visa_StuffDelivery" EntityType="vBookingDBModel.Store.Visa_StuffDelivery" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="LoweredUserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="Password" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="Provider" Type="int" Nullable="false" />
+    <Property Name="ProviderName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="TelephoneNumber" Type="nvarchar" MaxLength="16" />
+    <Property Name="MobileNumber" Type="nvarchar" MaxLength="16" />
+    <Property Name="Email" Type="nvarchar" MaxLength="256" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="LastLoginDate" Type="datetime" />
+    <Property Name="LastPasswordChangedDate" Type="datetime" />
+    <Property Name="LastLockoutDate" Type="datetime" />
+    <Property Name="IsLockout" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="FailedPasswordAttemptCount" Type="int" />
+    <Property Name="FirstFailedPasswordAttemptDate" Type="datetime" />
+    <Property Name="IsValid" Type="char" Nullable="false" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="DestinationMatter">
+    <Key>
+      <PropertyRef Name="MatterID" />
+    </Key>
+    <Property Name="MatterID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Destination" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="Description" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DispLog">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="logid" Type="varchar" MaxLength="255" />
+    <Property Name="sourcePage" Type="varchar" MaxLength="200" />
+    <Property Name="destPage" Type="varchar" MaxLength="200" />
+    <Property Name="DataChange_LastTime " Type="datetime" />
+  </EntityType>
+  <EntityType Name="dtproperties">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="property" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="objectid" Type="int" />
+    <Property Name="property" Type="varchar" Nullable="false" MaxLength="64" />
+    <Property Name="value" Type="varchar" MaxLength="255" />
+    <Property Name="uvalue" Type="nvarchar" MaxLength="255" />
+    <Property Name="lvalue" Type="image" />
+    <Property Name="version" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ErrorLog">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="logid" Type="varchar" MaxLength="255" />
+    <Property Name="message" Type="varchar" MaxLength="500" />
+    <Property Name="exmessage" Type="varchar" MaxLength="500" />
+    <Property Name="exstack" Type="varchar" MaxLength="4000" />
+    <Property Name="DataChange_LastTime " Type="datetime" />
+  </EntityType>
+  <EntityType Name="log">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="logid" Type="varchar" MaxLength="255" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="Thread" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="Level" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="Logger" Type="varchar" MaxLength="255" />
+    <Property Name="Identity" Type="varchar" MaxLength="200" />
+    <Property Name="Location" Type="varchar" MaxLength="1000" />
+    <Property Name="Operator" Type="nvarchar" MaxLength="50" />
+    <Property Name="ApplicationID" Type="varchar" MaxLength="20" />
+    <Property Name="ModuleID" Type="varchar" MaxLength="50" />
+    <Property Name="ClientIP" Type="varchar" MaxLength="50" />
+    <Property Name="HostIP" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="MessageRemindLog">
+    <Key>
+      <PropertyRef Name="MessageID" />
+    </Key>
+    <Property Name="MessageID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="RemindId" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="RemindType" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="RemindTime" Type="datetime" Nullable="false" />
+    <Property Name="DataChange_LastTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="o_form">
+    <Key>
+      <PropertyRef Name="formid" />
+    </Key>
+    <Property Name="formid" Type="int" Nullable="false" />
+    <Property Name="formdate" Type="datetime" Nullable="false" />
+    <Property Name="formtype" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="formstatus" Type="int" Nullable="false" />
+    <Property Name="provider" Type="int" />
+    <Property Name="orderid" Type="int" />
+    <Property Name="startcity" Type="int" />
+    <Property Name="startcityname" Type="varchar" MaxLength="50" />
+    <Property Name="pkg" Type="int" />
+    <Property Name="pkgname" Type="varchar" MaxLength="200" />
+    <Property Name="orderdate" Type="datetime" />
+    <Property Name="takeoffdate" Type="datetime" />
+    <Property Name="returndate" Type="datetime" />
+    <Property Name="arrival" Type="datetime" />
+    <Property Name="departure" Type="datetime" />
+    <Property Name="amount" Type="money" />
+    <Property Name="cost" Type="money" />
+    <Property Name="currency" Type="char" MaxLength="3" />
+    <Property Name="currencyname" Type="varchar" MaxLength="20" />
+    <Property Name="adultnum" Type="int" />
+    <Property Name="childnum" Type="int" />
+    <Property Name="contactname" Type="varchar" MaxLength="30" />
+    <Property Name="contacttel" Type="varchar" MaxLength="50" />
+    <Property Name="operid" Type="varchar" MaxLength="20" />
+    <Property Name="confirmdate" Type="datetime" />
+    <Property Name="bookingno" Type="varchar" MaxLength="100" />
+    <Property Name="remarks" Type="varchar" MaxLength="500" />
+    <Property Name="fltcontent" Type="varchar" MaxLength="500" />
+    <Property Name="htlcontent" Type="varchar" MaxLength="500" />
+    <Property Name="optcontent" Type="varchar" MaxLength="500" />
+    <Property Name="lastdate" Type="datetime" />
+    <Property Name="returnflag" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="exchange" Type="decimal" Precision="8" Scale="4" />
+    <Property Name="optionid" Type="int" />
+    <Property Name="optionname" Type="varchar" MaxLength="100" />
+    <Property Name="optionqty" Type="int" />
+    <Property Name="Vbrem" Type="varchar" MaxLength="500" />
+    <Property Name="optiondate" Type="datetime" />
+    <Property Name="Clientinfo" Type="varchar" MaxLength="2000" />
+    <Property Name="optiontype" Type="varchar" MaxLength="4" />
+    <Property Name="optionTicketNO" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="o_formChange">
+    <Key>
+      <PropertyRef Name="rid" />
+    </Key>
+    <Property Name="rid" Type="int" Nullable="false" />
+    <Property Name="formID" Type="int" Nullable="false" />
+    <Property Name="Eid" Type="varchar" MaxLength="20" />
+    <Property Name="opdate" Type="datetime" />
+    <Property Name="remarks" Type="varchar" MaxLength="500" />
+    <Property Name="flag" Type="char" Nullable="false" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="o_formlog">
+    <Key>
+      <PropertyRef Name="logid" />
+    </Key>
+    <Property Name="logid" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="logtime" Type="datetime" Nullable="false" />
+    <Property Name="formid" Type="int" />
+    <Property Name="statusbefore" Type="int" />
+    <Property Name="statusafter" Type="int" />
+    <Property Name="operid" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="o_formtemp">
+    <Key>
+      <PropertyRef Name="formid" />
+    </Key>
+    <Property Name="formid" Type="int" Nullable="false" />
+    <Property Name="formdate" Type="datetime" Nullable="false" />
+    <Property Name="formtype" Type="char" MaxLength="1" />
+    <Property Name="returnflag" Type="char" MaxLength="1" />
+    <Property Name="formstatus" Type="int" />
+    <Property Name="optionqty" Type="int" />
+  </EntityType>
+  <EntityType Name="O_PurchaseOrder">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PurchaseOrderID" Type="int" Nullable="false" />
+    <Property Name="OrderID" Type="int" />
+    <Property Name="ResourceID" Type="int" />
+    <Property Name="ResourceType" Type="char" MaxLength="1" />
+    <Property Name="ResourceName" Type="varchar" MaxLength="200" />
+    <Property Name="ProviderID" Type="int" />
+    <Property Name="Quantity" Type="int" />
+    <Property Name="AdultQuantity" Type="int" />
+    <Property Name="ChildQuantity" Type="int" />
+    <Property Name="ActualAdultQuantity" Type="int" />
+    <Property Name="ActualChildQuantity" Type="int" />
+    <Property Name="ActualBabyQuantity" Type="int" />
+    <Property Name="Cost" Type="money" />
+    <Property Name="AdultCost" Type="money" />
+    <Property Name="ChildCost" Type="money" />
+    <Property Name="StartCityName" Type="varchar" MaxLength="50" />
+    <Property Name="ContactName" Type="varchar" MaxLength="30" />
+    <Property Name="OrderDate" Type="datetime" />
+    <Property Name="UseDate" Type="datetime" />
+    <Property Name="ArrivalDate" Type="datetime" />
+    <Property Name="DepartureDate" Type="datetime" />
+    <Property Name="Currency" Type="varchar" MaxLength="50" />
+    <Property Name="Exchange" Type="money" />
+    <Property Name="VbRemark" Type="varchar" MaxLength="600" />
+    <Property Name="VbApproveStatus" Type="varchar" MaxLength="20" />
+    <Property Name="ConfirmRemark" Type="varchar" MaxLength="500" />
+    <Property Name="VbApproveDate" Type="datetime" />
+    <Property Name="VbCollateStatus" Type="char" MaxLength="1" />
+    <Property Name="VbCollateDate" Type="datetime" />
+    <Property Name="Operator" Type="varchar" MaxLength="200" />
+    <Property Name="OperateTime" Type="datetime" />
+    <Property Name="ConfirmNo" Type="varchar" MaxLength="255" />
+    <Property Name="ContactMobile" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="ReturnFlag" Type="char" MaxLength="1" />
+    <Property Name="ReturnDate" Type="datetime" />
+    <Property Name="ProcessOper" Type="varchar" MaxLength="100" />
+    <Property Name="EmergencyTime" Type="datetime" />
+    <Property Name="Active" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="IsNeedCollate" Type="char" MaxLength="1" />
+    <Property Name="IsNoticeSended" Type="char" MaxLength="1" />
+    <Property Name="TourID" Type="int" />
+    <Property Name="ContactEmail" Type="varchar" MaxLength="500" />
+    <Property Name="ContactFax" Type="varchar" MaxLength="500" />
+    <Property Name="ContactTel" Type="varchar" MaxLength="200" />
+    <Property Name="Collator" Type="varchar" MaxLength="100" />
+    <Property Name="ResourceTypeID" Type="int" />
+    <Property Name="VisaProcessStatus" Type="varchar" MaxLength="20" />
+    <Property Name="ActualTotalQuantity" Type="int" />
+    <Property Name="CtripProductID" Type="int" />
+    <Property Name="PaymentStatus" Type="int" />
+    <Property Name="PaymentType" Type="int" />
+    <Property Name="VBKResourceTypeID" Type="int" />
+    <Property Name="VBKResourceID" Type="int" />
+    <Property Name="OperatorPhoneExtension" Type="varchar" MaxLength="200" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ModifyTime " Type="datetime" Nullable="false" />
+    <Property Name="IsProxyResource" Type="char" Nullable="false" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="O_PurchaseOrder_Invalid">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PurchaseOrderId" Type="int" />
+  </EntityType>
+  <EntityType Name="O_PurchaseOrderClient">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="OrderID" Type="int" />
+    <Property Name="ClientName" Type="varchar" MaxLength="200" />
+    <Property Name="ClientNameEn" Type="varchar" MaxLength="200" />
+    <Property Name="Gender" Type="char" MaxLength="1" />
+    <Property Name="AgeType" Type="char" MaxLength="3" />
+    <Property Name="ContactMobile" Type="varchar" MaxLength="20" />
+    <Property Name="IDCardType" Type="int" />
+    <Property Name="IDCardTypeName" Type="varchar" MaxLength="200" />
+    <Property Name="IDCardNo" Type="varchar" MaxLength="200" />
+    <Property Name="Birthday" Type="datetime" />
+    <Property Name="Nationality" Type="varchar" MaxLength="20" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="UpdateTime" Type="datetime" />
+    <Property Name="Description" Type="varchar" MaxLength="2000" />
+    <Property Name="PurchaseOrderID" Type="int" />
+    <Property Name="POApprovedID" Type="int" />
+    <Property Name="VisaCountry" Type="varchar" MaxLength="20" />
+    <Property Name="IssueDate" Type="datetime" />
+    <Property Name="PassportType" Type="char" MaxLength="1" />
+    <Property Name="IDCardTimelimit" Type="datetime" />
+    <Property Name="Remark" Type="varchar" MaxLength="100" />
+    <Property Name="homeplace" Type="varchar" MaxLength="100" />
+    <Property Name="ClientID" Type="int" />
+    <Property Name="VisaStatus" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="o_status">
+    <Key>
+      <PropertyRef Name="status" />
+    </Key>
+    <Property Name="status" Type="int" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="OperateLogDetail">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LogDate" Type="datetime" Nullable="false" />
+    <Property Name="Thread" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="Level" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="Logger" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="Location" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="Identity" Type="varchar" MaxLength="200" />
+    <Property Name="Message" Type="varchar" Nullable="false" MaxLength="4000" />
+    <Property Name="Operator" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="ApplicationID" Type="int" />
+    <Property Name="ModuleCode" Type="int" />
+    <Property Name="ClientIP" Type="varchar" MaxLength="20" />
+    <Property Name="HostIP" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Ord_Tour">
+    <Key>
+      <PropertyRef Name="TourID" />
+    </Key>
+    <Property Name="TourID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ResourceID" Type="int" Nullable="false" />
+    <Property Name="UseDate" Type="datetime" Nullable="false" />
+    <Property Name="Quantity" Type="int" Nullable="false" />
+    <Property Name="TourStatus" Type="int" Nullable="false" />
+    <Property Name="OperationNote" Type="varchar" Nullable="false" MaxLength="4000" />
+    <Property Name="CreatedBy" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ModifyTime" Type="datetime" Nullable="false" />
+    <Property Name="ProviderID" Type="int" Nullable="false" />
+    <Property Name="ResourceName" Type="varchar" Nullable="false" MaxLength="400" />
+  </EntityType>
+  <EntityType Name="Ord_TourDestinationNotice">
+    <Key>
+      <PropertyRef Name="DestinationNoticeID" />
+    </Key>
+    <Property Name="DestinationNoticeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Destination" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="Description" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Ord_TourGroupNotice">
+    <Key>
+      <PropertyRef Name="NoticeID" />
+    </Key>
+    <Property Name="NoticeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TourID" Type="int" Nullable="false" />
+    <Property Name="NoticeType" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="DepartureVehicle" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="DepartureTime" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Destination" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="DepartureGatherTime" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="DepartureDate" Type="datetime" Nullable="false" />
+    <Property Name="ReturnDate" Type="datetime" Nullable="false" />
+    <Property Name="ReturnVehicle" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ReturnTime" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Memo" Type="nvarchar(max)" />
+    <Property Name="ProviderName" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="LeadContact" Type="nvarchar" MaxLength="100" />
+    <Property Name="GuideContact" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="EmergencyContact" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="EmbassyInfo" Type="nvarchar" MaxLength="200" />
+    <Property Name="MeetingTime" Type="nvarchar" MaxLength="100" />
+    <Property Name="MeetingPlace" Type="nvarchar" MaxLength="200" />
+    <Property Name="MeetingContact" Type="nvarchar" MaxLength="100" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="Creator" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ReturnArrivalDestination" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="DepartureGatherLocation" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="TourGroupNo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="ResourceName" Type="varchar" Nullable="false" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="Ord_TourGroupNoticeDestinationMapping">
+    <Key>
+      <PropertyRef Name="TGNDID" />
+    </Key>
+    <Property Name="TGNDID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="NoticeID" Type="int" Nullable="false" />
+    <Property Name="DestinationNoticeID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Ord_TourGroupSegment">
+    <Key>
+      <PropertyRef Name="SegmentID" />
+    </Key>
+    <Property Name="SegmentID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="NoticeID" Type="int" Nullable="false" />
+    <Property Name="SemgentDate" Type="datetime" Nullable="false" />
+    <Property Name="SegmentTitle" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="DinnerStandard" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="AccommodationStandard" Type="nvarchar" Nullable="false" MaxLength="2000" />
+  </EntityType>
+  <EntityType Name="Ord_TourNotice">
+    <Key>
+      <PropertyRef Name="TourID" />
+    </Key>
+    <Property Name="TourID" Type="int" Nullable="false" />
+    <Property Name="TourNo" Type="varchar" MaxLength="200" />
+    <Property Name="MeetingTime" Type="varchar" MaxLength="50" />
+    <Property Name="MeetingAddress" Type="varchar" MaxLength="200" />
+    <Property Name="MeetingContactName" Type="varchar" MaxLength="200" />
+    <Property Name="MeetingContactMobile" Type="varchar" MaxLength="200" />
+    <Property Name="ClientNum" Type="int" Nullable="false" />
+    <Property Name="AdultNum" Type="int" Nullable="false" />
+    <Property Name="ChildNum" Type="int" Nullable="false" />
+    <Property Name="LeaderNum" Type="int" Nullable="false" />
+    <Property Name="LeaderInfo" Type="varchar" Nullable="false" MaxLength="500" />
+    <Property Name="GuiderInfo" Type="varchar" Nullable="false" MaxLength="500" />
+    <Property Name="EmergencyContactMobile" Type="varchar" MaxLength="200" />
+    <Property Name="DepartureTime" Type="varchar" MaxLength="1000" />
+    <Property Name="DeparturePlace" Type="varchar" MaxLength="1000" />
+    <Property Name="Flight" Type="varchar" MaxLength="500" />
+    <Property Name="TakeOffTime" Type="varchar" Nullable="false" MaxLength="500" />
+    <Property Name="Organization" Type="varchar" MaxLength="500" />
+    <Property Name="OrganizationTel" Type="varchar" MaxLength="200" />
+    <Property Name="OrganizationAddress" Type="varchar" MaxLength="500" />
+    <Property Name="LocalTravelAgencyContact" Type="varchar" MaxLength="500" />
+    <Property Name="LocalTravelAgencyAddress" Type="varchar" MaxLength="200" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ModifyTime" Type="datetime" Nullable="false" />
+    <Property Name="AddInfo" Type="varchar" MaxLength="2000" />
+    <Property Name="LocalTravelAgency" Type="varchar" MaxLength="500" />
+    <Property Name="ArivalPlace" Type="varchar" MaxLength="1000" />
+  </EntityType>
+  <EntityType Name="Ord_TourNoticeHoel">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TourID" Type="int" Nullable="false" />
+    <Property Name="CheckInDate" Type="datetime" Nullable="false" />
+    <Property Name="HotelName" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="HotelAddress" Type="varchar" Nullable="false" MaxLength="500" />
+    <Property Name="HotelTel" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="SequenceNumber" Type="int" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ModifyTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Ord_TourNoticeHotel">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TourID" Type="int" Nullable="false" />
+    <Property Name="CheckInDate" Type="datetime" Nullable="false" />
+    <Property Name="HotelName" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="HotelAddress" Type="varchar" Nullable="false" MaxLength="500" />
+    <Property Name="HotelTel" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="SequenceNumber" Type="int" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ModifyTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Ord_TourNoticeNew">
+    <Key>
+      <PropertyRef Name="NoticeID" />
+    </Key>
+    <Property Name="NoticeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TourID" Type="int" Nullable="false" />
+    <Property Name="NoticeType" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="StartTraffic" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="DepartureTime" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="Destination" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="GatherTime" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="DepartureDate" Type="datetime" Nullable="false" />
+    <Property Name="ReturnDate" Type="datetime" Nullable="false" />
+    <Property Name="ReturnTraffic" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ReturnTime" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="Memo" Type="nvarchar(max)" />
+    <Property Name="ProviderName" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="LeadContact" Type="nvarchar" MaxLength="100" />
+    <Property Name="GuideContact" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="EmergencyContact" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="EmbassyInfo" Type="nvarchar" MaxLength="200" />
+    <Property Name="MeetingTime" Type="varchar" MaxLength="100" />
+    <Property Name="MeetingPlace" Type="nvarchar" MaxLength="200" />
+    <Property Name="MeetingContact" Type="nvarchar" MaxLength="100" />
+    <Property Name="MatterIDs" Type="varchar" MaxLength="500" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="Creator" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ReturnArrivalFlight" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="GatherLocation" Type="nvarchar" Nullable="false" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="Ord_TourNoticeSegment">
+    <Key>
+      <PropertyRef Name="SegmentID" />
+    </Key>
+    <Property Name="SegmentID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TourID" Type="int" Nullable="false" />
+    <Property Name="SemgentDate" Type="datetime" Nullable="false" />
+    <Property Name="SegmentTitle" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="DinnerStandard" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="AccommodationStandard" Type="nvarchar" Nullable="false" MaxLength="2000" />
+  </EntityType>
+  <EntityType Name="OrdDicItem">
+    <Key>
+      <PropertyRef Name="DicItemID" />
+    </Key>
+    <Property Name="DicItemID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DicItemName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DicTypeID" Type="int" Nullable="false" />
+    <Property Name="Active" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="IsDefault" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="SortIndex" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="OrdDicType">
+    <Key>
+      <PropertyRef Name="DicTypeID" />
+    </Key>
+    <Property Name="DicTypeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DicTypeName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Active" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="Usage" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="OrdUserColumn">
+    <Key>
+      <PropertyRef Name="UserColumnID" />
+    </Key>
+    <Property Name="UserColumnID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="CustomType" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CustomColumn" Type="varchar" Nullable="false" MaxLength="64" />
+  </EntityType>
+  <EntityType Name="PkgDispatchCustomerSchedule">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="OrderID" Type="int" />
+    <Property Name="StartCity" Type="varchar" MaxLength="50" />
+    <Property Name="UsetDate" Type="datetime" />
+    <Property Name="TourNum" Type="varchar" MaxLength="50" />
+    <Property Name="TourName" Type="varchar" MaxLength="200" />
+    <Property Name="AdultNum" Type="int" />
+    <Property Name="ChildNum" Type="int" />
+    <Property Name="Contactor" Type="varchar" MaxLength="50" />
+    <Property Name="GuideNm" Type="varchar" MaxLength="50" />
+    <Property Name="PrintStatus" Type="char" MaxLength="1" />
+    <Property Name="AssembingPlace" Type="varchar" MaxLength="100" />
+    <Property Name="AssembingTime" Type="varchar" MaxLength="100" />
+    <Property Name="SegmentLine" Type="varchar" MaxLength="200" />
+    <Property Name="Breakfast" Type="varchar" MaxLength="50" />
+    <Property Name="Lunch" Type="varchar" MaxLength="50" />
+    <Property Name="Dinner" Type="varchar" MaxLength="50" />
+    <Property Name="GuideMobile" Type="varchar" MaxLength="50" />
+    <Property Name="Vehicle" Type="varchar" MaxLength="50" />
+    <Property Name="DriverMobile" Type="varchar" MaxLength="50" />
+    <Property Name="IsValid" Type="char" MaxLength="1" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="UpdateTime" Type="datetime" />
+    <Property Name="Description" Type="varchar" MaxLength="4000" />
+    <Property Name="ProviderID" Type="int" />
+    <Property Name="ContactName" Type="varchar" MaxLength="50" />
+    <Property Name="ContactMobile" Type="varchar" MaxLength="50" />
+    <Property Name="ContactTel" Type="varchar" MaxLength="50" />
+    <Property Name="HotelName" Type="varchar" MaxLength="200" />
+    <Property Name="TourId" Type="int" />
+    <Property Name="PurchaseOrderID" Type="int" />
+  </EntityType>
+  <EntityType Name="PkgDispatchDineArr">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ResourceID" Type="int" />
+    <Property Name="TourID" Type="int" />
+    <Property Name="RestaurantID" Type="int" />
+    <Property Name="RestaurantNm" Type="varchar" MaxLength="50" />
+    <Property Name="Contactor" Type="varchar" MaxLength="50" />
+    <Property Name="Tel" Type="varchar" MaxLength="50" />
+    <Property Name="DineTime" Type="varchar" MaxLength="50" />
+    <Property Name="Falvor" Type="varchar" MaxLength="200" />
+    <Property Name="CustomerMealStandard" Type="money" />
+    <Property Name="BegleiterMealStandard" Type="money" />
+    <Property Name="Notes" Type="varchar" MaxLength="500" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="UpdateTime" Type="datetime" />
+    <Property Name="IsCompleted" Type="char" MaxLength="1" />
+    <Property Name="Description" Type="varchar" MaxLength="4000" />
+    <Property Name="Drinks" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="PkgDispatchDineOrder">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UseDineDate" Type="datetime" />
+    <Property Name="RestaurantID" Type="int" />
+    <Property Name="TourNum" Type="varchar" MaxLength="50" />
+    <Property Name="AdultNum" Type="int" />
+    <Property Name="ChildNum" Type="int" />
+    <Property Name="CustomerMealStandard" Type="varchar" MaxLength="50" />
+    <Property Name="BegleiterNum" Type="int" />
+    <Property Name="BegleiterMealStandard" Type="varchar" MaxLength="50" />
+    <Property Name="Falvor" Type="varchar" MaxLength="200" />
+    <Property Name="DineTime" Type="varchar" MaxLength="50" />
+    <Property Name="Guide" Type="varchar" MaxLength="50" />
+    <Property Name="GuideMobile" Type="varchar" MaxLength="50" />
+    <Property Name="Notes" Type="varchar" MaxLength="500" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="UpdateTime" Type="datetime" />
+    <Property Name="Description" Type="varchar" MaxLength="4000" />
+    <Property Name="ProviderID" Type="int" />
+    <Property Name="HasDrinks" Type="char" MaxLength="1" />
+    <Property Name="IsConfirmed" Type="char" MaxLength="1" />
+    <Property Name="Drinks" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="PkgDispatchDriverSchedule">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="TourNum" Type="varchar" MaxLength="50" />
+    <Property Name="OrderID" Type="int" />
+    <Property Name="AdultNum" Type="int" />
+    <Property Name="ChildNum" Type="int" />
+    <Property Name="ProductNm" Type="varchar" MaxLength="200" />
+    <Property Name="Hotel" Type="varchar" MaxLength="200" />
+    <Property Name="Flight" Type="varchar" MaxLength="50" />
+    <Property Name="FlightTime" Type="varchar" MaxLength="200" />
+    <Property Name="TakeOffTime" Type="datetime" />
+    <Property Name="ArriveTime" Type="datetime" />
+    <Property Name="UseDine" Type="varchar" MaxLength="300" />
+    <Property Name="Guide" Type="varchar" MaxLength="50" />
+    <Property Name="GuideMobile" Type="varchar" MaxLength="50" />
+    <Property Name="Notes" Type="varchar" MaxLength="500" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="UpdateTime" Type="datetime" />
+    <Property Name="Description" Type="varchar" MaxLength="4000" />
+    <Property Name="AssembingTime" Type="varchar" MaxLength="100" />
+    <Property Name="AssembingPlace" Type="varchar" MaxLength="500" />
+    <Property Name="ProviderID" Type="int" />
+    <Property Name="DriverID" Type="int" />
+    <Property Name="PurchaseOrderID" Type="int" />
+  </EntityType>
+  <EntityType Name="PkgDispatchGuideArr">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ResourceID" Type="int" />
+    <Property Name="TourID" Type="int" />
+    <Property Name="GuideID" Type="int" />
+    <Property Name="GuideNm" Type="varchar" MaxLength="50" />
+    <Property Name="Sex" Type="char" MaxLength="1" />
+    <Property Name="Mobile" Type="varchar" MaxLength="50" />
+    <Property Name="ICCardNum" Type="varchar" MaxLength="30" />
+    <Property Name="IDCard" Type="varchar" MaxLength="20" />
+    <Property Name="FamiliarCity" Type="varchar" MaxLength="50" />
+    <Property Name="Notes" Type="varchar" MaxLength="500" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="UpdateTime" Type="datetime" />
+    <Property Name="IsCompleted" Type="char" MaxLength="1" />
+    <Property Name="Description" Type="varchar" MaxLength="4000" />
+  </EntityType>
+  <EntityType Name="PkgDispatchGuideSchedule">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="Guide" Type="varchar" MaxLength="50" />
+    <Property Name="TourNum" Type="varchar" MaxLength="50" />
+    <Property Name="OrderID" Type="int" />
+    <Property Name="AdultNum" Type="int" />
+    <Property Name="ChildNum" Type="int" />
+    <Property Name="Agenda" Type="varchar" MaxLength="200" />
+    <Property Name="Hotel" Type="varchar" MaxLength="200" />
+    <Property Name="Flight" Type="varchar" MaxLength="50" />
+    <Property Name="FlightTime" Type="varchar" MaxLength="200" />
+    <Property Name="TakeOffTime" Type="datetime" />
+    <Property Name="ArriveTime" Type="datetime" />
+    <Property Name="Breakfast" Type="varchar" MaxLength="50" />
+    <Property Name="Lunch" Type="varchar" MaxLength="50" />
+    <Property Name="Dinner" Type="varchar" MaxLength="50" />
+    <Property Name="AssembingPlace" Type="varchar" MaxLength="200" />
+    <Property Name="AssembingTime" Type="varchar" MaxLength="100" />
+    <Property Name="Notes" Type="varchar" MaxLength="500" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="UpdateTime" Type="datetime" />
+    <Property Name="Description" Type="varchar" MaxLength="4000" />
+    <Property Name="ProviderID" Type="int" />
+    <Property Name="VehicleTypes" Type="varchar" MaxLength="200" />
+    <Property Name="DriverNames" Type="varchar" MaxLength="100" />
+    <Property Name="MotorcadeNms" Type="varchar" MaxLength="300" />
+    <Property Name="Customers" Type="varchar" MaxLength="200" />
+    <Property Name="DriverMobiles" Type="varchar" MaxLength="200" />
+    <Property Name="ContactName" Type="varchar" MaxLength="50" />
+    <Property Name="ContactMobile" Type="varchar" MaxLength="50" />
+    <Property Name="ContactTel" Type="varchar" MaxLength="50" />
+    <Property Name="PurchaseOrderID" Type="int" />
+  </EntityType>
+  <EntityType Name="PkgDispatchHotelArr">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ResourceID" Type="int" />
+    <Property Name="TourID" Type="int" />
+    <Property Name="HotelID" Type="int" />
+    <Property Name="HotelName" Type="varchar" MaxLength="200" />
+    <Property Name="CheckInDate" Type="datetime" />
+    <Property Name="CheckOutDate" Type="datetime" />
+    <Property Name="Contactor" Type="varchar" MaxLength="100" />
+    <Property Name="Tel" Type="varchar" MaxLength="20" />
+    <Property Name="RoomNum" Type="int" />
+    <Property Name="Notes" Type="varchar" MaxLength="500" />
+    <Property Name="Description" Type="varchar" MaxLength="2000" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="UpdateTime" Type="datetime" />
+    <Property Name="IsCompleted" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="PkgDispatchHotelSchedule">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HotelID" Type="int" />
+    <Property Name="HotelName" Type="varchar" MaxLength="200" />
+    <Property Name="TourNum" Type="varchar" MaxLength="50" />
+    <Property Name="CheckInDate" Type="datetime" />
+    <Property Name="CheckOutDate" Type="datetime" />
+    <Property Name="Contactor" Type="varchar" MaxLength="100" />
+    <Property Name="Tel" Type="varchar" MaxLength="20" />
+    <Property Name="RoomNum" Type="int" />
+    <Property Name="Notes" Type="varchar" MaxLength="500" />
+    <Property Name="Description" Type="varchar" MaxLength="2000" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="UpdateTime" Type="datetime" />
+    <Property Name="ProviderID" Type="int" />
+  </EntityType>
+  <EntityType Name="PkgDispatchOrder">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="OrderID" Type="int" />
+    <Property Name="TakeOffDate" Type="datetime" />
+    <Property Name="ReturnDate" Type="datetime" />
+    <Property Name="ResourceID" Type="int" />
+    <Property Name="ResourceName" Type="varchar" MaxLength="200" />
+    <Property Name="StartCity" Type="int" />
+    <Property Name="AdultNum" Type="int" />
+    <Property Name="ChildNum" Type="int" />
+    <Property Name="OrderStatus" Type="varchar" MaxLength="10" />
+    <Property Name="OrderType" Type="varchar" MaxLength="20" />
+    <Property Name="TourID" Type="int" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="UpdateTime" Type="datetime" />
+    <Property Name="OrderSource" Type="varchar" MaxLength="20" />
+    <Property Name="Description" Type="varchar" MaxLength="2000" />
+    <Property Name="SynthesisAttribute" Type="varchar" MaxLength="20" />
+    <Property Name="PkgProviderId" Type="int" />
+    <Property Name="ContactName" Type="varchar" MaxLength="50" />
+    <Property Name="ContactMobile" Type="varchar" MaxLength="50" />
+    <Property Name="ContactTel" Type="varchar" MaxLength="50" />
+    <Property Name="Remarks" Type="varchar" MaxLength="4000" />
+    <Property Name="PurchaseOrderID" Type="int" />
+    <Property Name="HotelName" Type="varchar" MaxLength="500" />
+    <Property Name="ResourceTypeId" Type="int" />
+    <Property Name="ResourceDes" Type="varchar" MaxLength="4000" />
+  </EntityType>
+  <EntityType Name="PkgDispatchOrderClient">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="OrderID" Type="int" />
+    <Property Name="ClientName" Type="varchar" MaxLength="200" />
+    <Property Name="ClientNameEn" Type="varchar" MaxLength="200" />
+    <Property Name="Gender" Type="char" MaxLength="1" />
+    <Property Name="AgeType" Type="char" MaxLength="3" />
+    <Property Name="ContactMobile" Type="varchar" MaxLength="20" />
+    <Property Name="IDCardType" Type="int" />
+    <Property Name="IDCardTypeName" Type="varchar" MaxLength="200" />
+    <Property Name="IDCardNo" Type="varchar" MaxLength="200" />
+    <Property Name="Birthday" Type="datetime" />
+    <Property Name="Nationality" Type="varchar" MaxLength="20" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="UpdateTime" Type="datetime" />
+    <Property Name="Description" Type="varchar" MaxLength="2000" />
+    <Property Name="PurchaseOrderID" Type="int" />
+  </EntityType>
+  <EntityType Name="PkgDispatchOrderFlight">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="OrderID" Type="int" />
+    <Property Name="Segment" Type="int" />
+    <Property Name="TakeOffTime" Type="datetime" />
+    <Property Name="SitdownTime" Type="datetime" />
+    <Property Name="DCity" Type="int" />
+    <Property Name="ACity" Type="int" />
+    <Property Name="DPort" Type="char" MaxLength="3" />
+    <Property Name="DPortName" Type="varchar" MaxLength="200" />
+    <Property Name="DAirPortBuilding" Type="varchar" MaxLength="200" />
+    <Property Name="APort" Type="char" MaxLength="3" />
+    <Property Name="APortName" Type="varchar" MaxLength="200" />
+    <Property Name="AAirPortBuiding" Type="varchar" MaxLength="200" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="UpdateTime" Type="datetime" />
+    <Property Name="Description" Type="varchar" MaxLength="2000" />
+    <Property Name="Flight" Type="varchar" MaxLength="50" />
+    <Property Name="PurchaseOrderID" Type="int" />
+  </EntityType>
+  <EntityType Name="PkgdispatchOrderHotel">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="OrderID" Type="int" />
+    <Property Name="Segment" Type="int" />
+    <Property Name="Hotel" Type="int" />
+    <Property Name="HotelName" Type="varchar" MaxLength="200" />
+    <Property Name="Address" Type="varchar" MaxLength="200" />
+    <Property Name="CheckinDate" Type="datetime" />
+    <Property Name="CheckoutDate" Type="datetime" />
+    <Property Name="Days" Type="int" />
+    <Property Name="Room" Type="int" />
+    <Property Name="RoomName" Type="varchar" MaxLength="200" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="UpdateTime" Type="datetime" />
+    <Property Name="Description" Type="varchar" MaxLength="2000" />
+    <Property Name="PurchaseOrderID" Type="int" />
+  </EntityType>
+  <EntityType Name="PkgDispatchSegmentArr">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ResourceID" Type="int" />
+    <Property Name="TourID" Type="int" />
+    <Property Name="AdultNum" Type="int" />
+    <Property Name="ChildNum" Type="int" />
+    <Property Name="HotelID" Type="int" />
+    <Property Name="HotelName" Type="varchar" MaxLength="300" />
+    <Property Name="HotelAddress" Type="varchar" MaxLength="500" />
+    <Property Name="AssembingPlace" Type="varchar" MaxLength="500" />
+    <Property Name="AssembingTime" Type="varchar" MaxLength="100" />
+    <Property Name="Flight" Type="varchar" MaxLength="100" />
+    <Property Name="TakeOffTime" Type="datetime" />
+    <Property Name="ArriveTime" Type="datetime" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="UpdateTime" Type="datetime" />
+    <Property Name="IsCompleted" Type="char" MaxLength="1" />
+    <Property Name="Description" Type="varchar" MaxLength="4000" />
+    <Property Name="OrderID" Type="int" />
+    <Property Name="FlightTime" Type="varchar" MaxLength="200" />
+    <Property Name="PurchaseOrderID" Type="int" />
+    <Property Name="Notes" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="PkgDispatchTour">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TourNum" Type="varchar" MaxLength="20" />
+    <Property Name="TourName" Type="varchar" MaxLength="200" />
+    <Property Name="ResourceID" Type="int" />
+    <Property Name="ProductNm" Type="varchar" MaxLength="200" />
+    <Property Name="AdultNum" Type="int" />
+    <Property Name="ChildNum" Type="int" />
+    <Property Name="UseDate" Type="datetime" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="UpdateTime" Type="datetime" />
+    <Property Name="Description" Type="varchar" MaxLength="2000" />
+    <Property Name="IsSegmentArr" Type="char" MaxLength="1" />
+    <Property Name="IsGuideArr" Type="char" MaxLength="1" />
+    <Property Name="IsVehicleArr" Type="char" MaxLength="1" />
+    <Property Name="IsDineArr" Type="char" MaxLength="1" />
+    <Property Name="IsCompleted" Type="char" MaxLength="1" />
+    <Property Name="IsHotelArr" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="PkgDispatchTourNote">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="TourID" Type="int" />
+    <Property Name="Note" Type="varchar" MaxLength="4000" />
+    <Property Name="Sort" Type="int" />
+    <Property Name="BackVarchar" Type="varchar" MaxLength="1000" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="UpdateTime" Type="datetime" />
+    <Property Name="Description" Type="varchar" MaxLength="4000" />
+  </EntityType>
+  <EntityType Name="PkgDispatchVehicleArr">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ResourceID" Type="int" />
+    <Property Name="TourID" Type="int" />
+    <Property Name="MotorcadeID" Type="int" />
+    <Property Name="IsExternal" Type="char" MaxLength="1" />
+    <Property Name="MotorcadeNm" Type="varchar" MaxLength="30" />
+    <Property Name="VehicleNum" Type="varchar" MaxLength="50" />
+    <Property Name="VehicleType" Type="varchar" MaxLength="30" />
+    <Property Name="TotalSeat" Type="varchar" MaxLength="20" />
+    <Property Name="DriverID" Type="int" />
+    <Property Name="DriverNm" Type="varchar" MaxLength="30" />
+    <Property Name="DriverMobile" Type="varchar" MaxLength="50" />
+    <Property Name="IsTrolley" Type="char" MaxLength="1" />
+    <Property Name="Notes" Type="varchar" MaxLength="500" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="UpdateTime" Type="datetime" />
+    <Property Name="IsCompleted" Type="char" MaxLength="1" />
+    <Property Name="Description" Type="varchar" MaxLength="4000" />
+  </EntityType>
+  <EntityType Name="PkgDispatchVehicleSchedule">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UseVehicleDate" Type="datetime" />
+    <Property Name="TourNum" Type="varchar" MaxLength="50" />
+    <Property Name="OrderID" Type="int" />
+    <Property Name="AdultNum" Type="int" />
+    <Property Name="ChildNum" Type="int" />
+    <Property Name="Agenda" Type="varchar" MaxLength="200" />
+    <Property Name="Hotel" Type="varchar" MaxLength="200" />
+    <Property Name="Flight" Type="varchar" MaxLength="50" />
+    <Property Name="FlightTime" Type="varchar" MaxLength="200" />
+    <Property Name="TakeOffTime" Type="datetime" />
+    <Property Name="ArriveTime" Type="datetime" />
+    <Property Name="Breakfast" Type="varchar" MaxLength="50" />
+    <Property Name="Lunch" Type="varchar" MaxLength="50" />
+    <Property Name="Dinner" Type="varchar" MaxLength="50" />
+    <Property Name="AssembingPlace" Type="varchar" MaxLength="200" />
+    <Property Name="AssembingTime" Type="varchar" MaxLength="100" />
+    <Property Name="Guide" Type="varchar" MaxLength="50" />
+    <Property Name="GuideMobile" Type="varchar" MaxLength="50" />
+    <Property Name="VehicleType" Type="varchar" MaxLength="50" />
+    <Property Name="Driver" Type="varchar" MaxLength="50" />
+    <Property Name="DriverMobile" Type="varchar" MaxLength="50" />
+    <Property Name="IsTrolley" Type="char" MaxLength="1" />
+    <Property Name="Notes" Type="varchar" MaxLength="500" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="UpdateTime" Type="datetime" />
+    <Property Name="Description" Type="varchar" MaxLength="4000" />
+    <Property Name="ProviderID" Type="int" />
+    <Property Name="MotorcadeID" Type="int" />
+    <Property Name="PurchaseOrderID" Type="int" />
+  </EntityType>
+  <EntityType Name="PkgDriver">
+    <Key>
+      <PropertyRef Name="DriverID" />
+    </Key>
+    <Property Name="DriverID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="varchar" MaxLength="30" />
+    <Property Name="Sex" Type="char" MaxLength="1" />
+    <Property Name="Company" Type="varchar" MaxLength="50" />
+    <Property Name="Mobile" Type="varchar" MaxLength="50" />
+    <Property Name="DriveLicense" Type="varchar" MaxLength="30" />
+    <Property Name="DriveType" Type="varchar" MaxLength="10" />
+    <Property Name="IDCard" Type="varchar" MaxLength="20" />
+    <Property Name="HomeAddress" Type="varchar" MaxLength="50" />
+    <Property Name="ExpireDate" Type="datetime" />
+    <Property Name="LastTimeCheckMiles" Type="int" />
+    <Property Name="FamiliarCity" Type="varchar" MaxLength="50" />
+    <Property Name="PaymentMethod" Type="varchar" MaxLength="30" />
+    <Property Name="VehicleType" Type="varchar" MaxLength="30" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ModifyTime" Type="datetime" Nullable="false" />
+    <Property Name="Description" Type="varchar" MaxLength="2000" />
+    <Property Name="ProviderId" Type="int" />
+    <Property Name="IsExternal" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="PkgGuide">
+    <Key>
+      <PropertyRef Name="GuideID" />
+    </Key>
+    <Property Name="GuideID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="Level" Type="int" />
+    <Property Name="Language" Type="varchar" MaxLength="10" />
+    <Property Name="IDCard" Type="varchar" MaxLength="20" />
+    <Property Name="GuideLicense" Type="varchar" MaxLength="30" />
+    <Property Name="ICCardNum" Type="varchar" MaxLength="30" />
+    <Property Name="Mobile" Type="varchar" MaxLength="200" />
+    <Property Name="Email" Type="varchar" MaxLength="50" />
+    <Property Name="FamiliarCity" Type="varchar" MaxLength="50" />
+    <Property Name="PaymentMethod" Type="varchar" MaxLength="30" />
+    <Property Name="GuideType" Type="varchar" MaxLength="30" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ModifyTime" Type="datetime" Nullable="false" />
+    <Property Name="Description" Type="varchar" MaxLength="2000" />
+    <Property Name="Sex" Type="char" MaxLength="1" />
+    <Property Name="ProviderId" Type="int" />
+  </EntityType>
+  <EntityType Name="PkgHotel">
+    <Key>
+      <PropertyRef Name="HotelID" />
+    </Key>
+    <Property Name="HotelID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="HotelNm" Type="varchar" MaxLength="50" />
+    <Property Name="Address" Type="varchar" MaxLength="200" />
+    <Property Name="URL" Type="varchar" MaxLength="50" />
+    <Property Name="Contactor" Type="varchar" MaxLength="20" />
+    <Property Name="Mobile" Type="varchar" MaxLength="20" />
+    <Property Name="Telephone" Type="varchar" MaxLength="20" />
+    <Property Name="Fax" Type="varchar" MaxLength="20" />
+    <Property Name="SingpostsGuidelines" Type="varchar" MaxLength="200" />
+    <Property Name="Longitude" Type="varchar" MaxLength="500" />
+    <Property Name="Latitude" Type="varchar" MaxLength="100" />
+    <Property Name="ModifyTime" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="Description" Type="varchar" MaxLength="2000" />
+    <Property Name="ProviderId" Type="int" />
+  </EntityType>
+  <EntityType Name="PkgMotorcade">
+    <Key>
+      <PropertyRef Name="MotorcadeID" />
+    </Key>
+    <Property Name="MotorcadeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="MotorcadeNm" Type="varchar" MaxLength="50" />
+    <Property Name="OPLicenseID" Type="varchar" MaxLength="30" />
+    <Property Name="LieCity" Type="varchar" MaxLength="30" />
+    <Property Name="Contactor" Type="varchar" MaxLength="20" />
+    <Property Name="Tel1" Type="varchar" MaxLength="30" />
+    <Property Name="Tel2" Type="varchar" MaxLength="30" />
+    <Property Name="Tel3" Type="varchar" MaxLength="30" />
+    <Property Name="Fax" Type="varchar" MaxLength="20" />
+    <Property Name="ContactAddress" Type="varchar" MaxLength="200" />
+    <Property Name="VehicleType" Type="varchar" MaxLength="30" />
+    <Property Name="OperationCity" Type="varchar" MaxLength="200" />
+    <Property Name="IsSignContract" Type="char" MaxLength="1" />
+    <Property Name="IsValid" Type="char" MaxLength="1" />
+    <Property Name="ModifyTime" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="Description" Type="varchar" MaxLength="2000" />
+    <Property Name="ProviderId" Type="int" />
+    <Property Name="Mobile" Type="varchar" MaxLength="20" />
+    <Property Name="Email" Type="varchar" MaxLength="100" />
+    <Property Name="IsExternal" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="PkgRestaurant">
+    <Key>
+      <PropertyRef Name="RestaurantID" />
+    </Key>
+    <Property Name="RestaurantID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="RestaurantNm" Type="varchar" MaxLength="50" />
+    <Property Name="Address" Type="varchar" MaxLength="200" />
+    <Property Name="URL" Type="varchar" MaxLength="50" />
+    <Property Name="Contactor" Type="varchar" MaxLength="20" />
+    <Property Name="Mobile" Type="varchar" MaxLength="20" />
+    <Property Name="Telephone" Type="varchar" MaxLength="20" />
+    <Property Name="Fax" Type="varchar" MaxLength="20" />
+    <Property Name="SingpostsGuidelines" Type="varchar" MaxLength="200" />
+    <Property Name="Longitude" Type="varchar" MaxLength="500" />
+    <Property Name="Latitude" Type="varchar" MaxLength="100" />
+    <Property Name="IsValid" Type="char" MaxLength="1" />
+    <Property Name="ModifyTime" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="Description" Type="varchar" MaxLength="2000" />
+    <Property Name="ProviderId" Type="int" />
+    <Property Name="Flavor" Type="varchar" MaxLength="500" />
+    <Property Name="Drinks" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="PkgVehicle">
+    <Key>
+      <PropertyRef Name="VehicleID" />
+    </Key>
+    <Property Name="VehicleID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VehicleNum" Type="varchar" MaxLength="50" />
+    <Property Name="Brand" Type="varchar" MaxLength="200" />
+    <Property Name="TotalSeat" Type="varchar" MaxLength="20" />
+    <Property Name="Model" Type="varchar" MaxLength="30" />
+    <Property Name="VehicleType" Type="varchar" MaxLength="30" />
+    <Property Name="DriveNum" Type="varchar" MaxLength="50" />
+    <Property Name="PurchaseTime" Type="varchar" MaxLength="50" />
+    <Property Name="LastTimeCheckDate" Type="datetime" />
+    <Property Name="LastTimeCheckMiles" Type="int" />
+    <Property Name="DefaultDriverID" Type="varchar" MaxLength="50" />
+    <Property Name="FamiliarCity" Type="varchar" MaxLength="50" />
+    <Property Name="PaymentMethod" Type="varchar" MaxLength="30" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ModifyTime" Type="datetime" Nullable="false" />
+    <Property Name="Description" Type="varchar" MaxLength="2000" />
+    <Property Name="Type" Type="varchar" MaxLength="50" />
+    <Property Name="ProviderId" Type="int" />
+    <Property Name="IsExternal" Type="char" MaxLength="1" />
+    <Property Name="MotorcadeId" Type="int" />
+  </EntityType>
+  <EntityType Name="PO_Message">
+    <Key>
+      <PropertyRef Name="MsgID" />
+    </Key>
+    <Property Name="MsgID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AppSender" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="Sender" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="OrderID" Type="int" Nullable="false" />
+    <Property Name="CtripResourceID" Type="int" Nullable="false" />
+    <Property Name="ProviderID" Type="int" Nullable="false" />
+    <Property Name="MsgType" Type="int" Nullable="false" />
+    <Property Name="MsgBody" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="MsgStatus" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="SentTime" Type="datetime" Nullable="false" />
+    <Property Name="PurchaseOrderID" Type="int" Nullable="false" />
+    <Property Name="ModifyTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PO_OperateLog">
+    <Key>
+      <PropertyRef Name="OperateLogID" />
+    </Key>
+    <Property Name="OperateLogID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="OrderID" Type="int" Nullable="false" />
+    <Property Name="CtripResourceID" Type="int" Nullable="false" />
+    <Property Name="Content" Type="nvarchar" Nullable="false" MaxLength="255" />
+    <Property Name="OperateParty" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="Operator" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="OperateTime" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="POResultStatus" Type="varchar" MaxLength="50" />
+    <Property Name="VBKPurchaseOrderID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PO_PurchaseOrder">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PurchaseOrderID" Type="int" Nullable="false" />
+    <Property Name="Active" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="ActualAdultQuantity" Type="int" />
+    <Property Name="ActualChildQuantity" Type="int" />
+    <Property Name="ActualTotalQuantity" Type="int" />
+    <Property Name="AdultCost" Type="money" />
+    <Property Name="AdultQuantity" Type="int" />
+    <Property Name="ArrivalDate" Type="datetime" />
+    <Property Name="ChildCost" Type="money" />
+    <Property Name="ChildQuantity" Type="int" />
+    <Property Name="Collator" Type="varchar" MaxLength="100" />
+    <Property Name="ConfirmNo" Type="varchar" MaxLength="255" />
+    <Property Name="ConfirmRemark" Type="nvarchar" MaxLength="500" />
+    <Property Name="ContactEmail" Type="varchar" MaxLength="500" />
+    <Property Name="ContactFax" Type="varchar" MaxLength="500" />
+    <Property Name="ContactMobile" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="ContactName" Type="varchar" MaxLength="30" />
+    <Property Name="ContactTel" Type="varchar" MaxLength="200" />
+    <Property Name="Cost" Type="money" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="CtripProductID" Type="int" />
+    <Property Name="Currency" Type="varchar" MaxLength="50" />
+    <Property Name="DepartureDate" Type="datetime" />
+    <Property Name="Exchange" Type="money" />
+    <Property Name="IsNeedCollate" Type="char" MaxLength="1" />
+    <Property Name="IsNoticeSended" Type="char" MaxLength="1" />
+    <Property Name="OperatorPhoneExtension" Type="varchar" MaxLength="200" />
+    <Property Name="OrderDate" Type="datetime" />
+    <Property Name="OrderID" Type="int" />
+    <Property Name="PaymentStatus" Type="int" />
+    <Property Name="PaymentType" Type="int" />
+    <Property Name="ProviderID" Type="int" />
+    <Property Name="Quantity" Type="int" />
+    <Property Name="CtripResourceID" Type="int" />
+    <Property Name="ResourceName" Type="varchar" MaxLength="200" />
+    <Property Name="ReturnDate" Type="datetime" />
+    <Property Name="StartCityName" Type="varchar" MaxLength="50" />
+    <Property Name="TourID" Type="int" />
+    <Property Name="UseDate" Type="datetime" />
+    <Property Name="VbCollateDate" Type="datetime" />
+    <Property Name="VbCollateStatus" Type="char" MaxLength="1" />
+    <Property Name="VBKResourceID" Type="int" />
+    <Property Name="VBKResourceTypeID" Type="int" />
+    <Property Name="VbRemark" Type="varchar" MaxLength="600" />
+    <Property Name="VisaProcessStatus" Type="varchar" MaxLength="20" />
+    <Property Name="ModifyTime" Type="datetime" Nullable="false" />
+    <Property Name="AdultSalePrice" Type="money" />
+    <Property Name="ChildSalePrice" Type="money" />
+    <Property Name="TotalSalePrice" Type="money" />
+    <Property Name="ApprovePerson" Type="varchar" MaxLength="200" />
+    <Property Name="ApproveStatus" Type="varchar" MaxLength="50" />
+    <Property Name="ApproveTime" Type="datetime" />
+    <Property Name="SubmitPerson" Type="varchar" MaxLength="100" />
+    <Property Name="SubmitTime" Type="datetime" />
+    <Property Name="ActivePOIDHistory" Type="varchar" MaxLength="500" />
+    <Property Name="CtripPurchaseResourceType" Type="char" MaxLength="1" />
+    <Property Name="CtripSaleResourceType" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="PO_PurchaseOrderClient">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="OrderID" Type="int" />
+    <Property Name="ClientName" Type="varchar" MaxLength="200" />
+    <Property Name="ClientNameEn" Type="varchar" MaxLength="200" />
+    <Property Name="Gender" Type="char" MaxLength="1" />
+    <Property Name="AgeType" Type="char" MaxLength="3" />
+    <Property Name="ContactMobile" Type="varchar" MaxLength="100" />
+    <Property Name="IDCardType" Type="int" />
+    <Property Name="IDCardTypeName" Type="varchar" MaxLength="200" />
+    <Property Name="IDCardNo" Type="varchar" MaxLength="200" />
+    <Property Name="Birthday" Type="datetime" />
+    <Property Name="Nationality" Type="varchar" MaxLength="20" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="Description" Type="varchar" MaxLength="2000" />
+    <Property Name="PurchaseOrderID" Type="int" />
+    <Property Name="POApprovedID" Type="int" />
+    <Property Name="VisaCountry" Type="varchar" MaxLength="20" />
+    <Property Name="IssueDate" Type="datetime" />
+    <Property Name="PassportType" Type="char" MaxLength="1" />
+    <Property Name="IDCardTimelimit" Type="datetime" />
+    <Property Name="Remark" Type="varchar" MaxLength="100" />
+    <Property Name="homeplace" Type="varchar" MaxLength="100" />
+    <Property Name="ClientID" Type="int" />
+    <Property Name="VisaStatus" Type="varchar" MaxLength="20" />
+    <Property Name="ModifyTime" Type="datetime" Nullable="false" />
+    <Property Name="CardCity" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="PurchaseOrder_Approved">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PurchaseOrderID" Type="int" Nullable="false" />
+    <Property Name="OrderID" Type="int" />
+    <Property Name="Segment" Type="int" />
+    <Property Name="ResourceID" Type="int" />
+    <Property Name="ResourceType" Type="char" MaxLength="1" />
+    <Property Name="ResourceName" Type="varchar" MaxLength="200" />
+    <Property Name="ResourceDesc" Type="varchar" />
+    <Property Name="ProviderID" Type="int" />
+    <Property Name="Status" Type="char" MaxLength="1" />
+    <Property Name="OperateReason" Type="varchar" MaxLength="4000" />
+    <Property Name="Quantity" Type="int" />
+    <Property Name="AdultQuantity" Type="int" />
+    <Property Name="ChildQuantity" Type="int" />
+    <Property Name="BabyQuantity" Type="int" />
+    <Property Name="ActualAdultQuantity" Type="int" />
+    <Property Name="ActualChildQuantity" Type="int" />
+    <Property Name="ActualBabyQuantity" Type="int" />
+    <Property Name="Cost" Type="money" />
+    <Property Name="AdultCost" Type="money" />
+    <Property Name="ChildCost" Type="money" />
+    <Property Name="BabyCost" Type="money" />
+    <Property Name="StartCityName" Type="varchar" MaxLength="50" />
+    <Property Name="ContactName" Type="varchar" MaxLength="30" />
+    <Property Name="OrderDate" Type="datetime" />
+    <Property Name="UseDate" Type="datetime" />
+    <Property Name="ArrivalDate" Type="datetime" />
+    <Property Name="DepartureDate" Type="datetime" />
+    <Property Name="Currency" Type="varchar" MaxLength="50" />
+    <Property Name="Exchange" Type="money" />
+    <Property Name="VbRemark" Type="varchar" MaxLength="600" />
+    <Property Name="VbSubmitStatus" Type="char" MaxLength="1" />
+    <Property Name="VbApproveStatus" Type="char" MaxLength="1" />
+    <Property Name="ConfirmRemark" Type="varchar" MaxLength="500" />
+    <Property Name="VbApproveDate" Type="datetime" />
+    <Property Name="VbCollateStatus" Type="char" MaxLength="1" />
+    <Property Name="VbCollateDate" Type="datetime" />
+    <Property Name="Operator" Type="varchar" MaxLength="200" />
+    <Property Name="OperateTime" Type="datetime" />
+    <Property Name="Description" Type="varchar" MaxLength="2000" />
+    <Property Name="ConfirmNo" Type="varchar" MaxLength="255" />
+    <Property Name="ContactMobile" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="ReturnFlag" Type="char" MaxLength="1" />
+    <Property Name="ReturnDate" Type="datetime" />
+    <Property Name="ProcessOper" Type="varchar" MaxLength="100" />
+    <Property Name="EmergencyTime" Type="datetime" />
+    <Property Name="SalesResourceType" Type="char" MaxLength="1" />
+    <Property Name="Active" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="IsNeedCollate" Type="char" MaxLength="1" />
+    <Property Name="IsNoticeSended" Type="char" MaxLength="1" />
+    <Property Name="TourID" Type="int" />
+    <Property Name="ContactEmail" Type="varchar" MaxLength="500" />
+    <Property Name="ContactFax" Type="varchar" MaxLength="500" />
+    <Property Name="ContactTel" Type="varchar" MaxLength="200" />
+    <Property Name="Collator" Type="varchar" MaxLength="100" />
+    <Property Name="ResourceTypeID" Type="int" />
+    <Property Name="VisaProcessStatus" Type="varchar" MaxLength="20" />
+    <Property Name="ActualTotalQuantity" Type="int" />
+  </EntityType>
+  <EntityType Name="PurchaseOrder_ApprovedReport">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="OrderID" Type="int" Nullable="false" />
+    <Property Name="PurchaseOrderID" Type="int" Nullable="false" />
+    <Property Name="ResourceName" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="UseDate" Type="datetime" />
+    <Property Name="vbSubmitStatus" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="vbApproveStatus" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="StartCityName" Type="varchar" MaxLength="50" />
+    <Property Name="vbRemark" Type="varchar" MaxLength="600" />
+    <Property Name="ClientNum" Type="int" />
+    <Property Name="ClientInfo" Type="varchar" MaxLength="600" />
+    <Property Name="HotelInfo" Type="varchar" MaxLength="600" />
+    <Property Name="Quantity" Type="int" />
+    <Property Name="AdultQuantity" Type="int" />
+    <Property Name="ChildQuantity" Type="int" />
+    <Property Name="FirstFltTakeOffTime" Type="datetime" />
+    <Property Name="FirstFltSitDownTime" Type="datetime" />
+    <Property Name="FirstFltFlight" Type="varchar" MaxLength="50" />
+    <Property Name="MidFltInfo" Type="varchar" MaxLength="200" />
+    <Property Name="LastFltTakeOffTime" Type="datetime" />
+    <Property Name="LastFltFlight" Type="varchar" MaxLength="50" />
+    <Property Name="ReturnDate" Type="datetime" />
+    <Property Name="COST" Type="money" />
+    <Property Name="ConfirmNo" Type="varchar" MaxLength="255" />
+    <Property Name="Operator" Type="varchar" MaxLength="200" />
+    <Property Name="Remarks" Type="varchar" MaxLength="400" />
+    <Property Name="ApprovedID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PurchaseOrder_Report">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="OrderID" Type="int" Nullable="false" />
+    <Property Name="PurchaseOrderID" Type="int" Nullable="false" />
+    <Property Name="ResourceName" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="UseDate" Type="datetime" />
+    <Property Name="vbSubmitStatus" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="vbApproveStatus" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="StartCityName" Type="varchar" MaxLength="50" />
+    <Property Name="vbRemark" Type="varchar" MaxLength="600" />
+    <Property Name="ClientNum" Type="int" />
+    <Property Name="ClientInfo" Type="varchar" MaxLength="600" />
+    <Property Name="HotelInfo" Type="varchar" MaxLength="600" />
+    <Property Name="Quantity" Type="int" />
+    <Property Name="AdultQuantity" Type="int" />
+    <Property Name="ChildQuantity" Type="int" />
+    <Property Name="FirstFltTakeOffTime" Type="datetime" />
+    <Property Name="FirstFltSitDownTime" Type="datetime" />
+    <Property Name="FirstFltFlight" Type="varchar" MaxLength="50" />
+    <Property Name="MidFltInfo" Type="varchar" MaxLength="200" />
+    <Property Name="LastFltTakeOffTime" Type="datetime" />
+    <Property Name="LastFltFlight" Type="varchar" MaxLength="50" />
+    <Property Name="ReturnDate" Type="datetime" />
+    <Property Name="COST" Type="money" />
+    <Property Name="ConfirmNo" Type="varchar" MaxLength="255" />
+    <Property Name="Operator" Type="varchar" MaxLength="200" />
+    <Property Name="Remarks" Type="varchar" MaxLength="400" />
+    <Property Name="ApprovedID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PurchaseOrderClient_Approved">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="OrderID" Type="int" />
+    <Property Name="ClientName" Type="varchar" MaxLength="200" />
+    <Property Name="ClientNameEn" Type="varchar" MaxLength="200" />
+    <Property Name="Gender" Type="char" MaxLength="1" />
+    <Property Name="AgeType" Type="char" MaxLength="3" />
+    <Property Name="ContactMobile" Type="varchar" MaxLength="20" />
+    <Property Name="IDCardType" Type="int" />
+    <Property Name="IDCardTypeName" Type="varchar" MaxLength="200" />
+    <Property Name="IDCardNo" Type="varchar" MaxLength="200" />
+    <Property Name="Birthday" Type="datetime" />
+    <Property Name="Nationality" Type="varchar" MaxLength="20" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="UpdateTime" Type="datetime" />
+    <Property Name="Description" Type="varchar" MaxLength="2000" />
+    <Property Name="PurchaseOrderID" Type="int" />
+    <Property Name="POApprovedID" Type="int" />
+    <Property Name="VisaCountry" Type="varchar" MaxLength="20" />
+    <Property Name="IssueDate" Type="datetime" />
+    <Property Name="PassportType" Type="char" MaxLength="1" />
+    <Property Name="IDCardTimelimit" Type="datetime" />
+    <Property Name="Remark" Type="varchar" MaxLength="100" />
+    <Property Name="homeplace" Type="varchar" MaxLength="100" />
+    <Property Name="ClientID" Type="int" />
+    <Property Name="VisaStatus" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="PurchaseOrderVisaLog">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PurchaseOrderID" Type="int" Nullable="false" />
+    <Property Name="Remark" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="CreateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="RptInventory">
+    <Key>
+      <PropertyRef Name="RIID" />
+    </Key>
+    <Property Name="RIID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ResourceID" Type="int" Nullable="false" />
+    <Property Name="InventoryDate" Type="datetime" Nullable="false" />
+    <Property Name="InventoryCount" Type="int" Nullable="false" />
+    <Property Name="InventoryMode" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="UpdateTime" Type="datetime" Nullable="false" />
+    <Property Name="AdultCostPrice" Type="money" />
+    <Property Name="AdultSalesPrice" Type="money" />
+    <Property Name="ChildCostPrice" Type="money" />
+    <Property Name="ChildSalesPrice" Type="money" />
+  </EntityType>
+  <EntityType Name="RptProductSaleSummary">
+    <Key>
+      <PropertyRef Name="RPSSID" />
+    </Key>
+    <Property Name="RPSSID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ProviderID" Type="int" Nullable="false" />
+    <Property Name="VBKResourceID" Type="int" Nullable="false" />
+    <Property Name="Pkg" Type="int" Nullable="false" />
+    <Property Name="ResourceName" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="DepartureCity" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="DestinationCity" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="DepartureSchedule" Type="datetime" Nullable="false" />
+    <Property Name="SaledQuantity" Type="int" Nullable="false" />
+    <Property Name="SaledAdultQuantity" Type="int" Nullable="false" />
+    <Property Name="SaledChildQuantity" Type="int" Nullable="false" />
+    <Property Name="AdultCostPrice" Type="money" Nullable="false" />
+    <Property Name="AdultSalesPrice" Type="money" Nullable="false" />
+    <Property Name="ChildCostPrice" Type="money" Nullable="false" />
+    <Property Name="ChildSalesPrice" Type="money" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="UpdateTime" Type="datetime" Nullable="false" />
+    <Property Name="PurchaseOrderID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RptResource">
+    <Key>
+      <PropertyRef Name="RRID" />
+    </Key>
+    <Property Name="RRID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ProviderID" Type="int" Nullable="false" />
+    <Property Name="ResourceID" Type="int" Nullable="false" />
+    <Property Name="Pkg" Type="int" Nullable="false" />
+    <Property Name="ResourceName" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="DepartureCity" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="DestinationCity" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="UpdateTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SysBulletin">
+    <Key>
+      <PropertyRef Name="BulletinID" />
+    </Key>
+    <Property Name="BulletinID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="Content" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="AudienceType" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="EffectiveDate" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="DataChange_LastTime" Type="datetime" Nullable="false" />
+    <Property Name="ExpireTime" Type="datetime" Nullable="false" />
+    <Property Name="Creator" Type="nvarchar" MaxLength="256" />
+  </EntityType>
+  <EntityType Name="SysBulletinProviderMapping">
+    <Key>
+      <PropertyRef Name="BPID" />
+    </Key>
+    <Property Name="BPID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="BulletinID" Type="int" Nullable="false" />
+    <Property Name="ProviderID" Type="int" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SysBulletinTypeMapping">
+    <Key>
+      <PropertyRef Name="BTID" />
+    </Key>
+    <Property Name="BTID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="BulletinID" Type="int" Nullable="false" />
+    <Property Name="TypeID" Type="int" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="SysDicItem">
+    <Key>
+      <PropertyRef Name="DicItemID" />
+    </Key>
+    <Property Name="DicItemID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DicItemName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="DicItemNameEn" Type="varchar" MaxLength="100" />
+    <Property Name="DicTypeID" Type="int" Nullable="false" />
+    <Property Name="IsActive" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="IsDefault" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="SortIndex" Type="int" Nullable="false" />
+    <Property Name="Value1" Type="nvarchar" MaxLength="3000" />
+    <Property Name="Value2" Type="nvarchar" MaxLength="3000" />
+  </EntityType>
+  <EntityType Name="SysDicType">
+    <Key>
+      <PropertyRef Name="DicTypeID" />
+    </Key>
+    <Property Name="DicTypeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DicTypeName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="DicTypeNameEn" Type="varchar" MaxLength="100" />
+    <Property Name="IsActive" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="Usage" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="SysLog">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="logid" Type="varchar" MaxLength="255" />
+    <Property Name="startTime" Type="datetime" />
+    <Property Name="endTime" Type="datetime" />
+    <Property Name="message" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="tempAirport">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Airport" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="AirportName" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="City" Type="int" Nullable="false" />
+    <Property Name="airportshortname" Type="varchar" MaxLength="20" />
+    <Property Name="airportename" Type="varchar" MaxLength="50" />
+    <Property Name="airporttel" Type="varchar" MaxLength="30" />
+    <Property Name="airportaddr" Type="varchar" MaxLength="200" />
+    <Property Name="distance" Type="int" />
+  </EntityType>
+  <EntityType Name="tempCity">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="City" Type="int" Nullable="false" />
+    <Property Name="CityName" Type="varchar" MaxLength="50" />
+    <Property Name="Province" Type="int" Nullable="false" />
+    <Property Name="Country" Type="int" Nullable="false" />
+    <Property Name="Citycode" Type="char" MaxLength="3" />
+    <Property Name="ToTrain" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="ToShip" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="TripStatus" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="ename" Type="char" MaxLength="50" />
+    <Property Name="weather" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="hotelprovince" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tempDyyTestPerson">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Sex" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tmpVDispLog">
+    <Key>
+      <PropertyRef Name="logid" />
+    </Key>
+    <Property Name="sourcePage" Type="varchar" MaxLength="200" />
+    <Property Name="destPage" Type="varchar" MaxLength="200" />
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="logid" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="Thread" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="Level" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="Logger" Type="varchar" MaxLength="255" />
+    <Property Name="Identity" Type="varchar" MaxLength="200" />
+    <Property Name="Location" Type="varchar" MaxLength="1000" />
+    <Property Name="Operator" Type="nvarchar" MaxLength="50" />
+    <Property Name="ApplicationID" Type="varchar" MaxLength="20" />
+    <Property Name="ModuleID" Type="varchar" MaxLength="50" />
+    <Property Name="ClientIP" Type="varchar" MaxLength="50" />
+    <Property Name="HostIP" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tmpVErrorLog">
+    <Key>
+      <PropertyRef Name="logid" />
+    </Key>
+    <Property Name="message" Type="varchar" MaxLength="500" />
+    <Property Name="exmessage" Type="varchar" MaxLength="500" />
+    <Property Name="exstack" Type="varchar" MaxLength="4000" />
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="logid" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="Thread" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="Level" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="Logger" Type="varchar" MaxLength="255" />
+    <Property Name="Identity" Type="varchar" MaxLength="200" />
+    <Property Name="Location" Type="varchar" MaxLength="1000" />
+    <Property Name="Operator" Type="nvarchar" MaxLength="50" />
+    <Property Name="ApplicationID" Type="varchar" MaxLength="20" />
+    <Property Name="ModuleID" Type="varchar" MaxLength="50" />
+    <Property Name="ClientIP" Type="varchar" MaxLength="50" />
+    <Property Name="HostIP" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tmpVSysLog">
+    <Key>
+      <PropertyRef Name="logid" />
+    </Key>
+    <Property Name="startTime" Type="datetime" />
+    <Property Name="endTime" Type="datetime" />
+    <Property Name="message" Type="varchar" MaxLength="200" />
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="logid" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="Thread" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="Level" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="Logger" Type="varchar" MaxLength="255" />
+    <Property Name="Identity" Type="varchar" MaxLength="200" />
+    <Property Name="Location" Type="varchar" MaxLength="1000" />
+    <Property Name="Operator" Type="nvarchar" MaxLength="50" />
+    <Property Name="ApplicationID" Type="varchar" MaxLength="20" />
+    <Property Name="ModuleID" Type="varchar" MaxLength="50" />
+    <Property Name="ClientIP" Type="varchar" MaxLength="50" />
+    <Property Name="HostIP" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'vBookingDB.dbo.tmpVTraceLog' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="tmpVTraceLog">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="Date" />
+      <PropertyRef Name="Thread" />
+      <PropertyRef Name="Level" />
+    </Key>
+    <Property Name="bizType" Type="varchar" MaxLength="255" />
+    <Property Name="opType" Type="varchar" MaxLength="200" />
+    <Property Name="opDesc" Type="varchar" MaxLength="2000" />
+    <Property Name="startTime" Type="datetime" />
+    <Property Name="endTime" Type="datetime" />
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="logid" Type="varchar" MaxLength="255" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="Thread" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="Level" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="Logger" Type="varchar" MaxLength="255" />
+    <Property Name="Identity" Type="varchar" MaxLength="200" />
+    <Property Name="Location" Type="varchar" MaxLength="1000" />
+    <Property Name="Operator" Type="nvarchar" MaxLength="50" />
+    <Property Name="ApplicationID" Type="varchar" MaxLength="20" />
+    <Property Name="ModuleID" Type="varchar" MaxLength="50" />
+    <Property Name="ClientIP" Type="varchar" MaxLength="50" />
+    <Property Name="HostIP" Type="varchar" MaxLength="50" />
+    <Property Name="resourceid" Type="int" />
+  </EntityType>
+  <EntityType Name="TraceLog">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="logid" Type="varchar" MaxLength="255" />
+    <Property Name="resourceid" Type="int" />
+    <Property Name="bizType" Type="varchar" MaxLength="255" />
+    <Property Name="opType" Type="varchar" MaxLength="200" />
+    <Property Name="opDesc" Type="varchar" MaxLength="2000" />
+    <Property Name="startTime" Type="datetime" />
+    <Property Name="endTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="U_LoginLog">
+    <Key>
+      <PropertyRef Name="PKId" />
+    </Key>
+    <Property Name="PKId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="LoginDate" Type="datetime" Nullable="false" />
+    <Property Name="LoginStatus" Type="nvarchar" MaxLength="50" />
+    <Property Name="Comment" Type="nvarchar" MaxLength="256" />
+    <Property Name="UserIpAddress" Type="nvarchar" MaxLength="50" />
+    <Property Name="HostAddress" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="U_OperateLog">
+    <Key>
+      <PropertyRef Name="PKId" />
+    </Key>
+    <Property Name="PKId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="OperateDate" Type="datetime" Nullable="false" />
+    <Property Name="OperateDescription" Type="nvarchar" MaxLength="256" />
+    <Property Name="ModuleDescription" Type="nvarchar" MaxLength="256" />
+    <Property Name="OperateUrl" Type="nvarchar" MaxLength="256" />
+    <Property Name="Comment" Type="nvarchar" MaxLength="256" />
+    <Property Name="UserIpAddress" Type="nvarchar" MaxLength="50" />
+    <Property Name="HostAddress" Type="nvarchar" MaxLength="256" />
+  </EntityType>
+  <EntityType Name="U_PasswordHistory">
+    <Key>
+      <PropertyRef Name="PKId" />
+    </Key>
+    <Property Name="PKId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="ChangedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="U_PasswordRetrieve">
+    <Key>
+      <PropertyRef Name="PasswordRetrieveId" />
+    </Key>
+    <Property Name="PasswordRetrieveId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="Token" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Status" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="ExpireTime" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="U_pwdhistory">
+    <Key>
+      <PropertyRef Name="operid" />
+      <PropertyRef Name="pwd" />
+      <PropertyRef Name="pwddate" />
+    </Key>
+    <Property Name="operid" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="pwd" Type="varbinary" Nullable="false" MaxLength="20" />
+    <Property Name="pwddate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="U_Roles">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="RoleId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="RoleName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="LoweredRoleName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="Description" Type="nvarchar" MaxLength="256" />
+    <Property Name="Sequence" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="U_user">
+    <Key>
+      <PropertyRef Name="operid" />
+    </Key>
+    <Property Name="operid" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="name" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="pwd" Type="varbinary" Nullable="false" MaxLength="50" />
+    <Property Name="provider" Type="int" Nullable="false" />
+    <Property Name="ProviderName" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="active" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="tel" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="mobile" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="email" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="pwddate" Type="datetime" Nullable="false" />
+    <Property Name="usertype" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="IsAdmin" Type="varchar" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="U_UserCustom">
+    <Key>
+      <PropertyRef Name="CustomID" />
+    </Key>
+    <Property Name="CustomID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="CustomValue" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="DicItemID" Type="int" Nullable="false" />
+    <Property Name="DicTypeID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="U_userloginlog">
+    <Key>
+      <PropertyRef Name="LogId" />
+    </Key>
+    <Property Name="LogId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Uid" Type="varchar" MaxLength="20" />
+    <Property Name="LoginTime" Type="datetime" />
+    <Property Name="UIpAddr" Type="varchar" MaxLength="20" />
+    <Property Name="HostAddr" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="U_Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="LoweredUserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="Password" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="Provider" Type="int" Nullable="false" />
+    <Property Name="ProviderName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="TelephoneNumber" Type="varchar" MaxLength="50" />
+    <Property Name="MobileNumber" Type="varchar" MaxLength="30" />
+    <Property Name="Email" Type="nvarchar" MaxLength="256" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="LastLoginDate" Type="datetime" />
+    <Property Name="LastPasswordChangedDate" Type="datetime" />
+    <Property Name="LastLockoutDate" Type="datetime" />
+    <Property Name="IsLockout" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="FailedPasswordAttemptCount" Type="int" />
+    <Property Name="FirstFailedPasswordAttemptDate" Type="datetime" />
+    <Property Name="IsValid" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="VisaStuffDeliveryType" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="U_UsersInRoles">
+    <Key>
+      <PropertyRef Name="PKId" />
+    </Key>
+    <Property Name="PKId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="RoleId" Type="uniqueidentifier" Nullable="false" />
+  </EntityType>
+  <EntityType Name="U_UsersLog">
+    <Key>
+      <PropertyRef Name="LogID" />
+    </Key>
+    <Property Name="LogID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ModifyUID" Type="varchar" MaxLength="30" />
+    <Property Name="ModifyTime" Type="datetime" />
+    <Property Name="ModifyType" Type="char" MaxLength="1" />
+    <Property Name="PKID" Type="int" />
+    <Property Name="HistoryData" Type="xml" />
+    <Property Name="ModifySource" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="U_UsersOnlineInfo">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserName" Type="varchar" Nullable="false" MaxLength="512" />
+    <Property Name="SessionID" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="LastOnlineTime" Type="datetime" Nullable="false" />
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="U_usertype">
+    <Key>
+      <PropertyRef Name="TypeId" />
+      <PropertyRef Name="Usertype" />
+    </Key>
+    <Property Name="TypeId" Type="varchar" Nullable="false" MaxLength="4" />
+    <Property Name="Usertype" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="TypeName" Type="varchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="V_Option">
+    <Key>
+      <PropertyRef Name="VOptId" />
+    </Key>
+    <Property Name="VOptId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VOptdate" Type="datetime" Nullable="false" />
+    <Property Name="VOpttype" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="VOptstatus" Type="int" Nullable="false" />
+    <Property Name="Provider" Type="int" Nullable="false" />
+    <Property Name="Orderid" Type="int" Nullable="false" />
+    <Property Name="Startcity" Type="int" Nullable="false" />
+    <Property Name="Startcityname" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Pkg" Type="int" Nullable="false" />
+    <Property Name="Pkgname" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="Orderdate" Type="datetime" Nullable="false" />
+    <Property Name="Takeoffdate" Type="datetime" Nullable="false" />
+    <Property Name="Returndate" Type="datetime" Nullable="false" />
+    <Property Name="Arrival" Type="datetime" Nullable="false" />
+    <Property Name="Departure" Type="datetime" Nullable="false" />
+    <Property Name="Amount" Type="money" Nullable="false" />
+    <Property Name="Cost" Type="money" Nullable="false" />
+    <Property Name="Currency" Type="char" Nullable="false" MaxLength="3" />
+    <Property Name="Currencyname" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="Adultnum" Type="int" Nullable="false" />
+    <Property Name="Childnum" Type="int" Nullable="false" />
+    <Property Name="Contactname" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="Contacttel" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Operid" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="Confirmdate" Type="datetime" Nullable="false" />
+    <Property Name="Bookingno" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="Remarks" Type="varchar" Nullable="false" MaxLength="500" />
+    <Property Name="Lastdate" Type="datetime" Nullable="false" />
+    <Property Name="Returnflag" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="Exchange" Type="decimal" Nullable="false" Precision="8" Scale="4" />
+    <Property Name="Optionid" Type="int" Nullable="false" />
+    <Property Name="Optionname" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="Optionqty" Type="int" Nullable="false" />
+    <Property Name="Vbrem" Type="varchar" Nullable="false" MaxLength="500" />
+    <Property Name="Optiondate" Type="datetime" Nullable="false" />
+    <Property Name="Optiontype" Type="varchar" Nullable="false" MaxLength="4" />
+    <Property Name="Fltcontent" Type="varchar" Nullable="false" MaxLength="2000" />
+    <Property Name="Htlcontent" Type="varchar" Nullable="false" MaxLength="2000" />
+    <Property Name="Clientinfo" Type="varchar" Nullable="false" MaxLength="2000" />
+    <Property Name="Remark" Type="varchar" MaxLength="2000" />
+    <Property Name="SitDownDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="V_OptionClient">
+    <Key>
+      <PropertyRef Name="VOptCId" />
+    </Key>
+    <Property Name="VOptCId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VOptId" Type="int" Nullable="false" />
+    <Property Name="CName" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="IDCardNo" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="MobileTel" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Birthdate" Type="datetime" Nullable="false" />
+    <Property Name="Sex" Type="char" Nullable="false" MaxLength="2" />
+    <Property Name="Nationality" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="IDCardType" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="OptQty" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="V_OptionFlight">
+    <Key>
+      <PropertyRef Name="VFId" />
+    </Key>
+    <Property Name="VFId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VOptId" Type="int" Nullable="false" />
+    <Property Name="Segment" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="Departure" Type="datetime" Nullable="false" />
+    <Property Name="FltDPortName" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="FltAPortName" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="Flight" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="FltDtime" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="FltAtime" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Persons" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="V_OptionHotel">
+    <Key>
+      <PropertyRef Name="VHId" />
+    </Key>
+    <Property Name="VHId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="VOptId" Type="int" Nullable="false" />
+    <Property Name="ResourceName" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="RoomName" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="Checkindate" Type="datetime" Nullable="false" />
+    <Property Name="Checkoutdate" Type="datetime" Nullable="false" />
+    <Property Name="Roomqty" Type="int" Nullable="false" />
+    <Property Name="Addr" Type="varchar" Nullable="false" MaxLength="1000" />
+    <Property Name="Telephone" Type="varchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="V_OptionLog">
+    <Key>
+      <PropertyRef Name="LogId" />
+    </Key>
+    <Property Name="LogId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="LogTime" Type="datetime" Nullable="false" />
+    <Property Name="VOptId" Type="int" Nullable="false" />
+    <Property Name="Statusbefore" Type="int" Nullable="false" />
+    <Property Name="Statusafter" Type="int" Nullable="false" />
+    <Property Name="operid" Type="varchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="VBookingOperateLog">
+    <Key>
+      <PropertyRef Name="PKId" />
+    </Key>
+    <Property Name="PKId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="OperateDate" Type="datetime" Nullable="false" />
+    <Property Name="OperateDescription" Type="nvarchar" MaxLength="256" />
+    <Property Name="ModuleDescription" Type="nvarchar" MaxLength="256" />
+    <Property Name="OperateUrl" Type="nvarchar" MaxLength="256" />
+    <Property Name="Comment" Type="varchar(max)" />
+    <Property Name="UserIpAddress" Type="nvarchar" MaxLength="50" />
+    <Property Name="HostAddress" Type="nvarchar" MaxLength="256" />
+    <Property Name="EntityDetail" Type="xml" />
+    <Property Name="BusinessType" Type="varchar" MaxLength="50" />
+    <Property Name="BusinessID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="VBookingOrderOperateLog">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="OrderID" Type="int" Nullable="false" />
+    <Property Name="purchaseOrderID" Type="int" Nullable="false" />
+    <Property Name="resourceType" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="resourceID" Type="int" Nullable="false" />
+    <Property Name="resourceName" Type="varchar" Nullable="false" MaxLength="500" />
+    <Property Name="operateType" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="operatetime" Type="datetime" Nullable="false" />
+    <Property Name="operatorName" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="remark" Type="varchar" MaxLength="2000" />
+    <Property Name="VbSubmitStatus" Type="char" MaxLength="1" />
+    <Property Name="VbApproveStatus" Type="char" MaxLength="1" />
+    <Property Name="ProviderID" Type="int" />
+  </EntityType>
+  <EntityType Name="Visa_StuffDelivery">
+    <Key>
+      <PropertyRef Name="DeliveryID" />
+    </Key>
+    <Property Name="DeliveryID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyName" Type="nvarchar" MaxLength="100" />
+    <Property Name="Address" Type="nvarchar" MaxLength="200" />
+    <Property Name="Postcode" Type="varchar" MaxLength="20" />
+    <Property Name="Linkman1" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mobile1" Type="varchar" MaxLength="50" />
+    <Property Name="Phone1" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email1" Type="varchar" MaxLength="500" />
+    <Property Name="WorkingTime1" Type="nvarchar" MaxLength="200" />
+    <Property Name="Linkman2" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mobile2" Type="varchar" MaxLength="50" />
+    <Property Name="Phone2" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email2" Type="varchar" MaxLength="500" />
+    <Property Name="WorkingTime2" Type="nvarchar" MaxLength="200" />
+    <Property Name="ProviderID" Type="int" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="IsDefault" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6013: The table/view 'vBookingDB.dbo.Table_1' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="Table_1">
+        <Property Name="test" Type="nchar" MaxLength="10" />
+      </EntityType>-->
+</Schema>

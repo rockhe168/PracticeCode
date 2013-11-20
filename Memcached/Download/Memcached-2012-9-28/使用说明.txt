@@ -1,0 +1,189 @@
+
+memcached安装:
+============================================================================
+通过cmd命令行进入到D:\mem\memcached(下载后的解压目录)
+
+运行 memcached.exe -d install
+
+注：
+
+如果出现如下错误
+
+ “ failed to install service or service already installed”
+
+解决方法：
+
+管理员身份安装，首先找出cmd.exe的原文件
+
+右击以管理员身份运行，接下来就OK(win7下的用户).
+
+如果下载的是二进制的版本，直接运行就可以了，可以加上参数来加以设置。
+
+
+常用设置：
+-p <num>          监听的端口
+-l <ip_addr>      连接的IP地址, 默认是本机
+-d start          启动memcached服务
+-d restart        重起memcached服务
+-d stop|shutdown  关闭正在运行的memcached服务
+-d install        安装memcached服务
+-d uninstall      卸载memcached服务
+-u <username>     以<username>的身份运行 (仅在以root运行的时候有效)
+-m <num>          最大内存使用，单位MB。默认64MB
+-M                内存耗尽时返回错误，而不是删除项
+-c <num>          最大同时连接数，默认是1024
+-f <factor>       块大小增长因子，默认是1.25
+-n <bytes>        最小分配空间，key+value+flags默认是48
+-h                显示帮助 
+
+
+memcached .net客户端调用:
+===============================================================================
+ 
+一、 
+       memcached 客户端类库
+        其中，客户端类库包括以下几个DLL：
+
+       Memcached.ClientLibrary.dll
+       ICSharpCode.SharpZipLib.dll
+       log4net.dll
+
+  把这个三个 DLL 放入Bin 目录，在项目中引用  Memcached.ClientLibrary.dll
+  
+ 使用时 引入命名空间  using Memcached.ClientLibrary
+
+
+
+二、 memcached使用了log4net，所以我们先配置log4net  (这个环节可以 不做 )
+在web.config里找到configSections节点，添加以下内容
+<section name="log4net" type="log4net.Config.Log4NetConfigurationSectionHandler, log4net" />
+
+再在configSections节点之外，增加以下内容：
+<log4net>
+        <appender name="RollingLogFileAppender" type="log4net.Appender.RollingFileAppender">
+            <param name="File" value="LogFiles/"/>
+            <param name="AppendToFile" value="true"/>
+            <param name="MaxSizeRollBackups" value="10"/>
+            <param name="StaticLogFileName" value="false"/>
+            <param name="DatePattern" value="yyyy-MM-dd&quot;.txt&quot;"/>
+            <param name="RollingStyle" value="Date"/>
+            <layout type="log4net.Layout.PatternLayout">
+                <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger %ndc - %message%newline"/>
+            </layout>
+        </appender>
+        <appender name="ConsoleAppender" type="log4net.Appender.ConsoleAppender">
+            <layout type="log4net.Layout.PatternLayout">
+                <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger %ndc - %message%newline" />
+            </layout>
+        </appender>
+        <root>
+            <level value="ALL" />
+            <appender-ref ref="RollingLogFileAppender" />
+            <appender-ref ref="ConsoleAppender" />
+        </root>
+        <logger name="Memcached.ClientLibrary">
+            <level value="WARN" />
+
+        </logger>
+    </log4net>
+
+
+
+三、初始化SockIOPool
+
+SockIOPool是Memcached客户端提供的一个套接字连接池，通俗讲，就是与Memcached服务器端交换数据的对象。SockIOPool在应用程序启动时初始化一次就可以了
+（一般写在 静太构造 里就行了）
+
+ //服务器端列表           
+string[] serverlist = { "127.0.0.1:11211" };            
+//初始化池            
+SockIOPool sock = SockIOPool.GetInstance();            
+sock.SetServers(serverlist);//添加服务器列表            
+sock.InitConnections = 3;//设置连接池初始数目            
+sock.MinConnections = 3;//设置最小连接数目            
+sock.MaxConnections = 5;//设置最大连接数目            
+sock.SocketConnectTimeout = 1000;//设置连接的套接字超时。            
+sock.SocketTimeout = 3000;//设置套接字超时读取            
+sock.MaintenanceSleep = 30;//设置维护线程运行的睡眠时间。如果设置为0，那么维护线程将不会启动;            
+//获取或设置池的故障标志。            
+//如果这个标志被设置为true则socket连接失败，            
+//将试图从另一台服务器返回一个套接字如果存在的话。            
+//如果设置为false，则得到一个套接字如果存在的话。否则返回NULL，如果它无法连接到请求的服务器。            
+sock.Failover = true;            //如果为false，对所有创建的套接字关闭Nagle的算法。            
+sock.Nagle = false;            
+sock.Initialize();
+
+
+四、使用Memcached
+
+MemcachedClient mc = new MemcachedClient();
+
+mc.EnableCompression = true; //是否启用压缩数据
+
+mc.Set(key,val);//设置 键值
+       
+mc.KeyExists(key) //键 是否存
+mc.Get(key)   //获取 一个键值 
+mc.Delete(key);// 删除 键值
+
+
+五、 一个简单的例子
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using Memcached.ClientLibrary;
+
+namespace CachedApp
+{
+    public class MCache
+    {
+       MemcachedClient mc = new MemcachedClient();//初始化一个客户端  
+        static MCache()
+        {
+
+          
+            string[] serverlist = { "172.18.30.33:11211" }; //服务器列表，可多个          
+            SockIOPool pool = SockIOPool.GetInstance();
+
+            //根据实际情况修改下面参数
+            pool.SetServers(serverlist);
+            pool.InitConnections = 3;
+            pool.MinConnections = 3;
+            pool.MaxConnections = 5;
+            pool.SocketConnectTimeout = 1000;
+            pool.SocketTimeout = 3000;
+            pool.MaintenanceSleep = 30;
+            pool.Failover = true;
+            pool.Nagle = false;
+            pool.Initialize(); // initialize the pool for memcache servers            
+        
+        }
+       
+
+        public  object get(string key)
+        {
+           
+
+            return mc.Get(key);       
+        
+        }
+
+        public  object set(string key,string val)
+        {
+
+            return mc.Set(key,val);
+
+        }
+
+
+    }
+}
+
+
+
+
+
+

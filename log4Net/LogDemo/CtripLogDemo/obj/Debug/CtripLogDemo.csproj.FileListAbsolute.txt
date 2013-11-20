@@ -1,0 +1,15 @@
+E:\My\百度云\PracticeCode\log4Net\LogDemo\CtripLogDemo\obj\Debug\ResolveAssemblyReference.cache
+E:\My\百度云\PracticeCode\log4Net\LogDemo\CtripLogDemo\bin\CtripLogDemo.dll
+E:\My\百度云\PracticeCode\log4Net\LogDemo\CtripLogDemo\bin\CtripLogDemo.pdb
+E:\My\百度云\PracticeCode\log4Net\LogDemo\CtripLogDemo\bin\Package.Framework2.Logging.dll
+E:\My\百度云\PracticeCode\log4Net\LogDemo\CtripLogDemo\bin\Package.Framework2.Core.dll
+E:\My\百度云\PracticeCode\log4Net\LogDemo\CtripLogDemo\bin\Framework.Logging.V2.API.dll
+E:\My\百度云\PracticeCode\log4Net\LogDemo\CtripLogDemo\bin\protobuf-net.dll
+E:\My\百度云\PracticeCode\log4Net\LogDemo\CtripLogDemo\bin\Newtonsoft.Json.dll
+E:\My\百度云\PracticeCode\log4Net\LogDemo\CtripLogDemo\bin\Package.Framework2.Logging.pdb
+E:\My\百度云\PracticeCode\log4Net\LogDemo\CtripLogDemo\bin\Package.Framework2.Core.pdb
+E:\My\百度云\PracticeCode\log4Net\LogDemo\CtripLogDemo\bin\Framework.Logging.V2.API.pdb
+E:\My\百度云\PracticeCode\log4Net\LogDemo\CtripLogDemo\bin\Newtonsoft.Json.pdb
+E:\My\百度云\PracticeCode\log4Net\LogDemo\CtripLogDemo\bin\Newtonsoft.Json.xml
+E:\My\百度云\PracticeCode\log4Net\LogDemo\CtripLogDemo\obj\Debug\CtripLogDemo.dll
+E:\My\百度云\PracticeCode\log4Net\LogDemo\CtripLogDemo\obj\Debug\CtripLogDemo.pdb

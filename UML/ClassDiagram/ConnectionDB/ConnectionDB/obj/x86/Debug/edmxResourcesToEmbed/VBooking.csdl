@@ -1,0 +1,2058 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="vBookingDBModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="vBookingDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Customer" EntityType="vBookingDBModel.Customer" />
+    <EntitySet Name="DestinationMatter" EntityType="vBookingDBModel.DestinationMatter" />
+    <EntitySet Name="DispLog" EntityType="vBookingDBModel.DispLog" />
+    <EntitySet Name="dtproperties" EntityType="vBookingDBModel.dtproperties" />
+    <EntitySet Name="ErrorLog" EntityType="vBookingDBModel.ErrorLog" />
+    <EntitySet Name="log" EntityType="vBookingDBModel.log" />
+    <EntitySet Name="MessageRemindLog" EntityType="vBookingDBModel.MessageRemindLog" />
+    <EntitySet Name="o_form" EntityType="vBookingDBModel.o_form" />
+    <EntitySet Name="o_formChange" EntityType="vBookingDBModel.o_formChange" />
+    <EntitySet Name="o_formlog" EntityType="vBookingDBModel.o_formlog" />
+    <EntitySet Name="o_formtemp" EntityType="vBookingDBModel.o_formtemp" />
+    <EntitySet Name="O_PurchaseOrder" EntityType="vBookingDBModel.O_PurchaseOrder" />
+    <EntitySet Name="O_PurchaseOrder_Invalid" EntityType="vBookingDBModel.O_PurchaseOrder_Invalid" />
+    <EntitySet Name="O_PurchaseOrderClient" EntityType="vBookingDBModel.O_PurchaseOrderClient" />
+    <EntitySet Name="o_status" EntityType="vBookingDBModel.o_status" />
+    <EntitySet Name="OperateLogDetail" EntityType="vBookingDBModel.OperateLogDetail" />
+    <EntitySet Name="Ord_Tour" EntityType="vBookingDBModel.Ord_Tour" />
+    <EntitySet Name="Ord_TourDestinationNotice" EntityType="vBookingDBModel.Ord_TourDestinationNotice" />
+    <EntitySet Name="Ord_TourGroupNotice" EntityType="vBookingDBModel.Ord_TourGroupNotice" />
+    <EntitySet Name="Ord_TourGroupNoticeDestinationMapping" EntityType="vBookingDBModel.Ord_TourGroupNoticeDestinationMapping" />
+    <EntitySet Name="Ord_TourGroupSegment" EntityType="vBookingDBModel.Ord_TourGroupSegment" />
+    <EntitySet Name="Ord_TourNotice" EntityType="vBookingDBModel.Ord_TourNotice" />
+    <EntitySet Name="Ord_TourNoticeHoel" EntityType="vBookingDBModel.Ord_TourNoticeHoel" />
+    <EntitySet Name="Ord_TourNoticeHotel" EntityType="vBookingDBModel.Ord_TourNoticeHotel" />
+    <EntitySet Name="Ord_TourNoticeNew" EntityType="vBookingDBModel.Ord_TourNoticeNew" />
+    <EntitySet Name="Ord_TourNoticeSegment" EntityType="vBookingDBModel.Ord_TourNoticeSegment" />
+    <EntitySet Name="OrdDicItem" EntityType="vBookingDBModel.OrdDicItem" />
+    <EntitySet Name="OrdDicType" EntityType="vBookingDBModel.OrdDicType" />
+    <EntitySet Name="OrdUserColumn" EntityType="vBookingDBModel.OrdUserColumn" />
+    <EntitySet Name="PkgDispatchCustomerSchedule" EntityType="vBookingDBModel.PkgDispatchCustomerSchedule" />
+    <EntitySet Name="PkgDispatchDineArr" EntityType="vBookingDBModel.PkgDispatchDineArr" />
+    <EntitySet Name="PkgDispatchDineOrder" EntityType="vBookingDBModel.PkgDispatchDineOrder" />
+    <EntitySet Name="PkgDispatchDriverSchedule" EntityType="vBookingDBModel.PkgDispatchDriverSchedule" />
+    <EntitySet Name="PkgDispatchGuideArr" EntityType="vBookingDBModel.PkgDispatchGuideArr" />
+    <EntitySet Name="PkgDispatchGuideSchedule" EntityType="vBookingDBModel.PkgDispatchGuideSchedule" />
+    <EntitySet Name="PkgDispatchHotelArr" EntityType="vBookingDBModel.PkgDispatchHotelArr" />
+    <EntitySet Name="PkgDispatchHotelSchedule" EntityType="vBookingDBModel.PkgDispatchHotelSchedule" />
+    <EntitySet Name="PkgDispatchOrder" EntityType="vBookingDBModel.PkgDispatchOrder" />
+    <EntitySet Name="PkgDispatchOrderClient" EntityType="vBookingDBModel.PkgDispatchOrderClient" />
+    <EntitySet Name="PkgDispatchOrderFlight" EntityType="vBookingDBModel.PkgDispatchOrderFlight" />
+    <EntitySet Name="PkgdispatchOrderHotel" EntityType="vBookingDBModel.PkgdispatchOrderHotel" />
+    <EntitySet Name="PkgDispatchSegmentArr" EntityType="vBookingDBModel.PkgDispatchSegmentArr" />
+    <EntitySet Name="PkgDispatchTour" EntityType="vBookingDBModel.PkgDispatchTour" />
+    <EntitySet Name="PkgDispatchTourNote" EntityType="vBookingDBModel.PkgDispatchTourNote" />
+    <EntitySet Name="PkgDispatchVehicleArr" EntityType="vBookingDBModel.PkgDispatchVehicleArr" />
+    <EntitySet Name="PkgDispatchVehicleSchedule" EntityType="vBookingDBModel.PkgDispatchVehicleSchedule" />
+    <EntitySet Name="PkgDriver" EntityType="vBookingDBModel.PkgDriver" />
+    <EntitySet Name="PkgGuide" EntityType="vBookingDBModel.PkgGuide" />
+    <EntitySet Name="PkgHotel" EntityType="vBookingDBModel.PkgHotel" />
+    <EntitySet Name="PkgMotorcade" EntityType="vBookingDBModel.PkgMotorcade" />
+    <EntitySet Name="PkgRestaurant" EntityType="vBookingDBModel.PkgRestaurant" />
+    <EntitySet Name="PkgVehicle" EntityType="vBookingDBModel.PkgVehicle" />
+    <EntitySet Name="PO_Message" EntityType="vBookingDBModel.PO_Message" />
+    <EntitySet Name="PO_OperateLog" EntityType="vBookingDBModel.PO_OperateLog" />
+    <EntitySet Name="PO_PurchaseOrder" EntityType="vBookingDBModel.PO_PurchaseOrder" />
+    <EntitySet Name="PO_PurchaseOrderClient" EntityType="vBookingDBModel.PO_PurchaseOrderClient" />
+    <EntitySet Name="PurchaseOrder_Approved" EntityType="vBookingDBModel.PurchaseOrder_Approved" />
+    <EntitySet Name="PurchaseOrder_ApprovedReport" EntityType="vBookingDBModel.PurchaseOrder_ApprovedReport" />
+    <EntitySet Name="PurchaseOrder_Report" EntityType="vBookingDBModel.PurchaseOrder_Report" />
+    <EntitySet Name="PurchaseOrderClient_Approved" EntityType="vBookingDBModel.PurchaseOrderClient_Approved" />
+    <EntitySet Name="PurchaseOrderVisaLog" EntityType="vBookingDBModel.PurchaseOrderVisaLog" />
+    <EntitySet Name="RptInventory" EntityType="vBookingDBModel.RptInventory" />
+    <EntitySet Name="RptProductSaleSummary" EntityType="vBookingDBModel.RptProductSaleSummary" />
+    <EntitySet Name="RptResource" EntityType="vBookingDBModel.RptResource" />
+    <EntitySet Name="SysBulletin" EntityType="vBookingDBModel.SysBulletin" />
+    <EntitySet Name="SysBulletinProviderMapping" EntityType="vBookingDBModel.SysBulletinProviderMapping" />
+    <EntitySet Name="SysBulletinTypeMapping" EntityType="vBookingDBModel.SysBulletinTypeMapping" />
+    <EntitySet Name="sysdiagrams" EntityType="vBookingDBModel.sysdiagrams" />
+    <EntitySet Name="SysDicItem" EntityType="vBookingDBModel.SysDicItem" />
+    <EntitySet Name="SysDicType" EntityType="vBookingDBModel.SysDicType" />
+    <EntitySet Name="SysLog" EntityType="vBookingDBModel.SysLog" />
+    <EntitySet Name="tempAirport" EntityType="vBookingDBModel.tempAirport" />
+    <EntitySet Name="tempCity" EntityType="vBookingDBModel.tempCity" />
+    <EntitySet Name="tempDyyTestPerson" EntityType="vBookingDBModel.tempDyyTestPerson" />
+    <EntitySet Name="tmpVDispLog" EntityType="vBookingDBModel.tmpVDispLog" />
+    <EntitySet Name="tmpVErrorLog" EntityType="vBookingDBModel.tmpVErrorLog" />
+    <EntitySet Name="tmpVSysLog" EntityType="vBookingDBModel.tmpVSysLog" />
+    <EntitySet Name="tmpVTraceLog" EntityType="vBookingDBModel.tmpVTraceLog" />
+    <EntitySet Name="TraceLog" EntityType="vBookingDBModel.TraceLog" />
+    <EntitySet Name="U_LoginLog" EntityType="vBookingDBModel.U_LoginLog" />
+    <EntitySet Name="U_OperateLog" EntityType="vBookingDBModel.U_OperateLog" />
+    <EntitySet Name="U_PasswordHistory" EntityType="vBookingDBModel.U_PasswordHistory" />
+    <EntitySet Name="U_PasswordRetrieve" EntityType="vBookingDBModel.U_PasswordRetrieve" />
+    <EntitySet Name="U_pwdhistory" EntityType="vBookingDBModel.U_pwdhistory" />
+    <EntitySet Name="U_Roles" EntityType="vBookingDBModel.U_Roles" />
+    <EntitySet Name="U_user" EntityType="vBookingDBModel.U_user" />
+    <EntitySet Name="U_UserCustom" EntityType="vBookingDBModel.U_UserCustom" />
+    <EntitySet Name="U_userloginlog" EntityType="vBookingDBModel.U_userloginlog" />
+    <EntitySet Name="U_Users" EntityType="vBookingDBModel.U_Users" />
+    <EntitySet Name="U_UsersInRoles" EntityType="vBookingDBModel.U_UsersInRoles" />
+    <EntitySet Name="U_UsersLog" EntityType="vBookingDBModel.U_UsersLog" />
+    <EntitySet Name="U_UsersOnlineInfo" EntityType="vBookingDBModel.U_UsersOnlineInfo" />
+    <EntitySet Name="U_usertype" EntityType="vBookingDBModel.U_usertype" />
+    <EntitySet Name="V_Option" EntityType="vBookingDBModel.V_Option" />
+    <EntitySet Name="V_OptionClient" EntityType="vBookingDBModel.V_OptionClient" />
+    <EntitySet Name="V_OptionFlight" EntityType="vBookingDBModel.V_OptionFlight" />
+    <EntitySet Name="V_OptionHotel" EntityType="vBookingDBModel.V_OptionHotel" />
+    <EntitySet Name="V_OptionLog" EntityType="vBookingDBModel.V_OptionLog" />
+    <EntitySet Name="VBookingOperateLog" EntityType="vBookingDBModel.VBookingOperateLog" />
+    <EntitySet Name="VBookingOrderOperateLog" EntityType="vBookingDBModel.VBookingOrderOperateLog" />
+    <EntitySet Name="Visa_StuffDelivery" EntityType="vBookingDBModel.Visa_StuffDelivery" />
+  </EntityContainer>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="LoweredUserName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="Provider" Type="Int32" Nullable="false" />
+    <Property Name="ProviderName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="TelephoneNumber" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="MobileNumber" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="Email" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" />
+    <Property Name="LastLoginDate" Type="DateTime" />
+    <Property Name="LastPasswordChangedDate" Type="DateTime" />
+    <Property Name="LastLockoutDate" Type="DateTime" />
+    <Property Name="IsLockout" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="FailedPasswordAttemptCount" Type="Int32" />
+    <Property Name="FirstFailedPasswordAttemptDate" Type="DateTime" />
+    <Property Name="IsValid" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+  </EntityType>
+  <EntityType Name="DestinationMatter">
+    <Key>
+      <PropertyRef Name="MatterID" />
+    </Key>
+    <Property Name="MatterID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Destination" Type="String" Nullable="false" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="Description" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="DispLog">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="logid" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="sourcePage" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="destPage" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="DataChange_LastTime_" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="dtproperties">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="property" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="objectid" Type="Int32" />
+    <Property Name="property" Type="String" Nullable="false" MaxLength="64" Unicode="false" FixedLength="false" />
+    <Property Name="value" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="uvalue" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="lvalue" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="version" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ErrorLog">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="logid" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="message" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="exmessage" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="exstack" Type="String" MaxLength="4000" Unicode="false" FixedLength="false" />
+    <Property Name="DataChange_LastTime_" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="log">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="logid" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" />
+    <Property Name="Thread" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Level" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Logger" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Identity" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Location" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="Operator" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ApplicationID" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="ModuleID" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="ClientIP" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="HostIP" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="MessageRemindLog">
+    <Key>
+      <PropertyRef Name="MessageID" />
+    </Key>
+    <Property Name="MessageID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RemindId" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="RemindType" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="RemindTime" Type="DateTime" Nullable="false" />
+    <Property Name="DataChange_LastTime" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="o_form">
+    <Key>
+      <PropertyRef Name="formid" />
+    </Key>
+    <Property Name="formid" Type="Int32" Nullable="false" />
+    <Property Name="formdate" Type="DateTime" Nullable="false" />
+    <Property Name="formtype" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="formstatus" Type="Int32" Nullable="false" />
+    <Property Name="provider" Type="Int32" />
+    <Property Name="orderid" Type="Int32" />
+    <Property Name="startcity" Type="Int32" />
+    <Property Name="startcityname" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="pkg" Type="Int32" />
+    <Property Name="pkgname" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="orderdate" Type="DateTime" />
+    <Property Name="takeoffdate" Type="DateTime" />
+    <Property Name="returndate" Type="DateTime" />
+    <Property Name="arrival" Type="DateTime" />
+    <Property Name="departure" Type="DateTime" />
+    <Property Name="amount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="cost" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="currency" Type="String" MaxLength="3" Unicode="false" FixedLength="true" />
+    <Property Name="currencyname" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="adultnum" Type="Int32" />
+    <Property Name="childnum" Type="Int32" />
+    <Property Name="contactname" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="contacttel" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="operid" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="confirmdate" Type="DateTime" />
+    <Property Name="bookingno" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="remarks" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="fltcontent" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="htlcontent" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="optcontent" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="lastdate" Type="DateTime" />
+    <Property Name="returnflag" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="exchange" Type="Decimal" Precision="8" Scale="4" />
+    <Property Name="optionid" Type="Int32" />
+    <Property Name="optionname" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="optionqty" Type="Int32" />
+    <Property Name="Vbrem" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="optiondate" Type="DateTime" />
+    <Property Name="Clientinfo" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="optiontype" Type="String" MaxLength="4" Unicode="false" FixedLength="false" />
+    <Property Name="optionTicketNO" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="o_formChange">
+    <Key>
+      <PropertyRef Name="rid" />
+    </Key>
+    <Property Name="rid" Type="Int32" Nullable="false" />
+    <Property Name="formID" Type="Int32" Nullable="false" />
+    <Property Name="Eid" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="opdate" Type="DateTime" />
+    <Property Name="remarks" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="flag" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+  </EntityType>
+  <EntityType Name="o_formlog">
+    <Key>
+      <PropertyRef Name="logid" />
+    </Key>
+    <Property Name="logid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="logtime" Type="DateTime" Nullable="false" />
+    <Property Name="formid" Type="Int32" />
+    <Property Name="statusbefore" Type="Int32" />
+    <Property Name="statusafter" Type="Int32" />
+    <Property Name="operid" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="o_formtemp">
+    <Key>
+      <PropertyRef Name="formid" />
+    </Key>
+    <Property Name="formid" Type="Int32" Nullable="false" />
+    <Property Name="formdate" Type="DateTime" Nullable="false" />
+    <Property Name="formtype" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="returnflag" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="formstatus" Type="Int32" />
+    <Property Name="optionqty" Type="Int32" />
+  </EntityType>
+  <EntityType Name="O_PurchaseOrder">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PurchaseOrderID" Type="Int32" Nullable="false" />
+    <Property Name="OrderID" Type="Int32" />
+    <Property Name="ResourceID" Type="Int32" />
+    <Property Name="ResourceType" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="ResourceName" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="ProviderID" Type="Int32" />
+    <Property Name="Quantity" Type="Int32" />
+    <Property Name="AdultQuantity" Type="Int32" />
+    <Property Name="ChildQuantity" Type="Int32" />
+    <Property Name="ActualAdultQuantity" Type="Int32" />
+    <Property Name="ActualChildQuantity" Type="Int32" />
+    <Property Name="ActualBabyQuantity" Type="Int32" />
+    <Property Name="Cost" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="AdultCost" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ChildCost" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="StartCityName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="ContactName" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="OrderDate" Type="DateTime" />
+    <Property Name="UseDate" Type="DateTime" />
+    <Property Name="ArrivalDate" Type="DateTime" />
+    <Property Name="DepartureDate" Type="DateTime" />
+    <Property Name="Currency" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Exchange" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="VbRemark" Type="String" MaxLength="600" Unicode="false" FixedLength="false" />
+    <Property Name="VbApproveStatus" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="ConfirmRemark" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="VbApproveDate" Type="DateTime" />
+    <Property Name="VbCollateStatus" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="VbCollateDate" Type="DateTime" />
+    <Property Name="Operator" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="OperateTime" Type="DateTime" />
+    <Property Name="ConfirmNo" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="ContactMobile" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="ReturnFlag" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="ReturnDate" Type="DateTime" />
+    <Property Name="ProcessOper" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="EmergencyTime" Type="DateTime" />
+    <Property Name="Active" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="IsNeedCollate" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="IsNoticeSended" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="TourID" Type="Int32" />
+    <Property Name="ContactEmail" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="ContactFax" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="ContactTel" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Collator" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="ResourceTypeID" Type="Int32" />
+    <Property Name="VisaProcessStatus" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="ActualTotalQuantity" Type="Int32" />
+    <Property Name="CtripProductID" Type="Int32" />
+    <Property Name="PaymentStatus" Type="Int32" />
+    <Property Name="PaymentType" Type="Int32" />
+    <Property Name="VBKResourceTypeID" Type="Int32" />
+    <Property Name="VBKResourceID" Type="Int32" />
+    <Property Name="OperatorPhoneExtension" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="ModifyTime_" Type="DateTime" Nullable="false" />
+    <Property Name="IsProxyResource" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+  </EntityType>
+  <EntityType Name="O_PurchaseOrder_Invalid">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PurchaseOrderId" Type="Int32" />
+  </EntityType>
+  <EntityType Name="O_PurchaseOrderClient">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderID" Type="Int32" />
+    <Property Name="ClientName" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="ClientNameEn" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Gender" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="AgeType" Type="String" MaxLength="3" Unicode="false" FixedLength="true" />
+    <Property Name="ContactMobile" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="IDCardType" Type="Int32" />
+    <Property Name="IDCardTypeName" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="IDCardNo" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Birthday" Type="DateTime" />
+    <Property Name="Nationality" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" />
+    <Property Name="UpdateTime" Type="DateTime" />
+    <Property Name="Description" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="PurchaseOrderID" Type="Int32" />
+    <Property Name="POApprovedID" Type="Int32" />
+    <Property Name="VisaCountry" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="IssueDate" Type="DateTime" />
+    <Property Name="PassportType" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="IDCardTimelimit" Type="DateTime" />
+    <Property Name="Remark" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="homeplace" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="ClientID" Type="Int32" />
+    <Property Name="VisaStatus" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="o_status">
+    <Key>
+      <PropertyRef Name="status" />
+    </Key>
+    <Property Name="status" Type="Int32" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="OperateLogDetail">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LogDate" Type="DateTime" Nullable="false" />
+    <Property Name="Thread" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Level" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Logger" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Location" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Identity" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Message" Type="String" Nullable="false" MaxLength="4000" Unicode="false" FixedLength="false" />
+    <Property Name="Operator" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="ApplicationID" Type="Int32" />
+    <Property Name="ModuleCode" Type="Int32" />
+    <Property Name="ClientIP" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="HostIP" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Ord_Tour">
+    <Key>
+      <PropertyRef Name="TourID" />
+    </Key>
+    <Property Name="TourID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ResourceID" Type="Int32" Nullable="false" />
+    <Property Name="UseDate" Type="DateTime" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="TourStatus" Type="Int32" Nullable="false" />
+    <Property Name="OperationNote" Type="String" Nullable="false" MaxLength="4000" Unicode="false" FixedLength="false" />
+    <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="ModifyTime" Type="DateTime" Nullable="false" />
+    <Property Name="ProviderID" Type="Int32" Nullable="false" />
+    <Property Name="ResourceName" Type="String" Nullable="false" MaxLength="400" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Ord_TourDestinationNotice">
+    <Key>
+      <PropertyRef Name="DestinationNoticeID" />
+    </Key>
+    <Property Name="DestinationNoticeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Destination" Type="String" Nullable="false" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="Description" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Ord_TourGroupNotice">
+    <Key>
+      <PropertyRef Name="NoticeID" />
+    </Key>
+    <Property Name="NoticeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TourID" Type="Int32" Nullable="false" />
+    <Property Name="NoticeType" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="DepartureVehicle" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="DepartureTime" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Destination" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="DepartureGatherTime" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="DepartureDate" Type="DateTime" Nullable="false" />
+    <Property Name="ReturnDate" Type="DateTime" Nullable="false" />
+    <Property Name="ReturnVehicle" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="ReturnTime" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Memo" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ProviderName" Type="String" Nullable="false" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="LeadContact" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="GuideContact" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="EmergencyContact" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="EmbassyInfo" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="MeetingTime" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="MeetingPlace" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="MeetingContact" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="Creator" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="ReturnArrivalDestination" Type="String" Nullable="false" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="DepartureGatherLocation" Type="String" Nullable="false" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="TourGroupNo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="ResourceName" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Ord_TourGroupNoticeDestinationMapping">
+    <Key>
+      <PropertyRef Name="TGNDID" />
+    </Key>
+    <Property Name="TGNDID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NoticeID" Type="Int32" Nullable="false" />
+    <Property Name="DestinationNoticeID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Ord_TourGroupSegment">
+    <Key>
+      <PropertyRef Name="SegmentID" />
+    </Key>
+    <Property Name="SegmentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NoticeID" Type="Int32" Nullable="false" />
+    <Property Name="SemgentDate" Type="DateTime" Nullable="false" />
+    <Property Name="SegmentTitle" Type="String" Nullable="false" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="DinnerStandard" Type="String" Nullable="false" MaxLength="1000" Unicode="true" FixedLength="false" />
+    <Property Name="AccommodationStandard" Type="String" Nullable="false" MaxLength="2000" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Ord_TourNotice">
+    <Key>
+      <PropertyRef Name="TourID" />
+    </Key>
+    <Property Name="TourID" Type="Int32" Nullable="false" />
+    <Property Name="TourNo" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="MeetingTime" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="MeetingAddress" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="MeetingContactName" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="MeetingContactMobile" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="ClientNum" Type="Int32" Nullable="false" />
+    <Property Name="AdultNum" Type="Int32" Nullable="false" />
+    <Property Name="ChildNum" Type="Int32" Nullable="false" />
+    <Property Name="LeaderNum" Type="Int32" Nullable="false" />
+    <Property Name="LeaderInfo" Type="String" Nullable="false" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="GuiderInfo" Type="String" Nullable="false" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="EmergencyContactMobile" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="DepartureTime" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="DeparturePlace" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="Flight" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="TakeOffTime" Type="String" Nullable="false" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="Organization" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="OrganizationTel" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="OrganizationAddress" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="LocalTravelAgencyContact" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="LocalTravelAgencyAddress" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="ModifyTime" Type="DateTime" Nullable="false" />
+    <Property Name="AddInfo" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="LocalTravelAgency" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="ArivalPlace" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Ord_TourNoticeHoel">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TourID" Type="Int32" Nullable="false" />
+    <Property Name="CheckInDate" Type="DateTime" Nullable="false" />
+    <Property Name="HotelName" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="HotelAddress" Type="String" Nullable="false" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="HotelTel" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="SequenceNumber" Type="Int32" Nullable="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="ModifyTime" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Ord_TourNoticeHotel">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TourID" Type="Int32" Nullable="false" />
+    <Property Name="CheckInDate" Type="DateTime" Nullable="false" />
+    <Property Name="HotelName" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="HotelAddress" Type="String" Nullable="false" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="HotelTel" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="SequenceNumber" Type="Int32" Nullable="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="ModifyTime" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Ord_TourNoticeNew">
+    <Key>
+      <PropertyRef Name="NoticeID" />
+    </Key>
+    <Property Name="NoticeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TourID" Type="Int32" Nullable="false" />
+    <Property Name="NoticeType" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="StartTraffic" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="DepartureTime" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Destination" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="GatherTime" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="DepartureDate" Type="DateTime" Nullable="false" />
+    <Property Name="ReturnDate" Type="DateTime" Nullable="false" />
+    <Property Name="ReturnTraffic" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="ReturnTime" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Memo" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ProviderName" Type="String" Nullable="false" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="LeadContact" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="GuideContact" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="EmergencyContact" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="EmbassyInfo" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="MeetingTime" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="MeetingPlace" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="MeetingContact" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="MatterIDs" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="Creator" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="ReturnArrivalFlight" Type="String" Nullable="false" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="GatherLocation" Type="String" Nullable="false" MaxLength="200" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Ord_TourNoticeSegment">
+    <Key>
+      <PropertyRef Name="SegmentID" />
+    </Key>
+    <Property Name="SegmentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TourID" Type="Int32" Nullable="false" />
+    <Property Name="SemgentDate" Type="DateTime" Nullable="false" />
+    <Property Name="SegmentTitle" Type="String" Nullable="false" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="DinnerStandard" Type="String" Nullable="false" MaxLength="1000" Unicode="true" FixedLength="false" />
+    <Property Name="AccommodationStandard" Type="String" Nullable="false" MaxLength="2000" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="OrdDicItem">
+    <Key>
+      <PropertyRef Name="DicItemID" />
+    </Key>
+    <Property Name="DicItemID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DicItemName" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="DicTypeID" Type="Int32" Nullable="false" />
+    <Property Name="Active" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="IsDefault" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="SortIndex" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="OrdDicType">
+    <Key>
+      <PropertyRef Name="DicTypeID" />
+    </Key>
+    <Property Name="DicTypeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DicTypeName" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Active" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="Usage" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="OrdUserColumn">
+    <Key>
+      <PropertyRef Name="UserColumnID" />
+    </Key>
+    <Property Name="UserColumnID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="CustomType" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="CustomColumn" Type="String" Nullable="false" MaxLength="64" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="PkgDispatchCustomerSchedule">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderID" Type="Int32" />
+    <Property Name="StartCity" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="UsetDate" Type="DateTime" />
+    <Property Name="TourNum" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="TourName" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="AdultNum" Type="Int32" />
+    <Property Name="ChildNum" Type="Int32" />
+    <Property Name="Contactor" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="GuideNm" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="PrintStatus" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="AssembingPlace" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="AssembingTime" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="SegmentLine" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Breakfast" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Lunch" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Dinner" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="GuideMobile" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Vehicle" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="DriverMobile" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="IsValid" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="CreateTime" Type="DateTime" />
+    <Property Name="UpdateTime" Type="DateTime" />
+    <Property Name="Description" Type="String" MaxLength="4000" Unicode="false" FixedLength="false" />
+    <Property Name="ProviderID" Type="Int32" />
+    <Property Name="ContactName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="ContactMobile" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="ContactTel" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="HotelName" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="TourId" Type="Int32" />
+    <Property Name="PurchaseOrderID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="PkgDispatchDineArr">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ResourceID" Type="Int32" />
+    <Property Name="TourID" Type="Int32" />
+    <Property Name="RestaurantID" Type="Int32" />
+    <Property Name="RestaurantNm" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Contactor" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Tel" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="DineTime" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Falvor" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="CustomerMealStandard" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="BegleiterMealStandard" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Notes" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" />
+    <Property Name="UpdateTime" Type="DateTime" />
+    <Property Name="IsCompleted" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="Description" Type="String" MaxLength="4000" Unicode="false" FixedLength="false" />
+    <Property Name="Drinks" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="PkgDispatchDineOrder">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UseDineDate" Type="DateTime" />
+    <Property Name="RestaurantID" Type="Int32" />
+    <Property Name="TourNum" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="AdultNum" Type="Int32" />
+    <Property Name="ChildNum" Type="Int32" />
+    <Property Name="CustomerMealStandard" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="BegleiterNum" Type="Int32" />
+    <Property Name="BegleiterMealStandard" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Falvor" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="DineTime" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Guide" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="GuideMobile" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Notes" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" />
+    <Property Name="UpdateTime" Type="DateTime" />
+    <Property Name="Description" Type="String" MaxLength="4000" Unicode="false" FixedLength="false" />
+    <Property Name="ProviderID" Type="Int32" />
+    <Property Name="HasDrinks" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="IsConfirmed" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="Drinks" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="PkgDispatchDriverSchedule">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" />
+    <Property Name="TourNum" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="OrderID" Type="Int32" />
+    <Property Name="AdultNum" Type="Int32" />
+    <Property Name="ChildNum" Type="Int32" />
+    <Property Name="ProductNm" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Hotel" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Flight" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="FlightTime" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="TakeOffTime" Type="DateTime" />
+    <Property Name="ArriveTime" Type="DateTime" />
+    <Property Name="UseDine" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+    <Property Name="Guide" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="GuideMobile" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Notes" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" />
+    <Property Name="UpdateTime" Type="DateTime" />
+    <Property Name="Description" Type="String" MaxLength="4000" Unicode="false" FixedLength="false" />
+    <Property Name="AssembingTime" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="AssembingPlace" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="ProviderID" Type="Int32" />
+    <Property Name="DriverID" Type="Int32" />
+    <Property Name="PurchaseOrderID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="PkgDispatchGuideArr">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ResourceID" Type="Int32" />
+    <Property Name="TourID" Type="Int32" />
+    <Property Name="GuideID" Type="Int32" />
+    <Property Name="GuideNm" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Sex" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="Mobile" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="ICCardNum" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="IDCard" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="FamiliarCity" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Notes" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" />
+    <Property Name="UpdateTime" Type="DateTime" />
+    <Property Name="IsCompleted" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="Description" Type="String" MaxLength="4000" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="PkgDispatchGuideSchedule">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" />
+    <Property Name="Guide" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="TourNum" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="OrderID" Type="Int32" />
+    <Property Name="AdultNum" Type="Int32" />
+    <Property Name="ChildNum" Type="Int32" />
+    <Property Name="Agenda" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Hotel" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Flight" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="FlightTime" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="TakeOffTime" Type="DateTime" />
+    <Property Name="ArriveTime" Type="DateTime" />
+    <Property Name="Breakfast" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Lunch" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Dinner" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="AssembingPlace" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="AssembingTime" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Notes" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" />
+    <Property Name="UpdateTime" Type="DateTime" />
+    <Property Name="Description" Type="String" MaxLength="4000" Unicode="false" FixedLength="false" />
+    <Property Name="ProviderID" Type="Int32" />
+    <Property Name="VehicleTypes" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="DriverNames" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="MotorcadeNms" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+    <Property Name="Customers" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="DriverMobiles" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="ContactName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="ContactMobile" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="ContactTel" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="PurchaseOrderID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="PkgDispatchHotelArr">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ResourceID" Type="Int32" />
+    <Property Name="TourID" Type="Int32" />
+    <Property Name="HotelID" Type="Int32" />
+    <Property Name="HotelName" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="CheckInDate" Type="DateTime" />
+    <Property Name="CheckOutDate" Type="DateTime" />
+    <Property Name="Contactor" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Tel" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="RoomNum" Type="Int32" />
+    <Property Name="Notes" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" />
+    <Property Name="UpdateTime" Type="DateTime" />
+    <Property Name="IsCompleted" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+  </EntityType>
+  <EntityType Name="PkgDispatchHotelSchedule">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HotelID" Type="Int32" />
+    <Property Name="HotelName" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="TourNum" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="CheckInDate" Type="DateTime" />
+    <Property Name="CheckOutDate" Type="DateTime" />
+    <Property Name="Contactor" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Tel" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="RoomNum" Type="Int32" />
+    <Property Name="Notes" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" />
+    <Property Name="UpdateTime" Type="DateTime" />
+    <Property Name="ProviderID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="PkgDispatchOrder">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderID" Type="Int32" />
+    <Property Name="TakeOffDate" Type="DateTime" />
+    <Property Name="ReturnDate" Type="DateTime" />
+    <Property Name="ResourceID" Type="Int32" />
+    <Property Name="ResourceName" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="StartCity" Type="Int32" />
+    <Property Name="AdultNum" Type="Int32" />
+    <Property Name="ChildNum" Type="Int32" />
+    <Property Name="OrderStatus" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="OrderType" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="TourID" Type="Int32" Nullable="false" />
+    <Property Name="CreateTime" Type="DateTime" />
+    <Property Name="UpdateTime" Type="DateTime" />
+    <Property Name="OrderSource" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="SynthesisAttribute" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="PkgProviderId" Type="Int32" />
+    <Property Name="ContactName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="ContactMobile" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="ContactTel" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Remarks" Type="String" MaxLength="4000" Unicode="false" FixedLength="false" />
+    <Property Name="PurchaseOrderID" Type="Int32" />
+    <Property Name="HotelName" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="ResourceTypeId" Type="Int32" />
+    <Property Name="ResourceDes" Type="String" MaxLength="4000" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="PkgDispatchOrderClient">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderID" Type="Int32" />
+    <Property Name="ClientName" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="ClientNameEn" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Gender" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="AgeType" Type="String" MaxLength="3" Unicode="false" FixedLength="true" />
+    <Property Name="ContactMobile" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="IDCardType" Type="Int32" />
+    <Property Name="IDCardTypeName" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="IDCardNo" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Birthday" Type="DateTime" />
+    <Property Name="Nationality" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" />
+    <Property Name="UpdateTime" Type="DateTime" />
+    <Property Name="Description" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="PurchaseOrderID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="PkgDispatchOrderFlight">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderID" Type="Int32" />
+    <Property Name="Segment" Type="Int32" />
+    <Property Name="TakeOffTime" Type="DateTime" />
+    <Property Name="SitdownTime" Type="DateTime" />
+    <Property Name="DCity" Type="Int32" />
+    <Property Name="ACity" Type="Int32" />
+    <Property Name="DPort" Type="String" MaxLength="3" Unicode="false" FixedLength="true" />
+    <Property Name="DPortName" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="DAirPortBuilding" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="APort" Type="String" MaxLength="3" Unicode="false" FixedLength="true" />
+    <Property Name="APortName" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="AAirPortBuiding" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" />
+    <Property Name="UpdateTime" Type="DateTime" />
+    <Property Name="Description" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="Flight" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="PurchaseOrderID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="PkgdispatchOrderHotel">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderID" Type="Int32" />
+    <Property Name="Segment" Type="Int32" />
+    <Property Name="Hotel" Type="Int32" />
+    <Property Name="HotelName" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Address" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="CheckinDate" Type="DateTime" />
+    <Property Name="CheckoutDate" Type="DateTime" />
+    <Property Name="Days" Type="Int32" />
+    <Property Name="Room" Type="Int32" />
+    <Property Name="RoomName" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" />
+    <Property Name="UpdateTime" Type="DateTime" />
+    <Property Name="Description" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="PurchaseOrderID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="PkgDispatchSegmentArr">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ResourceID" Type="Int32" />
+    <Property Name="TourID" Type="Int32" />
+    <Property Name="AdultNum" Type="Int32" />
+    <Property Name="ChildNum" Type="Int32" />
+    <Property Name="HotelID" Type="Int32" />
+    <Property Name="HotelName" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+    <Property Name="HotelAddress" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="AssembingPlace" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="AssembingTime" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Flight" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="TakeOffTime" Type="DateTime" />
+    <Property Name="ArriveTime" Type="DateTime" />
+    <Property Name="CreateTime" Type="DateTime" />
+    <Property Name="UpdateTime" Type="DateTime" />
+    <Property Name="IsCompleted" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="Description" Type="String" MaxLength="4000" Unicode="false" FixedLength="false" />
+    <Property Name="OrderID" Type="Int32" />
+    <Property Name="FlightTime" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="PurchaseOrderID" Type="Int32" />
+    <Property Name="Notes" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="PkgDispatchTour">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TourNum" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="TourName" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="ResourceID" Type="Int32" />
+    <Property Name="ProductNm" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="AdultNum" Type="Int32" />
+    <Property Name="ChildNum" Type="Int32" />
+    <Property Name="UseDate" Type="DateTime" />
+    <Property Name="CreateTime" Type="DateTime" />
+    <Property Name="UpdateTime" Type="DateTime" />
+    <Property Name="Description" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="IsSegmentArr" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="IsGuideArr" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="IsVehicleArr" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="IsDineArr" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="IsCompleted" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="IsHotelArr" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+  </EntityType>
+  <EntityType Name="PkgDispatchTourNote">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TourID" Type="Int32" />
+    <Property Name="Note" Type="String" MaxLength="4000" Unicode="false" FixedLength="false" />
+    <Property Name="Sort" Type="Int32" />
+    <Property Name="BackVarchar" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" />
+    <Property Name="UpdateTime" Type="DateTime" />
+    <Property Name="Description" Type="String" MaxLength="4000" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="PkgDispatchVehicleArr">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ResourceID" Type="Int32" />
+    <Property Name="TourID" Type="Int32" />
+    <Property Name="MotorcadeID" Type="Int32" />
+    <Property Name="IsExternal" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="MotorcadeNm" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="VehicleNum" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="VehicleType" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="TotalSeat" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="DriverID" Type="Int32" />
+    <Property Name="DriverNm" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="DriverMobile" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="IsTrolley" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="Notes" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" />
+    <Property Name="UpdateTime" Type="DateTime" />
+    <Property Name="IsCompleted" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="Description" Type="String" MaxLength="4000" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="PkgDispatchVehicleSchedule">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UseVehicleDate" Type="DateTime" />
+    <Property Name="TourNum" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="OrderID" Type="Int32" />
+    <Property Name="AdultNum" Type="Int32" />
+    <Property Name="ChildNum" Type="Int32" />
+    <Property Name="Agenda" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Hotel" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Flight" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="FlightTime" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="TakeOffTime" Type="DateTime" />
+    <Property Name="ArriveTime" Type="DateTime" />
+    <Property Name="Breakfast" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Lunch" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Dinner" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="AssembingPlace" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="AssembingTime" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Guide" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="GuideMobile" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="VehicleType" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Driver" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="DriverMobile" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="IsTrolley" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="Notes" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" />
+    <Property Name="UpdateTime" Type="DateTime" />
+    <Property Name="Description" Type="String" MaxLength="4000" Unicode="false" FixedLength="false" />
+    <Property Name="ProviderID" Type="Int32" />
+    <Property Name="MotorcadeID" Type="Int32" />
+    <Property Name="PurchaseOrderID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="PkgDriver">
+    <Key>
+      <PropertyRef Name="DriverID" />
+    </Key>
+    <Property Name="DriverID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="Sex" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="Company" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Mobile" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="DriveLicense" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="DriveType" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="IDCard" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="HomeAddress" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="ExpireDate" Type="DateTime" />
+    <Property Name="LastTimeCheckMiles" Type="Int32" />
+    <Property Name="FamiliarCity" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="PaymentMethod" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="VehicleType" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="ModifyTime" Type="DateTime" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="ProviderId" Type="Int32" />
+    <Property Name="IsExternal" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+  </EntityType>
+  <EntityType Name="PkgGuide">
+    <Key>
+      <PropertyRef Name="GuideID" />
+    </Key>
+    <Property Name="GuideID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Level" Type="Int32" />
+    <Property Name="Language" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="IDCard" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="GuideLicense" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="ICCardNum" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="Mobile" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Email" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="FamiliarCity" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="PaymentMethod" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="GuideType" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="ModifyTime" Type="DateTime" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="Sex" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="ProviderId" Type="Int32" />
+  </EntityType>
+  <EntityType Name="PkgHotel">
+    <Key>
+      <PropertyRef Name="HotelID" />
+    </Key>
+    <Property Name="HotelID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HotelNm" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Address" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="URL" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Contactor" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Mobile" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Telephone" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Fax" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="SingpostsGuidelines" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Longitude" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="Latitude" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="ModifyTime" Type="DateTime" Nullable="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="ProviderId" Type="Int32" />
+  </EntityType>
+  <EntityType Name="PkgMotorcade">
+    <Key>
+      <PropertyRef Name="MotorcadeID" />
+    </Key>
+    <Property Name="MotorcadeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MotorcadeNm" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="OPLicenseID" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="LieCity" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="Contactor" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Tel1" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="Tel2" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="Tel3" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="Fax" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="ContactAddress" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="VehicleType" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="OperationCity" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="IsSignContract" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="IsValid" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="ModifyTime" Type="DateTime" Nullable="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="ProviderId" Type="Int32" />
+    <Property Name="Mobile" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Email" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="IsExternal" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+  </EntityType>
+  <EntityType Name="PkgRestaurant">
+    <Key>
+      <PropertyRef Name="RestaurantID" />
+    </Key>
+    <Property Name="RestaurantID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RestaurantNm" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Address" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="URL" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Contactor" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Mobile" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Telephone" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Fax" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="SingpostsGuidelines" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Longitude" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="Latitude" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="IsValid" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="ModifyTime" Type="DateTime" Nullable="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="ProviderId" Type="Int32" />
+    <Property Name="Flavor" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="Drinks" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="PkgVehicle">
+    <Key>
+      <PropertyRef Name="VehicleID" />
+    </Key>
+    <Property Name="VehicleID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="VehicleNum" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Brand" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="TotalSeat" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Model" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="VehicleType" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="DriveNum" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="PurchaseTime" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="LastTimeCheckDate" Type="DateTime" />
+    <Property Name="LastTimeCheckMiles" Type="Int32" />
+    <Property Name="DefaultDriverID" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="FamiliarCity" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="PaymentMethod" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="ModifyTime" Type="DateTime" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="Type" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="ProviderId" Type="Int32" />
+    <Property Name="IsExternal" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="MotorcadeId" Type="Int32" />
+  </EntityType>
+  <EntityType Name="PO_Message">
+    <Key>
+      <PropertyRef Name="MsgID" />
+    </Key>
+    <Property Name="MsgID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AppSender" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Sender" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="OrderID" Type="Int32" Nullable="false" />
+    <Property Name="CtripResourceID" Type="Int32" Nullable="false" />
+    <Property Name="ProviderID" Type="Int32" Nullable="false" />
+    <Property Name="MsgType" Type="Int32" Nullable="false" />
+    <Property Name="MsgBody" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="MsgStatus" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="SentTime" Type="DateTime" Nullable="false" />
+    <Property Name="PurchaseOrderID" Type="Int32" Nullable="false" />
+    <Property Name="ModifyTime" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PO_OperateLog">
+    <Key>
+      <PropertyRef Name="OperateLogID" />
+    </Key>
+    <Property Name="OperateLogID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderID" Type="Int32" Nullable="false" />
+    <Property Name="CtripResourceID" Type="Int32" Nullable="false" />
+    <Property Name="Content" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="OperateParty" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Operator" Type="String" Nullable="false" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="OperateTime" Type="DateTime" Nullable="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="POResultStatus" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="VBKPurchaseOrderID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PO_PurchaseOrder">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PurchaseOrderID" Type="Int32" Nullable="false" />
+    <Property Name="Active" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="ActualAdultQuantity" Type="Int32" />
+    <Property Name="ActualChildQuantity" Type="Int32" />
+    <Property Name="ActualTotalQuantity" Type="Int32" />
+    <Property Name="AdultCost" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="AdultQuantity" Type="Int32" />
+    <Property Name="ArrivalDate" Type="DateTime" />
+    <Property Name="ChildCost" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ChildQuantity" Type="Int32" />
+    <Property Name="Collator" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="ConfirmNo" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="ConfirmRemark" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="ContactEmail" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="ContactFax" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="ContactMobile" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="ContactName" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="ContactTel" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Cost" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="CtripProductID" Type="Int32" />
+    <Property Name="Currency" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="DepartureDate" Type="DateTime" />
+    <Property Name="Exchange" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="IsNeedCollate" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="IsNoticeSended" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="OperatorPhoneExtension" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="OrderDate" Type="DateTime" />
+    <Property Name="OrderID" Type="Int32" />
+    <Property Name="PaymentStatus" Type="Int32" />
+    <Property Name="PaymentType" Type="Int32" />
+    <Property Name="ProviderID" Type="Int32" />
+    <Property Name="Quantity" Type="Int32" />
+    <Property Name="CtripResourceID" Type="Int32" />
+    <Property Name="ResourceName" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="ReturnDate" Type="DateTime" />
+    <Property Name="StartCityName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="TourID" Type="Int32" />
+    <Property Name="UseDate" Type="DateTime" />
+    <Property Name="VbCollateDate" Type="DateTime" />
+    <Property Name="VbCollateStatus" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="VBKResourceID" Type="Int32" />
+    <Property Name="VBKResourceTypeID" Type="Int32" />
+    <Property Name="VbRemark" Type="String" MaxLength="600" Unicode="false" FixedLength="false" />
+    <Property Name="VisaProcessStatus" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="ModifyTime" Type="DateTime" Nullable="false" />
+    <Property Name="AdultSalePrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ChildSalePrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="TotalSalePrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ApprovePerson" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="ApproveStatus" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="ApproveTime" Type="DateTime" />
+    <Property Name="SubmitPerson" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="SubmitTime" Type="DateTime" />
+    <Property Name="ActivePOIDHistory" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="CtripPurchaseResourceType" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="CtripSaleResourceType" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="PO_PurchaseOrderClient">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderID" Type="Int32" />
+    <Property Name="ClientName" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="ClientNameEn" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Gender" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="AgeType" Type="String" MaxLength="3" Unicode="false" FixedLength="true" />
+    <Property Name="ContactMobile" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="IDCardType" Type="Int32" />
+    <Property Name="IDCardTypeName" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="IDCardNo" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Birthday" Type="DateTime" />
+    <Property Name="Nationality" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="PurchaseOrderID" Type="Int32" />
+    <Property Name="POApprovedID" Type="Int32" />
+    <Property Name="VisaCountry" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="IssueDate" Type="DateTime" />
+    <Property Name="PassportType" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="IDCardTimelimit" Type="DateTime" />
+    <Property Name="Remark" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="homeplace" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="ClientID" Type="Int32" />
+    <Property Name="VisaStatus" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="ModifyTime" Type="DateTime" Nullable="false" />
+    <Property Name="CardCity" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="PurchaseOrder_Approved">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PurchaseOrderID" Type="Int32" Nullable="false" />
+    <Property Name="OrderID" Type="Int32" />
+    <Property Name="Segment" Type="Int32" />
+    <Property Name="ResourceID" Type="Int32" />
+    <Property Name="ResourceType" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="ResourceName" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="ResourceDesc" Type="String" MaxLength="8000" Unicode="false" FixedLength="false" />
+    <Property Name="ProviderID" Type="Int32" />
+    <Property Name="Status" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="OperateReason" Type="String" MaxLength="4000" Unicode="false" FixedLength="false" />
+    <Property Name="Quantity" Type="Int32" />
+    <Property Name="AdultQuantity" Type="Int32" />
+    <Property Name="ChildQuantity" Type="Int32" />
+    <Property Name="BabyQuantity" Type="Int32" />
+    <Property Name="ActualAdultQuantity" Type="Int32" />
+    <Property Name="ActualChildQuantity" Type="Int32" />
+    <Property Name="ActualBabyQuantity" Type="Int32" />
+    <Property Name="Cost" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="AdultCost" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ChildCost" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="BabyCost" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="StartCityName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="ContactName" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="OrderDate" Type="DateTime" />
+    <Property Name="UseDate" Type="DateTime" />
+    <Property Name="ArrivalDate" Type="DateTime" />
+    <Property Name="DepartureDate" Type="DateTime" />
+    <Property Name="Currency" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Exchange" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="VbRemark" Type="String" MaxLength="600" Unicode="false" FixedLength="false" />
+    <Property Name="VbSubmitStatus" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="VbApproveStatus" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="ConfirmRemark" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="VbApproveDate" Type="DateTime" />
+    <Property Name="VbCollateStatus" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="VbCollateDate" Type="DateTime" />
+    <Property Name="Operator" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="OperateTime" Type="DateTime" />
+    <Property Name="Description" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="ConfirmNo" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="ContactMobile" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="ReturnFlag" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="ReturnDate" Type="DateTime" />
+    <Property Name="ProcessOper" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="EmergencyTime" Type="DateTime" />
+    <Property Name="SalesResourceType" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="Active" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="IsNeedCollate" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="IsNoticeSended" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="TourID" Type="Int32" />
+    <Property Name="ContactEmail" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="ContactFax" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="ContactTel" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Collator" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="ResourceTypeID" Type="Int32" />
+    <Property Name="VisaProcessStatus" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="ActualTotalQuantity" Type="Int32" />
+  </EntityType>
+  <EntityType Name="PurchaseOrder_ApprovedReport">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderID" Type="Int32" Nullable="false" />
+    <Property Name="PurchaseOrderID" Type="Int32" Nullable="false" />
+    <Property Name="ResourceName" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="UseDate" Type="DateTime" />
+    <Property Name="vbSubmitStatus" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="vbApproveStatus" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="StartCityName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="vbRemark" Type="String" MaxLength="600" Unicode="false" FixedLength="false" />
+    <Property Name="ClientNum" Type="Int32" />
+    <Property Name="ClientInfo" Type="String" MaxLength="600" Unicode="false" FixedLength="false" />
+    <Property Name="HotelInfo" Type="String" MaxLength="600" Unicode="false" FixedLength="false" />
+    <Property Name="Quantity" Type="Int32" />
+    <Property Name="AdultQuantity" Type="Int32" />
+    <Property Name="ChildQuantity" Type="Int32" />
+    <Property Name="FirstFltTakeOffTime" Type="DateTime" />
+    <Property Name="FirstFltSitDownTime" Type="DateTime" />
+    <Property Name="FirstFltFlight" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="MidFltInfo" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="LastFltTakeOffTime" Type="DateTime" />
+    <Property Name="LastFltFlight" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="ReturnDate" Type="DateTime" />
+    <Property Name="COST" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ConfirmNo" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Operator" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Remarks" Type="String" MaxLength="400" Unicode="false" FixedLength="false" />
+    <Property Name="ApprovedID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PurchaseOrder_Report">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderID" Type="Int32" Nullable="false" />
+    <Property Name="PurchaseOrderID" Type="Int32" Nullable="false" />
+    <Property Name="ResourceName" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="UseDate" Type="DateTime" />
+    <Property Name="vbSubmitStatus" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="vbApproveStatus" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="StartCityName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="vbRemark" Type="String" MaxLength="600" Unicode="false" FixedLength="false" />
+    <Property Name="ClientNum" Type="Int32" />
+    <Property Name="ClientInfo" Type="String" MaxLength="600" Unicode="false" FixedLength="false" />
+    <Property Name="HotelInfo" Type="String" MaxLength="600" Unicode="false" FixedLength="false" />
+    <Property Name="Quantity" Type="Int32" />
+    <Property Name="AdultQuantity" Type="Int32" />
+    <Property Name="ChildQuantity" Type="Int32" />
+    <Property Name="FirstFltTakeOffTime" Type="DateTime" />
+    <Property Name="FirstFltSitDownTime" Type="DateTime" />
+    <Property Name="FirstFltFlight" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="MidFltInfo" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="LastFltTakeOffTime" Type="DateTime" />
+    <Property Name="LastFltFlight" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="ReturnDate" Type="DateTime" />
+    <Property Name="COST" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ConfirmNo" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Operator" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Remarks" Type="String" MaxLength="400" Unicode="false" FixedLength="false" />
+    <Property Name="ApprovedID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PurchaseOrderClient_Approved">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderID" Type="Int32" />
+    <Property Name="ClientName" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="ClientNameEn" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Gender" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="AgeType" Type="String" MaxLength="3" Unicode="false" FixedLength="true" />
+    <Property Name="ContactMobile" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="IDCardType" Type="Int32" />
+    <Property Name="IDCardTypeName" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="IDCardNo" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Birthday" Type="DateTime" />
+    <Property Name="Nationality" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" />
+    <Property Name="UpdateTime" Type="DateTime" />
+    <Property Name="Description" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="PurchaseOrderID" Type="Int32" />
+    <Property Name="POApprovedID" Type="Int32" />
+    <Property Name="VisaCountry" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="IssueDate" Type="DateTime" />
+    <Property Name="PassportType" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="IDCardTimelimit" Type="DateTime" />
+    <Property Name="Remark" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="homeplace" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="ClientID" Type="Int32" />
+    <Property Name="VisaStatus" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="PurchaseOrderVisaLog">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PurchaseOrderID" Type="Int32" Nullable="false" />
+    <Property Name="Remark" Type="String" Nullable="false" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="RptInventory">
+    <Key>
+      <PropertyRef Name="RIID" />
+    </Key>
+    <Property Name="RIID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ResourceID" Type="Int32" Nullable="false" />
+    <Property Name="InventoryDate" Type="DateTime" Nullable="false" />
+    <Property Name="InventoryCount" Type="Int32" Nullable="false" />
+    <Property Name="InventoryMode" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="UpdateTime" Type="DateTime" Nullable="false" />
+    <Property Name="AdultCostPrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="AdultSalesPrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ChildCostPrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ChildSalesPrice" Type="Decimal" Precision="19" Scale="4" />
+  </EntityType>
+  <EntityType Name="RptProductSaleSummary">
+    <Key>
+      <PropertyRef Name="RPSSID" />
+    </Key>
+    <Property Name="RPSSID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProviderID" Type="Int32" Nullable="false" />
+    <Property Name="VBKResourceID" Type="Int32" Nullable="false" />
+    <Property Name="Pkg" Type="Int32" Nullable="false" />
+    <Property Name="ResourceName" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="DepartureCity" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="DestinationCity" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="DepartureSchedule" Type="DateTime" Nullable="false" />
+    <Property Name="SaledQuantity" Type="Int32" Nullable="false" />
+    <Property Name="SaledAdultQuantity" Type="Int32" Nullable="false" />
+    <Property Name="SaledChildQuantity" Type="Int32" Nullable="false" />
+    <Property Name="AdultCostPrice" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="AdultSalesPrice" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="ChildCostPrice" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="ChildSalesPrice" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="UpdateTime" Type="DateTime" Nullable="false" />
+    <Property Name="PurchaseOrderID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RptResource">
+    <Key>
+      <PropertyRef Name="RRID" />
+    </Key>
+    <Property Name="RRID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProviderID" Type="Int32" Nullable="false" />
+    <Property Name="ResourceID" Type="Int32" Nullable="false" />
+    <Property Name="Pkg" Type="Int32" Nullable="false" />
+    <Property Name="ResourceName" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="DepartureCity" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="DestinationCity" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="UpdateTime" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SysBulletin">
+    <Key>
+      <PropertyRef Name="BulletinID" />
+    </Key>
+    <Property Name="BulletinID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" Nullable="false" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="Content" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="AudienceType" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="EffectiveDate" Type="DateTime" Nullable="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="DataChange_LastTime" Type="DateTime" Nullable="false" />
+    <Property Name="ExpireTime" Type="DateTime" Nullable="false" />
+    <Property Name="Creator" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="SysBulletinProviderMapping">
+    <Key>
+      <PropertyRef Name="BPID" />
+    </Key>
+    <Property Name="BPID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BulletinID" Type="Int32" Nullable="false" />
+    <Property Name="ProviderID" Type="Int32" Nullable="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SysBulletinTypeMapping">
+    <Key>
+      <PropertyRef Name="BTID" />
+    </Key>
+    <Property Name="BTID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BulletinID" Type="Int32" Nullable="false" />
+    <Property Name="TypeID" Type="Int32" Nullable="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="SysDicItem">
+    <Key>
+      <PropertyRef Name="DicItemID" />
+    </Key>
+    <Property Name="DicItemID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DicItemName" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="DicItemNameEn" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="DicTypeID" Type="Int32" Nullable="false" />
+    <Property Name="IsActive" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="IsDefault" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="SortIndex" Type="Int32" Nullable="false" />
+    <Property Name="Value1" Type="String" MaxLength="3000" Unicode="true" FixedLength="false" />
+    <Property Name="Value2" Type="String" MaxLength="3000" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="SysDicType">
+    <Key>
+      <PropertyRef Name="DicTypeID" />
+    </Key>
+    <Property Name="DicTypeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DicTypeName" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="DicTypeNameEn" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="IsActive" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="Usage" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="SysLog">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="logid" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="startTime" Type="DateTime" />
+    <Property Name="endTime" Type="DateTime" />
+    <Property Name="message" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tempAirport">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Airport" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="true" />
+    <Property Name="AirportName" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="City" Type="Int32" Nullable="false" />
+    <Property Name="airportshortname" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="airportename" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="airporttel" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="airportaddr" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="distance" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tempCity">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="City" Type="Int32" Nullable="false" />
+    <Property Name="CityName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Province" Type="Int32" Nullable="false" />
+    <Property Name="Country" Type="Int32" Nullable="false" />
+    <Property Name="Citycode" Type="String" MaxLength="3" Unicode="false" FixedLength="true" />
+    <Property Name="ToTrain" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="ToShip" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="TripStatus" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="ename" Type="String" MaxLength="50" Unicode="false" FixedLength="true" />
+    <Property Name="weather" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="hotelprovince" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tempDyyTestPerson">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Sex" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tmpVDispLog">
+    <Key>
+      <PropertyRef Name="logid" />
+    </Key>
+    <Property Name="sourcePage" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="destPage" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="logid" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" />
+    <Property Name="Thread" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Level" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Logger" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Identity" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Location" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="Operator" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ApplicationID" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="ModuleID" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="ClientIP" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="HostIP" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tmpVErrorLog">
+    <Key>
+      <PropertyRef Name="logid" />
+    </Key>
+    <Property Name="message" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="exmessage" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="exstack" Type="String" MaxLength="4000" Unicode="false" FixedLength="false" />
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="logid" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" />
+    <Property Name="Thread" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Level" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Logger" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Identity" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Location" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="Operator" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ApplicationID" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="ModuleID" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="ClientIP" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="HostIP" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tmpVSysLog">
+    <Key>
+      <PropertyRef Name="logid" />
+    </Key>
+    <Property Name="startTime" Type="DateTime" />
+    <Property Name="endTime" Type="DateTime" />
+    <Property Name="message" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="logid" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" />
+    <Property Name="Thread" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Level" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Logger" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Identity" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Location" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="Operator" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ApplicationID" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="ModuleID" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="ClientIP" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="HostIP" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tmpVTraceLog">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="Date" />
+      <PropertyRef Name="Thread" />
+      <PropertyRef Name="Level" />
+    </Key>
+    <Property Name="bizType" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="opType" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="opDesc" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="startTime" Type="DateTime" />
+    <Property Name="endTime" Type="DateTime" />
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="logid" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" />
+    <Property Name="Thread" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Level" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Logger" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Identity" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Location" Type="String" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="Operator" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ApplicationID" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="ModuleID" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="ClientIP" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="HostIP" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="resourceid" Type="Int32" />
+  </EntityType>
+  <EntityType Name="TraceLog">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="logid" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="resourceid" Type="Int32" />
+    <Property Name="bizType" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="opType" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="opDesc" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="startTime" Type="DateTime" />
+    <Property Name="endTime" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="U_LoginLog">
+    <Key>
+      <PropertyRef Name="PKId" />
+    </Key>
+    <Property Name="PKId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="LoginDate" Type="DateTime" Nullable="false" />
+    <Property Name="LoginStatus" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Comment" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="UserIpAddress" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="HostAddress" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="U_OperateLog">
+    <Key>
+      <PropertyRef Name="PKId" />
+    </Key>
+    <Property Name="PKId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="OperateDate" Type="DateTime" Nullable="false" />
+    <Property Name="OperateDescription" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="ModuleDescription" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="OperateUrl" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="Comment" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="UserIpAddress" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="HostAddress" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="U_PasswordHistory">
+    <Key>
+      <PropertyRef Name="PKId" />
+    </Key>
+    <Property Name="PKId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="ChangedDate" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="U_PasswordRetrieve">
+    <Key>
+      <PropertyRef Name="PasswordRetrieveId" />
+    </Key>
+    <Property Name="PasswordRetrieveId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="Token" Type="Guid" Nullable="false" />
+    <Property Name="Status" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="ExpireTime" Type="DateTime" Nullable="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="U_pwdhistory">
+    <Key>
+      <PropertyRef Name="operid" />
+      <PropertyRef Name="pwd" />
+      <PropertyRef Name="pwddate" />
+    </Key>
+    <Property Name="operid" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="pwd" Type="Binary" Nullable="false" MaxLength="20" FixedLength="false" />
+    <Property Name="pwddate" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="U_Roles">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="RoleId" Type="Guid" Nullable="false" />
+    <Property Name="RoleName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="LoweredRoleName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="Sequence" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="U_user">
+    <Key>
+      <PropertyRef Name="operid" />
+    </Key>
+    <Property Name="operid" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="pwd" Type="Binary" Nullable="false" MaxLength="50" FixedLength="false" />
+    <Property Name="provider" Type="Int32" Nullable="false" />
+    <Property Name="ProviderName" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="active" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="tel" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="mobile" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="email" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="pwddate" Type="DateTime" Nullable="false" />
+    <Property Name="usertype" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="IsAdmin" Type="String" MaxLength="1" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="U_UserCustom">
+    <Key>
+      <PropertyRef Name="CustomID" />
+    </Key>
+    <Property Name="CustomID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="CustomValue" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="DicItemID" Type="Int32" Nullable="false" />
+    <Property Name="DicTypeID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="U_userloginlog">
+    <Key>
+      <PropertyRef Name="LogId" />
+    </Key>
+    <Property Name="LogId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Uid" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="LoginTime" Type="DateTime" />
+    <Property Name="UIpAddr" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="HostAddr" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="U_Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="LoweredUserName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="Provider" Type="Int32" Nullable="false" />
+    <Property Name="ProviderName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="TelephoneNumber" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="MobileNumber" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="Email" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" />
+    <Property Name="LastLoginDate" Type="DateTime" />
+    <Property Name="LastPasswordChangedDate" Type="DateTime" />
+    <Property Name="LastLockoutDate" Type="DateTime" />
+    <Property Name="IsLockout" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="FailedPasswordAttemptCount" Type="Int32" />
+    <Property Name="FirstFailedPasswordAttemptDate" Type="DateTime" />
+    <Property Name="IsValid" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="VisaStuffDeliveryType" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="U_UsersInRoles">
+    <Key>
+      <PropertyRef Name="PKId" />
+    </Key>
+    <Property Name="PKId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <Property Name="RoleId" Type="Guid" Nullable="false" />
+  </EntityType>
+  <EntityType Name="U_UsersLog">
+    <Key>
+      <PropertyRef Name="LogID" />
+    </Key>
+    <Property Name="LogID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ModifyUID" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="ModifyTime" Type="DateTime" />
+    <Property Name="ModifyType" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="PKID" Type="Int32" />
+    <Property Name="HistoryData" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ModifySource" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="U_UsersOnlineInfo">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="512" Unicode="false" FixedLength="false" />
+    <Property Name="SessionID" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="LastOnlineTime" Type="DateTime" Nullable="false" />
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="U_usertype">
+    <Key>
+      <PropertyRef Name="TypeId" />
+      <PropertyRef Name="Usertype" />
+    </Key>
+    <Property Name="TypeId" Type="String" Nullable="false" MaxLength="4" Unicode="false" FixedLength="false" />
+    <Property Name="Usertype" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="TypeName" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="V_Option">
+    <Key>
+      <PropertyRef Name="VOptId" />
+    </Key>
+    <Property Name="VOptId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="VOptdate" Type="DateTime" Nullable="false" />
+    <Property Name="VOpttype" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="VOptstatus" Type="Int32" Nullable="false" />
+    <Property Name="Provider" Type="Int32" Nullable="false" />
+    <Property Name="Orderid" Type="Int32" Nullable="false" />
+    <Property Name="Startcity" Type="Int32" Nullable="false" />
+    <Property Name="Startcityname" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Pkg" Type="Int32" Nullable="false" />
+    <Property Name="Pkgname" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Orderdate" Type="DateTime" Nullable="false" />
+    <Property Name="Takeoffdate" Type="DateTime" Nullable="false" />
+    <Property Name="Returndate" Type="DateTime" Nullable="false" />
+    <Property Name="Arrival" Type="DateTime" Nullable="false" />
+    <Property Name="Departure" Type="DateTime" Nullable="false" />
+    <Property Name="Amount" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="Cost" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="Currency" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="true" />
+    <Property Name="Currencyname" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Adultnum" Type="Int32" Nullable="false" />
+    <Property Name="Childnum" Type="Int32" Nullable="false" />
+    <Property Name="Contactname" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="Contacttel" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Operid" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Confirmdate" Type="DateTime" Nullable="false" />
+    <Property Name="Bookingno" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Remarks" Type="String" Nullable="false" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="Lastdate" Type="DateTime" Nullable="false" />
+    <Property Name="Returnflag" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="Exchange" Type="Decimal" Nullable="false" Precision="8" Scale="4" />
+    <Property Name="Optionid" Type="Int32" Nullable="false" />
+    <Property Name="Optionname" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Optionqty" Type="Int32" Nullable="false" />
+    <Property Name="Vbrem" Type="String" Nullable="false" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="Optiondate" Type="DateTime" Nullable="false" />
+    <Property Name="Optiontype" Type="String" Nullable="false" MaxLength="4" Unicode="false" FixedLength="false" />
+    <Property Name="Fltcontent" Type="String" Nullable="false" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="Htlcontent" Type="String" Nullable="false" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="Clientinfo" Type="String" Nullable="false" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="Remark" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="SitDownDate" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="V_OptionClient">
+    <Key>
+      <PropertyRef Name="VOptCId" />
+    </Key>
+    <Property Name="VOptCId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="VOptId" Type="Int32" Nullable="false" />
+    <Property Name="CName" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="IDCardNo" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="MobileTel" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Birthdate" Type="DateTime" Nullable="false" />
+    <Property Name="Sex" Type="String" Nullable="false" MaxLength="2" Unicode="false" FixedLength="true" />
+    <Property Name="Nationality" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="IDCardType" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="OptQty" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="V_OptionFlight">
+    <Key>
+      <PropertyRef Name="VFId" />
+    </Key>
+    <Property Name="VFId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="VOptId" Type="Int32" Nullable="false" />
+    <Property Name="Segment" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Departure" Type="DateTime" Nullable="false" />
+    <Property Name="FltDPortName" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="FltAPortName" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Flight" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="FltDtime" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="FltAtime" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Persons" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="V_OptionHotel">
+    <Key>
+      <PropertyRef Name="VHId" />
+    </Key>
+    <Property Name="VHId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="VOptId" Type="Int32" Nullable="false" />
+    <Property Name="ResourceName" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="RoomName" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="Checkindate" Type="DateTime" Nullable="false" />
+    <Property Name="Checkoutdate" Type="DateTime" Nullable="false" />
+    <Property Name="Roomqty" Type="Int32" Nullable="false" />
+    <Property Name="Addr" Type="String" Nullable="false" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="Telephone" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="V_OptionLog">
+    <Key>
+      <PropertyRef Name="LogId" />
+    </Key>
+    <Property Name="LogId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LogTime" Type="DateTime" Nullable="false" />
+    <Property Name="VOptId" Type="Int32" Nullable="false" />
+    <Property Name="Statusbefore" Type="Int32" Nullable="false" />
+    <Property Name="Statusafter" Type="Int32" Nullable="false" />
+    <Property Name="operid" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="VBookingOperateLog">
+    <Key>
+      <PropertyRef Name="PKId" />
+    </Key>
+    <Property Name="PKId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="OperateDate" Type="DateTime" Nullable="false" />
+    <Property Name="OperateDescription" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="ModuleDescription" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="OperateUrl" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="Comment" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="UserIpAddress" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="HostAddress" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="EntityDetail" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="BusinessType" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="BusinessID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="VBookingOrderOperateLog">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderID" Type="Int32" Nullable="false" />
+    <Property Name="purchaseOrderID" Type="Int32" Nullable="false" />
+    <Property Name="resourceType" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="resourceID" Type="Int32" Nullable="false" />
+    <Property Name="resourceName" Type="String" Nullable="false" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="operateType" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="operatetime" Type="DateTime" Nullable="false" />
+    <Property Name="operatorName" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="remark" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="VbSubmitStatus" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="VbApproveStatus" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="ProviderID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Visa_StuffDelivery">
+    <Key>
+      <PropertyRef Name="DeliveryID" />
+    </Key>
+    <Property Name="DeliveryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyName" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Address" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="Postcode" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Linkman1" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Mobile1" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Phone1" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Email1" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="WorkingTime1" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="Linkman2" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Mobile2" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Phone2" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Email2" Type="String" MaxLength="500" Unicode="false" FixedLength="false" />
+    <Property Name="WorkingTime2" Type="String" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="ProviderID" Type="Int32" Nullable="false" />
+    <Property Name="CreateTime" Type="DateTime" />
+    <Property Name="IsDefault" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+  </EntityType>
+</Schema>

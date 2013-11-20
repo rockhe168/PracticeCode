@@ -1,0 +1,16 @@
+F:\My\百度网盘\PracticeCode\log4Net\LogDemo\Demo1\bin\Demo1.dll
+F:\My\百度网盘\PracticeCode\log4Net\LogDemo\Demo1\bin\Demo1.pdb
+F:\My\百度网盘\PracticeCode\log4Net\LogDemo\Demo1\bin\log4net.dll
+F:\My\百度网盘\PracticeCode\log4Net\LogDemo\Demo1\bin\log4net.pdb
+F:\My\百度网盘\PracticeCode\log4Net\LogDemo\Demo1\bin\log4net.xml
+F:\My\百度网盘\PracticeCode\log4Net\LogDemo\Demo1\obj\Debug\Demo1.csprojResolveAssemblyReference.cache
+F:\My\百度网盘\PracticeCode\log4Net\LogDemo\Demo1\obj\Debug\Demo1.dll
+F:\My\百度网盘\PracticeCode\log4Net\LogDemo\Demo1\obj\Debug\Demo1.pdb
+E:\My\百度云\PracticeCode\log4Net\LogDemo\Demo1\bin\Demo1.dll
+E:\My\百度云\PracticeCode\log4Net\LogDemo\Demo1\bin\Demo1.pdb
+E:\My\百度云\PracticeCode\log4Net\LogDemo\Demo1\bin\log4net.dll
+E:\My\百度云\PracticeCode\log4Net\LogDemo\Demo1\bin\log4net.pdb
+E:\My\百度云\PracticeCode\log4Net\LogDemo\Demo1\bin\log4net.xml
+E:\My\百度云\PracticeCode\log4Net\LogDemo\Demo1\obj\Debug\ResolveAssemblyReference.cache
+E:\My\百度云\PracticeCode\log4Net\LogDemo\Demo1\obj\Debug\Demo1.dll
+E:\My\百度云\PracticeCode\log4Net\LogDemo\Demo1\obj\Debug\Demo1.pdb

@@ -1,0 +1,4 @@
+F:\My\百度网盘\PracticeCode\SimpalteDemo\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+F:\My\百度网盘\PracticeCode\SimpalteDemo\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+F:\My\百度网盘\PracticeCode\SimpalteDemo\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+F:\My\百度网盘\PracticeCode\SimpalteDemo\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb

@@ -1,0 +1,2 @@
+﻿1、把后台管理单独放到一个项目中去，如AreasDemo.Admin
+可参考blog：http://www.cnblogs.com/dingji/archive/2012/05/30/2506420.html
