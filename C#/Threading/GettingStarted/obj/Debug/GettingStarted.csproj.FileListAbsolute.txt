@@ -1,0 +1,6 @@
+E:\GitHub\PracticeCode\C#\Threading\GettingStarted\bin\Debug\GettingStarted.exe.config
+E:\GitHub\PracticeCode\C#\Threading\GettingStarted\bin\Debug\GettingStarted.exe
+E:\GitHub\PracticeCode\C#\Threading\GettingStarted\bin\Debug\GettingStarted.pdb
+E:\GitHub\PracticeCode\C#\Threading\GettingStarted\obj\Debug\GettingStarted.csprojResolveAssemblyReference.cache
+E:\GitHub\PracticeCode\C#\Threading\GettingStarted\obj\Debug\GettingStarted.exe
+E:\GitHub\PracticeCode\C#\Threading\GettingStarted\obj\Debug\GettingStarted.pdb

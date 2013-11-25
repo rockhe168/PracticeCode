@@ -5,3 +5,6 @@ E:\My\百度云\PracticeCode\C#\Linq\MyCode\LinqToJoinSelect\obj\x86\Debug\LinqT
 E:\My\百度云\PracticeCode\C#\Linq\MyCode\LinqToJoinSelect\obj\x86\Debug\LinqToJoinSelect.pdb
 E:\GitHub\PracticeCode\C#\Linq\MyCode\LinqToJoinSelect\obj\x86\Debug\LinqToJoinSelect.exe
 E:\GitHub\PracticeCode\C#\Linq\MyCode\LinqToJoinSelect\obj\x86\Debug\LinqToJoinSelect.pdb
+E:\GitHub\PracticeCode\C#\Linq\MyCode\LinqToJoinSelect\bin\Debug\LinqToJoinSelect.exe
+E:\GitHub\PracticeCode\C#\Linq\MyCode\LinqToJoinSelect\bin\Debug\LinqToJoinSelect.pdb
+E:\GitHub\PracticeCode\C#\Linq\MyCode\LinqToJoinSelect\obj\x86\Debug\LinqToJoinSelect.csprojResolveAssemblyReference.cache
