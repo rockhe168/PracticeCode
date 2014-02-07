@@ -8,3 +8,8 @@ E:\My\百度云\PracticeCode\C#\Linq\MyCode\LinqSelect\bin\LinqSelect.pdb
 E:\My\百度云\PracticeCode\C#\Linq\MyCode\LinqSelect\obj\Debug\ResolveAssemblyReference.cache
 E:\My\百度云\PracticeCode\C#\Linq\MyCode\LinqSelect\obj\Debug\LinqSelect.dll
 E:\My\百度云\PracticeCode\C#\Linq\MyCode\LinqSelect\obj\Debug\LinqSelect.pdb
+E:\GitHub\PracticeCode\C#\Linq\MyCode\LinqSelect\bin\LinqSelect.dll
+E:\GitHub\PracticeCode\C#\Linq\MyCode\LinqSelect\bin\LinqSelect.pdb
+E:\GitHub\PracticeCode\C#\Linq\MyCode\LinqSelect\obj\Debug\LinqSelect.csprojResolveAssemblyReference.cache
+E:\GitHub\PracticeCode\C#\Linq\MyCode\LinqSelect\obj\Debug\LinqSelect.dll
+E:\GitHub\PracticeCode\C#\Linq\MyCode\LinqSelect\obj\Debug\LinqSelect.pdb

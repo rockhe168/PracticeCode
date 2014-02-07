@@ -8,3 +8,8 @@ E:\My\百度云\PracticeCode\C#\Linq\MyCode\LinqToConcurrentWithTransaction\bin\
 E:\My\百度云\PracticeCode\C#\Linq\MyCode\LinqToConcurrentWithTransaction\obj\Debug\ResolveAssemblyReference.cache
 E:\My\百度云\PracticeCode\C#\Linq\MyCode\LinqToConcurrentWithTransaction\obj\Debug\LinqToConcurrentWithTransaction.dll
 E:\My\百度云\PracticeCode\C#\Linq\MyCode\LinqToConcurrentWithTransaction\obj\Debug\LinqToConcurrentWithTransaction.pdb
+E:\GitHub\PracticeCode\C#\Linq\MyCode\LinqToConcurrentWithTransaction\bin\LinqToConcurrentWithTransaction.dll
+E:\GitHub\PracticeCode\C#\Linq\MyCode\LinqToConcurrentWithTransaction\bin\LinqToConcurrentWithTransaction.pdb
+E:\GitHub\PracticeCode\C#\Linq\MyCode\LinqToConcurrentWithTransaction\obj\Debug\LinqToConcurrentWithTransaction.csprojResolveAssemblyReference.cache
+E:\GitHub\PracticeCode\C#\Linq\MyCode\LinqToConcurrentWithTransaction\obj\Debug\LinqToConcurrentWithTransaction.dll
+E:\GitHub\PracticeCode\C#\Linq\MyCode\LinqToConcurrentWithTransaction\obj\Debug\LinqToConcurrentWithTransaction.pdb

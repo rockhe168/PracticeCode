@@ -71,11 +71,11 @@ namespace LinqToProc
 
                 var 多结果集实体 = ctx.sp_multriresultset();
 
-                var customers = 多结果集实体.GetResult<Customers>();
-                var employees = 多结果集实体.GetResult<Employees>();
+                //var customers = 多结果集实体.GetResult<Customers>();
+               // var employees = 多结果集实体.GetResult<Employees>();
 
-                this.gvMain.DataSource = customers;
-                this.gvMain.DataBind();
+               // this.gvMain.DataSource = customers;
+               // this.gvMain.DataBind();
             }
         }
     }

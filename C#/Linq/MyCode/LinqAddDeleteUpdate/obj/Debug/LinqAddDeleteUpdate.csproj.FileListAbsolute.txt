@@ -8,3 +8,8 @@ E:\My\百度云\PracticeCode\C#\Linq\MyCode\LinqAddDeleteUpdate\bin\LinqAddDelet
 E:\My\百度云\PracticeCode\C#\Linq\MyCode\LinqAddDeleteUpdate\obj\Debug\ResolveAssemblyReference.cache
 E:\My\百度云\PracticeCode\C#\Linq\MyCode\LinqAddDeleteUpdate\obj\Debug\LinqAddDeleteUpdate.dll
 E:\My\百度云\PracticeCode\C#\Linq\MyCode\LinqAddDeleteUpdate\obj\Debug\LinqAddDeleteUpdate.pdb
+E:\GitHub\PracticeCode\C#\Linq\MyCode\LinqAddDeleteUpdate\bin\LinqAddDeleteUpdate.dll
+E:\GitHub\PracticeCode\C#\Linq\MyCode\LinqAddDeleteUpdate\bin\LinqAddDeleteUpdate.pdb
+E:\GitHub\PracticeCode\C#\Linq\MyCode\LinqAddDeleteUpdate\obj\Debug\LinqAddDeleteUpdate.csprojResolveAssemblyReference.cache
+E:\GitHub\PracticeCode\C#\Linq\MyCode\LinqAddDeleteUpdate\obj\Debug\LinqAddDeleteUpdate.dll
+E:\GitHub\PracticeCode\C#\Linq\MyCode\LinqAddDeleteUpdate\obj\Debug\LinqAddDeleteUpdate.pdb

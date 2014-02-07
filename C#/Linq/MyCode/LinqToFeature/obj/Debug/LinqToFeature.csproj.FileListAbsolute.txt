@@ -8,3 +8,8 @@ E:\My\百度云\PracticeCode\C#\Linq\MyCode\LinqToFeature\bin\LinqToFeature.pdb
 E:\My\百度云\PracticeCode\C#\Linq\MyCode\LinqToFeature\obj\Debug\ResolveAssemblyReference.cache
 E:\My\百度云\PracticeCode\C#\Linq\MyCode\LinqToFeature\obj\Debug\LinqToFeature.dll
 E:\My\百度云\PracticeCode\C#\Linq\MyCode\LinqToFeature\obj\Debug\LinqToFeature.pdb
+E:\GitHub\PracticeCode\C#\Linq\MyCode\LinqToFeature\bin\LinqToFeature.dll
+E:\GitHub\PracticeCode\C#\Linq\MyCode\LinqToFeature\bin\LinqToFeature.pdb
+E:\GitHub\PracticeCode\C#\Linq\MyCode\LinqToFeature\obj\Debug\LinqToFeature.csprojResolveAssemblyReference.cache
+E:\GitHub\PracticeCode\C#\Linq\MyCode\LinqToFeature\obj\Debug\LinqToFeature.dll
+E:\GitHub\PracticeCode\C#\Linq\MyCode\LinqToFeature\obj\Debug\LinqToFeature.pdb
