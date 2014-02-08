@@ -17,6 +17,9 @@ namespace Web
                 string EncodedString = Server.HtmlEncode(TestString);
 
                 Response.Write("Encoded End:"+EncodedString);
+
+
+                this.lblContact.Text = string.Format("<label style='background-color: red'>联系人：{0}</label>", "何湘红");
             }
 
         }

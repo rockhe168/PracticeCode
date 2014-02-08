@@ -9,7 +9,8 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    
+       <%-- <label style="background-color: red"></label>--%>
+       <asp:Label ID="lblContact" runat="server"></asp:Label>
     </div>
     </form>
 </body>

@@ -3,3 +3,7 @@ E:\My\百度云\PracticeCode\Asp.Net\GeneralMethodTest\Web\bin\Web.pdb
 E:\My\百度云\PracticeCode\Asp.Net\GeneralMethodTest\Web\obj\Debug\ResolveAssemblyReference.cache
 E:\My\百度云\PracticeCode\Asp.Net\GeneralMethodTest\Web\obj\Debug\Web.dll
 E:\My\百度云\PracticeCode\Asp.Net\GeneralMethodTest\Web\obj\Debug\Web.pdb
+E:\GitHub\PracticeCode\Asp.Net\GeneralMethodTest\Web\bin\Web.dll
+E:\GitHub\PracticeCode\Asp.Net\GeneralMethodTest\Web\bin\Web.pdb
+E:\GitHub\PracticeCode\Asp.Net\GeneralMethodTest\Web\obj\Debug\Web.dll
+E:\GitHub\PracticeCode\Asp.Net\GeneralMethodTest\Web\obj\Debug\Web.pdb
