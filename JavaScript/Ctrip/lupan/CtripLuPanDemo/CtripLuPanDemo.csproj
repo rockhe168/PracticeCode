@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{07EE45F3-8E3D-4A3E-8414-2814EE3F3243}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CtripLuPanDemo</RootNamespace>
+    <AssemblyName>CtripLuPanDemo</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\ipad\framework.css" />
+    <Content Include="css\ipad\liulan.css" />
+    <Content Include="css\ipad\page.css" />
+    <Content Include="css\mobile\framework.css" />
+    <Content Include="css\mobile\liulan.css" />
+    <Content Include="css\mobile\page.css" />
+    <Content Include="css\pc\framework.css" />
+    <Content Include="css\pc\liulan.css" />
+    <Content Include="css\pc\page.css" />
+    <Content Include="demo.html" />
+    <Content Include="js\.idea\encodings.xml" />
+    <Content Include="js\.idea\misc.xml" />
+    <Content Include="js\.idea\modules.xml" />
+    <Content Include="js\.idea\scopes\scope_settings.xml" />
+    <Content Include="js\.idea\vcs.xml" />
+    <Content Include="js\.idea\workspace.xml" />
+    <Content Include="js\app\index\ad.js" />
+    <Content Include="js\app\index\index_config.js" />
+    <Content Include="js\app\index\jquery.lazyload.js" />
+    <Content Include="js\app\index\json\data.js" />
+    <Content Include="js\app\index\json\data_search.js" />
+    <Content Include="js\app\index\mygallery.js" />
+    <Content Include="js\app\min\index\ad.js" />
+    <Content Include="js\app\min\index\index_config.js" />
+    <Content Include="js\app\min\index\jquery.lazyload.js" />
+    <Content Include="js\app\min\index\json\data.js" />
+    <Content Include="js\app\min\index\json\data_search.js" />
+    <Content Include="js\app\min\index\mygallery.js" />
+    <Content Include="js\app\src\index\ad.js" />
+    <Content Include="js\app\src\index\index_config.js" />
+    <Content Include="js\app\src\index\jquery.lazyload.js" />
+    <Content Include="js\app\src\index\json\data.js" />
+    <Content Include="js\app\src\index\json\data_search.js" />
+    <Content Include="js\app\src\index\mygallery.js" />
+    <Content Include="js\lib\jquery-1.10.2.min.js" />
+    <Content Include="js\lib\vacation_global.js" />
+    <Content Include="js\lib\vacation_global\bin\global_file_list.txt" />
+    <Content Include="js\lib\vacation_global\bin\yuicompressor-2.4.7.jar" />
+    <Content Include="js\lib\vacation_global\core\vacation.js" />
+    <Content Include="js\lib\vacation_global\ui\lazyload.js" />
+    <Content Include="js\lib\vacation_global\util\cookie.js" />
+    <Content Include="js\lib\vacation_global\util\handlebars.js" />
+    <Content Include="js\lib\vacation_global\util\parse.js" />
+    <Content Include="js\lib\vacation_global\util\sea.js" />
+    <Content Include="js\lib\vacation_global\util\sea_plugin_shim.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="js\.idea\.name" />
+    <None Include="js\.idea\js.iml" />
+    <None Include="js\lib\vacation_global\parseGlobal.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="img\" />
+    <Folder Include="js\app\car\" />
+    <Folder Include="js\app\min\car\" />
+    <Folder Include="js\app\min\tickets\" />
+    <Folder Include="js\app\src\car\" />
+    <Folder Include="js\app\src\tickets\" />
+    <Folder Include="js\app\tickets\" />
+    <Folder Include="js\lib\vacation_global\biz\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>42120</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
