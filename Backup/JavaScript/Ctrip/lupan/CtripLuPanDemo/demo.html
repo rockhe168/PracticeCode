@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>旅游事业部架构展示</title>
+<link href="http://image.baidu.com/static/common/pkg/framework_1be4c823.css" type="text/css" rel="stylesheet">
+<link href="http://image.baidu.com/static/common/pkg/liulan_c15ed792.css" type="text/css" rel="stylesheet">
+<link href="css/pc/page.css" type="text/css" rel="stylesheet">
+<script src="http://webresource.c-ctrip.com/code/cquery/LABjs/LAB.js" type="text/javascript"></script>
+<script src="http://webresource.c-ctrip.com/code/cquery/cQuery_110421.js" type="text/javascript"></script>
+<script src="http://webresource.c-ctrip.com/code/cquery/mod/calendar-3.0.js" type="text/javascript"></script>
+<script src="js/lib/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="js/lib/vacation_global.js" type="text/javascript"></script>
+<script type="text/javascript">
+//1.全局变量
+GV.app.index={
+  para:{
+     ver:"20130829001",
+	 path:"test"
+   },
+  config:{}
+};
+
+
+//2.seaJS配置
+seajs.config({
+  // 变量配置
+  vars: {
+    'path': '/test/' //路径
+  },
+  // 映射配置
+  map: [
+    [ /^(.*\.(?:css|js))(.*)$/i, '$1?ver='+GV.app.index.para.ver]
+  ]
+});
+
+
+//3.加载调用
+seajs.use(['./js/app/index/ad','./js/app/index/mygallery'], function(ad,gallery) {
+	  ad.init();
+	  ad.init_calendar();
+	  gallery.init();
+});
+
+</script>
+</head>
+<body class="body">
+引入cQuery库成功: <input type="text" class="date-picker pad_input" id="starttime" value="">
+<div class="clearfix" id="nav" style="visibility: visible;">
+	<div class="main_in_wrapper">
+	    <div class="main_wrapper  wrapper_for_margin">
+			<div class="wrapper_for_middle">
+				<ul class="main" style="width: 989px;">
+				<li id="load_ad" class="first item curr"><a  href="####" style="padding-left: 18px; padding-right: 19px;" class="curr"><!--动态加载广告--></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="wrapper_for_margin" id="wrapper" style="min-width: 990px;"> 
+	<div class="wrapper_for_middle" id="in_wf_wrapper"> 
+		<div id="waterfall_wrapper">
+			<div class="clearfix" id="waterfall" style="visibility: visible;"> 
+				<div class="paper-box" id="tags_container" style="width: 238px;"> 
+					<h2 class="sub_title">搜索</h2>
+						
+						<div style="float:left;margin:10px 0 0 10px"><input id="search_input" type="text" style="width:150px;height:25px"/></div>
+						<ul class="sub" style="float:left">   
+						 <li class="first on"><a label="搜索" title="搜索" href="###" id="startSearch" class="on">搜索</a></li>     
+						</ul> 
+					
+					<div class="right-bottom-corner"></div>
+				</div> 
+				 
+				 <div id="filter-tabs" style="left: 249px;">
+				 <ul class="menu-filter">
+				 <li class="first on"><a label="0" hidefocus="hidefocus" href="#1" class="on">最新</a></li>
+				 <li class="last"><a label="1" hidefocus="hidefocus" href="#2">本周最热</a></li>
+				 </ul>
+				 </div>
+				 
+				 <div id="size-selector">
+				 <h3>图片尺寸</h3>
+				 <ul class="menu-filter">
+				 <li class="first"><a label="1" hidefocus="hidefocus" href="#3"><span class="l-size-ico">大图</span></a></li>
+				 <li class="last on"><a label="0" hidefocus="hidefocus" href="#4" class="on"><span class="m-size-ico">中图</span></a></li>
+				 </ul>
+				 </div>
+				 
+
+				<div class="clearfix" id="imgs_container">
+				 <!--模板数据生成区域-->
+				</div>
+			</div>
+		</div>  
+	</div>
+</div>
+
+
+</body>
+</html>
