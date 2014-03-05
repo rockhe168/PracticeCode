@@ -81,10 +81,18 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="demo\eachData_if_transformat.html" />
+    <Content Include="demo\eachData_if.html" />
+    <Content Include="demo\eachData_with.html" />
+    <Content Include="demo\eachData_manyObject.html" />
+    <Content Include="demo\eachData_this.html" />
+    <Content Include="demo\eachData.html" />
     <Content Include="demo\GettingStarted.html" />
     <Content Include="index.html" />
+    <Content Include="js\data\userList.js" />
     <Content Include="js\lib\handlebars-v1.3.0.js" />
     <Content Include="js\lib\jquery.js" />
+    <Content Include="js\template\GettingStarted.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
