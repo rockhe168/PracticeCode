@@ -1,0 +1,6 @@
+E:\GitHub\PracticeCode\C#\AsyncQuickStart\bin\Debug\AsyncQuickStart.exe.config
+E:\GitHub\PracticeCode\C#\AsyncQuickStart\bin\Debug\AsyncQuickStart.exe
+E:\GitHub\PracticeCode\C#\AsyncQuickStart\bin\Debug\AsyncQuickStart.pdb
+E:\GitHub\PracticeCode\C#\AsyncQuickStart\obj\Debug\AsyncQuickStart.csprojResolveAssemblyReference.cache
+E:\GitHub\PracticeCode\C#\AsyncQuickStart\obj\Debug\AsyncQuickStart.exe
+E:\GitHub\PracticeCode\C#\AsyncQuickStart\obj\Debug\AsyncQuickStart.pdb
