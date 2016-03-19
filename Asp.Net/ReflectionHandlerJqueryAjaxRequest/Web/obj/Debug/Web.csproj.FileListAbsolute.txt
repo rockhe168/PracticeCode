@@ -3,3 +3,9 @@ E:\My\百度云\PracticeCode\Asp.Net\ReflectionHandlerJqueryAjaxRequest\Web\bin\
 E:\My\百度云\PracticeCode\Asp.Net\ReflectionHandlerJqueryAjaxRequest\Web\obj\Debug\ResolveAssemblyReference.cache
 E:\My\百度云\PracticeCode\Asp.Net\ReflectionHandlerJqueryAjaxRequest\Web\obj\Debug\Web.dll
 E:\My\百度云\PracticeCode\Asp.Net\ReflectionHandlerJqueryAjaxRequest\Web\obj\Debug\Web.pdb
+E:\GitHub\PracticeCode\Asp.Net\ReflectionHandlerJqueryAjaxRequest\Web\bin\Web.dll.config
+E:\GitHub\PracticeCode\Asp.Net\ReflectionHandlerJqueryAjaxRequest\Web\bin\Web.dll
+E:\GitHub\PracticeCode\Asp.Net\ReflectionHandlerJqueryAjaxRequest\Web\bin\Web.pdb
+E:\GitHub\PracticeCode\Asp.Net\ReflectionHandlerJqueryAjaxRequest\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
+E:\GitHub\PracticeCode\Asp.Net\ReflectionHandlerJqueryAjaxRequest\Web\obj\Debug\Web.dll
+E:\GitHub\PracticeCode\Asp.Net\ReflectionHandlerJqueryAjaxRequest\Web\obj\Debug\Web.pdb

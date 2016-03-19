@@ -1,0 +1,5 @@
+E:\GitHub\PracticeCode\PetaPoco\Demo\PetaPocoDemo\PetaWeb\bin\PetaWeb.dll.config
+E:\GitHub\PracticeCode\PetaPoco\Demo\PetaPocoDemo\PetaWeb\bin\PetaWeb.dll
+E:\GitHub\PracticeCode\PetaPoco\Demo\PetaPocoDemo\PetaWeb\bin\PetaWeb.pdb
+E:\GitHub\PracticeCode\PetaPoco\Demo\PetaPocoDemo\PetaWeb\obj\Debug\PetaWeb.dll
+E:\GitHub\PracticeCode\PetaPoco\Demo\PetaPocoDemo\PetaWeb\obj\Debug\PetaWeb.pdb

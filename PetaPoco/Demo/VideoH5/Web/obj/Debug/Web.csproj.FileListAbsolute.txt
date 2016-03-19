@@ -1,0 +1,8 @@
+E:\GitHub\PracticeCode\PetaPoco\Demo\VideoH5\Web\bin\Web.dll.config
+E:\GitHub\PracticeCode\PetaPoco\Demo\VideoH5\Web\bin\Web.dll
+E:\GitHub\PracticeCode\PetaPoco\Demo\VideoH5\Web\bin\Web.pdb
+E:\GitHub\PracticeCode\PetaPoco\Demo\VideoH5\Web\bin\Dao.dll
+E:\GitHub\PracticeCode\PetaPoco\Demo\VideoH5\Web\bin\Dao.pdb
+E:\GitHub\PracticeCode\PetaPoco\Demo\VideoH5\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
+E:\GitHub\PracticeCode\PetaPoco\Demo\VideoH5\Web\obj\Debug\Web.dll
+E:\GitHub\PracticeCode\PetaPoco\Demo\VideoH5\Web\obj\Debug\Web.pdb
