@@ -8,6 +8,7 @@ CREATE TABLE paymentinfo (
 	mac		varchar(127) NOT NULL,
 	ip		varchar(127) NULL,
 	date_created	datetime NOT NULL,
+	channelNo		varchar(127) NOT NULL,
 	PRIMARY KEY (id)
 ) ENGINE=INNODB;
 
@@ -25,6 +26,7 @@ DROP TABLE IF EXISTS channelHistory;
 CREATE TABLE channelHistory (
 	id				bigint AUTO_INCREMENT NOT NULL,
 	channelNo	varchar(127) NOT NULL,
+	ip	varchar(127) NOT NULL,
 	url		varchar(500) NOT NULL,
 	date_created	datetime NOT NULL,
 	PRIMARY KEY (id)

@@ -25,7 +25,7 @@
 // 
 //     Connection String Name: `videoContext`
 //     Provider:               `MySql.Data.MySqlClient`
-//     Connection String:      `Server=127.0.0.1;Uid=root;Pwd=hxhlxf8;Database=videodb;Port=3306`
+//     Connection String:      `Server=sdm209639120.my3w.com;Uid=sdm209639120;Pwd=yuantao8888;Database=sdm209639120_db;Port=3306`
 //     Schema:                 ``
 //     Include Views:          `False`
 
@@ -136,7 +136,7 @@ namespace videoContext
 
     
 
-	[TableName("videodb.channel")]
+	[TableName("sdm209639120_db.channel")]
 
 
 
@@ -176,7 +176,7 @@ namespace videoContext
 
     
 
-	[TableName("videodb.channelhistory")]
+	[TableName("sdm209639120_db.channelHistory")]
 
 
 
@@ -185,7 +185,7 @@ namespace videoContext
 
 
 	[ExplicitColumns]
-    public partial class channelhistory : videoContextDB.Record<channelhistory>  
+    public partial class channelHistory : videoContextDB.Record<channelHistory>  
     {
 
 
@@ -197,6 +197,12 @@ namespace videoContext
 
 
 		[Column] public string channelNo { get; set; }
+
+
+
+
+
+		[Column] public string ip { get; set; }
 
 
 
@@ -216,7 +222,7 @@ namespace videoContext
 
     
 
-	[TableName("videodb.paymentinfo")]
+	[TableName("sdm209639120_db.paymentinfo")]
 
 
 
@@ -249,6 +255,12 @@ namespace videoContext
 
 
 		[Column] public DateTime date_created { get; set; }
+
+
+
+
+
+		[Column] public string channelNo { get; set; }
 
 
 

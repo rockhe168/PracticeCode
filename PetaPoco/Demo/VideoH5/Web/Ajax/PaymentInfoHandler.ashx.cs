@@ -11,31 +11,41 @@ namespace Web.Ajax
     /// </summary>
     public class PaymentInfoHandler : BaseHandler
     {
-
         public void AddPaymentInfo()
         {
             string mac = Context.Request["mac"];
             string ip = Context.Request["ip"];
-            paymentinfo model = new paymentinfo();
-            model.ip = ip;
-            model.mac = mac;
-            model.date_created = DateTime.Now;
-            object obj = model.Insert();
+            string channelNo = Context.Request["channelNo"];
 
-            int id =-1;
-            if(int.TryParse(obj.ToString(),out id))
+            bool result =  paymentinfo.Exists("mac = @0", mac);
+            if(!result)
             {
-                if(id>0)
+                paymentinfo model = new paymentinfo();
+                model.ip = ip;
+                model.mac = mac;
+                model.date_created = DateTime.Now;
+                model.channelNo = channelNo;
+                object obj = model.Insert();
+
+                int id = -1;
+                if (int.TryParse(obj.ToString(), out id))
                 {
-                    PrintSuccessJson(true.ToString().ToLower());
-                }else
+                    if (id > 0)
+                    {
+                        PrintSuccessJson(true.ToString().ToLower());
+                    }
+                    else
+                    {
+                        PrintSuccessJson(false.ToString().ToLower());
+                    }
+                }
+                else
                 {
                     PrintSuccessJson(false.ToString().ToLower());
                 }
-            }
-            else
+            }else
             {
-                PrintSuccessJson(false.ToString().ToLower());
+                PrintSuccessJson(true.ToString().ToLower());
             }
         }
 

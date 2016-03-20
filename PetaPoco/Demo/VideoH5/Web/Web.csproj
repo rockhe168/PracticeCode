@@ -88,6 +88,7 @@
     <Content Include="Ajax\BaseHandler.ashx" />
     <Content Include="Ajax\PaymentInfoHandler.ashx" />
     <Content Include="Ajax\ChannelHandler.ashx" />
+    <None Include="Properties\PublishProfiles\videoH5.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

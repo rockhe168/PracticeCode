@@ -18,8 +18,10 @@ namespace Web.Ajax
             {
                 string channelNo = Context.Request["channelNo"];
                 string url = Context.Request["url"];
+                string ip =Context.Request["ip"];
 
                 channel model = channel.SingleOrDefault("where channelNo = @0", channelNo);
+                
 
                 if(model==null)
                 {
@@ -35,14 +37,18 @@ namespace Web.Ajax
                 }
                 else
                 {
-                    model.count += 1;
-                    model.Update();
+                    bool isExists = channelHistory.Exists("channelNo = @0 and ip = @1", channelNo, ip);
+                    if(!isExists)
+                    {
+                        model.count += 1;
+                        model.Update();
+                    }
                 }
-
-                channelhistory channelHistoryModel = new channelhistory();
+                channelHistory channelHistoryModel = new channelHistory();
                 channelHistoryModel.channelNo = channelNo;
                 channelHistoryModel.date_created = DateTime.Now;
                 channelHistoryModel.url = url;
+                channelHistoryModel.ip = ip;
                 channelHistoryModel.Insert();
 
                 PrintSuccessJson(true.ToString().ToLower());
