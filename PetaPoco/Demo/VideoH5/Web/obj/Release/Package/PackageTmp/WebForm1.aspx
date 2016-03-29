@@ -11,7 +11,7 @@
         $(document).ready(function () {
 
             $("#btnAdd").click(function () {
-                $.get("./Ajax/PaymentInfoHandler.ashx?action=AddPaymentInfo&ip=111111&mac=3333333&channelNo=kkkk", function (data) {
+                $.get("./Ajax/PaymentInfoHandler.ashx?action=AddPaymentInfo&ip=111111&mac=3333333&channelNo=kkkk&orderId=99999", function (data) {
                     $("#msg").html(data);
                 });
             });

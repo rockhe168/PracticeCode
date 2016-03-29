@@ -16,6 +16,7 @@ namespace Web.Ajax
             string mac = Context.Request["mac"];
             string ip = Context.Request["ip"];
             string channelNo = Context.Request["channelNo"];
+            string orderid = Context.Request["orderId"];
 
             bool result =  paymentinfo.Exists("mac = @0", mac);
             if(!result)
@@ -25,6 +26,7 @@ namespace Web.Ajax
                 model.mac = mac;
                 model.date_created = DateTime.Now;
                 model.channelNo = channelNo;
+                model.orderId = orderid;
                 object obj = model.Insert();
 
                 int id = -1;
