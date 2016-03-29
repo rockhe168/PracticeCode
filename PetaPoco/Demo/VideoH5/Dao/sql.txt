@@ -9,6 +9,7 @@ CREATE TABLE paymentinfo (
 	ip		varchar(127) NULL,
 	date_created	datetime NOT NULL,
 	channelNo		varchar(127) NOT NULL,
+	orderId		varchar(127) NULL,
 	PRIMARY KEY (id)
 ) ENGINE=INNODB;
 
