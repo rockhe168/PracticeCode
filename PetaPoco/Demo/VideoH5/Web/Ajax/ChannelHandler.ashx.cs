@@ -21,7 +21,7 @@ namespace Web.Ajax
                 string ip =Context.Request["ip"];
 
 
-                bool isExists = channelHistory.Exists("channelNo = @0 and ip = @1", channelNo, ip);
+                bool isExists = channelhistory.Exists("channelNo = @0 and ip = @1", channelNo, ip);
 
                 if (isExists)
                 {
@@ -48,7 +48,7 @@ namespace Web.Ajax
                        model.count += 1;
                        model.Update();  
                     }
-                    channelHistory channelHistoryModel = new channelHistory();
+                    channelhistory channelHistoryModel = new channelhistory();
                     channelHistoryModel.channelNo = channelNo;
                     channelHistoryModel.date_created = DateTime.Now;
                     channelHistoryModel.url = url;
