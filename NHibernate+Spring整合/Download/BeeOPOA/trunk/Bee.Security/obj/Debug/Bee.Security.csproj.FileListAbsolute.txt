@@ -1,6 +1,0 @@
-F:\My\百度网盘\PracticeCode\NHibernate+Spring整合\BeeOPOA\trunk\Bee.Security\bin\Bee.Security.dll
-F:\My\百度网盘\PracticeCode\NHibernate+Spring整合\BeeOPOA\trunk\Bee.Security\bin\Bee.Security.pdb
-F:\My\百度网盘\PracticeCode\NHibernate+Spring整合\BeeOPOA\trunk\Bee.Security\bin\Bee.Core.dll
-F:\My\百度网盘\PracticeCode\NHibernate+Spring整合\BeeOPOA\trunk\Bee.Security\bin\Newtonsoft.Json.dll
-F:\My\百度网盘\PracticeCode\NHibernate+Spring整合\BeeOPOA\trunk\Bee.Security\obj\Debug\Bee.Security.dll
-F:\My\百度网盘\PracticeCode\NHibernate+Spring整合\BeeOPOA\trunk\Bee.Security\obj\Debug\Bee.Security.pdb

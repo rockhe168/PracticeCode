@@ -1,9 +1,0 @@
-<Modules>
-  <Module PersistentId="94B13B14-A67A-45B1-973C-7AD6EB1AA88B" ModuleId="CacheStorage" />
-  <Module PersistentId="56C3163A-C620-47D5-9536-265089A556F1" ModuleId="DAL" />
-  <Module PersistentId="B4A06D74-7462-4C64-BF24-389754895AFF" ModuleId="Model" />
-  <Module PersistentId="4AA844E8-36EC-4BC7-A951-99A46355A80A" ModuleId="DBO" />
-  <Module PersistentId="D2B5E946-90CD-41FC-B4A6-5C416AAE2FA1" ModuleId="czcraft" />
-  <Module PersistentId="3A51A233-A569-472A-BE5C-3ACF44ABB09B" ModuleId="BLL" />
-  <Module PersistentId="1794FDAB-5334-4F7A-B285-32A6077E089A" ModuleId="Common" />
-</Modules>
