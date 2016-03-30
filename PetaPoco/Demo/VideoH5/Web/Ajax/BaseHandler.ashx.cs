@@ -47,7 +47,7 @@ namespace Web.Ajax
             }
             catch (ApplicationException apEx)
             {
-                this.PrintErrorJson("程序异常" + apEx.Message);
+                this.PrintErrorJson("程序异常" + apEx.Message+apEx.InnerException);
             }
 
         }

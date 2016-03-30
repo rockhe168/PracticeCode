@@ -61,11 +61,41 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\bootstrap\css\bootstrap-responsive.css" />
+    <Content Include="Admin\bootstrap\css\bootstrap-responsive.min.css" />
+    <Content Include="Admin\bootstrap\css\bootstrap.css" />
+    <Content Include="Admin\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Admin\bootstrap\img\glyphicons-halflings-white.png" />
+    <Content Include="Admin\bootstrap\img\glyphicons-halflings.png" />
+    <Content Include="Admin\bootstrap\js\bootstrap.js" />
+    <Content Include="Admin\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Admin\bootstrap\js\jquery.js" />
+    <Content Include="Admin\css\login.css" />
+    <Content Include="Admin\css\main.css" />
+    <Content Include="Admin\Index.aspx" />
+    <Content Include="Admin\Login.aspx" />
     <Content Include="jquery.js" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\BasePager.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Ajax\BaseHandler.ashx.cs">
       <DependentUpon>BaseHandler.ashx</DependentUpon>
     </Compile>
@@ -102,6 +132,7 @@
       <Name>Dao</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

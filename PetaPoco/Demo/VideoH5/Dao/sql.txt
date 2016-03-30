@@ -32,3 +32,13 @@ CREATE TABLE channelHistory (
 	date_created	datetime NOT NULL,
 	PRIMARY KEY (id)
 ) ENGINE=INNODB;
+
+
+CREATE TABLE userinfo (
+	id				bigint AUTO_INCREMENT NOT NULL,
+	username		varchar(127) NOT NULL,
+	pass		varchar(127) NOT NULL,
+	channelNo		varchar(127) NOT NULL,
+	date_created	datetime NOT NULL,
+	PRIMARY KEY (id)
+) ENGINE=INNODB;

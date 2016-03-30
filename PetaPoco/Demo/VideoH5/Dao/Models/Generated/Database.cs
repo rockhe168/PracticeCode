@@ -6,7 +6,7 @@
 // 
 //     Connection String Name: `videoContext`
 //     Provider:               `MySql.Data.MySqlClient`
-//     Connection String:      `Server=117.158.151.159;Uid=db_show;Pwd=yuantao8888;Database=db_show;Port=3306`
+//     Connection String:      `Server=localhost;Uid=root;Pwd=hxhlxf8;Database=videodb;Port=3306`
 //     Schema:                 ``
 //     Include Views:          `False`
 
@@ -106,7 +106,7 @@ namespace videoContext
 	
 
     
-	[TableName("db_show.channel")]
+	[TableName("videodb.channel")]
 	[PrimaryKey("id")]
 	[ExplicitColumns]
     public partial class channel : videoContextDB.Record<channel>  
@@ -117,7 +117,7 @@ namespace videoContext
 		[Column] public DateTime date_created { get; set; }
 	}
     
-	[TableName("db_show.channelhistory")]
+	[TableName("videodb.channelhistory")]
 	[PrimaryKey("id")]
 	[ExplicitColumns]
     public partial class channelhistory : videoContextDB.Record<channelhistory>  
@@ -129,7 +129,7 @@ namespace videoContext
 		[Column] public DateTime date_created { get; set; }
 	}
     
-	[TableName("db_show.paymentinfo")]
+	[TableName("videodb.paymentinfo")]
 	[PrimaryKey("id")]
 	[ExplicitColumns]
     public partial class paymentinfo : videoContextDB.Record<paymentinfo>  
@@ -140,6 +140,18 @@ namespace videoContext
 		[Column] public DateTime date_created { get; set; }
 		[Column] public string channelNo { get; set; }
 		[Column] public string orderId { get; set; }
+	}
+    
+	[TableName("videodb.userinfo")]
+	[PrimaryKey("id")]
+	[ExplicitColumns]
+    public partial class userinfo : videoContextDB.Record<userinfo>  
+    {
+		[Column] public long id { get; set; }
+		[Column] public string username { get; set; }
+		[Column] public string pass { get; set; }
+		[Column] public string channelNo { get; set; }
+		[Column] public DateTime date_created { get; set; }
 	}
 }
 

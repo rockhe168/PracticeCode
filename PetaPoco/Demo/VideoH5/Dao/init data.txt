@@ -1,0 +1,5 @@
+﻿select channelNo as 渠道编号,DATE_FORMAT(date_created,'%Y%m%d') 日期,count(id) as 访问次数 
+from channelHistory group by 日期,渠道编号
+
+
+insert into userinfo values(0,'admin','admin','*','2015-05-05')
