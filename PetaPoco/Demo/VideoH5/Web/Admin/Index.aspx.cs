@@ -8,10 +8,12 @@ using videoContext;
 
 namespace Web.Admin
 {
-    public partial class Index : BasePager
+    public partial class Index : BasePager<userinfo>
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
+            
 
             string a = "";
         }
