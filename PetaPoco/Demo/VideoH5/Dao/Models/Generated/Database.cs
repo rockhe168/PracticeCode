@@ -129,6 +129,32 @@ namespace videoContext
 		[Column] public DateTime date_created { get; set; }
 	}
     
+	[TableName("videodb.channelhistoryarchive")]
+	[PrimaryKey("id")]
+	[ExplicitColumns]
+    public partial class channelhistoryarchive : videoContextDB.Record<channelhistoryarchive>  
+    {
+		[Column] public long id { get; set; }
+		[Column] public string channelNo { get; set; }
+		[Column] public DateTime date { get; set; }
+		[Column] public long realcount { get; set; }
+		[Column] public decimal? realmoney { get; set; }
+		[Column] public long inputcount { get; set; }
+		[Column] public decimal? inputmoney { get; set; }
+		[Column] public bool paymentstate { get; set; }
+		[Column] public DateTime date_created { get; set; }
+	}
+    
+	[TableName("videodb.channelhistoryarchivesync")]
+	[PrimaryKey("id")]
+	[ExplicitColumns]
+    public partial class channelhistoryarchivesync : videoContextDB.Record<channelhistoryarchivesync>  
+    {
+		[Column] public long id { get; set; }
+		[Column] public DateTime date { get; set; }
+		[Column] public DateTime date_created { get; set; }
+	}
+    
 	[TableName("videodb.paymentinfo")]
 	[PrimaryKey("id")]
 	[ExplicitColumns]

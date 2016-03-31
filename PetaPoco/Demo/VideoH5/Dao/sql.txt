@@ -42,3 +42,27 @@ CREATE TABLE userinfo (
 	date_created	datetime NOT NULL,
 	PRIMARY KEY (id)
 ) ENGINE=INNODB;
+
+
+DROP TABLE IF EXISTS channelHistoryArchive;
+CREATE TABLE channelHistoryArchive (
+	id				bigint AUTO_INCREMENT NOT NULL,
+	channelNo	varchar(127) NOT NULL,
+	date	date NOT NULL,
+	realcount  bigint NOT NULL,
+	realmoney  decimal(18,2) NULL,
+	inputcount  bigint NOT NULL,
+	inputmoney  decimal(18,2) NULL,
+	paymentstate bit NOT NULL,
+	date_created	datetime NOT NULL,
+	PRIMARY KEY (id)
+) ENGINE=INNODB;
+
+DROP TABLE IF EXISTS channelHistoryArchiveSync;
+CREATE TABLE channelHistoryArchiveSync (
+	id				bigint AUTO_INCREMENT NOT NULL,
+	date	date NOT NULL,
+	date_created	datetime NOT NULL,
+	PRIMARY KEY (id)
+) ENGINE=INNODB;
+

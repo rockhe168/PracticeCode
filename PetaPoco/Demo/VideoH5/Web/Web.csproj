@@ -581,6 +581,12 @@
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\Ajax\BaseHandler.ashx.cs">
+      <DependentUpon>BaseHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Ajax\ChannelHandler.ashx.cs">
+      <DependentUpon>ChannelHandler.ashx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\BasePager.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
@@ -676,6 +682,8 @@
     <Content Include="Admin\xheditor\xheditor_skin\default\img\_svn\text-base\tag-pre.gif.svn-base.gfs" />
     <Content Include="Admin\xheditor\xheditor_skin\default\img\_svn\text-base\waiting.gif.svn-base.gfs" />
     <Content Include="Admin\xheditor\xheditor_skin\default\img\_svn\text-base\wmp.gif.svn-base.gfs" />
+    <Content Include="Admin\Ajax\BaseHandler.ashx" />
+    <Content Include="Admin\Ajax\ChannelHandler.ashx" />
     <None Include="Properties\PublishProfiles\videoH5.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
