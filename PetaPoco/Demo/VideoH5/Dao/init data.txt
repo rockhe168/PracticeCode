@@ -1,7 +1,14 @@
 ﻿select channelNo as 渠道编号,DATE_FORMAT(date_created,'%Y%m%d') 日期,count(id) as 访问次数 
 from channelHistory group by 日期,渠道编号
 
+select channelNo,DATE_FORMAT(date_created,'%Y-%m-%d') as datestr,count(id) as visitcount
+from channelHistory
+WHERE date_created >= '2015-05-05' AND date_created < '2016-04-01'
+group by datestr,channelNo
+
 
 insert into userinfo values(0,'admin','admin','*','2015-05-05')
+
+insert into userinfo values(0,'test','test','111111','2015-05-05')
 
 insert into channelHistoryArchiveSync values(0,'2015-05-05','2015-05-05')

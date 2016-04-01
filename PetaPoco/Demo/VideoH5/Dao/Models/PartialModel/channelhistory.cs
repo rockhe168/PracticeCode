@@ -14,7 +14,14 @@ using System.Text;
  * ***********************************************************************/
 namespace videoContext
 {
+    using PetaPoco;
+
     public partial class channelhistory
     {
+        [ResultColumn]
+        public DateTime datestr { get; set; }
+
+        [ResultColumn]
+        public long visitcount { get; set; }
     }
 }

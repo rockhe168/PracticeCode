@@ -23,7 +23,7 @@ function SysExit(type) {
             if (type == "admin") {
                 window.location = "Login.aspx";
             } else {
-                window.location = "MemberLogin.aspx";
+                window.location = "Login.aspx";
             }
             return false;
         }

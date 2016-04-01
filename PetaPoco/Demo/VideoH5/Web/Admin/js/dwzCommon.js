@@ -67,6 +67,42 @@ jQuery.RockDwz = {
         var userid = "";
         $(":checkbox[name=" + checkboxName + "]:checked").each(function () {
             number++;
+            userid += $(this).val() + ",";
+        });
+        if (number == 0) {
+            alertMsg.info("至少勾选一项，请重新选择！");
+            return false;
+        }
+        else {
+            userid = userid.substring(0, userid.length - 1);
+            alertMsg.confirm(info, {
+                okCall: function () {
+                    $.ajax({
+                        type: 'POST',
+                        url: url + "&" + checkboxName + "=" + userid,
+                        data: data,
+                        dataType: "json",
+                        cache: false,
+                        success: dialogAjaxDone, //navTabAjaxDone,--如果是navTabAjaxDone则关闭了当前选项卡、此前应该是关闭当前的弹出层、并刷新当前选项卡
+                        error: DWZ.ajaxError
+                    });
+                }
+            });
+        }
+    },
+
+    /*
+   打开一个提示框【适应删除功能,删除多项】
+   @url    删除Url
+   @checkboxName  要循环的checkbox元素name属性名称
+   @info   删除确认信息
+   @data   其他条件参数 
+   */
+    OpenAlertWindowTodoDeleteToOptionsIdString: function (url, checkboxName, info, data) {
+        var number = 0;
+        var userid = "";
+        $(":checkbox[name=" + checkboxName + "]:checked").each(function () {
+            number++;
             userid += "'" + $(this).val() + "',";
         });
         if (number == 0) {

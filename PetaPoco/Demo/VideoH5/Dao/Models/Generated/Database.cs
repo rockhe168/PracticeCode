@@ -142,6 +142,7 @@ namespace videoContext
 		[Column] public long inputcount { get; set; }
 		[Column] public decimal? inputmoney { get; set; }
 		[Column] public bool paymentstate { get; set; }
+		[Column] public decimal? unitprice { get; set; }
 		[Column] public DateTime date_created { get; set; }
 	}
     

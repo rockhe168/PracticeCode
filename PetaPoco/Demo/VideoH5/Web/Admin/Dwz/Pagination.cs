@@ -85,4 +85,23 @@ namespace Web.Admin
         Desc,//倒序
         Asc//升序
     }
+
+    /// <summary>
+    /// 响应状态
+    /// </summary>
+    public enum ResponseStatus
+    {
+        Success = 200, //操作成功
+        Fail = 300, //操作失败
+        SessionTimeout = 301  //会话超时
+    }
+
+    /// <summary>
+    /// 返回操作类型
+    /// </summary>
+    public enum CallbackType
+    {
+        closeCurrent, //关闭当前窗口
+        forward       //跳转，重定向
+    }
 }

@@ -122,7 +122,10 @@
     <Content Include="Admin\js\jquery.validate.js" />
     <Content Include="Admin\js\speedup.js" />
     <Content Include="Admin\Login.aspx" />
+    <Content Include="Admin\Programs\Channel\ChannelInfoArchiveEdit.aspx" />
+    <Content Include="Admin\Programs\Channel\ChannelInfoArchiveList.aspx" />
     <Content Include="Admin\Programs\Channel\ChannelInfoList.aspx" />
+    <Content Include="Admin\Programs\Channel\ChannelUserInfoArchiveList.aspx" />
     <Content Include="Admin\themes\azure\images\accordion\accordion.png" />
     <Content Include="Admin\themes\azure\images\account_info_bg.png" />
     <Content Include="Admin\themes\azure\images\alert\alertpanel.png" />
@@ -590,6 +593,7 @@
     <Compile Include="Admin\BasePager.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="Admin\Dwz\HtmlHelper.cs" />
     <Compile Include="Admin\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -604,7 +608,21 @@
     <Compile Include="Admin\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Admin\Pagination.cs" />
+    <Compile Include="Admin\Dwz\Pagination.cs" />
+    <Compile Include="Admin\Programs\Channel\ChannelInfoArchiveEdit.aspx.cs">
+      <DependentUpon>ChannelInfoArchiveEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Programs\Channel\ChannelInfoArchiveEdit.aspx.designer.cs">
+      <DependentUpon>ChannelInfoArchiveEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Programs\Channel\ChannelInfoArchiveList.aspx.cs">
+      <DependentUpon>ChannelInfoArchiveList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Programs\Channel\ChannelInfoArchiveList.aspx.designer.cs">
+      <DependentUpon>ChannelInfoArchiveList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\Programs\Channel\ChannelInfoList.aspx.cs">
       <DependentUpon>ChannelInfoList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -612,6 +630,14 @@
     <Compile Include="Admin\Programs\Channel\ChannelInfoList.aspx.designer.cs">
       <DependentUpon>ChannelInfoList.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\Programs\Channel\ChannelUserInfoArchiveList.aspx.cs">
+      <DependentUpon>ChannelUserInfoArchiveList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Programs\Channel\ChannelUserInfoArchiveList.aspx.designer.cs">
+      <DependentUpon>ChannelUserInfoArchiveList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SystemConstant.cs" />
     <Compile Include="Ajax\BaseHandler.ashx.cs">
       <DependentUpon>BaseHandler.ashx</DependentUpon>
     </Compile>

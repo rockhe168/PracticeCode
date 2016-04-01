@@ -6,11 +6,12 @@ using System.Web;
 namespace Web.Admin.Ajax
 {
     using System.Reflection;
+    using System.Web.SessionState;
 
     /// <summary>
     /// BaseHandler 的摘要说明
     /// </summary>
-    public class BaseHandler : IHttpHandler
+    public class BaseHandler : IHttpHandler, IRequiresSessionState
     {
 
         protected string ContentType = "text/plain";
@@ -107,6 +108,38 @@ namespace Web.Admin.Ajax
         {
             this.Context.Response.Write("{\"state\":\"" + state + "\",\"data\":\"" + msg + "\"}");
         }
+        #endregion
+
+        #region DWZ
+
+        /// <summary>
+        /// 输出弹出窗口需要的json数据;
+        /// </summary>
+        /// <param name="status">状态</param>
+        /// <param name="message">提示信息</param>
+        /// <param name="navTabId">刷新的选项卡标识（选项卡ID）</param>
+        /// <param name="rel"></param>
+        /// <param name="callbackType">返回类型（200=成功、300=操作失败、301=会话超时）</param>
+        /// <param name="forwardUrl">重定向路径</param>
+        /// <returns></returns>
+        protected void OutPutDialogString(ResponseStatus statusCode, string message, string navTabId, string rel, CallbackType callbackType, string forwardUrl)
+        {
+            //string statusStr = statusCode.ToString();
+            int statusInt = (int)statusCode;//获取枚举值
+
+            string json = "{";
+            json += "\"statusCode\":\"" + statusInt + "\"" + ",";
+            json += "\"message\":\"" + message + "\"" + ",";
+            json += "\"navTabId\":\"" + navTabId + "\"" + ",";
+            json += "\"rel\":\"" + rel + "\"" + ",";
+            json += "\"callbackType\":\"" + callbackType + "\"" + ",";
+            json += "\"forwardUrl\":\"" + forwardUrl + "\"";
+            json += "}";
+
+            this.Context.Response.Write(json);
+
+        }
+
         #endregion
 
         public bool IsReusable

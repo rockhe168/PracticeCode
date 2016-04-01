@@ -76,6 +76,24 @@ namespace Web.Admin
             }
         }
 
+        private T _defaultObject = default(T);
+
+        /// <summary>
+        /// 默页面认对象
+        /// </summary>
+        public T DefaultObject
+        {
+            get
+            {
+                if (_defaultObject == null)
+                {
+                    _defaultObject =(T)System.Reflection.Assembly.GetAssembly(typeof(T)).CreateInstance(typeof(T).ToString());
+                }
+                return _defaultObject;
+            }
+            set { _defaultObject = value; }
+        }
+
         public Page<T> PageData { get; set; }
 
 
@@ -104,7 +122,7 @@ namespace Web.Admin
         {
             get
             {
-                userinfo userinfo = (userinfo)Session["userInfo"];
+                userinfo userinfo = (userinfo)Session[SystemConstant.CurrentUserInfo];
                 return userinfo;
             }
         }
@@ -134,6 +152,8 @@ namespace Web.Admin
             }
             set { _pagination = value; }
         }
+
+        #region DWZ HTML Helper
 
         /// <summary>
         /// 分页导航(默认为当前页页面列表、针对页码只有一个列表页)
@@ -209,6 +229,65 @@ namespace Web.Admin
             pager.Append("</div>");
             return pager.ToString();
         }
+
+
+        /// <summary>
+        /// 输出CheckBox是否选中
+        /// </summary>
+        /// <param name="checkedstate">是否选中</param>
+        /// <returns>输出是否选中html字符串</returns>
+        public static string OutPutCheckBoxChecked(bool checkedstate)
+        {
+            if (checkedstate)
+                return "checked='checked'";
+            else
+                return string.Empty;
+        }
+
+        /// <summary>
+        /// 输出下拉框是否选中
+        /// </summary>
+        /// <param name="checkedstate">是否选中</param>
+        /// <returns>输出是否选中html字符串</returns>
+        public static string OutPutSelectChecked(bool selectstate)
+        {
+            if (selectstate)
+                return "selected";
+            else
+                return "";
+        }
+
+        public static string OutPutSelectChecked(string selectstate)
+        {
+            bool result;
+            Boolean.TryParse(selectstate, out result);
+
+
+            return OutPutSelectChecked(result);
+        }
+
+        /// <summary>
+        /// 输出Display='none'
+        /// </summary>
+        /// <param name="state"></param>
+        /// <returns></returns>
+        public static string OutPutDisabled(bool state)
+        {
+            if (state)
+                return "disabled='disabled'";
+            else
+                return string.Empty;
+        }
+
+        public static string OutPutDisplayNone(bool state)
+        {
+            if (state)
+                return "style='display: none'";
+            else
+                return string.Empty;
+        }
+
+        #endregion DWZ HTML Helper
 
     }
 }

@@ -54,6 +54,7 @@ CREATE TABLE channelHistoryArchive (
 	inputcount  bigint NOT NULL,
 	inputmoney  decimal(18,2) NULL,
 	paymentstate bit NOT NULL,
+	unitprice decimal(18,2) NULL,
 	date_created	datetime NOT NULL,
 	PRIMARY KEY (id)
 ) ENGINE=INNODB;

@@ -8,6 +8,10 @@ using videoContext;
 
 namespace Web.Admin
 {
+    using System.Collections;
+
+    using PetaPoco;
+
     public partial class Login :System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
@@ -36,7 +40,7 @@ namespace Web.Admin
                 }
                 else
                 {
-                    Session["userInfo"] = user;
+                    Session[SystemConstant.CurrentUserInfo] = user;
                     Response.Redirect("Index.aspx");
                 }
             }

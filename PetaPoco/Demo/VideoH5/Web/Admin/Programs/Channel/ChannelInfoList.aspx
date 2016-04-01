@@ -44,14 +44,14 @@
     </form>
 </div>
 <div class="pageContent">
-   <%-- <div class="panelBar">
-        <ul class="toolBar">
+    <div class="panelBar">
+        <%--<ul class="toolBar">
             <li <%=CheckFunOutDisplay(FunType.Add) %>><a class="add" href="#" onclick="$.RockDwz.OpenDialogWindow('Programs/SysManager/UserInfoAdd.aspx','UserInfoAdd','新增')">
                 <span>添加</span></a></li>
             <li <%=CheckFunOutDisplay(FunType.Delete) %>><a class="delete" href="#" onclick="$.RockDwz.OpenAlertWindowTodoDeleteToOptions('Ajax/SysManager/UserInfoService.ashx?action=Delete','UserID','确认要删除此记录吗！')">
                 <span>删除</span></a></li>
-        </ul>
-    </div>--%>
+        </ul>--%>
+    </div>
     <table class="list" width="100%" layouth="120">
         <thead>
             <tr>

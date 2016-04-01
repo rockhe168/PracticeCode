@@ -158,6 +158,9 @@
                     <div class="accordionContent">
                         <ul class="tree treeFolder">
                             <%=UserInfo.channelNo.Equals("*") ? "<li><a href='Programs/Channel/ChannelInfoList.aspx' target='navTab' rel='ChannelInfoList' >渠道流量统计</a></li>" :string.Empty%>
+                            <%=UserInfo.channelNo.Equals("*") ? "<li><a href='Programs/Channel/ChannelInfoArchiveList.aspx' target='navTab' rel='ChannelInfoArchiveList' >数据查询</a></li>" :string.Empty%>
+                            <%=(UserInfo.channelNo.Equals("*")==false) ? "<li><a href='Programs/Channel/ChannelUserInfoArchiveList.aspx' target='navTab' rel='ChannelInfoArchiveList' >数据查询</a></li>" :string.Empty%> 
+                            <%--<li><a href='Programs/Channel/ChannelInfoArchiveList.aspx' target='navTab' rel='ChannelInfoArchiveList' >渠道流量统计</a></li>--%>
                             
                             <%--<li><a href="Programs/SysManager/DepartmentList.aspx" target="navTab" rel="DepartmentList" >部门管理</a></li>
                             <li><a href="Programs/SysManager/UserInfoList.aspx" target="navTab" rel="UserInfoList" >用户管理</a></li>--%>
