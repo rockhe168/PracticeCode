@@ -45,7 +45,7 @@ namespace Web.Admin.Programs.Channel
                 {
                     sql.Append("WHERE paymentstate = @0", Convert.ToBoolean(Request["paymentstate"]));
                 }
-
+                sql.Append("order by date_created desc");
 
                 PageData = videoContext.channelhistoryarchive.Page(
                     DefaultListPagination.CurrentPageNo,

@@ -9,6 +9,8 @@ group by datestr,channelNo
 
 insert into userinfo values(0,'admin','admin','*','2015-05-05')
 
+
+insert into userinfo values(0,'渠道用户名（包Id对应用户名）','渠道登陆秘密（包Id对应登陆秘密）','渠道号（包ID）','2015-05-05')
 insert into userinfo values(0,'test','test','111111','2015-05-05')
 
 insert into channelHistoryArchiveSync values(0,'2015-05-05','2015-05-05')

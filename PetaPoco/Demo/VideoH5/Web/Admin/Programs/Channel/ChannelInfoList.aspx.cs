@@ -43,6 +43,8 @@ namespace Web.Admin.Programs.Channel
                     sql.Append("WHERE channelNo = @0", Request["ChannelNo"]);
                 }
 
+                sql.Append("order by date_created desc");
+
 
                 PageData = videoContext.channelhistory.Page(
                     DefaultListPagination.CurrentPageNo,

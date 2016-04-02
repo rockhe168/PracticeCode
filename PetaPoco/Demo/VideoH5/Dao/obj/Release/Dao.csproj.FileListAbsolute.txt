@@ -4,3 +4,4 @@ E:\GitHub\PracticeCode\PetaPoco\Demo\VideoH5\Dao\bin\Release\Dao.pdb
 E:\GitHub\PracticeCode\PetaPoco\Demo\VideoH5\Dao\bin\Release\MySql.Data.dll
 E:\GitHub\PracticeCode\PetaPoco\Demo\VideoH5\Dao\obj\Release\Dao.dll
 E:\GitHub\PracticeCode\PetaPoco\Demo\VideoH5\Dao\obj\Release\Dao.pdb
+E:\GitHub\PracticeCode\PetaPoco\Demo\VideoH5\Dao\obj\Release\Dao.csprojResolveAssemblyReference.cache

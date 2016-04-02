@@ -29,15 +29,15 @@ namespace Web.Admin.Ajax
                     syncTime.Insert();
                 }
 
-                DateTime syncDate = DateTime.Now.AddDays(1).Date;
+                DateTime syncDate = DateTime.Now.Date;
 
                 //查询之前没有同步的数据
                 Sql channelhistorySql = new Sql();
                 channelhistorySql.Append(
                     "select channelNo,DATE_FORMAT(date_created,'%Y-%m-%d') as datestr,count(id) as visitcount")
                     .Append("from channelHistory")
-                    .Append("WHERE date_created >= @0", syncTime.date)
-                    .Append("WHERE date_created < @0", syncDate)
+                    .Append("WHERE date_created > @0", syncTime.date)
+                    .Append("WHERE date_created <= @0", syncDate)
                     .Append("group by datestr,channelNo");
 
                 IEnumerable<channelhistory> channelhistoryDayList = videoContextDB.GetInstance().Query<channelhistory>(channelhistorySql);
