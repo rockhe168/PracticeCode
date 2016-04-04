@@ -27,6 +27,12 @@
                     $("#msg").html(data);
                 });
             });
+
+            $("#btnAddChannelInstall").click(function () {
+                $.get("./Ajax/ChannelHandler.ashx?action=AddChannelInstall&channelNo=111111&mac=dsafdasdfs333323", function (data) {
+                    $("#msg").html(data);
+                });
+            });
            
         });
     </script>
@@ -37,6 +43,7 @@
       <input type="button" id="btnAdd" value="Add PaymentInfo"/>
       <input type="button" id="btnExists" value="Exists PaymentInfo"/>
       <input type="button" id="btnAddChannel"value="Add Channel" />
+      <input type="button" id="btnAddChannelInstall"value="Add ChannelInstall" />
     </div>
      <div id="msg">
 

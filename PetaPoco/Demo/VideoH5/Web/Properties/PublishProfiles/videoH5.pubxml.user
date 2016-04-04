@@ -15,6 +15,9 @@
     <File Include="Admin/Ajax/ChannelHandler.ashx">
       <publishTime>04/01/2016 22:03:22</publishTime>
     </File>
+    <File Include="Admin/Ajax/ChannelInstallHandler.ashx">
+      <publishTime>04/03/2016 21:43:16</publishTime>
+    </File>
     <File Include="Admin/bootstrap/css/bootstrap-responsive.css">
       <publishTime>03/30/2016 22:07:49</publishTime>
     </File>
@@ -55,7 +58,7 @@
       <publishTime>03/30/2016 22:07:49</publishTime>
     </File>
     <File Include="Admin/Index.aspx">
-      <publishTime>04/01/2016 22:03:22</publishTime>
+      <publishTime>04/03/2016 23:16:30</publishTime>
     </File>
     <File Include="Admin/js/admin.js">
       <publishTime>04/01/2016 22:03:22</publishTime>
@@ -201,17 +204,29 @@
     <File Include="Admin/Login.aspx">
       <publishTime>03/30/2016 22:59:45</publishTime>
     </File>
+    <File Include="Admin/Programs/Channel/ChannelCountList.aspx">
+      <publishTime>04/04/2016 00:00:19</publishTime>
+    </File>
     <File Include="Admin/Programs/Channel/ChannelInfoArchiveEdit.aspx">
       <publishTime>04/01/2016 22:03:22</publishTime>
     </File>
     <File Include="Admin/Programs/Channel/ChannelInfoArchiveList.aspx">
-      <publishTime>04/01/2016 22:03:22</publishTime>
+      <publishTime>04/03/2016 21:57:54</publishTime>
     </File>
     <File Include="Admin/Programs/Channel/ChannelInfoList.aspx">
       <publishTime>04/01/2016 22:03:22</publishTime>
     </File>
+    <File Include="Admin/Programs/Channel/ChannelInstallEdit.aspx">
+      <publishTime>04/03/2016 22:01:46</publishTime>
+    </File>
+    <File Include="Admin/Programs/Channel/ChannelInstallList.aspx">
+      <publishTime>04/03/2016 23:08:37</publishTime>
+    </File>
     <File Include="Admin/Programs/Channel/ChannelUserInfoArchiveList.aspx">
       <publishTime>04/01/2016 22:03:22</publishTime>
+    </File>
+    <File Include="Admin/Programs/Channel/ChannelUserInstallList.aspx">
+      <publishTime>04/03/2016 23:11:53</publishTime>
     </File>
     <File Include="Admin/themes/azure/images/accordion/accordion.png">
       <publishTime>04/01/2016 22:03:22</publishTime>
@@ -1723,10 +1738,10 @@
       <publishTime>03/29/2016 23:41:27</publishTime>
     </File>
     <File Include="bin/Dao.dll">
-      <publishTime>04/02/2016 18:29:33</publishTime>
+      <publishTime>04/03/2016 23:48:52</publishTime>
     </File>
     <File Include="bin/Web.dll">
-      <publishTime>04/02/2016 19:07:11</publishTime>
+      <publishTime>04/03/2016 23:48:52</publishTime>
     </File>
     <File Include="jquery.js">
       <publishTime>03/29/2016 23:41:27</publishTime>
@@ -1735,7 +1750,7 @@
       <publishTime>04/02/2016 18:29:34</publishTime>
     </File>
     <File Include="WebForm1.aspx">
-      <publishTime>03/29/2016 23:41:27</publishTime>
+      <publishTime>04/03/2016 21:05:49</publishTime>
     </File>
   </ItemGroup>
 </Project>

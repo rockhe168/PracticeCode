@@ -59,16 +59,16 @@
                 <span>添加</span></a></li>--%>
             <li><a class="add" href="#" onclick="$.RockDwz.OpenAlertWindowTodoDeleteByPK('Ajax/ChannelHandler.ashx?action=SyncData','确认要同步今天之前的数据吗！')">
                 <span>同步数据</span></a></li>
-            <li><a class="add" href="#" onclick="$.RockDwz.OpenAlertWindowTodoDeleteToOptions('Ajax/ChannelHandler.ashx?action=UpdateBalance','id','确认要把选择的标记成已结算吗！')">
-                <span>结算勾选</span></a></li>
+          <%--  <li><a class="add" href="#" onclick="$.RockDwz.OpenAlertWindowTodoDeleteToOptions('Ajax/ChannelHandler.ashx?action=UpdateBalance','id','确认要把选择的标记成已结算吗！')">
+                <span>结算勾选</span></a></li>--%>
         </ul>
     </div>
     <table class="list" width="100%" layouth="120">
         <thead>
             <tr>
-                <th style="width: 4%;">
+              <%--  <th style="width: 4%;">
                     <input type="checkbox" group="id"  class="checkboxCtrl" />
-                </th>
+                </th>--%>
                 <th>
                     日期
                 </th>
@@ -79,10 +79,10 @@
                     包ID
                 </th>
                 <th>
-                    真实安装量
+                    IP流量
                 </th>
                 
-                <th>
+               <%-- <th>
                     单价
                 </th>
                 
@@ -100,7 +100,7 @@
                 
                   <th>
                     操作
-                </th>
+                </th>--%>
             </tr>
         </thead>
         <tbody>
@@ -109,9 +109,9 @@
                 {
             %>
             <tr>
-                <td style="width: 4%;">
+              <%--  <td style="width: 4%;">
                     <input type="checkbox" id="id" name="id" value='<%=obj.id %>' />
-                </td>
+                </td>--%>
                 <td>
                     <%=obj.date.ToShortDateString() %>
                 </td>
@@ -124,7 +124,7 @@
                 <td>
                    TOTAL:  <%=obj.realcount%>
                 </td>
-                <td>
+             <%--   <td>
                     <%=obj.unitprice %>
                 </td>
                 <td>
@@ -141,7 +141,7 @@
                         <a title="编辑" href="#" class="btnEdit" onclick="$.RockDwz.OpenDialogWindow('Programs/Channel/ChannelInfoArchiveEdit.aspx?id=<%=obj.id %>','ChannelInfoArchiveEdit','编辑')">
                         </a>
                     </label>
-                </td>
+                </td>--%>
             </tr>
             <%
                 }

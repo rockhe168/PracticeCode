@@ -67,3 +67,30 @@ CREATE TABLE channelHistoryArchiveSync (
 	PRIMARY KEY (id)
 ) ENGINE=INNODB;
 
+
+
+DROP TABLE IF EXISTS channelInstallInfo;
+CREATE TABLE channelInstallInfo (
+	id				bigint AUTO_INCREMENT NOT NULL,
+	channelNo	varchar(127) NOT NULL,
+	createdate	date NOT NULL,
+	realinstallcount  bigint NOT NULL,
+	realmoney  decimal(18,2) NULL,
+	inputinstallcount  bigint NOT NULL,
+	inputmoney  decimal(18,2) NULL,
+	paymentstate bit NOT NULL,
+	unitprice decimal(18,2) NULL,
+	date_created	datetime NOT NULL,
+	PRIMARY KEY (id)
+) ENGINE=INNODB;
+
+DROP TABLE IF EXISTS channelInstallHistoryInfo;
+CREATE TABLE channelInstallHistoryInfo (
+	id				bigint AUTO_INCREMENT NOT NULL,
+	mac		varchar(127) NOT NULL,
+	channelNo	varchar(127) NOT NULL,
+	createdate	date NOT NULL,
+	orderId		varchar(127) NULL,
+	date_created	datetime NOT NULL,
+	PRIMARY KEY (id)
+) ENGINE=INNODB;

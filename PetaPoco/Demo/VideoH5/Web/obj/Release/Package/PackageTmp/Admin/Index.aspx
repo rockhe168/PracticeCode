@@ -6,7 +6,7 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=7" />
-    <title>Rock后台管理系统模板</title>
+    <title>渠道管理系统</title>
     <link href="themes/default/style.css" rel="stylesheet" type="text/css" media="screen" />
     <link href="themes/css/core.css" rel="stylesheet" type="text/css" media="screen" />
     <link href="themes/css/print.css" rel="stylesheet" type="text/css" media="print" />
@@ -157,31 +157,13 @@
                     </div>
                     <div class="accordionContent">
                         <ul class="tree treeFolder">
-                            <%=UserInfo.channelNo.Equals("*") ? "<li><a href='Programs/Channel/ChannelInfoList.aspx' target='navTab' rel='ChannelInfoList' >渠道流量统计</a></li>" :string.Empty%>
-                            <%=UserInfo.channelNo.Equals("*") ? "<li><a href='Programs/Channel/ChannelInfoArchiveList.aspx' target='navTab' rel='ChannelInfoArchiveList' >数据查询</a></li>" :string.Empty%>
-                            <%=(UserInfo.channelNo.Equals("*")==false) ? "<li><a href='Programs/Channel/ChannelUserInfoArchiveList.aspx' target='navTab' rel='ChannelInfoArchiveList' >数据查询</a></li>" :string.Empty%> 
-                            <%--<li><a href='Programs/Channel/ChannelInfoArchiveList.aspx' target='navTab' rel='ChannelInfoArchiveList' >渠道流量统计</a></li>--%>
-                            
-                            <%--<li><a href="Programs/SysManager/DepartmentList.aspx" target="navTab" rel="DepartmentList" >部门管理</a></li>
-                            <li><a href="Programs/SysManager/UserInfoList.aspx" target="navTab" rel="UserInfoList" >用户管理</a></li>--%>
-                            <%--<li <%=OutputHtmlAttributeStringHelper.OutPutDisplayNone(CurrentPageList.Count(p=>p.FunCode.Equals("CompanyList"))==0) %>><a href="Programs/SysManager/CompanyList.aspx" target="navTab" rel="CompanyList" >
-                                市区管理</a></li>
-                            <li <%=OutputHtmlAttributeStringHelper.OutPutDisplayNone(CurrentPageList.Count(p=>p.FunCode.Equals("DepartmentList"))==0) %>><a href="Programs/SysManager/DepartmentList.aspx" target="navTab" rel="DepartmentList" >
-                                区县管理</a></li>
-                            <li <%=OutputHtmlAttributeStringHelper.OutPutDisplayNone(CurrentPageList.Count(p=>p.FunCode.Equals("UserInfoList"))==0) %>><a href="Programs/SysManager/UserInfoList.aspx" target="navTab" rel="UserInfoList" >
-                                用户管理</a></li>
-                            <li <%=OutputHtmlAttributeStringHelper.OutPutDisplayNone(CurrentPageList.Count(p=>p.FunCode.Equals("MemberList"))==0) %>><a href="Programs/IntegralManager/MemberList.aspx" target="navTab" rel="MemberList" >
-                                企业管理</a></li>
-                            <li <%=OutputHtmlAttributeStringHelper.OutPutDisplayNone(CurrentPageList.Count(p=>p.FunCode.Equals("PointsReasonList"))==0) %>><a href="Programs/IntegralManager/PointsReasonList.aspx" target="navTab" rel="PointsReasonList" >
-                                扣分原因管理</a></li>
-                            <li <%=OutputHtmlAttributeStringHelper.OutPutDisplayNone(CurrentPageList.Count(p=>p.FunCode.Equals("PointsLevelList"))==0) %>><a href="Programs/IntegralManager/PointsLevelList.aspx" target="navTab" rel="PointsLevelList" >
-                                扣分等级管理</a></li>
-                            <li <%=OutputHtmlAttributeStringHelper.OutPutDisplayNone(CurrentPageList.Count(p=>p.FunCode.Equals("IntegralHistoryList"))==0) %>><a href="Programs/IntegralManager/IntegralHistoryList.aspx" target="navTab" rel="IntegralHistoryList" >
-                                扣分管理</a></li>
-                            <li <%=OutputHtmlAttributeStringHelper.OutPutDisplayNone(CurrentPageList.Count(p=>p.FunCode.Equals("MateriallHistoryList"))==0) %>><a href="Programs/IntegralManager/MateriallHistoryList.aspx" target="navTab" 
-                                rel="MateriallHistoryList">材料审核管理</a></li>
-                            <li <%=OutputHtmlAttributeStringHelper.OutPutDisplayNone(CurrentPageList.Count(p=>p.FunCode.Equals("SysConfigList"))==0) %>><a href="Programs/IntegralManager/SysConfigList.aspx" target="navTab" rel="SysConfigList" >
-                                参数设置</a></li>--%>
+                             <%=UserInfo.channelNo.Equals("*") ? "<li><a href='Programs/Channel/ChannelCountList.aspx' target='navTab' rel='ChannelCountList' >数据查询</a></li>" :string.Empty%>
+                            <%=UserInfo.channelNo.Equals("*") ? "<li><a href='Programs/Channel/ChannelInstallList.aspx' target='navTab' rel='ChannelInstallList' >渠道统计</a></li>" :string.Empty%>
+                  <%--          <%=UserInfo.channelNo.Equals("*") ? "<li><a href='Programs/Channel/ChannelInfoList.aspx' target='navTab' rel='ChannelInfoList' >IP流量明细</a></li>" :string.Empty%>
+                            <%=UserInfo.channelNo.Equals("*") ? "<li><a href='Programs/Channel/ChannelInfoArchiveList.aspx' target='navTab' rel='ChannelInfoArchiveList' >IP流量统计</a></li>" :string.Empty%>--%>
+                            <%--<%=(UserInfo.channelNo.Equals("*")==false) ? "<li><a href='Programs/Channel/ChannelUserInfoArchiveList.aspx' target='navTab' rel='ChannelInfoArchiveList' >数据查询</a></li>" :string.Empty%> --%>
+                            <%=(UserInfo.channelNo.Equals("*")==false) ? "<li><a href='Programs/Channel/ChannelUserInstallList.aspx' target='navTab' rel='ChannelUserInstallList' >数据查询</a></li>" :string.Empty%> 
+                           
                         </ul>
                     </div>
                 </div>
@@ -226,6 +208,8 @@
                         <div <%--class="pageFormContent" layouth="80" style="margin-right: 230px"--%>>
                             <!--页面内容-->
                              <div class="pageContent">
+
+                                 
                                 <%--<table class="table" width="100%" layouth="138">
                                     <thead>
                                         <tr>

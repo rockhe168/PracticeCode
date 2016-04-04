@@ -53,7 +53,7 @@ namespace Web.Admin
 
             if(UserInfo ==null)
             {
-                Response.Redirect("Login.aspx");
+                Response.Redirect("~/Admin/Login.aspx");
             }
         }
 

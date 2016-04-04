@@ -156,6 +156,37 @@ namespace videoContext
 		[Column] public DateTime date_created { get; set; }
 	}
     
+	[TableName("db_show.channelinstallhistoryinfo")]
+	[PrimaryKey("id")]
+	[ExplicitColumns]
+    public partial class channelinstallhistoryinfo : videoContextDB.Record<channelinstallhistoryinfo>  
+    {
+		[Column] public long id { get; set; }
+		[Column] public string mac { get; set; }
+		[Column] public string channelNo { get; set; }
+		[Column] public DateTime createdate { get; set; }
+		[Column] public string orderId { get; set; }
+		[Column] public DateTime date_created { get; set; }
+	}
+    
+	[TableName("db_show.channelinstallinfo")]
+	[PrimaryKey("id")]
+	[ExplicitColumns]
+    public partial class channelinstallinfo : videoContextDB.Record<channelinstallinfo>  
+    {
+		[Column] public long id { get; set; }
+		[Column] public string channelNo { get; set; }
+		[Column] public DateTime createdate { get; set; }
+		[Column] public long realinstallcount { get; set; }
+		[Column] public decimal? realmoney { get; set; }
+		[Column] public long inputinstallcount { get; set; }
+		[Column] public decimal? inputmoney { get; set; }
+		[Column] public bool paymentstate { get; set; }
+		[Column] public decimal? unitprice { get; set; }
+		[Column] public DateTime date_created { get; set; }
+		[Column] public long ipcount { get; set; }
+	}
+    
 	[TableName("db_show.paymentinfo")]
 	[PrimaryKey("id")]
 	[ExplicitColumns]

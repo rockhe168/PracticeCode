@@ -122,10 +122,14 @@
     <Content Include="Admin\js\jquery.validate.js" />
     <Content Include="Admin\js\speedup.js" />
     <Content Include="Admin\Login.aspx" />
+    <Content Include="Admin\Programs\Channel\ChannelCountList.aspx" />
     <Content Include="Admin\Programs\Channel\ChannelInfoArchiveEdit.aspx" />
     <Content Include="Admin\Programs\Channel\ChannelInfoArchiveList.aspx" />
     <Content Include="Admin\Programs\Channel\ChannelInfoList.aspx" />
+    <Content Include="Admin\Programs\Channel\ChannelInstallEdit.aspx" />
+    <Content Include="Admin\Programs\Channel\ChannelInstallList.aspx" />
     <Content Include="Admin\Programs\Channel\ChannelUserInfoArchiveList.aspx" />
+    <Content Include="Admin\Programs\Channel\ChannelUserInstallList.aspx" />
     <Content Include="Admin\themes\azure\images\accordion\accordion.png" />
     <Content Include="Admin\themes\azure\images\account_info_bg.png" />
     <Content Include="Admin\themes\azure\images\alert\alertpanel.png" />
@@ -590,6 +594,9 @@
     <Compile Include="Admin\Ajax\ChannelHandler.ashx.cs">
       <DependentUpon>ChannelHandler.ashx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\Ajax\ChannelInstallHandler.ashx.cs">
+      <DependentUpon>ChannelInstallHandler.ashx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\BasePager.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
@@ -609,6 +616,13 @@
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\Dwz\Pagination.cs" />
+    <Compile Include="Admin\Programs\Channel\ChannelCountList.aspx.cs">
+      <DependentUpon>ChannelCountList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Programs\Channel\ChannelCountList.aspx.designer.cs">
+      <DependentUpon>ChannelCountList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\Programs\Channel\ChannelInfoArchiveEdit.aspx.cs">
       <DependentUpon>ChannelInfoArchiveEdit.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -630,12 +644,33 @@
     <Compile Include="Admin\Programs\Channel\ChannelInfoList.aspx.designer.cs">
       <DependentUpon>ChannelInfoList.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\Programs\Channel\ChannelInstallEdit.aspx.cs">
+      <DependentUpon>ChannelInstallEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Programs\Channel\ChannelInstallEdit.aspx.designer.cs">
+      <DependentUpon>ChannelInstallEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Programs\Channel\ChannelInstallList.aspx.cs">
+      <DependentUpon>ChannelInstallList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Programs\Channel\ChannelInstallList.aspx.designer.cs">
+      <DependentUpon>ChannelInstallList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\Programs\Channel\ChannelUserInfoArchiveList.aspx.cs">
       <DependentUpon>ChannelUserInfoArchiveList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Admin\Programs\Channel\ChannelUserInfoArchiveList.aspx.designer.cs">
       <DependentUpon>ChannelUserInfoArchiveList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Programs\Channel\ChannelUserInstallList.aspx.cs">
+      <DependentUpon>ChannelUserInstallList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Programs\Channel\ChannelUserInstallList.aspx.designer.cs">
+      <DependentUpon>ChannelUserInstallList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\SystemConstant.cs" />
     <Compile Include="Ajax\BaseHandler.ashx.cs">
@@ -710,6 +745,7 @@
     <Content Include="Admin\xheditor\xheditor_skin\default\img\_svn\text-base\wmp.gif.svn-base.gfs" />
     <Content Include="Admin\Ajax\BaseHandler.ashx" />
     <Content Include="Admin\Ajax\ChannelHandler.ashx" />
+    <Content Include="Admin\Ajax\ChannelInstallHandler.ashx" />
     <None Include="Properties\PublishProfiles\videoH5.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
