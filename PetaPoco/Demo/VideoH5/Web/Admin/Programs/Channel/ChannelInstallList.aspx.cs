@@ -23,14 +23,14 @@ namespace Web.Admin.Programs.Channel
                 //出发日期
                 if (Request["StartDate"] != null && !string.IsNullOrWhiteSpace(Request["StartDate"]))
                 {
-                    sql.Append("WHERE cratedate >= @0", Request["StartDate"]);
+                    sql.Append("WHERE createdate >= @0", Request["StartDate"]);
                 }
 
 
                 //结束日期
                 if (Request["EndDate"] != null && !string.IsNullOrWhiteSpace(Request["EndDate"]))
                 {
-                    sql.Append("WHERE cratedate < @0", Convert.ToDateTime(Request["EndDate"]).AddDays(1));
+                    sql.Append("WHERE createdate < @0", Convert.ToDateTime(Request["EndDate"]).AddDays(1));
                 }
 
                 //包Id

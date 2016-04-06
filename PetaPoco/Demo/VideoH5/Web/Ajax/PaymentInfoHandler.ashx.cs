@@ -56,38 +56,51 @@ namespace Web.Ajax
             }
         }
 
-        void HandlerPaymentRequest(string mac, string ip, string channelNo, string orderid,channelinstallinfo channelinstallModel)
+        void HandlerPaymentRequest(string mac, string ip, string channelNo, string orderid, channelinstallinfo channelinstallModel)
         {
-            paymentinfo model = new paymentinfo();
-            model.ip = ip;
-            model.mac = mac;
-            model.date_created = DateTime.Now;
-            model.channelNo = channelNo;
-            model.orderId = orderid;
-            model.ptype = 1;
-            object obj = model.Insert();
-            if (channelinstallModel.IsNew())
+            bool result = paymentinfo.Exists("ip = @0", ip);
+            if (!result)
             {
-                channelinstallModel.paymentcount = 1;
-                channelinstallModel.createdate = DateTime.Now.Date;
-                channelinstallModel.inputinstallcount = 0;
-                channelinstallModel.channelNo = channelNo;
-                channelinstallModel.paymentstate = false;
-                channelinstallModel.date_created = DateTime.Now;
-                channelinstallModel.Insert();
-            }
-            else
-            {
-                channelinstallModel.paymentcount += 1;
-                channelinstallModel.Update();
-            }
-
-            int id = -1;
-            if (int.TryParse(obj.ToString(), out id))
-            {
-                if (id > 0)
+                paymentinfo model = new paymentinfo();
+                model.ip = ip;
+                model.mac = mac;
+                model.date_created = DateTime.Now;
+                model.channelNo = channelNo;
+                model.orderId = orderid;
+                model.ptype = 1;
+                object obj = model.Insert();
+                if (channelinstallModel.IsNew())
                 {
-                    PrintSuccessJson(true.ToString().ToLower());
+                    channelinstallModel.paymentcount = 1;
+                    channelinstallModel.paymentsuccesscount = 0;
+                    channelinstallModel.paymentcount = 0;
+                    channelinstallModel.paymentfailcount = 0;
+                    channelinstallModel.inputinstallcount = 0;
+                    channelinstallModel.pvcount = 0;
+                    channelinstallModel.ipcount = 0;
+                    channelinstallModel.createdate = DateTime.Now.Date;
+                    channelinstallModel.channelNo = channelNo;
+                    channelinstallModel.paymentstate = false;
+                    channelinstallModel.date_created = DateTime.Now;
+                    channelinstallModel.Insert();
+                }
+                else
+                {
+                    channelinstallModel.paymentcount += 1;
+                    channelinstallModel.Update();
+                }
+
+                int id = -1;
+                if (int.TryParse(obj.ToString(), out id))
+                {
+                    if (id > 0)
+                    {
+                        PrintSuccessJson(true.ToString().ToLower());
+                    }
+                    else
+                    {
+                        PrintSuccessJson(false.ToString().ToLower());
+                    }
                 }
                 else
                 {
@@ -118,8 +131,11 @@ namespace Web.Ajax
                 {
                     channelinstallModel.paymentsuccesscount = 1;
                     channelinstallModel.paymentcount = 0;
-                    channelinstallModel.createdate = DateTime.Now.Date;
+                    channelinstallModel.paymentfailcount = 0;
                     channelinstallModel.inputinstallcount = 0;
+                    channelinstallModel.pvcount = 0;
+                    channelinstallModel.ipcount = 0;
+                    channelinstallModel.createdate = DateTime.Now.Date;
                     channelinstallModel.channelNo = channelNo;
                     channelinstallModel.paymentstate = false;
                     channelinstallModel.date_created = DateTime.Now;
@@ -170,8 +186,11 @@ namespace Web.Ajax
                 channelinstallModel.paymentfailcount = 1;
                 channelinstallModel.paymentsuccesscount = 0;
                 channelinstallModel.paymentcount = 0;
-                channelinstallModel.createdate = DateTime.Now.Date;
+                channelinstallModel.paymentfailcount = 0;
                 channelinstallModel.inputinstallcount = 0;
+                channelinstallModel.pvcount = 0;
+                channelinstallModel.ipcount = 0;
+                channelinstallModel.createdate = DateTime.Now.Date;
                 channelinstallModel.channelNo = channelNo;
                 channelinstallModel.paymentstate = false;
                 channelinstallModel.date_created = DateTime.Now;
@@ -205,7 +224,7 @@ namespace Web.Ajax
         {
             string mac = Context.Request["mac"];
 
-            bool result =  paymentinfo.Exists("mac = @0", mac);
+            bool result =  paymentinfo.Exists("mac = @0 and ptype=2", mac);
 
             PrintSuccessJson(result.ToString().ToLower());
             

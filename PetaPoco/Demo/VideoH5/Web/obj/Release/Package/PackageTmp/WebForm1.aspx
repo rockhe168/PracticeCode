@@ -33,6 +33,12 @@
                     $("#msg").html(data);
                 });
             });
+
+            $("#btnAddPv").click(function () {
+                $.get("./Ajax/PVHandler.ashx?action=AddPv&channelNo=111111&mac=dsafdasdfs333323&ip=10.39.553.26", function (data) {
+                    $("#msg").html(data);
+                });
+            });
            
         });
     </script>
@@ -44,6 +50,7 @@
       <input type="button" id="btnExists" value="Exists PaymentInfo"/>
       <input type="button" id="btnAddChannel"value="Add Channel" />
       <input type="button" id="btnAddChannelInstall"value="Add ChannelInstall" />
+      <input type="button" id="btnAddPv"value="Add Pv" />
     </div>
      <div id="msg">
 

@@ -117,8 +117,13 @@ namespace Web.Ajax
                     if (model.IsNew())
                     {
                         model.realinstallcount = 1;
-                        model.createdate = createDate;
+                        model.paymentsuccesscount = 0;
+                        model.paymentcount = 0;
+                        model.paymentfailcount = 0;
                         model.inputinstallcount = 0;
+                        model.pvcount = 0;
+                        model.ipcount = 0;
+                        model.createdate = createDate;
                         model.channelNo = channelNo;
                         model.paymentstate = false;
                         model.date_created = DateTime.Now;

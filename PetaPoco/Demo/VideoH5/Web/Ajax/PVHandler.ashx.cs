@@ -19,7 +19,7 @@ namespace Web.Ajax
             string channelNo = Context.Request["channelNo"];
 
             DateTime date = DateTime.Now.Date;
-            bool isExists = pvinfo.Exists("where ip = @0 and createdate=", ip,date);
+            bool isExists = pvinfo.Exists("where ip = @0 and createdate=@1", ip,date);
 
             if (!isExists)
             {

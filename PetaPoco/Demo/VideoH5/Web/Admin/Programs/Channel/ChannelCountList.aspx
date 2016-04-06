@@ -96,9 +96,9 @@
                     支付成功
                 </th>
                 
-                <th>
+              <%--  <th>
                     支付失败
-                </th>
+                </th>--%>
                 <%--
                   <th>
                     操作
@@ -138,9 +138,9 @@
                  <td>
                    TOTAL:  <%=obj.paymentsuccesscount%>
                 </td>
-                <td>
+              <%--  <td>
                    TOTAL:  <%=obj.paymentfailcount%>
-                </td>
+                </td>--%>
                 <%--
                 <td>
                     <label>
