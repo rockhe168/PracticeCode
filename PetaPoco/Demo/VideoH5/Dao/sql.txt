@@ -81,6 +81,7 @@ CREATE TABLE channelInstallInfo (
 	paymentstate bit NOT NULL,
 	unitprice decimal(18,2) NULL,
 	date_created	datetime NOT NULL,
+	ipcount  bigint NOT NULL,
 	PRIMARY KEY (id)
 ) ENGINE=INNODB;
 
@@ -94,3 +95,23 @@ CREATE TABLE channelInstallHistoryInfo (
 	date_created	datetime NOT NULL,
 	PRIMARY KEY (id)
 ) ENGINE=INNODB;
+
+
+DROP TABLE IF EXISTS pvinfo;
+CREATE TABLE pvinfo (
+	id				bigint AUTO_INCREMENT NOT NULL,
+	mac		varchar(127) NULL,
+	ip		varchar(127) NOT NULL,
+	createdate	date NOT NULL,
+	channelNo		varchar(127) NOT NULL,
+	date_created	datetime NOT NULL,
+	PRIMARY KEY (id)
+) ENGINE=INNODB;
+
+
+alter table channelInstallInfo add paymentcount bigint NULL DEFAULT '0';
+alter table channelInstallInfo add paymentsuccesscount bigint NULL DEFAULT '0';
+alter table channelInstallInfo add paymentfailcount bigint NULL DEFAULT '0';
+alter table channelInstallInfo add pvcount bigint NULL DEFAULT '0';
+alter table channelInstallInfo add ip varchar(127) NULL;
+alter table paymentinfo add ptype int NULL DEFAULT '0';

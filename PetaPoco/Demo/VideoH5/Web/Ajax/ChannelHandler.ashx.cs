@@ -97,8 +97,9 @@ namespace Web.Ajax
             {
                 string channelNo = Context.Request["channelNo"];
                 string mac = Context.Request["mac"];
+                string ip = Context.Request["ip"];
 
-                bool isExists = channelinstallhistoryinfo.Exists("channelNo = @0 and mac = @1", channelNo, mac);
+                bool isExists = channelinstallhistoryinfo.Exists("channelNo = @0 and mac = @1", channelNo, string.IsNullOrWhiteSpace(mac) ? ip :mac);
                 if (isExists)
                 {
                     PrintSuccessJson(true.ToString().ToLower());
@@ -130,7 +131,7 @@ namespace Web.Ajax
                     }
                     channelinstallhistoryinfo channelHistoryModel = new channelinstallhistoryinfo();
                     channelHistoryModel.channelNo = channelNo;
-                    channelHistoryModel.mac = mac;
+                    channelHistoryModel.mac = string.IsNullOrWhiteSpace(mac) ? ip : mac;
                     channelHistoryModel.createdate = createDate;
                     channelHistoryModel.date_created = DateTime.Now;
                     channelHistoryModel.Insert();

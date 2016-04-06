@@ -682,6 +682,9 @@
     <Compile Include="Ajax\PaymentInfoHandler.ashx.cs">
       <DependentUpon>PaymentInfoHandler.ashx</DependentUpon>
     </Compile>
+    <Compile Include="Ajax\PVHandler.ashx.cs">
+      <DependentUpon>PVHandler.ashx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
@@ -746,6 +749,7 @@
     <Content Include="Admin\Ajax\BaseHandler.ashx" />
     <Content Include="Admin\Ajax\ChannelHandler.ashx" />
     <Content Include="Admin\Ajax\ChannelInstallHandler.ashx" />
+    <Content Include="Ajax\PVHandler.ashx" />
     <None Include="Properties\PublishProfiles\videoH5.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

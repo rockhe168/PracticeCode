@@ -84,22 +84,22 @@
                     真实安装量
                 </th>
                 
-                <%--<th>
-                    单价
+                <th>
+                    访问量(单机)
                 </th>
                 
                 <th>
-                    录入安装量
+                    支付请求
                 </th>
                 
                 <th>
-                    录入佣金
+                    支付成功
                 </th>
                 
                 <th>
-                    结算
+                    支付失败
                 </th>
-                
+                <%--
                   <th>
                     操作
                 </th>--%>
@@ -129,18 +129,19 @@
                 <td>
                    TOTAL:  <%=obj.realinstallcount%>
                 </td>
-                <%--<td>
-                    <%=obj.unitprice %>
+                <td>
+                   TOTAL: <%=obj.pvcount %>
                 </td>
                 <td>
-                   TOTAL:  <%=obj.inputinstallcount%>
+                   TOTAL:  <%=obj.paymentcount%>
                 </td>
                  <td>
-                   TOTAL:  <%=obj.inputmoney%>
+                   TOTAL:  <%=obj.paymentsuccesscount%>
                 </td>
                 <td>
-                    <%=obj.paymentstate ? "已结算" :"未结算" %>
+                   TOTAL:  <%=obj.paymentfailcount%>
                 </td>
+                <%--
                 <td>
                     <label>
                         <a title="编辑" href="#" class="btnEdit" onclick="$.RockDwz.OpenDialogWindow('Programs/Channel/ChannelInstallEdit.aspx?id=<%=obj.id %>','ChannelInstallEdit','编辑')">
