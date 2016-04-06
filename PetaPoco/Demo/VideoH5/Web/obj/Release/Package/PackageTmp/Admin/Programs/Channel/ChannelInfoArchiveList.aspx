@@ -116,7 +116,7 @@
                     <%=obj.date.ToShortDateString() %>
                 </td>
                 <td>
-                    <%="天使影院" %>
+                    <%="极品影音" %>
                 </td>
                 <td>
                     <%=obj.channelNo %>

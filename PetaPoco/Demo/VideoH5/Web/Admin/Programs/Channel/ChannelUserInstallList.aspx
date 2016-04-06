@@ -94,7 +94,7 @@
                     <%=obj.createdate.ToShortDateString() %>
                 </td>
                 <td>
-                    <%="天使影院" %>
+                    <%="极品影音" %>
                 </td>
                 <td>
                    <%=(obj.inputinstallcount==0) ? "暂无数据" : "TOTAL:"+obj.inputinstallcount%>

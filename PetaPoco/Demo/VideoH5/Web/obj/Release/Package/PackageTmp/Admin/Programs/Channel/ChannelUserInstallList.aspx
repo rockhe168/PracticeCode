@@ -94,10 +94,10 @@
                     <%=obj.createdate.ToShortDateString() %>
                 </td>
                 <td>
-                    <%="天使影院" %>
+                    <%="极品影音" %>
                 </td>
                 <td>
-                   <%=(obj.realinstallcount==0) ? "暂无数据" : "TOTAL:"+obj.realinstallcount%>
+                   <%=(obj.inputinstallcount==0) ? "暂无数据" : "TOTAL:"+obj.inputinstallcount%>
                 </td>
                 
                 <td>
@@ -105,8 +105,7 @@
                 </td>
                 
                  <td>
-                     <%=(obj.realinstallcount==0) ? "暂无数据" : "TOTAL:"+obj.realinstallcount%>
-                   TOTAL:  <%=obj.inputmoney%>
+                     <%=(obj.inputmoney==0) ? "暂无数据" : "TOTAL:"+obj.inputmoney%>
                 </td>
                  <td>
                     <%=obj.paymentstate ? "已结算" :"未结算" %>
