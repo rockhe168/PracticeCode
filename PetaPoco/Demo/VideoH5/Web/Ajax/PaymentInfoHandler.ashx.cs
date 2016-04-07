@@ -86,7 +86,16 @@ namespace Web.Ajax
                 }
                 else
                 {
-                    channelinstallModel.paymentcount += 1;
+
+                    if (channelinstallModel.paymentcount == null)
+                    {
+                        channelinstallModel.paymentcount = 1;
+                    }
+                    else
+                    {
+                        channelinstallModel.paymentcount += 1;
+                    }
+
                     channelinstallModel.Update();
                 }
 

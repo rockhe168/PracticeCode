@@ -14,3 +14,11 @@ insert into userinfo values(0,'渠道用户名（包Id对应用户名）','渠�
 insert into userinfo values(0,'test','test','111111','2015-05-05')
 
 insert into channelHistoryArchiveSync values(0,'2015-05-05','2015-05-05')
+
+
+
+select channelNo as 渠道编号,DATE_FORMAT(date_created,'%Y-%m-%d') 日期,count(id) as 访问次数 
+from channelHistory group by 日期,渠道编号
+
+
+select channelNo,createdate,count(id) as installcount  from channelinstallhistoryinfo group by channelNo,createdate

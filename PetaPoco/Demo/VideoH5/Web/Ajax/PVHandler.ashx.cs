@@ -38,6 +38,12 @@ namespace Web.Ajax
                 }
                 if (channelInstalModel.IsNew())
                 {
+                    channelInstalModel.paymentcount = 0;
+                    channelInstalModel.paymentsuccesscount = 0;
+                    channelInstalModel.paymentcount = 0;
+                    channelInstalModel.paymentfailcount = 0;
+                    channelInstalModel.inputinstallcount = 0;
+                    channelInstalModel.ipcount = 0;
                     channelInstalModel.pvcount = 1;
                     channelInstalModel.createdate = DateTime.Now.Date;
                     channelInstalModel.inputinstallcount = 0;
