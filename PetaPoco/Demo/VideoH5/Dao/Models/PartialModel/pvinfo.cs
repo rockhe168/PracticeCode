@@ -12,7 +12,7 @@ using System.Text;
  *  Description: 
  * 
  * ***********************************************************************/
-namespace Dao.Models.PartialModel
+namespace videoContext
 {
     using PetaPoco;
 

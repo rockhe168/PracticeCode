@@ -50,6 +50,9 @@
       <DependentUpon>Database.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\PartialModel\channelhistory.cs" />
+    <Compile Include="Models\PartialModel\channelinstallhistoryinfo.cs" />
+    <Compile Include="Models\PartialModel\channelinstallinfo.cs" />
+    <Compile Include="Models\PartialModel\pvinfo.cs" />
     <Compile Include="Models\PetaPoco.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

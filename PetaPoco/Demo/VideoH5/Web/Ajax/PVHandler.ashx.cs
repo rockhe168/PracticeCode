@@ -31,32 +31,32 @@ namespace Web.Ajax
                 model.date_created = DateTime.Now;
                 object obj = model.Insert();
 
-                channelinstallinfo channelInstalModel = channelinstallinfo.SingleOrDefault("where channelNo = @0 and createdate=@1", channelNo, date);
-                if (channelInstalModel == null)
-                {
-                    channelInstalModel = new channelinstallinfo();
-                }
-                if (channelInstalModel.IsNew())
-                {
-                    channelInstalModel.paymentcount = 0;
-                    channelInstalModel.paymentsuccesscount = 0;
-                    channelInstalModel.paymentcount = 0;
-                    channelInstalModel.paymentfailcount = 0;
-                    channelInstalModel.inputinstallcount = 0;
-                    channelInstalModel.ipcount = 0;
-                    channelInstalModel.pvcount = 1;
-                    channelInstalModel.createdate = DateTime.Now.Date;
-                    channelInstalModel.inputinstallcount = 0;
-                    channelInstalModel.channelNo = channelNo;
-                    channelInstalModel.paymentstate = false;
-                    channelInstalModel.date_created = DateTime.Now;
-                    channelInstalModel.Insert();
-                }
-                else
-                {
-                    channelInstalModel.pvcount += 1;
-                    channelInstalModel.Update();
-                }
+                //channelinstallinfo channelInstalModel = channelinstallinfo.SingleOrDefault("where channelNo = @0 and createdate=@1", channelNo, date);
+                //if (channelInstalModel == null)
+                //{
+                //    channelInstalModel = new channelinstallinfo();
+                //}
+                //if (channelInstalModel.IsNew())
+                //{
+                //    channelInstalModel.paymentcount = 0;
+                //    channelInstalModel.paymentsuccesscount = 0;
+                //    channelInstalModel.paymentcount = 0;
+                //    channelInstalModel.paymentfailcount = 0;
+                //    channelInstalModel.inputinstallcount = 0;
+                //    channelInstalModel.ipcount = 0;
+                //    channelInstalModel.pvcount = 1;
+                //    channelInstalModel.createdate = DateTime.Now.Date;
+                //    channelInstalModel.inputinstallcount = 0;
+                //    channelInstalModel.channelNo = channelNo;
+                //    channelInstalModel.paymentstate = false;
+                //    channelInstalModel.date_created = DateTime.Now;
+                //    channelInstalModel.Insert();
+                //}
+                //else
+                //{
+                //    channelInstalModel.pvcount += 1;
+                //    channelInstalModel.Update();
+                //}
 
                 int id = -1;
                 if (int.TryParse(obj.ToString(), out id))
