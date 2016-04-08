@@ -95,7 +95,7 @@ namespace Web.Ajax
 
         void HandlerPaymentSuccess(string mac, string ip, string channelNo, string orderid)
         {
-            bool result = paymentinfo.Exists("mac = @0", mac);
+            bool result = paymentinfo.Exists("mac = @0 where ptype=2", mac);
             if (!result)
             {
                 paymentinfo model = new paymentinfo();
