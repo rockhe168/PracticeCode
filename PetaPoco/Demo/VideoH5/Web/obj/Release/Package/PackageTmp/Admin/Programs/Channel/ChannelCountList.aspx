@@ -85,7 +85,7 @@
                 </th>
                 
                 <th>
-                    访问量(单机)
+                    内容点击
                 </th>
                 
                 <th>
@@ -124,19 +124,19 @@
                     <%=obj.channelNo %>
                 </td>
                  <td>
-                   TOTAL:  <%=obj.ipcount%>
+                   TOTAL:  <%=obj.ipcounttemp%>
                 </td>
                 <td>
-                   TOTAL:  <%=obj.realinstallcount%>
+                   TOTAL:  <%=obj.installcounttemp%>
                 </td>
                 <td>
-                   TOTAL: <%=obj.pvcount %>
+                   TOTAL: <%=obj.pvcounttemp %>
                 </td>
                 <td>
-                   TOTAL:  <%=obj.paymentcount%>
+                   TOTAL:  <%=obj.paymentcounttemp%>
                 </td>
                  <td>
-                   TOTAL:  <%=obj.paymentsuccesscount%>
+                   TOTAL:  <%=obj.paymentsuccesscounttemp%>
                 </td>
               <%--  <td>
                    TOTAL:  <%=obj.paymentfailcount%>

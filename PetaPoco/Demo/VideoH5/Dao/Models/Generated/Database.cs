@@ -6,7 +6,7 @@
 // 
 //     Connection String Name: `videoContext`
 //     Provider:               `MySql.Data.MySqlClient`
-//     Connection String:      `Server=localhost;Uid=root;Pwd=hxhlxf8;Database=videodb;Port=3306`
+//     Connection String:      `Server=117.158.151.159;Uid=db_show;Pwd=yuantao8888;Database=db_show;Port=3306`
 //     Schema:                 ``
 //     Include Views:          `False`
 
@@ -106,7 +106,7 @@ namespace videoContext
 	
 
     
-	[TableName("videodb.channel")]
+	[TableName("db_show.channel")]
 	[PrimaryKey("id")]
 	[ExplicitColumns]
     public partial class channel : videoContextDB.Record<channel>  
@@ -117,7 +117,7 @@ namespace videoContext
 		[Column] public DateTime date_created { get; set; }
 	}
     
-	[TableName("videodb.channelhistory")]
+	[TableName("db_show.channelhistory")]
 	[PrimaryKey("id")]
 	[ExplicitColumns]
     public partial class channelhistory : videoContextDB.Record<channelhistory>  
@@ -127,9 +127,10 @@ namespace videoContext
 		[Column] public string ip { get; set; }
 		[Column] public string url { get; set; }
 		[Column] public DateTime date_created { get; set; }
+		[Column] public DateTime createdate { get; set; }
 	}
     
-	[TableName("videodb.channelhistoryarchive")]
+	[TableName("db_show.channelhistoryarchive")]
 	[PrimaryKey("id")]
 	[ExplicitColumns]
     public partial class channelhistoryarchive : videoContextDB.Record<channelhistoryarchive>  
@@ -146,7 +147,7 @@ namespace videoContext
 		[Column] public DateTime date_created { get; set; }
 	}
     
-	[TableName("videodb.channelhistoryarchivesync")]
+	[TableName("db_show.channelhistoryarchivesync")]
 	[PrimaryKey("id")]
 	[ExplicitColumns]
     public partial class channelhistoryarchivesync : videoContextDB.Record<channelhistoryarchivesync>  
@@ -156,7 +157,7 @@ namespace videoContext
 		[Column] public DateTime date_created { get; set; }
 	}
     
-	[TableName("videodb.channelinstallhistoryinfo")]
+	[TableName("db_show.channelinstallhistoryinfo")]
 	[PrimaryKey("id")]
 	[ExplicitColumns]
     public partial class channelinstallhistoryinfo : videoContextDB.Record<channelinstallhistoryinfo>  
@@ -169,7 +170,7 @@ namespace videoContext
 		[Column] public DateTime date_created { get; set; }
 	}
     
-	[TableName("videodb.channelinstallinfo")]
+	[TableName("db_show.channelinstallinfo")]
 	[PrimaryKey("id")]
 	[ExplicitColumns]
     public partial class channelinstallinfo : videoContextDB.Record<channelinstallinfo>  
@@ -192,7 +193,7 @@ namespace videoContext
 		[Column] public string ip { get; set; }
 	}
     
-	[TableName("videodb.paymentinfo")]
+	[TableName("db_show.paymentinfo")]
 	[PrimaryKey("id")]
 	[ExplicitColumns]
     public partial class paymentinfo : videoContextDB.Record<paymentinfo>  
@@ -204,9 +205,12 @@ namespace videoContext
 		[Column] public string channelNo { get; set; }
 		[Column] public string orderId { get; set; }
 		[Column] public int? ptype { get; set; }
+		[Column] public decimal? payMoney { get; set; }
+		[Column] public string payType { get; set; }
+		[Column] public bool isdisplay { get; set; }
 	}
     
-	[TableName("videodb.pvinfo")]
+	[TableName("db_show.pvinfo")]
 	[PrimaryKey("id")]
 	[ExplicitColumns]
     public partial class pvinfo : videoContextDB.Record<pvinfo>  
@@ -219,7 +223,7 @@ namespace videoContext
 		[Column] public DateTime date_created { get; set; }
 	}
     
-	[TableName("videodb.userinfo")]
+	[TableName("db_show.userinfo")]
 	[PrimaryKey("id")]
 	[ExplicitColumns]
     public partial class userinfo : videoContextDB.Record<userinfo>  
@@ -229,6 +233,7 @@ namespace videoContext
 		[Column] public string pass { get; set; }
 		[Column] public string channelNo { get; set; }
 		[Column] public DateTime date_created { get; set; }
+		[Column] public int? channeltype { get; set; }
 	}
 }
 

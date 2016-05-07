@@ -162,7 +162,8 @@
                   <%--          <%=UserInfo.channelNo.Equals("*") ? "<li><a href='Programs/Channel/ChannelInfoList.aspx' target='navTab' rel='ChannelInfoList' >IP流量明细</a></li>" :string.Empty%>
                             <%=UserInfo.channelNo.Equals("*") ? "<li><a href='Programs/Channel/ChannelInfoArchiveList.aspx' target='navTab' rel='ChannelInfoArchiveList' >IP流量统计</a></li>" :string.Empty%>--%>
                             <%--<%=(UserInfo.channelNo.Equals("*")==false) ? "<li><a href='Programs/Channel/ChannelUserInfoArchiveList.aspx' target='navTab' rel='ChannelInfoArchiveList' >数据查询</a></li>" :string.Empty%> --%>
-                            <%=(UserInfo.channelNo.Equals("*")==false) ? "<li><a href='Programs/Channel/ChannelUserInstallList.aspx' target='navTab' rel='ChannelUserInstallList' >数据查询</a></li>" :string.Empty%> 
+                            <%=(UserInfo.channelNo.Equals("*")==false && UserInfo.channeltype==0) ? "<li><a href='Programs/Channel/ChannelUserInstallList.aspx' target='navTab' rel='ChannelUserInstallList' >数据查询</a></li>" :string.Empty%> 
+                            <%=(UserInfo.channeltype == 1) ? "<li><a href='Programs/Channel/ChannelUserPaymentList.aspx' target='navTab' rel='ChannelUserPaymentList' >数据查询</a></li>" :string.Empty%> 
                            
                         </ul>
                     </div>

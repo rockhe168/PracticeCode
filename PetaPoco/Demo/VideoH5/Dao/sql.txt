@@ -115,3 +115,11 @@ alter table channelInstallInfo add paymentfailcount bigint NULL DEFAULT '0';
 alter table channelInstallInfo add pvcount bigint NULL DEFAULT '0';
 alter table channelInstallInfo add ip varchar(127) NULL;
 alter table paymentinfo add ptype int NULL DEFAULT '0';
+alter table channelHistory add createdate date NOT NULL;
+
+--0 = 自定义1= 分润默认
+alter table userinfo add channeltype int NULL DEFAULT '0';
+
+
+alter table paymentinfo add payMoney decimal(18,2) NULL DEFAULT '0';
+alter table paymentinfo add isdisplay bit NOT NULL DEFAULT true;

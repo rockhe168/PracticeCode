@@ -19,7 +19,7 @@ namespace Web.Ajax
             string channelNo = Context.Request["channelNo"];
 
             DateTime date = DateTime.Now.Date;
-            bool isExists = pvinfo.Exists("where ip = @0 and createdate=@1", ip,date);
+            bool isExists = pvinfo.Exists("where mac = @0 and createdate=@1 and channelNo=@2", (string.IsNullOrEmpty(mac) ? ip : mac),date,channelNo);
 
             if (!isExists)
             {
@@ -27,7 +27,7 @@ namespace Web.Ajax
                 model.channelNo = channelNo;
                 model.createdate = date;
                 model.ip = ip;
-                model.mac = mac;
+                model.mac = (string.IsNullOrEmpty(mac) ? ip : mac);
                 model.date_created = DateTime.Now;
                 object obj = model.Insert();
 

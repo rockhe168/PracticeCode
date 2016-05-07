@@ -130,6 +130,7 @@
     <Content Include="Admin\Programs\Channel\ChannelInstallList.aspx" />
     <Content Include="Admin\Programs\Channel\ChannelUserInfoArchiveList.aspx" />
     <Content Include="Admin\Programs\Channel\ChannelUserInstallList.aspx" />
+    <Content Include="Admin\Programs\Channel\ChannelUserPaymentList.aspx" />
     <Content Include="Admin\themes\azure\images\accordion\accordion.png" />
     <Content Include="Admin\themes\azure\images\account_info_bg.png" />
     <Content Include="Admin\themes\azure\images\alert\alertpanel.png" />
@@ -673,6 +674,13 @@
     </Compile>
     <Compile Include="Admin\Programs\Channel\ChannelUserInstallList.aspx.designer.cs">
       <DependentUpon>ChannelUserInstallList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Programs\Channel\ChannelUserPaymentList.aspx.cs">
+      <DependentUpon>ChannelUserPaymentList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Programs\Channel\ChannelUserPaymentList.aspx.designer.cs">
+      <DependentUpon>ChannelUserPaymentList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\SystemConstant.cs" />
     <Compile Include="Ajax\BaseHandler.ashx.cs">

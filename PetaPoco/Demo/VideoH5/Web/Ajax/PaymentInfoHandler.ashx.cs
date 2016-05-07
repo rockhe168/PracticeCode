@@ -19,8 +19,21 @@ namespace Web.Ajax
                 string ip = Context.Request["ip"];
                 string channelNo = Context.Request["channelNo"];
                 string orderid = Context.Request["orderId"];
-
                 string pTypeStr = Context.Request["ptype"]; //1，=发起支付请求，2=支付成功，3=支付失败
+                string payMoneyStr = Context.Request["payMoney"];
+                string payType = Context.Request["payType"];//weixinpay代表微信支付，alipay代表支付
+                string isDispalyStr = Context.Request["isDispaly"];//是否显示，true = 显示、 false = 不显示
+                decimal payMoney;
+                decimal.TryParse(payMoneyStr, out payMoney);
+                bool isDisplay;
+                if(bool.TryParse(isDispalyStr, out isDisplay))
+                {
+
+                }
+                else
+                {
+                    isDisplay = true;
+                }
 
                 int pType;
                 if (Int32.TryParse(pTypeStr, out pType) == false)
@@ -42,7 +55,7 @@ namespace Web.Ajax
                     }
                     else if (pType == 2)
                     {
-                        HandlerPaymentSuccess(mac, ip, channelNo, orderid);
+                        HandlerPaymentSuccess(mac, ip, channelNo, orderid,payMoney,payType,isDisplay);
                     }
                     else if (pType == 3)
                     {
@@ -58,12 +71,12 @@ namespace Web.Ajax
 
         void HandlerPaymentRequest(string mac, string ip, string channelNo, string orderid)
         {
-            bool result = paymentinfo.Exists("ip = @0", ip);
+            bool result = paymentinfo.Exists("mac = @0", (string.IsNullOrEmpty(mac) ? ip : mac));
             if (!result)
             {
                 paymentinfo model = new paymentinfo();
                 model.ip = ip;
-                model.mac = string.IsNullOrEmpty(mac) ? ip:mac;
+                model.mac = (string.IsNullOrEmpty(mac) ? ip : mac);
                 model.date_created = DateTime.Now;
                 model.channelNo = channelNo;
                 model.orderId = orderid;
@@ -93,9 +106,9 @@ namespace Web.Ajax
             }
         }
 
-        void HandlerPaymentSuccess(string mac, string ip, string channelNo, string orderid)
+        void HandlerPaymentSuccess(string mac, string ip, string channelNo, string orderid, decimal payMoney, string payType, bool isDisplay)
         {
-            bool result = paymentinfo.Exists("mac = @0 where ptype=2", mac);
+            bool result = paymentinfo.Exists("mac = @0 and ptype=2", mac);
             if (!result)
             {
                 paymentinfo model = new paymentinfo();
@@ -105,6 +118,9 @@ namespace Web.Ajax
                 model.channelNo = channelNo;
                 model.orderId = orderid;
                 model.ptype = 2;
+                model.payMoney = payMoney;
+                model.payType = payType;
+                model.isdisplay = isDisplay;
                 object obj = model.Insert();
                 int id = -1;
                 if (int.TryParse(obj.ToString(), out id))

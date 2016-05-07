@@ -19,9 +19,10 @@ namespace Web.Ajax
                 string channelNo = Context.Request["channelNo"];
                 string url = Context.Request["url"];
                 string ip = Context.Request["ip"];
+                string mac = Context.Request["mac"];
 
-
-                bool isExists = channelhistory.Exists("channelNo = @0 and ip = @1", channelNo, ip);
+                DateTime createDate = DateTime.Now.Date;
+                bool isExists = channelhistory.Exists("channelNo = @0 and ip = @1 and createdate=@2", channelNo, (string.IsNullOrWhiteSpace(mac) ? ip : mac), createDate);
 
                 if (isExists)
                 {
@@ -52,11 +53,11 @@ namespace Web.Ajax
                     channelHistoryModel.channelNo = channelNo;
                     channelHistoryModel.date_created = DateTime.Now;
                     channelHistoryModel.url = url;
-                    channelHistoryModel.ip = ip;
+                    channelHistoryModel.createdate = createDate;
+                    channelHistoryModel.ip = string.IsNullOrWhiteSpace(mac) ? ip :mac;
                     channelHistoryModel.Insert();
 
                     //安装量、ip流量统计
-                    DateTime createDate = DateTime.Now.Date;
                     channelinstallinfo installmodel = channelinstallinfo.SingleOrDefault("where channelNo = @0 and createdate=@1", channelNo, createDate);
                     if (installmodel == null)
                     {
@@ -98,16 +99,16 @@ namespace Web.Ajax
                 string channelNo = Context.Request["channelNo"];
                 string mac = Context.Request["mac"];
                 string ip = Context.Request["ip"];
+                DateTime createDate = DateTime.Now.Date;
 
-                bool isExists = channelinstallhistoryinfo.Exists("channelNo = @0 and mac = @1", channelNo, string.IsNullOrWhiteSpace(mac) ? ip :mac);
+                bool isExists = channelinstallhistoryinfo.Exists("channelNo = @0 and mac = @1 and createdate=@2", channelNo, (string.IsNullOrWhiteSpace(mac) ? ip : mac), createDate);
                 if (isExists)
                 {
                     PrintSuccessJson(true.ToString().ToLower());
                 }
                 else
                 {
-                    DateTime createDate = DateTime.Now.Date;
-
+                    
                     channelinstallinfo model = channelinstallinfo.SingleOrDefault("where channelNo = @0 and createdate=@1", channelNo, createDate);
                     if (model == null)
                     {
