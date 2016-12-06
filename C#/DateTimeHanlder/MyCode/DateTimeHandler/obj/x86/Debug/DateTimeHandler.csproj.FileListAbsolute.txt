@@ -5,3 +5,6 @@ E:\My\百度云\PracticeCode\C#\DateTimeHanlder\MyCode\DateTimeHandler\obj\x86\D
 E:\My\百度云\PracticeCode\C#\DateTimeHanlder\MyCode\DateTimeHandler\obj\x86\Debug\DateTimeHandler.pdb
 E:\GitHub\PracticeCode\C#\DateTimeHanlder\MyCode\DateTimeHandler\obj\x86\Debug\DateTimeHandler.exe
 E:\GitHub\PracticeCode\C#\DateTimeHanlder\MyCode\DateTimeHandler\obj\x86\Debug\DateTimeHandler.pdb
+E:\GitHub\PracticeCode\C#\DateTimeHanlder\MyCode\DateTimeHandler\bin\Debug\DateTimeHandler.exe
+E:\GitHub\PracticeCode\C#\DateTimeHanlder\MyCode\DateTimeHandler\bin\Debug\DateTimeHandler.pdb
+E:\GitHub\PracticeCode\C#\DateTimeHanlder\MyCode\DateTimeHandler\obj\x86\Debug\DateTimeHandler.csprojResolveAssemblyReference.cache
